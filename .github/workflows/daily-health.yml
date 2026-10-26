@@ -1,0 +1,35 @@
+name: Daily freshness check
+
+on:
+  schedule:
+    - cron: '47 1 * * *' # 09:47 Asia/Singapore (UTC+8)
+  workflow_dispatch:
+    inputs:
+      expected_date:
+        description: 'Expected edition date (YYYY-MM-DD); empty checks today in UTC+8'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Check public edition and feed freshness
+        env:
+          EXPECTED_DATE: ${{ inputs.expected_date }}
+        run: |
+          if [ -n "$EXPECTED_DATE" ]; then
+            python scripts/check_live.py --date "$EXPECTED_DATE" --retries 2 --delay 10
+          else
+            python scripts/check_live.py --today --retries 2 --delay 10
+          fi

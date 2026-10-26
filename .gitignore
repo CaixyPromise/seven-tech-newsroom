@@ -1,0 +1,12 @@
+dist/
+output/
+build-manifest.json
+REVIEW.md
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+work/
+*.zip

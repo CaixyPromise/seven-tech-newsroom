@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-26T17:57:26.674968+00:00",
+  "timezone": "Asia/Singapore",
+  "editorial_note": "两期均为 10 月 27 日整理的回溯样刊；日期代表内容期号，RSS 首次发布时间为实际生成时间。",
+  "events": [
+    {
+      "id": "kimi-k31-evaluation",
+      "issue_date": "2026-10-23",
+      "category": "模型",
+      "title": "Kimi K3.1 Pro 获新评测：Agent 能力提升，权重仍待公开",
+      "summary": "Artificial Analysis 发布 Kimi K3.1 Pro 评测，报告其综合指数为 55。评测时模型权重尚未公开，应将 API 发布与权重开放分开看待。",
+      "facts": [
+        "评测报告称，Terminal-Bench 4.0 得分从 K3 的 13% 提升到 67%。",
+        "报告列出的上下文为 1M Token，输入／输出标价分别为每百万 Token 2／10 美元。"
+      ],
+      "context": "分数反映该评测及对应设置，不能直接代替所有任务中的实际表现；权重状态以来源文章当时的披露为准。",
+      "status": "独立评测",
+      "visual": "model",
+      "published_at": "2026-10-23",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "Artificial Analysis",
+          "title": "Kimi K3.1 Pro 获新评测：Agent 能力提升，权重仍待公开",
+          "url": "https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks",
+          "published_at": "2026-10-23",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "模型",
+        "Artificial Analysis"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "tb-screening-google",
+      "issue_date": "2026-10-23",
+      "category": "研究",
+      "title": "从模型到筛查现场：Google 公布结核病 AI 应用进展",
+      "summary": "Google Research 介绍与 Nexus AI 等伙伴推进胸片辅助筛查的进展，并讨论 MedGemma 等开放模型与咳嗽音频研究。",
+      "facts": [
+        "Google 称，合作工具已用于约 40 家医疗设施，评估胸片超过 25,000 张。",
+        "文章区分已部署的胸片工具和仍在积累临床证据的音频筛查研究。"
+      ],
+      "context": "这是机构公布的项目进展。筛查结果仍需临床专业人员判断，不应把模型可用等同于独立诊断能力。",
+      "status": "应用进展",
+      "visual": "health",
+      "published_at": "2026-10-23",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "Google Research",
+          "title": "从模型到筛查现场：Google 公布结核病 AI 应用进展",
+          "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+          "published_at": "2026-10-23",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "研究",
+        "Google Research"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "copilot-teams",
+      "issue_date": "2026-10-23",
+      "category": "产品",
+      "title": "GitHub 把 Teams 通知与 Copilot 代码任务连起来",
+      "summary": "更新后的 GitHub Teams 应用将通知和 Copilot 入口合并。团队可以从问题通知发起代码处理，再回到常规 PR 审查流程。",
+      "facts": [
+        "官方描述的流程包括：收到 Issue 通知、提及 GitHub 发起处理、生成 PR 后由团队审查。",
+        "旧版 GitHub 应用计划于 11 月 16 日退役，已有用户需核对使用的是哪一版。"
+      ],
+      "context": "具体功能取决于 GitHub 账户、仓库和产品可用条件；生成 PR 后仍包含测试与合并步骤。",
+      "status": "产品更新",
+      "visual": "workflow",
+      "published_at": "2026-10-23",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "title": "GitHub 把 Teams 通知与 Copilot 代码任务连起来",
+          "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams/",
+          "published_at": "2026-10-23",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "产品",
+        "GitHub"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "olmoearth-13",
+      "issue_date": "2026-10-23",
+      "category": "开源",
+      "title": "OlmoEarth 1.3 发布全球卫星嵌入与地图探索工具",
+      "summary": "Ai2 发布 OlmoEarth 1.3，并分享全球预计算卫星嵌入和浏览器地图工具，降低分析土地与环境变化的入门门槛。",
+      "facts": [
+        "官方说明数据采用 10 米空间分辨率，提供 64 和 128 维嵌入。",
+        "配套页面链接模型、技术报告、数据、代码和 Embeddings Explorer。"
+      ],
+      "context": "嵌入是可复用特征，不是对每一类地理问题都已完成验证的结论。使用模型和数据前仍需查看各自许可。",
+      "status": "模型与数据发布",
+      "visual": "earth",
+      "published_at": "2026-10-22",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "Ai2",
+          "title": "OlmoEarth 1.3 发布全球卫星嵌入与地图探索工具",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+          "published_at": "2026-10-22",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "开源",
+        "Ai2"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "nemotron-retrieval",
+      "issue_date": "2026-10-23",
+      "category": "模型",
+      "title": "NVIDIA 扩展 Nemotron 检索系列：嵌入、重排和文档提取",
+      "summary": "NVIDIA 发布 Nemotron 3.5 检索组件，覆盖多模态检索、相关性重排和文档解析，面向需要读取证据的 Agent 工作流。",
+      "facts": [
+        "新组件包括 8B 与 1B 级嵌入模型、8B 重排模型，以及 631M 参数的 Parse 模型。",
+        "官方同时给出模型、部署和适配入口；性能结果为厂商报告。"
+      ],
+      "context": "不同组件解决不同环节的问题。不能用其中某一个检索测试的成绩推断端到端 Agent 的准确率。",
+      "status": "模型发布",
+      "visual": "retrieval",
+      "published_at": "2026-10-21",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "NVIDIA",
+          "title": "NVIDIA 扩展 Nemotron 检索系列：嵌入、重排和文档提取",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
+          "published_at": "2026-10-21",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "模型",
+        "NVIDIA"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "copilot-client-metrics",
+      "issue_date": "2026-10-23",
+      "category": "产品",
+      "title": "Copilot 用量 API 纳入 OpenCode 等客户端",
+      "summary": "GitHub 为 Copilot 用量报告增加按客户端统计的字段，让组织能看到部分 IDE 以外工具产生的模型请求和 Token 使用。",
+      "facts": [
+        "totals_by_client 包含客户端、成功请求数、会话数，以及按模型拆分的用量。",
+        "适用于 1 日和 28 日等报告，访问需要相应管理或指标查看权限。"
+      ],
+      "context": "这些是组织授权范围内的用量数据，并非公开行业榜单；请求次数也不能直接当作用户提示次数。",
+      "status": "API 更新",
+      "visual": "chart",
+      "published_at": "2026-10-23",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "title": "Copilot 用量 API 纳入 OpenCode 等客户端",
+          "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+          "published_at": "2026-10-23",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "产品",
+        "GitHub"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "google-egm-plugin",
+      "issue_date": "2026-10-23",
+      "category": "开源",
+      "title": "Google 开源 Elephant-Goldfish：先明确设计，再分离验证",
+      "summary": "Google Open Source Blog 介绍 Elephant-Goldfish Model 插件，以持有设计上下文的会话配合独立验证会话组织 AI 编程流程。",
+      "facts": [
+        "公告日期为 10 月 22 日，说明插件以 Apache 2.0 许可开放。",
+        "流程包括共同梳理设计、编写文档与分离上下文的评审；优先集成 Antigravity。"
+      ],
+      "context": "这是一种工具与工作流发布，不是已独立验证的代码质量提升结论。",
+      "status": "插件开源",
+      "visual": "workflow",
+      "published_at": "2026-10-22",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "Google Open Source",
+          "title": "Google 开源 Elephant-Goldfish：先明确设计，再分离验证",
+          "url": "https://opensource.googleblog.com/2026/10/",
+          "published_at": "2026-10-22",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "开源",
+        "Google Open Source"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "hf-cli-october",
+      "issue_date": "2026-10-26",
+      "category": "开源",
+      "title": "Hugging Face 更新工具链：共享缓存减少重复下载",
+      "summary": "Hugging Face 汇总 hf CLI 与 huggingface_hub 的近期更新。共享缓存让不同仓库中的同一份 Xet 文件可以复用，Jobs 也加入重试与重跑等改进。",
+      "facts": [
+        "官方示例中的三个模型共用同一个 9.5 GB 编码器，缓存复用后无需分别存储。",
+        "更新还覆盖 Jobs、Storage Buckets、Sandboxes 与上传下载体验。"
+      ],
+      "context": "这是一篇近期功能汇总，不能把全部功能都视为当天首次上线。共享缓存例子也不是所有下载任务的通用节省比例。",
+      "status": "工具更新",
+      "visual": "cache",
+      "published_at": "2026-10-26",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "Hugging Face",
+          "title": "Hugging Face 更新工具链：共享缓存减少重复下载",
+          "url": "https://huggingface.co/blog/huggingface/whats-new-in-the-hf-cli-and-huggingface-hub-librar",
+          "published_at": "2026-10-26",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "开源",
+        "Hugging Face"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "oracle-deep-trust",
+      "issue_date": "2026-10-26",
+      "category": "基础设施",
+      "title": "Oracle 发布 Deep Trust AI 架构，将规则放入数据与执行层",
+      "summary": "Oracle 在 AI World 公布 Deep Trust AI 架构，围绕软件平台、数据、数据访问和应用开发四层组织企业 AI 的安全与业务约束。",
+      "facts": [
+        "公告提出受控数据 API 与数据库内访问规则，减少 Agent 绕过应用层约束的风险。",
+        "架构结合 Oracle AI Database、Autonomous AI Database 和 APEX 等产品能力。"
+      ],
+      "context": "这是厂商公布的架构蓝图。具体功能交付、部署条件和效果，应按产品文档与实际环境分别核实。",
+      "status": "架构公布",
+      "visual": "layers",
+      "published_at": "2026-10-26",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "Oracle",
+          "title": "Oracle 发布 Deep Trust AI 架构，将规则放入数据与执行层",
+          "url": "https://www.oracle.com/news/announcement/ai-world-oracle-announces-deep-trust-ai-architecture-to-help-enterprises-innovate-with-confidence-2026-10-26/",
+          "published_at": "2026-10-26",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "基础设施",
+        "Oracle"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "nanbeige-43",
+      "issue_date": "2026-10-26",
+      "category": "模型",
+      "title": "南北阁 4.3-33B 公开权重，定位 Agent 教师模型",
+      "summary": "南北阁团队公开 Nanbeige4.3-33B，定位编程与办公 Agent 的教师模型，并计划以此支持后续小模型蒸馏。",
+      "facts": [
+        "官方模型卡标为 Apache 2.0，说明支持最高 512K 上下文。",
+        "模型卡列出编程、工具使用与推理结果；这些成绩属于团队自报。"
+      ],
+      "context": "仓库创建时间为 10 月 24 日，不能直接当作正式发布时间。此条以 10 月 26 日观察收录，原始发布日暂未确认。",
+      "status": "权重可得 · 发布日待确认",
+      "visual": "model",
+      "published_at": null,
+      "publication_precision": "unknown",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "Nanbeige",
+          "title": "南北阁 4.3-33B 公开权重，定位 Agent 教师模型",
+          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+          "published_at": null,
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "模型",
+        "Nanbeige"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "learning-curves",
+      "issue_date": "2026-10-26",
+      "category": "产业",
+      "title": "微软发布 Learning Curves，讨论 AI 如何改变学习与就业起点",
+      "summary": "微软 AI Economy Institute 推出研究文集 Learning Curves，围绕基础教育、职业教育、从学校到工作的转变讨论 AI 的机会与分配问题。",
+      "facts": [
+        "文集汇集该机构第二届 Senior Fellows 的研究文章。",
+        "讨论覆盖教师培训、语言与数字能力、学徒制和初级工作等议题。"
+      ],
+      "context": "这是一份研究与观点文集，不是对教育成效或就业变化的因果证明。",
+      "status": "研究文集",
+      "visual": "learning",
+      "published_at": "2026-10-26",
+      "publication_precision": "date",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "Microsoft",
+          "title": "微软发布 Learning Curves，讨论 AI 如何改变学习与就业起点",
+          "url": "https://blogs.microsoft.com/on-the-issues/2026/10/26/learning-curves-the-future-of-education-from-classrooms-to-careers-in-an-ai-driven-world/",
+          "published_at": "2026-10-26",
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "产业",
+        "Microsoft"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "moli-browser",
+      "issue_date": "2026-10-26",
+      "category": "产品",
+      "title": "项目观察：Moli 为 Agent 提供按需渲染的无头浏览器",
+      "summary": "Lexmount 的 Moli 将页面结构读取与视觉渲染分开，提供 CLI、CDP 和 WebDriver 等入口，面向网页提取与浏览器自动化。",
+      "facts": [
+        "项目 README 说明支持 Linux、macOS 和 Windows，并采用按需布局与截图设计。",
+        "项目提供开源版本，默认许可为 Apache 2.0 或 MIT，第三方组件另有说明。"
+      ],
+      "context": "此条为本期项目发现，未确认最初发布日。速度、兼容性和内存表现尚未由本站独立测试，不将项目宣传作为实测结论。",
+      "status": "项目观察 · 发布日待确认",
+      "visual": "browser",
+      "published_at": null,
+      "publication_precision": "unknown",
+      "discovered_at": "2026-10-26T17:57:26.674968+00:00",
+      "verified_at": "2026-10-26T17:57:26.674968+00:00",
+      "sources": [
+        {
+          "publisher": "Lexmount",
+          "title": "项目观察：Moli 为 Agent 提供按需渲染的无头浏览器",
+          "url": "https://github.com/lexmount/moli",
+          "published_at": null,
+          "accessed_at": "2026-10-26T17:57:26.674968+00:00"
+        }
+      ],
+      "tags": [
+        "产品",
+        "Lexmount"
+      ],
+      "corrections": []
+    }
+  ],
+  "issues": [
+    {
+      "date": "2026-10-23",
+      "number": "001",
+      "title": "模型能力向前一步，工具与证据也要跟上",
+      "dek": "Kimi 新评测、开放地球数据与协作工具更新：从能力发布，看到实际的使用入口。",
+      "coverage": "2026-10-21 至 2026-10-23",
+      "kind": "回溯样刊",
+      "published_at": "2026-10-26T17:57:26.674968+00:00",
+      "lead_ids": [
+        "kimi-k31-evaluation",
+        "olmoearth-13",
+        "copilot-teams"
+      ],
+      "event_ids": [
+        "kimi-k31-evaluation",
+        "tb-screening-google",
+        "copilot-teams",
+        "olmoearth-13",
+        "nemotron-retrieval",
+        "copilot-client-metrics",
+        "google-egm-plugin"
+      ],
+      "metric_snapshot": null
+    },
+    {
+      "date": "2026-10-26",
+      "number": "002",
+      "title": "AI 正在进入工具、数据与日常工作",
+      "dek": "Hugging Face 共享缓存、Oracle 信任架构与南北阁权重，把关注点拉回到可用性。",
+      "coverage": "2026-10-24 至 2026-10-26；含两条项目观察",
+      "kind": "回溯样刊",
+      "published_at": "2026-10-26T17:57:26.674968+00:00",
+      "lead_ids": [
+        "hf-cli-october",
+        "oracle-deep-trust",
+        "nanbeige-43"
+      ],
+      "event_ids": [
+        "hf-cli-october",
+        "oracle-deep-trust",
+        "nanbeige-43",
+        "learning-curves",
+        "moli-browser"
+      ],
+      "metric_snapshot": null
+    }
+  ]
+}

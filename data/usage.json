@@ -1,0 +1,77 @@
+{
+  "source_url": "https://openrouter.ai/rankings",
+  "source_title": "OpenRouter — Top models today, as text",
+  "collection_method": "Public server-rendered daily table, transcribed and checked against the source page",
+  "observed_at": "2026-10-26T17:57:26.674968+00:00",
+  "period_start": "2026-10-25T00:00:00Z",
+  "period_end": "2026-10-26T00:00:00Z",
+  "source_as_of": "2026-10-25",
+  "unit": "trillion_tokens",
+  "precision": "Source display is rounded; values are approximate.",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Source: OpenRouter (openrouter.ai/rankings), usage through 2026-10-25. Licensed under CC BY 4.0.",
+  "scope": "Public traffic routed through OpenRouter, prompt plus completion tokens; not users or global market share.",
+  "rows": [
+    {
+      "rank": 1,
+      "name": "DeepSeek V4.1 Flash 1017",
+      "tokens_trillion": 5.77,
+      "change_label": "+21%"
+    },
+    {
+      "rank": 2,
+      "name": "GLM 5.3 Flash",
+      "tokens_trillion": 2.12,
+      "change_label": "−4%"
+    },
+    {
+      "rank": 3,
+      "name": "DeepSeek V4.1 Flash",
+      "tokens_trillion": 1.91,
+      "change_label": "−15%"
+    },
+    {
+      "rank": 4,
+      "name": "GPT-6 Luna",
+      "tokens_trillion": 1.46,
+      "change_label": "−1%"
+    },
+    {
+      "rank": 5,
+      "name": "Hy4 preview",
+      "tokens_trillion": 0.974,
+      "change_label": "0%"
+    },
+    {
+      "rank": 6,
+      "name": "Claude Opus 5.5",
+      "tokens_trillion": 0.831,
+      "change_label": "−19%"
+    },
+    {
+      "rank": 7,
+      "name": "Step 5 Preview",
+      "tokens_trillion": 0.801,
+      "change_label": "+0%"
+    },
+    {
+      "rank": 8,
+      "name": "Nemotron 3 Ultra (free)",
+      "tokens_trillion": 0.66,
+      "change_label": "+6%"
+    },
+    {
+      "rank": 9,
+      "name": "GLM 5.3",
+      "tokens_trillion": 0.571,
+      "change_label": "−6%"
+    },
+    {
+      "rank": 10,
+      "name": "DeepSeek V4 Flash 0731",
+      "tokens_trillion": 0.511,
+      "change_label": "+1%"
+    }
+  ]
+}
