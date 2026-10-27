@@ -56,6 +56,7 @@ class Publisher:
             if event.get('artwork'):assets[event['artwork']['path']]=hashlib.sha256((ROOT/event['artwork']['path']).read_bytes()).hexdigest()
         seed=json.dumps([self.content,self.snapshot,self.usage,self.site,assets],sort_keys=True,ensure_ascii=False).encode()
         self.batch=hashlib.sha256(seed).hexdigest()[:12]
+        self.style_version=hashlib.sha256((ROOT/'src/style.css').read_bytes()).hexdigest()[:12]
         self.current='index.html'
     def url(self,target):
         if target.startswith(('http:','https:','#','mailto:')): return target
@@ -86,7 +87,7 @@ class Publisher:
         <meta name="ai-daily-batch" content="{self.batch}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description or title)}">
         <link rel="canonical" href="{E(canonical)}"><link rel="icon" href="{self.url('assets/favicon.svg')}" type="image/svg+xml">
         <link rel="alternate" type="application/rss+xml" title="Seven Tech Newsroom · 每日摘要" href="{self.url('feed.xml')}">
-        <link rel="stylesheet" href="{self.url('assets/style.css')}"><script defer src="{self.url('assets/app.js')}"></script>{structured}</head>
+        <link rel="stylesheet" href="{self.url('assets/style.css')}?v={self.style_version}"><script defer src="{self.url('assets/app.js')}"></script>{structured}</head>
         <body><a class="skip" href="#main">跳到正文</a><div class="topline" id="top"></div><header class="site-header"><div class="container header-inner">
         {self.link('index.html','<span class="brand-mark">7</span><span>Seven<small>TECH NEWSROOM</small></span>','brand',aria_label='Seven Tech Newsroom首页')}
         <nav class="nav" aria-label="主要导航">{nav}</nav><div class="header-actions">
