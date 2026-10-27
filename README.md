@@ -29,13 +29,9 @@ Apple 扩展 Siri 语言并推出新款 iPad mini，Oracle 发布代理与数据
 
 ## 1. Anthropic 向 SEC 提交 S-1，拟在纳斯达克上市
 
-Anthropic 提交公开上市注册声明，拟发行 A 类普通股并计划申请在 Nasdaq Global Select Market 以 ANT 交易。
+Anthropic 开始推进上市。10 月 26 日，这家 AI 公司向美国证券交易委员会提交 S-1 注册声明，计划发行 A 类普通股，并申请以“ANT”为代码在纳斯达克全球精选市场交易。
 
-- SEC EDGAR 文件显示，Anthropic 于 2026 年 10 月 26 日提交 Form S-1 注册声明。
-- Anthropic 称拟上市地点为 Nasdaq Global Select Market，拟用代码 ANT。
-- 发行股数和价格区间尚未确定，文件显示注册声明尚未生效。
-
-这是上市流程中的申报阶段，不代表 IPO 已完成。SEC 文件明确，注册声明生效前不得出售这些证券。
+发行规模和价格区间目前都还没有确定，注册声明也尚未生效。按照文件说明，相关证券需等注册声明生效后才能出售，上市仍处于申报阶段。
 
 分类：产业；状态：注册文件已提交 · 尚未生效；原文日期：2026-10-26。
 
@@ -44,13 +40,9 @@ Anthropic 提交公开上市注册声明，拟发行 A 类普通股并计划申�
 
 ## 2. Apple 将 Siri AI 测试版扩展到五种新语言
 
-随 27.2 系统更新，Siri AI 测试版新增法语、日语、韩语、葡萄牙语和西班牙语，向更多地区与语言环境开放。
+Apple 在 10 月 26 日发布的 27.2 系统更新中，为 Siri AI 测试版增加了法语、日语、韩语、葡萄牙语和西班牙语支持。使用这项功能，需要兼容 Apple Intelligence 的设备，并设置受支持的语言。
 
-- Apple 表示，新语言支持随 2026 年 10 月 26 日发布的 27.2 软件更新推出；Siri AI 目前为测试版。
-- 功能要求使用兼容 Apple Intelligence 的设备，并将系统和设备语言设为受支持语言。
-- Apple 称繁体中文、挪威语、土耳其语和越南语计划在 2026 年年底前加入。
-
-Apple 同时说明，Siri AI 目前在欧盟的 iOS、iPadOS 和 watchOS 上不可用。语言、设备与地区条件会影响实际可用范围。
+Apple 计划在年底前继续加入繁体中文、挪威语、土耳其语和越南语。目前，欧盟地区的 iOS、iPadOS 和 watchOS 尚不能使用 Siri AI，具体可用范围仍受设备、语言和地区条件影响。
 
 分类：产品；状态：测试版扩展 · 受设备与地区限制；原文日期：2026-10-26。
 
@@ -58,13 +50,9 @@ Apple 同时说明，Siri AI 目前在欧盟的 iOS、iPadOS 和 watchOS 上不�
 
 ## 3. 新款 iPad mini 加入 A20 Pro 与 8.5 英寸 OLED 屏幕
 
-Apple 公布搭载 A20 Pro 的新款 iPad mini，加入 OLED 屏幕和 iPadOS 27，并支持 Apple Intelligence 与 Siri AI。
+Apple 公布了搭载 A20 Pro 的新款 iPad mini，配备 8.5 英寸 OLED 屏幕，机身厚度为 5.4 毫米，并加入 IP67 防护。新机运行 iPadOS 27，支持 Apple Intelligence 和 Siri AI。
 
-- 新款配备 8.5 英寸 OLED 屏幕、A20 Pro 芯片，厚度为 5.4 毫米，并具备 IP67 防护等级。
-- Apple 称 A20 Pro 的 AI 任务性能最高为前代的 4.5 倍；这是厂商公布的比较数据。
-- 美国 Wi‑Fi 版起售价为 699 美元；预购于 10 月 28 日开始，11 月 6 日起发售。
-
-性能倍数来自 Apple 的新闻稿，本站未独立测试。价格和发售日期按 Apple 公布的美国市场信息整理。
+Apple 称，A20 Pro 的 AI 任务性能最高可达前代的 4.5 倍，这一数字来自厂商测试。美国市场的 Wi-Fi 版起售价为 699 美元，10 月 28 日开始预购，11 月 6 日起发售。
 
 分类：产品；状态：产品发布 · 10 月 28 日开始预购；原文日期：2026-10-26。
 
@@ -72,13 +60,9 @@ Apple 公布搭载 A20 Pro 的新款 iPad mini，加入 OLED 屏幕和 iPadOS 27
 
 ## 4. Oracle 为 Fusion 应用推出 Claw 运行时与 25 款代理应用
 
-Oracle 公布 Fusion Claw 执行运行时和一批面向 ERP、HR、供应链及客户体验流程的 Agentic Applications。
+Oracle 为 Fusion 应用推出了 Claw 执行运行时，并宣布已有 25 款基于 Claw 的代理应用可用，覆盖财务、人力资源、供应链和客户体验等业务。
 
-- Oracle 称已有 25 款由 Fusion Claw 驱动的 Agentic Applications 可用，覆盖 ERP、HCM、SCM 和 CX。
-- 官方描述的运行时支持长时间任务、持续重新规划和确定性执行。
-- 示例包括总账、人员规划、工资活动、供应计划和采购支出等工作流。
-
-功能范围与可用状态依据 Oracle 公告；准确率、实际节省和投资回报未由本站独立验证，具体权限仍取决于组织设置。
+这些应用涉及总账、人员规划、工资活动、供应计划和采购支出等流程。Oracle 将长时间任务、持续重新规划和确定性执行列为运行时能力；实际执行范围仍受组织权限和业务设置约束，运行效果有待在具体环境中检验。
 
 分类：产品；状态：厂商称 25 款应用已可用；原文日期：2026-10-26。
 
@@ -86,13 +70,9 @@ Oracle 公布 Fusion Claw 执行运行时和一批面向 ERP、HR、供应链及
 
 ## 5. Oracle 扩展 AI Lakehouse 的业务语义层与 Iceberg 支持
 
-Oracle 更新 Autonomous AI Lakehouse，围绕企业数据语义、Apache Iceberg 访问、统一治理和多维模拟公布新能力。
+Oracle 更新了 Autonomous AI Lakehouse，扩展 Apache Iceberg 数据访问，并公布业务语义层、统一治理和多维模拟等能力，试图让企业 AI 在读取数据时同时理解业务规则。
 
-- 公告称更新支持在 Iceberg 表与实时运营数据之间协作，并统一应用数据治理。
-- Oracle 表示，Business Semantic Layer 和 AI Data Catalog 的部分代理能力预计在未来 12 个月内提供。
-- Oracle 报告称，Data Lake Accelerator 在 100 TB TPC-DS 测试中的查询执行最高快 3 倍，最大集群规模也提升 3 倍。
-
-查询速度与集群规模数据来自 Oracle 自行描述的测试；公告还说明功能推出时间可能变化，尚不能据此推断第三方环境中的实际效果。
+其中，Business Semantic Layer 和 AI Data Catalog 的部分代理能力计划在未来 12 个月内提供。Oracle 还报告称，Data Lake Accelerator 在 100 TB TPC-DS 测试中的查询执行最高快了 3 倍，最大集群规模也扩大了 3 倍；这些成绩来自 Oracle 公布的测试。
 
 分类：基础设施；状态：能力更新公布 · 部分能力计划后续推出；原文日期：2026-10-26。
 

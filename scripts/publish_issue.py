@@ -27,6 +27,9 @@ def validate_draft(draft):
         require(e['id'] not in ids,'Duplicate event ID');ids.add(e['id'])
         require(e['category'] in CATEGORIES,'Unknown category')
         for key,limit in [('title',120),('summary',350),('context',450),('status',80)]:safe_text(e[key],key,limit)
+        body=e.get('body')
+        require(isinstance(body,list) and 2<=len(body)<=4,'Need 2–4 narrative body paragraphs')
+        for paragraph in body:safe_text(paragraph,'body paragraph',500)
         require(1<=len(e['facts'])<=4,'Need 1–4 sourced facts')
         for f in e['facts']:safe_text(f,'fact',250)
         require(1<=len(e['sources'])<=5,'Need original source links')
@@ -50,6 +53,7 @@ def merge(content,draft,now):
         e=copy.deepcopy(event);e['issue_date']=date
         e['discovered_at']=prior['discovered_at'] if prior else now
         e['verified_at']=e.get('verified_at',now)
+        if prior and prior.get('editorial_updated_at'):e.setdefault('editorial_updated_at',prior['editorial_updated_at'])
         e.setdefault('published_at',None);e.setdefault('visual','grid');e.setdefault('tags',[e['category']])
         e.setdefault('corrections',prior.get('corrections',[]) if prior else [])
         e.setdefault('publication_precision','date' if e['published_at'] else 'unknown')

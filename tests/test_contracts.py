@@ -25,7 +25,7 @@ def draft():
     events=[]
     for n in range(3):
         events.append({'id':f'test-event-{n}','category':'研究','title':f'测试事件 {n}',
-          'summary':'仅在测试临时目录使用的摘要','facts':['一条测试事实'],
+          'summary':'仅在测试临时目录使用的摘要','body':['第一段交代测试消息。','第二段提供细节与背景。'],'facts':['一条测试事实'],
           'context':'测试背景','status':'已发布','published_at':TEST_DATE,
           'sources':[{'publisher':'Test','url':f'https://example.com/source-{n}'}]})
     return {'issue':{'date':TEST_DATE,'title':'测试期刊','dek':'离线回归测试',
@@ -48,6 +48,30 @@ class EditorialTests(unittest.TestCase):
         changed['events'][0]['corrections']=[{'at':LATER,'note':'更正测试事实'}]
         result,_=editorial.merge(content,changed,LATER)
         self.assertEqual(result['events'][-3]['summary'],'修正后的摘要')
+
+    def test_new_draft_requires_narrative_body(self):
+        d=draft();d['events'][0].pop('body')
+        with self.assertRaisesRegex(ValueError,'narrative'):editorial.validate_draft(d)
+        d=draft();d['events'][0]['body']='不能把正文写成单个字符串'
+        with self.assertRaisesRegex(ValueError,'narrative'):editorial.validate_draft(d)
+
+    def test_prose_is_shared_and_escaped_across_formats(self):
+        publisher=build.Publisher('https://example.com/newsroom')
+        event=copy.deepcopy(publisher.events['anthropic-s1-ipo-filing'])
+        event['body']=['第一段包含 <script> 和 &，需要保留为文字。','第二段是连贯背景。']
+        publisher.events[event['id']]=event
+        html=publisher.article(event)
+        self.assertIn('&lt;script&gt;',html)
+        self.assertNotIn('<h2>关键事实</h2>',html)
+        self.assertNotIn('<h2>范围与背景</h2>',html)
+        issue=next(i for i in publisher.issues if event['id'] in i['event_ids'])
+        self.assertIn(event['body'][0],publisher.markdown(issue))
+        captured={}
+        with patch.object(publisher,'write',side_effect=lambda path,text:captured.update({path:text})):
+            publisher.rss()
+        import xml.etree.ElementTree as ET
+        descriptions=[item.findtext('description') for item in ET.fromstring(captured['feed.xml']).findall('./channel/item')]
+        self.assertTrue(any('&lt;script&gt;' in item and event['body'][1] in item for item in descriptions))
 
     def test_duplicate_primary_source_rejected(self):
         d=draft();d['events'][1]['sources']=copy.deepcopy(d['events'][0]['sources'])

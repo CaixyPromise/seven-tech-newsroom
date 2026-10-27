@@ -24,6 +24,8 @@ def localtime(s): return dt.datetime.fromisoformat(s.replace('Z','+00:00')).asti
 def compact(n):
     return f'{n/1e6:.2f}M' if n>=1e6 else f'{n/1e3:.1f}k' if n>=1e3 else str(n)
 def money(n): return f'{n:.6f}'.rstrip('0').rstrip('.') if n else '0'
+def news_paragraphs(event):
+    return event['body']
 def short_model(s): return s.split(': ',1)[-1]
 def icon(name):
     shapes={
@@ -267,10 +269,12 @@ class Publisher:
         sourcecards=''.join(f'<div class="source-card">{self.link(s["url"],E(s["publisher"])+" · 阅读原始资料 ↗",target="_blank",rel="noopener noreferrer")}<p>{E(s["url"])}</p><p>{"原文日期："+E(s["published_at"]) if s["published_at"] else "原文未提供可确认的首次发布日期"} · 核实 {localtime(s["accessed_at"])} UTC+8</p></div>' for s in e['sources'])
         corrections=''.join('<p>'+E(c['at'])+' · '+E(c['note'])+'</p>' for c in e.get('corrections',[]))
         if corrections:corrections='<section class="scope-note"><h2>更正记录</h2>'+corrections+'</section>'
+        prose=''.join('<p>'+E(paragraph)+'</p>' for paragraph in news_paragraphs(e))
+        edit_note=f'<p class="small muted editorial-note">编辑更新：{localtime(e["editorial_updated_at"])} UTC+8</p>' if e.get('editorial_updated_at') else ''
         related=''.join(self.link(self.event_url(self.events[k]),E(self.events[k]['title'])) for k in issue['event_ids'] if k!=e['id'])
         return f'''<div class="article-layout"><div>{self.link(self.issue_url(issue),'← 返回 '+issue['date']+' 日报','back-link')}<article class="article-main"><div class="article-header"><span class="pill">{E(e['category'])}</span><span class="status-tag">{E(e['status'])}</span><h1>{E(e['title'])}</h1><p class="summary">{E(e['summary'])}</p>{self.source_meta(e)}</div>
         <figure class="article-visual"><img src="{self.url('assets/visuals/'+e['id']+'.svg')}" alt="{E(self.visual_alt(e))}" width="380" height="260"></figure>
-        <div class="article-body"><h2>关键事实</h2><ul>{''.join('<li>'+E(f)+'</li>' for f in e['facts'])}</ul><h2>范围与背景</h2><p>{E(e['context'])}</p><h2>原始资料</h2>{sourcecards}{corrections}<p class="small muted" style="margin-top:20px">本站摘要于 {localtime(e['discovered_at'])} UTC+8 整理，收录在 {e['issue_date']} 期刊。配图为依据文中事实绘制的示意图。</p></div></article></div><aside class="article-side"><section class="panel"><h3>本期还收录了</h3><p>{E(issue['title'])}</p><div class="article-related">{related}</div>{self.link('archive/index.html','回看所有期刊 →','panel-link')}</section></aside></div>'''
+        <div class="article-body"><div class="news-prose">{prose}</div><h2>消息来源</h2>{sourcecards}{corrections}{edit_note}<p class="small muted" style="margin-top:20px">本站摘要于 {localtime(e['discovered_at'])} UTC+8 整理，收录在 {e['issue_date']} 期刊。配图为依据文中事实绘制的示意图。</p></div></article></div><aside class="article-side"><section class="panel"><h3>本期还收录了</h3><p>{E(issue['title'])}</p><div class="article-related">{related}</div>{self.link('archive/index.html','回看所有期刊 →','panel-link')}</section></aside></div>'''
     def archive(self):
         out=self.top('THE ARCHIVE','每天的变化，留下记录。','按日期回看已发布期刊，来源与实际整理时间独立保留。')+'<div class="archive-grid">'
         for i in self.issues:
@@ -310,7 +314,10 @@ class Publisher:
             item=ET.SubElement(ch,'item');title=i['date']+'｜'+i['title'];url=self.base+'/'+self.issue_url(i);guid='urn:ai-rizhi:daily:'+i['date']
             content='<p>'+E(i['dek'])+'</p><p>'+E(i.get('kind','每日精选'))+'；于 '+localtime(i['published_at'])+' UTC+8 整理。</p><ul>'
             for key in i['event_ids']:
-                e=self.events[key];content+=f'<li><a href="{self.base}/{self.event_url(e)}">{E(e["title"])}</a> — {E(e["summary"])} <a href="{E(e["sources"][0]["url"])}">原始资料</a></li>'
+                e=self.events[key]
+                paragraphs=''.join('<p>'+E(paragraph)+'</p>' for paragraph in news_paragraphs(e))
+                sources=' · '.join(f'<a href="{E(source["url"])}">{E(source["publisher"])} · 原始资料</a>' for source in e['sources'])
+                content+=f'<li><h3><a href="{self.base}/{self.event_url(e)}">{E(e["title"])}</a></h3>{paragraphs}<p>{sources}</p></li>'
             content+='</ul>'
             for k,v in [('title',title),('link',url),('description',content),('pubDate',format_datetime(dt.datetime.fromisoformat(i['published_at']),usegmt=True))]:ET.SubElement(item,k).text=v
             ET.SubElement(item,'guid',isPermaLink='false').text=guid
@@ -323,8 +330,8 @@ class Publisher:
     def markdown(self,issue):
         s=f'# Seven Tech Newsroom · {issue["date"]}\n\n**{issue["title"]}**\n\n{issue["dek"]}\n\n{issue.get("kind","每日精选")}，第 {issue["number"]} 期。收录范围：{issue["coverage"]}。\n实际首次整理：{localtime(issue["published_at"])} UTC+8。\n指标按实际保存的批次与采集时间查看。\n\n'
         for n,key in enumerate(issue['event_ids'],1):
-            e=self.events[key];s+=f'## {n}. {e["title"]}\n\n{e["summary"]}\n\n'
-            s+='\n'.join('- '+x for x in e['facts'])+'\n\n'+e['context']+'\n\n'
+            e=self.events[key];s+=f'## {n}. {e["title"]}\n\n'
+            s+='\n\n'.join(news_paragraphs(e))+'\n\n'
             s+=f'分类：{e["category"]}；状态：{e["status"]}；原文日期：{e["published_at"] or "待确认"}。\n\n'
             s+='\n'.join(f'来源：[{x["publisher"]}]({x["url"]})' for x in e['sources'])+'\n\n'
             for c in e.get('corrections',[]):s+='更正：'+c['at']+' · '+c['note']+'\n\n'
