@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Focused static content, routing, provenance and feed acceptance checks."""
 from collections import Counter
+from news_graphics import validate_graphic
 from html.parser import HTMLParser
 import datetime as dt
 from email.utils import parsedate_to_datetime
@@ -60,7 +61,7 @@ check(len(event_map)==len(events),'Duplicate event IDs')
 referenced=[]
 for issue in issues:
     dt.date.fromisoformat(issue['date']);dt.datetime.fromisoformat(issue['published_at'])
-    check(bool(issue['event_ids']),'Empty issue')
+    check(1<=len(issue['event_ids'])<=20,'Issue must have at most 20 events')
     check(1<=len(issue['lead_ids'])<=3 and set(issue['lead_ids'])<=set(issue['event_ids']),'Invalid lead set')
     for key in issue['event_ids']:
         check(key in event_map and event_map[key]['issue_date']==issue['date'],'Event ownership mismatch: '+key)
@@ -102,6 +103,8 @@ for item in items:
     check('原始资料' in item.findtext('description'),'RSS source links missing')
     check(parsedate_to_datetime(item.findtext('pubDate')).tzinfo is not None,'RSS publication date missing')
 for e in content['events']:
+    validate_graphic(e)
+    if e.get('artwork'):check((ROOT/e['artwork']['path']).is_file(),'Missing local artwork')
     root=ET.fromstring((OUT/'assets/visuals'/f'{e["id"]}.svg').read_text())
     check(root.tag.endswith('svg'),'Invalid news SVG')
     if e['published_at'] is None:check('待确认' in e['status'],'Unknown date unlabelled')

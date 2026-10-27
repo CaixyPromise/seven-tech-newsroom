@@ -39,7 +39,32 @@
         "Artificial Analysis 在 10 月 23 日公布了 Kimi K3.1 Pro 的评测结果。报告给出的综合指数为 55，Terminal-Bench 4.0 得分则从 K3 的 13% 提升到了 67%。",
         "报告列出的上下文长度为 1M Token，API 输入和输出价格分别为每百万 Token 2 美元和 10 美元。评测时，模型权重还没有公开。这组成绩来自 Artificial Analysis 的测试设置，具体任务中的表现仍要结合实际使用来看。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "bars",
+        "theme": "blue",
+        "eyebrow": "KIMI K3.1 PRO",
+        "title": "编程任务评测的变化",
+        "items": [
+          {
+            "label": "Kimi K3",
+            "value": "13%",
+            "detail": "Terminal-Bench 4.0",
+            "amount": 13
+          },
+          {
+            "label": "K3.1 Pro",
+            "value": "67%",
+            "detail": "同一报告所列测试",
+            "amount": 67
+          }
+        ],
+        "caption": "Artificial Analysis 所报 Terminal-Bench 4.0 成绩；仅代表该测试设置。",
+        "source_refs": [
+          0
+        ],
+        "axis_max": 100
+      }
     },
     {
       "id": "tb-screening-google",
@@ -76,7 +101,39 @@
         "Google Research 公布了结核病 AI 辅助筛查的最新进展。Google 表示，与 Nexus AI 等伙伴合作的胸片工具已进入约 40 家医疗设施，累计评估了超过 25,000 张胸片。",
         "这篇进展报告还介绍了 MedGemma 等开放模型，以及通过咳嗽音频辅助筛查的研究。胸片工具已经在现场使用，音频筛查仍在积累临床证据；筛查结果依然需要临床专业人员判断。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "GOOGLE RESEARCH",
+        "title": "结核病辅助筛查进展",
+        "items": [
+          {
+            "label": "已评估胸片",
+            "value": "25,000+ 张",
+            "detail": "Google 公布的项目进展"
+          },
+          {
+            "label": "应用范围",
+            "value": "约 40 家设施",
+            "detail": "合作胸片工具的部署范围"
+          },
+          {
+            "label": "胸片筛查",
+            "value": "已在现场使用",
+            "detail": "结果需临床人员判断"
+          },
+          {
+            "label": "咳嗽音频",
+            "value": "研究阶段",
+            "detail": "仍在积累临床证据"
+          }
+        ],
+        "caption": "数据与阶段来自 Google Research 的项目报告。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "copilot-teams",
@@ -113,7 +170,34 @@
         "GitHub 更新了 Teams 应用，把问题通知和 Copilot 代码任务接在了一起。团队收到 Issue 通知后，可以直接提及 GitHub 发起处理，等 Copilot 生成 PR，再回到正常的测试和代码审查流程。",
         "旧版 GitHub 应用计划在 11 月 16 日退役，已有用户需要留意版本切换。新功能的具体使用范围仍取决于账户、仓库及产品的可用条件。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "GITHUB × TEAMS",
+        "title": "从问题通知到代码审查",
+        "items": [
+          {
+            "label": "收到问题",
+            "value": "Issue 通知",
+            "detail": "在 Teams 中查看通知"
+          },
+          {
+            "label": "发起处理",
+            "value": "Copilot 任务",
+            "detail": "提及 GitHub 请求处理"
+          },
+          {
+            "label": "交付审查",
+            "value": "Pull Request",
+            "detail": "团队继续测试与合并"
+          }
+        ],
+        "caption": "GitHub 公布的 Teams 应用流程；旧版计划于 11 月 16 日退役。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "olmoearth-13",
@@ -150,7 +234,34 @@
         "Ai2 发布了 OlmoEarth 1.3，同时提供全球预计算卫星嵌入和浏览器地图探索工具。数据采用 10 米空间分辨率，提供 64 维和 128 维嵌入，供土地与环境变化分析等工作复用。",
         "配套页面汇集了模型、技术报告、数据、代码和 Embeddings Explorer。使用者可以先在地图工具中探索数据，再根据自己的问题开展分析；模型与数据的具体使用条件需分别查看许可。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "AI2 / OLMOEARTH 1.3",
+        "title": "全球卫星嵌入与探索工具",
+        "items": [
+          {
+            "label": "空间分辨率",
+            "value": "10 米",
+            "detail": "预计算卫星嵌入"
+          },
+          {
+            "label": "嵌入维度",
+            "value": "64 / 128",
+            "detail": "提供两种维度"
+          },
+          {
+            "label": "探索入口",
+            "value": "浏览器地图",
+            "detail": "Embeddings Explorer"
+          }
+        ],
+        "caption": "参数来自 Ai2 发布材料；具体模型与数据使用条件见原始许可。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "nemotron-retrieval",
@@ -187,7 +298,34 @@
         "NVIDIA 扩展了 Nemotron 3.5 检索系列，推出覆盖嵌入、重排和文档解析的新组件，面向需要从材料中查找证据的 Agent 工作流。",
         "这批组件包括 8B 与 1B 级嵌入模型、8B 重排模型，以及 631M 参数的 Parse 模型，官方也提供了部署和适配入口。各组件分别处理检索链路中的不同环节，公布的性能成绩来自 NVIDIA 报告，不能直接等同于整套 Agent 的准确率。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "NVIDIA / NEMOTRON 3.5",
+        "title": "Agent 检索链路的三个组件",
+        "items": [
+          {
+            "label": "嵌入模型",
+            "value": "8B / 1B",
+            "detail": "多模态检索"
+          },
+          {
+            "label": "重排模型",
+            "value": "8B",
+            "detail": "相关性重排"
+          },
+          {
+            "label": "Parse 模型",
+            "value": "631M",
+            "detail": "文档提取与解析"
+          }
+        ],
+        "caption": "组件规模与定位来自 NVIDIA 公布的模型资料。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "copilot-client-metrics",
@@ -224,7 +362,34 @@
         "GitHub 扩展了 Copilot 用量 API，把 OpenCode 等部分 IDE 以外客户端的使用情况纳入组织报告。新增的 totals_by_client 字段按客户端展示成功请求数、会话数，以及各模型的用量。",
         "这些字段适用于 1 日和 28 日等报告，需要相应的管理或指标查看权限。它们反映的是组织授权范围内的使用情况，其中的请求数也不等于用户输入提示词的次数。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "GITHUB COPILOT",
+        "title": "用量报告增加客户端维度",
+        "items": [
+          {
+            "label": "报告维度",
+            "value": "按客户端",
+            "detail": "totals_by_client"
+          },
+          {
+            "label": "统计内容",
+            "value": "请求与会话",
+            "detail": "并按模型拆分用量"
+          },
+          {
+            "label": "报告窗口",
+            "value": "1 日 / 28 日",
+            "detail": "访问需相应查看权限"
+          }
+        ],
+        "caption": "GitHub 用量 API 更新；组织内数据，不是公开行业排名。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "google-egm-plugin",
@@ -261,7 +426,34 @@
         "Google 在 10 月 22 日介绍并开源了 Elephant-Goldfish Model 插件，尝试把 AI 编程中的设计和验证安排到不同会话中：先共同梳理设计、形成文档，再由分离上下文的会话开展评审。",
         "插件采用 Apache 2.0 许可，优先集成 Antigravity。此次发布给出了一套工具和工作流，实际能改善多少代码质量，还需要在具体项目中验证。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "flow",
+        "theme": "amber",
+        "eyebrow": "GOOGLE / ELEPHANT-GOLDFISH",
+        "title": "把设计与独立评审连接起来",
+        "items": [
+          {
+            "label": "设计会话",
+            "value": "共同梳理设计",
+            "detail": "持有设计上下文"
+          },
+          {
+            "label": "文档产出",
+            "value": "明确设计文档",
+            "detail": "为后续实现提供依据"
+          },
+          {
+            "label": "评审会话",
+            "value": "分离上下文验证",
+            "detail": "优先集成 Antigravity"
+          }
+        ],
+        "caption": "Google 10 月 22 日公告；插件按 Apache 2.0 许可开源。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "hf-cli-october",
@@ -298,7 +490,38 @@
         "Hugging Face 汇总了 hf CLI 和 huggingface_hub 的近期更新，其中一项是让不同仓库复用同一份 Xet 文件缓存，减少重复下载与存储。官方举例，三个模型共用一个 9.5 GB 编码器时，这份文件只需保存一次。",
         "这批更新还涉及 Jobs 的重试与重跑，以及 Storage Buckets、Sandboxes 和上传下载体验。文章介绍的是一段时间内的工具改进，具体节省多少空间和流量，要看模型之间实际共享了哪些文件。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "hub",
+        "theme": "blue",
+        "eyebrow": "HUGGING FACE / HF CLI",
+        "title": "同一份编码器，只缓存一次",
+        "items": [
+          {
+            "label": "模型仓库 A",
+            "value": "共用编码器",
+            "detail": "复用同一份 Xet 文件"
+          },
+          {
+            "label": "模型仓库 B",
+            "value": "共用编码器",
+            "detail": "无需分别下载与存储"
+          },
+          {
+            "label": "模型仓库 C",
+            "value": "共用编码器",
+            "detail": "官方示例中的第三个模型"
+          }
+        ],
+        "caption": "9.5 GB 与三个模型来自官方共享缓存示例；实际节省取决于共享文件。",
+        "source_refs": [
+          0
+        ],
+        "focus": {
+          "value": "9.5 GB",
+          "label": "共享编码器"
+        }
+      }
     },
     {
       "id": "oracle-deep-trust",
@@ -335,7 +558,39 @@
         "Oracle 在 AI World 公布了 Deep Trust AI 架构，围绕软件平台、数据、数据访问和应用开发四个层面，安排企业 AI 的安全与业务规则。",
         "架构提出通过受控数据 API 和数据库内的访问规则，减少 Agent 绕过应用层约束的风险，并结合 Oracle AI Database、Autonomous AI Database 和 APEX 等产品。具体能力的交付时间、部署条件和运行效果，仍需按对应产品确认。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "layers",
+        "theme": "amber",
+        "eyebrow": "ORACLE / DEEP TRUST AI",
+        "title": "把企业规则放进四个层面",
+        "items": [
+          {
+            "label": "第四层",
+            "value": "应用开发",
+            "detail": "APEX 等开发入口"
+          },
+          {
+            "label": "第三层",
+            "value": "数据访问",
+            "detail": "受控数据 API"
+          },
+          {
+            "label": "第二层",
+            "value": "数据规则",
+            "detail": "数据库内访问约束"
+          },
+          {
+            "label": "第一层",
+            "value": "软件平台",
+            "detail": "Oracle 数据库等产品能力"
+          }
+        ],
+        "caption": "Oracle 公布的架构蓝图；能力交付与效果需按具体产品确认。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "nanbeige-43",
@@ -372,7 +627,34 @@
         "南北阁团队公开了 Nanbeige4.3-33B 权重，将其定位为编程与办公 Agent 的教师模型，计划用于后续小模型蒸馏。模型卡标注采用 Apache 2.0 许可，支持最高 512K 上下文，并列出了编程、工具使用和推理成绩。",
         "这些成绩由团队公布。该项目于 10 月 26 日被本站收录观察，正式首次发布日期尚未确认；仓库显示的 10 月 24 日创建时间不能直接作为发布日期。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "NANBEIGE 4.3",
+        "title": "为 Agent 蒸馏准备的教师模型",
+        "items": [
+          {
+            "label": "模型规模",
+            "value": "33B",
+            "detail": "面向编程与办公 Agent"
+          },
+          {
+            "label": "上下文上限",
+            "value": "512K",
+            "detail": "官方模型卡所列"
+          },
+          {
+            "label": "开放许可",
+            "value": "Apache 2.0",
+            "detail": "权重已公开"
+          }
+        ],
+        "caption": "参数来自 Nanbeige 模型卡；成绩为团队自报，首次发布日期待确认。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "learning-curves",
@@ -409,7 +691,34 @@
         "微软 AI Economy Institute 推出了研究文集 Learning Curves，汇集第二届 Senior Fellows 的文章，讨论 AI 如何影响从课堂到职业起点的学习过程。",
         "文集涉及教师培训、语言与数字能力、职业教育、学徒制和初级工作等议题，也关注机会如何分配。它提供的是多篇研究与观点，阅读时需要结合各篇文章的方法和证据，理解其中对教育与就业变化的判断。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "MICROSOFT / LEARNING CURVES",
+        "title": "从课堂到职业起点的 AI 议题",
+        "items": [
+          {
+            "label": "基础教育",
+            "value": "教师与数字能力",
+            "detail": "教师培训、语言能力"
+          },
+          {
+            "label": "职业教育",
+            "value": "技能与学徒制",
+            "detail": "关注教育与实践衔接"
+          },
+          {
+            "label": "进入职场",
+            "value": "初级工作机会",
+            "detail": "讨论机会如何分配"
+          }
+        ],
+        "caption": "微软 AI Economy Institute 研究文集的议题整理。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "moli-browser",
@@ -446,7 +755,34 @@
         "Lexmount 的开源项目 Moli 把网页结构读取与视觉渲染分开，面向 Agent 提供按需布局和截图能力，并支持 CLI、CDP 和 WebDriver 等使用入口。",
         "根据项目 README，Moli 支持 Linux、macOS 和 Windows，默认采用 Apache 2.0 或 MIT 许可，第三方组件另有说明。这是本站在本期发现的项目，最初发布日期尚未确认，速度、兼容性和内存表现也还没有经过本站实测。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "LEXMOUNT / MOLI",
+        "title": "为 Agent 读取网页提供多种入口",
+        "items": [
+          {
+            "label": "命令行入口",
+            "value": "CLI",
+            "detail": "支持结构读取与自动化"
+          },
+          {
+            "label": "浏览器协议",
+            "value": "CDP",
+            "detail": "按需布局与截图"
+          },
+          {
+            "label": "自动化入口",
+            "value": "WebDriver",
+            "detail": "Linux / macOS / Windows"
+          }
+        ],
+        "caption": "项目 README 所列能力；项目观察，首发时间及实际性能待确认。",
+        "source_refs": [
+          0
+        ]
+      }
     },
     {
       "id": "anthropic-s1-ipo-filing",
@@ -490,7 +826,44 @@
         "Anthropic 开始推进上市。10 月 26 日，这家 AI 公司向美国证券交易委员会提交 S-1 注册声明，计划发行 A 类普通股，并申请以“ANT”为代码在纳斯达克全球精选市场交易。",
         "发行规模和价格区间目前都还没有确定，注册声明也尚未生效。按照文件说明，相关证券需等注册声明生效后才能出售，上市仍处于申报阶段。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "ANTHROPIC / IPO FILING",
+        "title": "上市申报走到哪一步",
+        "items": [
+          {
+            "label": "10 月 26 日",
+            "value": "S-1 已提交",
+            "detail": "拟发行 A 类普通股"
+          },
+          {
+            "label": "拟上市安排",
+            "value": "代码 ANT",
+            "detail": "申请纳斯达克全球精选市场"
+          },
+          {
+            "label": "当前状态",
+            "value": "尚未生效",
+            "detail": "发行规模与定价待确定"
+          }
+        ],
+        "caption": "资料为 SEC 注册文件与 Anthropic 公告；上市仍处于申报阶段。",
+        "source_refs": [
+          0,
+          1
+        ]
+      },
+      "artwork": {
+        "kind": "generated",
+        "path": "content/images/anthropic-s1-ipo-filing.webp",
+        "alt": "AI 主题插图：上市申报文件、交易所建筑与 AI 网络",
+        "credit": "AI 主题插图 · 上市申报主题，非新闻现场照片",
+        "rights": "由本站通过 Imagegen 生成，用作本条新闻的主题插图。",
+        "width": 1400,
+        "height": 788
+      }
     },
     {
       "id": "apple-siri-ai-languages-2026-10-26",
@@ -527,7 +900,48 @@
         "Apple 在 10 月 26 日发布的 27.2 系统更新中，为 Siri AI 测试版增加了法语、日语、韩语、葡萄牙语和西班牙语支持。使用这项功能，需要兼容 Apple Intelligence 的设备，并设置受支持的语言。",
         "Apple 计划在年底前继续加入繁体中文、挪威语、土耳其语和越南语。目前，欧盟地区的 iOS、iPadOS 和 watchOS 尚不能使用 Siri AI，具体可用范围仍受设备、语言和地区条件影响。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "APPLE / SIRI AI",
+        "title": "测试版新增五种语言",
+        "items": [
+          {
+            "label": "新增语言",
+            "value": "法语 / 日语",
+            "detail": "随 27.2 系统更新推出"
+          },
+          {
+            "label": "新增语言",
+            "value": "韩语 / 葡萄牙语",
+            "detail": "需兼容 Apple Intelligence"
+          },
+          {
+            "label": "新增语言",
+            "value": "西班牙语",
+            "detail": "设备需设置受支持语言"
+          },
+          {
+            "label": "地区状态",
+            "value": "欧盟部分系统不可用",
+            "detail": "iOS、iPadOS、watchOS"
+          }
+        ],
+        "caption": "Apple 10 月 26 日公告；Siri AI 为测试版，适用范围受设备和地区影响。",
+        "source_refs": [
+          0
+        ]
+      },
+      "artwork": {
+        "kind": "generated",
+        "path": "content/images/apple-siri-ai-languages-2026-10-26.webp",
+        "alt": "AI 主题插图：语音助手、五组对话气泡与多语言交流",
+        "credit": "AI 主题插图 · 多语言语音助手，非 Apple 官方界面",
+        "rights": "由本站通过 Imagegen 生成，用作本条新闻的主题插图。",
+        "width": 1400,
+        "height": 934
+      }
     },
     {
       "id": "apple-ipad-mini-a20-pro-2026",
@@ -564,7 +978,43 @@
         "Apple 公布了搭载 A20 Pro 的新款 iPad mini，配备 8.5 英寸 OLED 屏幕，机身厚度为 5.4 毫米，并加入 IP67 防护。新机运行 iPadOS 27，支持 Apple Intelligence 和 Siri AI。",
         "Apple 称，A20 Pro 的 AI 任务性能最高可达前代的 4.5 倍，这一数字来自厂商测试。美国市场的 Wi-Fi 版起售价为 699 美元，10 月 28 日开始预购，11 月 6 日起发售。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "timeline",
+        "theme": "blue",
+        "eyebrow": "APPLE / IPAD MINI",
+        "title": "新款 iPad mini 的发布安排",
+        "items": [
+          {
+            "label": "10 月 26 日",
+            "value": "产品公布",
+            "detail": "8.5 英寸 OLED · A20 Pro"
+          },
+          {
+            "label": "10 月 28 日",
+            "value": "开始预购",
+            "detail": "美国 Wi-Fi 版 699 美元起"
+          },
+          {
+            "label": "11 月 6 日",
+            "value": "正式发售",
+            "detail": "机身厚度 5.4 毫米"
+          }
+        ],
+        "caption": "配置、美国价格与发售安排来自 Apple 新闻稿；性能倍数为厂商测试。",
+        "source_refs": [
+          0
+        ]
+      },
+      "artwork": {
+        "kind": "generated",
+        "path": "content/images/apple-ipad-mini-a20-pro-2026.webp",
+        "alt": "AI 主题插图：小尺寸平板、OLED 显示层与芯片概念",
+        "credit": "AI 主题插图 · 平板与芯片概念，非 Apple 官方产品图",
+        "rights": "由本站通过 Imagegen 生成，用作本条新闻的主题插图。",
+        "width": 1400,
+        "height": 934
+      }
     },
     {
       "id": "oracle-fusion-claw-agentic-apps-2026",
@@ -601,7 +1051,52 @@
         "Oracle 为 Fusion 应用推出了 Claw 执行运行时，并宣布已有 25 款基于 Claw 的代理应用可用，覆盖财务、人力资源、供应链和客户体验等业务。",
         "这些应用涉及总账、人员规划、工资活动、供应计划和采购支出等流程。Oracle 将长时间任务、持续重新规划和确定性执行列为运行时能力；实际执行范围仍受组织权限和业务设置约束，运行效果有待在具体环境中检验。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "hub",
+        "theme": "amber",
+        "eyebrow": "ORACLE / FUSION CLAW",
+        "title": "企业 Agent 应用覆盖四类业务",
+        "items": [
+          {
+            "label": "财务流程",
+            "value": "ERP",
+            "detail": "总账、采购支出等"
+          },
+          {
+            "label": "人员规划",
+            "value": "HCM",
+            "detail": "人员与工资活动"
+          },
+          {
+            "label": "供应链",
+            "value": "SCM",
+            "detail": "供应计划等流程"
+          },
+          {
+            "label": "客户体验",
+            "value": "CX",
+            "detail": "组织权限约束下执行"
+          }
+        ],
+        "caption": "Oracle 称已有 25 款 Claw 驱动的代理应用可用。",
+        "source_refs": [
+          0
+        ],
+        "focus": {
+          "value": "25 款",
+          "label": "代理应用 · Oracle 公布"
+        }
+      },
+      "artwork": {
+        "kind": "generated",
+        "path": "content/images/oracle-fusion-claw-agentic-apps-2026.webp",
+        "alt": "AI 主题插图：企业执行枢纽连接财务、人力、供应链和服务场景",
+        "credit": "AI 主题插图 · 企业代理应用概念，非产品架构图",
+        "rights": "由本站通过 Imagegen 生成，用作本条新闻的主题插图。",
+        "width": 1400,
+        "height": 934
+      }
     },
     {
       "id": "oracle-autonomous-lakehouse-iceberg-2026",
@@ -638,7 +1133,48 @@
         "Oracle 更新了 Autonomous AI Lakehouse，扩展 Apache Iceberg 数据访问，并公布业务语义层、统一治理和多维模拟等能力，试图让企业 AI 在读取数据时同时理解业务规则。",
         "其中，Business Semantic Layer 和 AI Data Catalog 的部分代理能力计划在未来 12 个月内提供。Oracle 还报告称，Data Lake Accelerator 在 100 TB TPC-DS 测试中的查询执行最高快了 3 倍，最大集群规模也扩大了 3 倍；这些成绩来自 Oracle 公布的测试。"
       ],
-      "editorial_updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "editorial_updated_at": "2026-10-27T16:56:37.573877+00:00",
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "ORACLE / AI LAKEHOUSE",
+        "title": "Iceberg、业务语义与扩展能力",
+        "items": [
+          {
+            "label": "查询执行",
+            "value": "最高快 3 倍",
+            "detail": "Oracle 的 100 TB TPC-DS 测试"
+          },
+          {
+            "label": "最大集群规模",
+            "value": "扩大 3 倍",
+            "detail": "Data Lake Accelerator"
+          },
+          {
+            "label": "部分新能力",
+            "value": "未来 12 个月",
+            "detail": "语义层与部分目录代理能力"
+          },
+          {
+            "label": "数据协作",
+            "value": "Apache Iceberg",
+            "detail": "业务规则与统一治理"
+          }
+        ],
+        "caption": "性能为 Oracle 自报；业务语义层与部分目录代理能力为计划交付。",
+        "source_refs": [
+          0
+        ]
+      },
+      "artwork": {
+        "kind": "generated",
+        "path": "content/images/oracle-autonomous-lakehouse-iceberg-2026.webp",
+        "alt": "AI 主题插图：湖仓、Iceberg 数据表、语义目录与模拟结构",
+        "credit": "AI 主题插图 · 数据湖仓与 Iceberg 概念，非产品架构图",
+        "rights": "由本站通过 Imagegen 生成，用作本条新闻的主题插图。",
+        "width": 1400,
+        "height": 934
+      }
     }
   ],
   "issues": [
@@ -665,7 +1201,7 @@
         "google-egm-plugin"
       ],
       "metric_snapshot": null,
-      "updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "updated_at": "2026-10-27T16:56:37.573877+00:00"
     },
     {
       "date": "2026-10-26",
@@ -688,7 +1224,7 @@
         "moli-browser"
       ],
       "metric_snapshot": null,
-      "updated_at": "2026-10-27T16:38:15.535505+00:00"
+      "updated_at": "2026-10-27T16:56:37.573877+00:00"
     },
     {
       "date": "2026-10-27",
@@ -709,10 +1245,10 @@
       ],
       "number": "003",
       "published_at": "2026-10-27T01:02:50.748716+00:00",
-      "updated_at": "2026-10-27T16:38:15.535505+00:00",
+      "updated_at": "2026-10-27T16:56:37.573877+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-10-27.json"
     }
   ],
-  "updated_at": "2026-10-27T16:38:15.535505+00:00"
+  "updated_at": "2026-10-27T16:56:37.573877+00:00"
 }

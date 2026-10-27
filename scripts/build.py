@@ -13,6 +13,7 @@ import posixpath
 import shutil
 from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
+from news_graphics import render as illustration, graphic_alt, validate_graphic
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'dist'
@@ -39,46 +40,6 @@ def icon(name):
     }
     return f'<svg class="icon" aria-hidden="true" viewBox="0 0 24 24">{shapes.get(name,shapes["arrow"])}</svg>'
 
-def illustration(event):
-    kind=event['visual']
-    common='font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,sans-serif"'
-    opening=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" {common}><rect width="380" height="260" rx="20" fill="#e6edfc"/>'
-    if kind=='cache':
-        body='''<text x="26" y="35" fill="#506993" font-size="12" letter-spacing="2">SHARED CACHE</text>
-        <path d="M100 94h36v50h36M100 144h72M100 194h36v-50h36" stroke="#9cb2dd" stroke-width="3" fill="none"/>
-        <g fill="#fff" stroke="#c2d0eb"><rect x="26" y="72" width="75" height="43" rx="8"/><rect x="26" y="122" width="75" height="43" rx="8"/><rect x="26" y="172" width="75" height="43" rx="8"/></g>
-        <g fill="#5b7096" font-size="12"><text x="40" y="98">Repo A</text><text x="40" y="148">Repo B</text><text x="40" y="198">Repo C</text></g>
-        <rect x="173" y="75" width="178" height="141" rx="16" fill="#2c5ed5"/>
-        <text x="197" y="109" fill="#cbdcff" font-size="12">同一份编码器</text><text x="196" y="158" fill="white" font-size="35" font-weight="700">9.5 GB</text>
-        <text x="197" y="188" fill="#d3e0ff" font-size="12">下载一次，共享使用</text>'''
-    elif kind=='model' and event['id']=='kimi-k31-evaluation':
-        body='''<text x="25" y="34" fill="#506993" font-size="12">AA INTELLIGENCE INDEX · 10.23</text>
-        <g stroke="#c4d2ee"><path d="M38 208h307"/><path d="M38 72v136"/></g>
-        <rect x="80" y="109" width="85" height="99" rx="6" fill="#a3b8e5"/><rect x="214" y="84" width="85" height="124" rx="6" fill="#2c5ed5"/>
-        <text x="99" y="95" fill="#657b9d" font-size="26" font-weight="700">44</text><text x="232" y="69" fill="#285cdb" font-size="29" font-weight="700">55</text>
-        <text x="94" y="234" fill="#506993" font-size="12">Kimi K3</text><text x="214" y="234" fill="#285cdb" font-size="12">K3.1 Pro</text>'''
-    elif kind=='layers':
-        body='<text x="25" y="33" fill="#506993" font-size="12" letter-spacing="2">DEEP TRUST AI</text>'
-        for i,(label,w) in enumerate([('应用开发',215),('数据访问',245),('数据规则',275),('软件平台',305)]):
-            y=55+i*43;x=(380-w)/2
-            body+=f'<rect x="{x}" y="{y}" width="{w}" height="34" rx="7" fill="{["#fff","#c5d5f5","#8eabe7","#2c5ed5"][i]}"/><text x="190" y="{y+22}" text-anchor="middle" fill="{"white" if i==3 else "#344f7d"}" font-size="13">{label}</text>'
-    elif kind=='earth':
-        body='<text x="25" y="33" fill="#506993" font-size="12">OLMOEARTH 1.3</text>'
-        for i in range(6):
-            for j in range(4):
-                body+=f'<rect x="{28+i*29}" y="{64+j*33}" width="26" height="30" rx="3" fill="{["#a0c2ad","#4e9f88","#c0d6c1","#7baf9b"][(i+j*2)%4]}"/>'
-        body+='<text x="235" y="109" fill="#285cdb" font-size="35" font-weight="700">10 m</text><text x="236" y="138" fill="#506993" font-size="12">空间分辨率</text><text x="236" y="175" fill="#344f7d" font-size="19">64 / 128</text><text x="236" y="198" fill="#506993" font-size="12">维度嵌入</text>'
-    elif kind=='health':
-        body='<text x="25" y="33" fill="#506993" font-size="12">GOOGLE RESEARCH · 项目报告</text><rect x="26" y="62" width="328" height="167" rx="12" fill="white"/><text x="48" y="112" fill="#285cdb" font-size="34" font-weight="700">25,000+</text><text x="48" y="140" fill="#627086" font-size="13">已评估胸片</text><path d="M48 159h283" stroke="#e0e7f3"/><text x="48" y="198" fill="#506993" font-size="15">约 40 家设施 · 专业人员判断</text>'
-    else:
-        labels={'retrieval':['检索','重排','提取'],'workflow':['上下文','行动','审查'],
-                'browser':['页面结构','按需布局','视觉输出'],'learning':['课堂','技能','工作'],
-                'chart':['客户端','请求','用量'],'model':['33B','512K','Apache 2.0']}.get(kind,['发现','整理','阅读'])
-        body=f'<text x="25" y="34" fill="#506993" font-size="12">{E(event["sources"][0]["publisher"]).upper()}</text>'
-        for i,label in enumerate(labels):
-            y=61+i*55
-            body+=f'<rect x="{30+i*15}" y="{y}" width="{306-i*15}" height="43" rx="9" fill="{["#fff","#c8d8f5","#2c5ed5"][i]}"/><text x="65" y="{y+27}" fill="{"white" if i==2 else "#46618c"}" font-size="15">{E(label)}</text>'
-    return opening+body+'</svg>'
 
 class Publisher:
     def __init__(self,base):
@@ -89,7 +50,11 @@ class Publisher:
         self.events={x['id']:x for x in self.content['events']}
         self.issues=sorted(self.content['issues'],key=lambda x:x['date'],reverse=True)
         self.latest=self.issues[0]
-        seed=json.dumps([self.content,self.snapshot,self.usage,self.site],sort_keys=True,ensure_ascii=False).encode()
+        assets={}
+        for event in self.events.values():
+            validate_graphic(event)
+            if event.get('artwork'):assets[event['artwork']['path']]=hashlib.sha256((ROOT/event['artwork']['path']).read_bytes()).hexdigest()
+        seed=json.dumps([self.content,self.snapshot,self.usage,self.site,assets],sort_keys=True,ensure_ascii=False).encode()
         self.batch=hashlib.sha256(seed).hexdigest()[:12]
         self.current='index.html'
     def url(self,target):
@@ -145,7 +110,7 @@ class Publisher:
         attrs=f'data-category="{E(e["category"])}"'+(f' data-search="{E(searchtext)}"' if search else '')
         return f'''<article class="news-row" {attrs}><span class="news-number">{index:02d}</span><div><span class="pill">{E(e['category'])}</span><span class="status-tag">{E(e['status'])}</span>
         <h3>{self.link(self.event_url(e),E(e['title']))}</h3><p>{E(e['summary'])}</p>{self.source_meta(e)}
-        {('<div class="meta" style="margin-top:8px">收录于 '+self.link('daily/'+e['issue_date']+'/index.html',e['issue_date'])+'</div>') if search else ''}</div></article>'''
+        {('<div class="meta" style="margin-top:8px">收录于 '+self.link('daily/'+e['issue_date']+'/index.html',e['issue_date'])+'</div>') if search else ''}</div>{self.link(self.event_url(e),self.image_markup(e),"news-thumbnail",aria_label=e["title"])}</article>'''
     def metric_cards(self):
         s=self.snapshot;u=self.usage
         minp=min(s['prices'],key=lambda p:p['fixed_text_cost'])
@@ -185,13 +150,13 @@ class Publisher:
         lead=[self.events[k] for k in issue['lead_ids']];e=lead[0]
         featured=f'''<div class="lead-grid"><article class="hero-story"><div class="hero-copy"><span class="pill">本期头条 · {E(e['category'])}</span>
         <h2>{self.link(self.event_url(e),E(e['title']))}</h2><p class="hero-summary">{E(e['summary'])}</p>{self.source_meta(e)}</div>
-        <a class="hero-art" href="{self.url(self.event_url(e))}" aria-label="阅读：{E(e['title'])}"><img src="{self.url('assets/visuals/'+e['id']+'.svg')}" width="380" height="260" alt="{E(self.visual_alt(e))}"></a></article>
+        <a class="hero-art" href="{self.url(self.event_url(e))}" aria-label="阅读：{E(e['title'])}">{self.image_markup(e,lazy=False)}</a></article>
         <div class="lead-side">'''
         briefs={'oracle-deep-trust':'安全与业务规则，进入软件、数据与执行层。',
                 'nanbeige-43':'33B 教师模型，权重可得；性能为团队自报。',
                 'olmoearth-13':'全球预计算卫星嵌入，配套浏览器地图工具。',
                 'copilot-teams':'从问题通知发起代码任务，再由团队审查 PR。'}
-        for n in lead[1:]: featured+=f'<article class="side-story"><span class="pill">{E(n["category"])}</span><h3>{self.link(self.event_url(n),E(n["title"]))}</h3><p>{E(briefs.get(n["id"],n["summary"]))}</p>{self.source_meta(n)}</article>'
+        for n in lead[1:]: featured+=f'<article class="side-story">{self.link(self.event_url(n),self.image_markup(n,"side-story-image"),"side-story-art",aria_label=n["title"])}<span class="pill">{E(n["category"])}</span><h3>{self.link(self.event_url(n),E(n["title"]))}</h3><p>{E(briefs.get(n["id"],n["summary"]))}</p>{self.source_meta(n)}</article>'
         featured+='</div></div>'
         ishome=self.current=='index.html'
         if ishome:
@@ -223,11 +188,12 @@ class Publisher:
             self.snapshot,self.usage=saved['snapshot'],saved['usage']
             return self.home(issue)
         finally:self.snapshot,self.usage=snapshot,usage
-    def visual_alt(self,e):
-        return {'hf-cli-october':'事实示意：三个仓库共享同一份 9.5 GB 编码器',
-        'kimi-k31-evaluation':'AA 文章所报综合指数：Kimi K3 为 44，K3.1 Pro 为 55',
-        'oracle-deep-trust':'Oracle 架构的应用开发、数据访问、数据规则和软件平台四层',
-        'olmoearth-13':'OlmoEarth 的 10 米空间分辨率和 64、128 维嵌入'}.get(e['id'],e['sources'][0]['publisher']+' 文章关键概念示意')
+    def visual_alt(self,e):return e['artwork']['alt'] if e.get('artwork') else graphic_alt(e)
+    def visual_path(self,e):
+        return 'assets/editorial/'+Path(e['artwork']['path']).name if e.get('artwork') else 'assets/visuals/'+e['id']+'.svg'
+    def image_markup(self,e,css='',lazy=True):
+        dimensions=e.get('artwork') or {'width':1200,'height':760}
+        return f'<img class="{css} {"editorial-image" if e.get("artwork") else "infographic"}" src="{self.url(self.visual_path(e))}" width="{dimensions.get("width",1200)}" height="{dimensions.get("height",760)}" alt="{E(self.visual_alt(e))}" loading="{"lazy" if lazy else "eager"}" decoding="async">'
     def top(self,small,title,description):
         return f'<div class="page-top"><div class="eyebrow"><span class="dot"></span>{small}</div><h1>{E(title)}</h1><p>{E(description)}</p></div>'
     def table(self,heads,rows):
@@ -272,9 +238,15 @@ class Publisher:
         prose=''.join('<p>'+E(paragraph)+'</p>' for paragraph in news_paragraphs(e))
         edit_note=f'<p class="small muted editorial-note">编辑更新：{localtime(e["editorial_updated_at"])} UTC+8</p>' if e.get('editorial_updated_at') else ''
         related=''.join(self.link(self.event_url(self.events[k]),E(self.events[k]['title'])) for k in issue['event_ids'] if k!=e['id'])
+        image_credit=e['artwork']['credit'] if e.get('artwork') else e['graphic']['caption']
+        graphic_path='assets/visuals/'+e['id']+'.svg'
+        full_graphic=self.link(graphic_path,'查看完整内容图 ↗',target='_blank',rel='noopener noreferrer')
+        fact_graphic=f'<figure class="fact-graphic"><img src="{self.url(graphic_path)}" alt="{E(graphic_alt(e))}" width="1200" height="760" loading="lazy"><figcaption>{E(e["graphic"]["caption"])} · {full_graphic}</figcaption></figure>' if e.get('artwork') else ''
+        if not e.get('artwork'):image_credit=E(image_credit)+' · '+full_graphic
+        else:image_credit=E(image_credit)
         return f'''<div class="article-layout"><div>{self.link(self.issue_url(issue),'← 返回 '+issue['date']+' 日报','back-link')}<article class="article-main"><div class="article-header"><span class="pill">{E(e['category'])}</span><span class="status-tag">{E(e['status'])}</span><h1>{E(e['title'])}</h1><p class="summary">{E(e['summary'])}</p>{self.source_meta(e)}</div>
-        <figure class="article-visual"><img src="{self.url('assets/visuals/'+e['id']+'.svg')}" alt="{E(self.visual_alt(e))}" width="380" height="260"></figure>
-        <div class="article-body"><div class="news-prose">{prose}</div><h2>消息来源</h2>{sourcecards}{corrections}{edit_note}<p class="small muted" style="margin-top:20px">本站摘要于 {localtime(e['discovered_at'])} UTC+8 整理，收录在 {e['issue_date']} 期刊。配图为依据文中事实绘制的示意图。</p></div></article></div><aside class="article-side"><section class="panel"><h3>本期还收录了</h3><p>{E(issue['title'])}</p><div class="article-related">{related}</div>{self.link('archive/index.html','回看所有期刊 →','panel-link')}</section></aside></div>'''
+        <figure class="article-visual">{self.image_markup(e,lazy=False)}<figcaption>{image_credit}</figcaption></figure>
+        <div class="article-body"><div class="news-prose">{prose}</div>{fact_graphic}<h2>消息来源</h2>{sourcecards}{corrections}{edit_note}<p class="small muted" style="margin-top:20px">本站摘要于 {localtime(e['discovered_at'])} UTC+8 整理，收录在 {e['issue_date']} 期刊。</p></div></article></div><aside class="article-side"><section class="panel"><h3>本期还收录了</h3><p>{E(issue['title'])}</p><div class="article-related">{related}</div>{self.link('archive/index.html','回看所有期刊 →','panel-link')}</section></aside></div>'''
     def archive(self):
         out=self.top('THE ARCHIVE','每天的变化，留下记录。','按日期回看已发布期刊，来源与实际整理时间独立保留。')+'<div class="archive-grid">'
         for i in self.issues:
@@ -317,7 +289,9 @@ class Publisher:
                 e=self.events[key]
                 paragraphs=''.join('<p>'+E(paragraph)+'</p>' for paragraph in news_paragraphs(e))
                 sources=' · '.join(f'<a href="{E(source["url"])}">{E(source["publisher"])} · 原始资料</a>' for source in e['sources'])
-                content+=f'<li><h3><a href="{self.base}/{self.event_url(e)}">{E(e["title"])}</a></h3>{paragraphs}<p>{sources}</p></li>'
+                image=f'<img src="{self.base}/{self.visual_path(e)}" alt="{E(self.visual_alt(e))}" width="640">'
+                credit=e['artwork']['credit'] if e.get('artwork') else e['graphic']['caption']
+                content+=f'<li><h3><a href="{self.base}/{self.event_url(e)}">{E(e["title"])}</a></h3>{image}<p>{E(credit)}</p>{paragraphs}<p>{sources}</p></li>'
             content+='</ul>'
             for k,v in [('title',title),('link',url),('description',content),('pubDate',format_datetime(dt.datetime.fromisoformat(i['published_at']),usegmt=True))]:ET.SubElement(item,k).text=v
             ET.SubElement(item,'guid',isPermaLink='false').text=guid
@@ -331,6 +305,8 @@ class Publisher:
         s=f'# Seven Tech Newsroom · {issue["date"]}\n\n**{issue["title"]}**\n\n{issue["dek"]}\n\n{issue.get("kind","每日精选")}，第 {issue["number"]} 期。收录范围：{issue["coverage"]}。\n实际首次整理：{localtime(issue["published_at"])} UTC+8。\n指标按实际保存的批次与采集时间查看。\n\n'
         for n,key in enumerate(issue['event_ids'],1):
             e=self.events[key];s+=f'## {n}. {e["title"]}\n\n'
+            s+=f'![{self.visual_alt(e)}]({self.site["site_url"]}/{self.visual_path(e)})\n\n'
+            s+=(e['artwork']['credit'] if e.get('artwork') else e['graphic']['caption'])+'\n\n'
             s+='\n\n'.join(news_paragraphs(e))+'\n\n'
             s+=f'分类：{e["category"]}；状态：{e["status"]}；原文日期：{e["published_at"] or "待确认"}。\n\n'
             s+='\n'.join(f'来源：[{x["publisher"]}]({x["url"]})' for x in e['sources'])+'\n\n'
@@ -341,7 +317,10 @@ class Publisher:
         (OUT/'assets').mkdir(exist_ok=True)
         for name in ['style.css','app.js']:shutil.copy2(ROOT/'src'/name,OUT/'assets'/name)
         self.write('assets/favicon.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#285cdb"/><text x="32" y="44" text-anchor="middle" fill="white" font-size="36" font-family="sans-serif">7</text></svg>')
-        for e in self.events.values():self.write('assets/visuals/'+e['id']+'.svg',illustration(e))
+        for e in self.events.values():
+            self.write('assets/visuals/'+e['id']+'.svg',illustration(e))
+            if e.get('artwork'):
+                target=OUT/self.visual_path(e);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(ROOT/e['artwork']['path'],target)
         self.page('index.html',self.latest['date']+'｜'+self.latest['title'],self.home,'home',self.latest['dek'])
         for issue in self.issues:self.page(self.issue_url(issue),issue['date']+' 日报',lambda i=issue:self.issue_page(i),'archive',issue['dek'])
         for e in self.events.values():self.page(self.event_url(e),e['title'],lambda a=e:self.article(a),'',e['summary'],e)

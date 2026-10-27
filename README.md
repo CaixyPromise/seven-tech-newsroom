@@ -29,6 +29,10 @@ Apple 扩展 Siri 语言并推出新款 iPad mini，Oracle 发布代理与数据
 
 ## 1. Anthropic 向 SEC 提交 S-1，拟在纳斯达克上市
 
+![AI 主题插图：上市申报文件、交易所建筑与 AI 网络](https://caixypromise.github.io/seven-tech-newsroom/assets/editorial/anthropic-s1-ipo-filing.webp)
+
+AI 主题插图 · 上市申报主题，非新闻现场照片
+
 Anthropic 开始推进上市。10 月 26 日，这家 AI 公司向美国证券交易委员会提交 S-1 注册声明，计划发行 A 类普通股，并申请以“ANT”为代码在纳斯达克全球精选市场交易。
 
 发行规模和价格区间目前都还没有确定，注册声明也尚未生效。按照文件说明，相关证券需等注册声明生效后才能出售，上市仍处于申报阶段。
@@ -40,6 +44,10 @@ Anthropic 开始推进上市。10 月 26 日，这家 AI 公司向美国证券�
 
 ## 2. Apple 将 Siri AI 测试版扩展到五种新语言
 
+![AI 主题插图：语音助手、五组对话气泡与多语言交流](https://caixypromise.github.io/seven-tech-newsroom/assets/editorial/apple-siri-ai-languages-2026-10-26.webp)
+
+AI 主题插图 · 多语言语音助手，非 Apple 官方界面
+
 Apple 在 10 月 26 日发布的 27.2 系统更新中，为 Siri AI 测试版增加了法语、日语、韩语、葡萄牙语和西班牙语支持。使用这项功能，需要兼容 Apple Intelligence 的设备，并设置受支持的语言。
 
 Apple 计划在年底前继续加入繁体中文、挪威语、土耳其语和越南语。目前，欧盟地区的 iOS、iPadOS 和 watchOS 尚不能使用 Siri AI，具体可用范围仍受设备、语言和地区条件影响。
@@ -49,6 +57,10 @@ Apple 计划在年底前继续加入繁体中文、挪威语、土耳其语和�
 来源：[Apple](https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/)
 
 ## 3. 新款 iPad mini 加入 A20 Pro 与 8.5 英寸 OLED 屏幕
+
+![AI 主题插图：小尺寸平板、OLED 显示层与芯片概念](https://caixypromise.github.io/seven-tech-newsroom/assets/editorial/apple-ipad-mini-a20-pro-2026.webp)
+
+AI 主题插图 · 平板与芯片概念，非 Apple 官方产品图
 
 Apple 公布了搭载 A20 Pro 的新款 iPad mini，配备 8.5 英寸 OLED 屏幕，机身厚度为 5.4 毫米，并加入 IP67 防护。新机运行 iPadOS 27，支持 Apple Intelligence 和 Siri AI。
 
@@ -60,6 +72,10 @@ Apple 称，A20 Pro 的 AI 任务性能最高可达前代的 4.5 倍，这一数
 
 ## 4. Oracle 为 Fusion 应用推出 Claw 运行时与 25 款代理应用
 
+![AI 主题插图：企业执行枢纽连接财务、人力、供应链和服务场景](https://caixypromise.github.io/seven-tech-newsroom/assets/editorial/oracle-fusion-claw-agentic-apps-2026.webp)
+
+AI 主题插图 · 企业代理应用概念，非产品架构图
+
 Oracle 为 Fusion 应用推出了 Claw 执行运行时，并宣布已有 25 款基于 Claw 的代理应用可用，覆盖财务、人力资源、供应链和客户体验等业务。
 
 这些应用涉及总账、人员规划、工资活动、供应计划和采购支出等流程。Oracle 将长时间任务、持续重新规划和确定性执行列为运行时能力；实际执行范围仍受组织权限和业务设置约束，运行效果有待在具体环境中检验。
@@ -69,6 +85,10 @@ Oracle 为 Fusion 应用推出了 Claw 执行运行时，并宣布已有 25 款�
 来源：[Oracle](https://www.oracle.com/news/announcement/ai-world-oracle-advances-outcome-driven-ai-across-fusion-applications-2026-10-26/)
 
 ## 5. Oracle 扩展 AI Lakehouse 的业务语义层与 Iceberg 支持
+
+![AI 主题插图：湖仓、Iceberg 数据表、语义目录与模拟结构](https://caixypromise.github.io/seven-tech-newsroom/assets/editorial/oracle-autonomous-lakehouse-iceberg-2026.webp)
+
+AI 主题插图 · 数据湖仓与 Iceberg 概念，非产品架构图
 
 Oracle 更新了 Autonomous AI Lakehouse，扩展 Apache Iceberg 数据访问，并公布业务语义层、统一治理和多维模拟等能力，试图让企业 AI 在读取数据时同时理解业务规则。
 

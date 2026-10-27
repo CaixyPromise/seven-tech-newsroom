@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 import tempfile
 from urllib.parse import urlparse
+from news_graphics import validate_graphic
 
 ROOT=Path(__file__).resolve().parents[1]
 CATEGORIES={'模型','产品','价格','开源','研究','基础设施','产业','治理'}
@@ -20,7 +21,7 @@ def safe_text(value,label,maximum):
 def validate_draft(draft):
     issue=draft['issue'];date=dt.date.fromisoformat(issue['date']).isoformat()
     for key,limit in [('title',100),('dek',200),('coverage',180)]:safe_text(issue[key],key,limit)
-    events=draft['events'];require(3<=len(events)<=12,'A reviewed issue requires 3–12 independent events')
+    events=draft['events'];require(3<=len(events)<=20,'A reviewed issue requires 3–20 independent events')
     ids=set();urls=set()
     for e in events:
         require(re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',e['id']) is not None,'Unsafe event ID')
@@ -38,6 +39,7 @@ def validate_draft(draft):
             require(parsed.scheme=='https' and parsed.hostname and not parsed.username and not parsed.password,'Source must be a public HTTPS URL')
             require(parsed.hostname not in ['localhost','127.0.0.1'] and not re.match(r'^\d+\.\d+\.\d+\.\d+$',parsed.hostname),'Private/IP source is not allowed')
             safe_text(source['publisher'],'publisher',100)
+        validate_graphic(e)
         main=e['sources'][0]['url'];require(main not in urls,'Same primary source duplicated');urls.add(main)
         if e.get('published_at'):dt.date.fromisoformat(e['published_at'][:10])
         else:require('待确认' in e['status'],'Unknown date must be labelled')

@@ -16,18 +16,21 @@ import publish_issue as editorial
 import build
 import check_live
 import collect
+import news_graphics
+import image_candidates
 
 def baseline():return json.loads((ROOT/'content/edition.json').read_text())
 TEST_DATE=(max(dt.date.fromisoformat(i['date']) for i in baseline()['issues'])+dt.timedelta(days=1)).isoformat()
 NOW=TEST_DATE+'T01:00:00+00:00'
 LATER=TEST_DATE+'T02:00:00+00:00'
-def draft():
+def draft(count=3):
     events=[]
-    for n in range(3):
+    for n in range(count):
         events.append({'id':f'test-event-{n}','category':'研究','title':f'测试事件 {n}',
           'summary':'仅在测试临时目录使用的摘要','body':['第一段交代测试消息。','第二段提供细节与背景。'],'facts':['一条测试事实'],
           'context':'测试背景','status':'已发布','published_at':TEST_DATE,
-          'sources':[{'publisher':'Test','url':f'https://example.com/source-{n}'}]})
+          'sources':[{'publisher':'Test','url':f'https://example.com/source-{n}'}],
+          'graphic':{'layout':'specs','theme':'blue','eyebrow':'TEST','title':'测试数据图','caption':'测试来源','source_refs':[0],'items':[{'label':'指标一','value':'值一','detail':'事实一'},{'label':'指标二','value':'值二','detail':'事实二'}]}})
     return {'issue':{'date':TEST_DATE,'title':'测试期刊','dek':'离线回归测试',
             'coverage':'仅用于离线测试的下一期','lead_ids':['test-event-0']},'events':events}
 
@@ -73,6 +76,40 @@ class EditorialTests(unittest.TestCase):
         descriptions=[item.findtext('description') for item in ET.fromstring(captured['feed.xml']).findall('./channel/item')]
         self.assertTrue(any('&lt;script&gt;' in item and event['body'][1] in item for item in descriptions))
 
+    def test_issue_accepts_twenty_but_rejects_twenty_one(self):
+        self.assertEqual(editorial.validate_draft(draft(20)),TEST_DATE)
+        with self.assertRaisesRegex(ValueError,'3–20'):editorial.validate_draft(draft(21))
+
+    def test_graphics_require_sources_and_safe_local_artwork(self):
+        d=draft();d['events'][0]['graphic']['source_refs']=[5]
+        with self.assertRaisesRegex(ValueError,'source references'):editorial.validate_draft(d)
+        d=draft();d['events'][0]['artwork']={'path':'content/images/../../secrets.png'}
+        with self.assertRaisesRegex(ValueError,'local'):editorial.validate_draft(d)
+        d=draft();d['events'][0].pop('graphic')
+        with self.assertRaisesRegex(ValueError,'graphic brief'):editorial.validate_draft(d)
+
+    def test_graphic_text_is_escaped_and_chart_scale_is_validated(self):
+        event=draft()['events'][0];event['issue_date']=TEST_DATE
+        event['graphic']['title']='图示 <script> & 内容'
+        svg=news_graphics.render(event)
+        self.assertIn('&lt;script&gt;',svg)
+        self.assertNotIn('<script>',svg)
+        event['graphic'].update(layout='bars',axis_max=100)
+        for item in event['graphic']['items']:item['amount']=120
+        with self.assertRaisesRegex(ValueError,'scale'):news_graphics.render(event)
+
+    def test_image_candidates_are_deduplicated_and_not_approved(self):
+        parser=image_candidates.Images('https://example.com/news/')
+        parser.feed('<meta property="og:image" content="/hero.jpg"><meta name="twitter:image" content="/hero.jpg"><img src="/logo.png"><img src="javascript:bad"><img src="chart.png" alt="真实图表">')
+        self.assertEqual([r['image_url'] for r in parser.rows],['https://example.com/hero.jpg','https://example.com/news/chart.png'])
+        with patch.object(image_candidates,'fetch_source',return_value=parser.rows):
+            result=image_candidates.discover(draft()['events'][0])
+        self.assertTrue(all(r['rights_status']=='needs-review' for r in result['candidates']))
+        with patch.object(image_candidates,'fetch_source',side_effect=TimeoutError):
+            failed=image_candidates.discover(draft()['events'][0])
+        self.assertFalse(failed['candidates'])
+        self.assertEqual(failed['errors'][0]['error'],'TimeoutError')
+
     def test_duplicate_primary_source_rejected(self):
         d=draft();d['events'][1]['sources']=copy.deepcopy(d['events'][0]['sources'])
         with self.assertRaisesRegex(ValueError,'duplicated'):editorial.validate_draft(d)
@@ -108,7 +145,7 @@ class EditorialTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             repo=Path(temp)/'repo'
             shutil.copytree(ROOT,repo,ignore=shutil.ignore_patterns('.git','dist','output','__pycache__','work','build-manifest.json'))
-            content,issue=editorial.merge(baseline(),draft(),NOW)
+            content,issue=editorial.merge(baseline(),draft(20),NOW)
             (repo/'content/edition.json').write_text(json.dumps(content,ensure_ascii=False))
             frozen={'issue_date':issue['date'],'saved_at':NOW,'snapshot':json.loads((ROOT/'data/snapshot.json').read_text()),'usage':json.loads((ROOT/'data/usage.json').read_text())}
             snapshot_path=repo/issue['metric_snapshot'];snapshot_path.parent.mkdir(parents=True,exist_ok=True);snapshot_path.write_text(json.dumps(frozen))
