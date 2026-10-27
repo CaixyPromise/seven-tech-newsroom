@@ -1,5 +1,6 @@
 """Offline regression checks for daily imports, archives and deployed revision checks."""
 import copy
+import datetime as dt
 import json
 from pathlib import Path
 import shutil
@@ -16,19 +17,19 @@ import build
 import check_live
 import collect
 
-NOW='2026-10-27T01:00:00+00:00'
-LATER='2026-10-27T02:00:00+00:00'
+def baseline():return json.loads((ROOT/'content/edition.json').read_text())
+TEST_DATE=(max(dt.date.fromisoformat(i['date']) for i in baseline()['issues'])+dt.timedelta(days=1)).isoformat()
+NOW=TEST_DATE+'T01:00:00+00:00'
+LATER=TEST_DATE+'T02:00:00+00:00'
 def draft():
     events=[]
     for n in range(3):
         events.append({'id':f'test-event-{n}','category':'研究','title':f'测试事件 {n}',
           'summary':'仅在测试临时目录使用的摘要','facts':['一条测试事实'],
-          'context':'测试背景','status':'已发布','published_at':'2026-10-27',
+          'context':'测试背景','status':'已发布','published_at':TEST_DATE,
           'sources':[{'publisher':'Test','url':f'https://example.com/source-{n}'}]})
-    return {'issue':{'date':'2026-10-27','title':'测试期刊','dek':'离线回归测试',
-            'coverage':'2026-10-26 至 2026-10-27','lead_ids':['test-event-0']},'events':events}
-
-def baseline():return json.loads((ROOT/'content/edition.json').read_text())
+    return {'issue':{'date':TEST_DATE,'title':'测试期刊','dek':'离线回归测试',
+            'coverage':'仅用于离线测试的下一期','lead_ids':['test-event-0']},'events':events}
 
 class EditorialTests(unittest.TestCase):
     def test_same_day_reimport_preserves_identity_and_sources(self):
@@ -79,7 +80,7 @@ class EditorialTests(unittest.TestCase):
         self.assertNotIn('</script>',encoded)
         self.assertEqual(json.loads(encoded)['value'],'</script><script>alert(1)</script>')
 
-    def test_future_third_issue_build_and_verify(self):
+    def test_next_issue_build_and_verify(self):
         with tempfile.TemporaryDirectory() as temp:
             repo=Path(temp)/'repo'
             shutil.copytree(ROOT,repo,ignore=shutil.ignore_patterns('.git','dist','output','__pycache__','work','build-manifest.json'))
@@ -90,9 +91,9 @@ class EditorialTests(unittest.TestCase):
             for script in ['build.py','verify.py']:
                 result=subprocess.run([sys.executable,str(repo/'scripts'/script)],cwd=repo,capture_output=True,text=True)
                 self.assertEqual(result.returncode,0,result.stdout+result.stderr)
-            self.assertTrue((repo/'dist/downloads/data/2026-10-27.json').exists())
-            self.assertIn('本期数据快照',(repo/'dist/daily/2026-10-27/index.html').read_text())
-            self.assertIn('urn:ai-rizhi:daily:2026-10-27',(repo/'dist/feed.xml').read_text())
+            self.assertTrue((repo/f'dist/downloads/data/{TEST_DATE}.json').exists())
+            self.assertIn('本期数据快照',(repo/f'dist/daily/{TEST_DATE}/index.html').read_text())
+            self.assertIn('urn:ai-rizhi:daily:'+TEST_DATE,(repo/'dist/feed.xml').read_text())
             self.assertEqual((ROOT/'content/edition.json').read_text(),json.dumps(baseline(),ensure_ascii=False,indent=2)+'\n')
 
 class LiveCheckTests(unittest.TestCase):

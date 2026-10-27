@@ -10,3 +10,4 @@ __pycache__/
 !.env.example
 work/
 *.zip
+.codex/config.toml
