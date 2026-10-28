@@ -2,76 +2,76 @@
   "source_url": "https://openrouter.ai/rankings",
   "source_title": "OpenRouter — Top models today, as text",
   "collection_method": "Public server-rendered daily table, transcribed and checked against the source page",
-  "observed_at": "2026-10-27T01:02:40.863705+00:00",
-  "period_start": "2026-10-26T00:00:00Z",
-  "period_end": "2026-10-27T00:00:00Z",
-  "source_as_of": "2026-10-26",
+  "observed_at": "2026-10-28T01:09:35+00:00",
+  "period_start": "2026-10-27T00:00:00Z",
+  "period_end": "2026-10-28T00:00:00Z",
+  "source_as_of": "2026-10-27",
   "unit": "trillion_tokens",
   "precision": "Source display is rounded; values are approximate.",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-  "attribution": "Source: OpenRouter (openrouter.ai/rankings), usage through 2026-10-26. Licensed under CC BY 4.0.",
+  "attribution": "Source: OpenRouter (openrouter.ai/rankings), usage through 2026-10-27. Licensed under CC BY 4.0.",
   "scope": "Public traffic routed through OpenRouter, prompt plus completion tokens; not users or global market share.",
   "rows": [
     {
       "rank": 1,
       "name": "DeepSeek V4.1 Flash 1017",
-      "tokens_trillion": 5.42,
-      "change_label": "-6%"
+      "tokens_trillion": 6.04,
+      "change_label": "+11%"
     },
     {
       "rank": 2,
-      "name": "GLM 5.3 Flash",
-      "tokens_trillion": 2.27,
+      "name": "DeepSeek V4.1 Flash",
+      "tokens_trillion": 2.36,
       "change_label": "+7%"
     },
     {
       "rank": 3,
-      "name": "DeepSeek V4.1 Flash",
-      "tokens_trillion": 2.21,
-      "change_label": "+16%"
+      "name": "GLM 5.3 Flash",
+      "tokens_trillion": 1.87,
+      "change_label": "-18%"
     },
     {
       "rank": 4,
-      "name": "GPT-6 Luna",
-      "tokens_trillion": 1.52,
-      "change_label": "+4%"
+      "name": "Hy4 preview",
+      "tokens_trillion": 1.35,
+      "change_label": "-3%"
     },
     {
       "rank": 5,
-      "name": "Hy4 preview",
-      "tokens_trillion": 1.4,
-      "change_label": "+44%"
+      "name": "Claude Opus 5.5",
+      "tokens_trillion": 1.1,
+      "change_label": "+6%"
     },
     {
       "rank": 6,
-      "name": "Claude Opus 5.5",
-      "tokens_trillion": 1.04,
-      "change_label": "+25%"
+      "name": "GPT-6 Luna",
+      "tokens_trillion": 1.08,
+      "change_label": "-29%"
     },
     {
       "rank": 7,
-      "name": "GLM 5.3",
-      "tokens_trillion": 0.892,
-      "change_label": "+56%"
+      "name": "MiniMax M3.1 Flash",
+      "tokens_trillion": 0.844,
+      "change_label": "+24%"
     },
     {
       "rank": 8,
       "name": "Step 5 Preview",
-      "tokens_trillion": 0.801,
+      "tokens_trillion": 0.802,
       "change_label": "+0%"
     },
     {
       "rank": 9,
-      "name": "MiniMax M3.1 Flash",
-      "tokens_trillion": 0.678,
-      "change_label": "+101%"
+      "name": "GLM 5.3",
+      "tokens_trillion": 0.705,
+      "change_label": "-21%"
     },
     {
       "rank": 10,
       "name": "DeepSeek V4 Flash 0731",
-      "tokens_trillion": 0.625,
-      "change_label": "+22%"
+      "tokens_trillion": 0.663,
+      "change_label": "+6%"
     }
   ]
 }

@@ -1175,6 +1175,934 @@
         "width": 1400,
         "height": 934
       }
+    },
+    {
+      "id": "google-sleep-framework-continual-learning",
+      "category": "研究",
+      "title": "Google Research 提出让大模型定期进入“休眠”的持续学习框架",
+      "summary": "Google Research 公布一套交替运行与离线巩固的 LLM 持续学习框架，并报告其长上下文记忆实验结果。",
+      "body": [
+        "Google Research 团队 10 月 27 日介绍一种面向大语言模型持续学习的“睡眠”框架，让模型在主动交互阶段收集新信息，再在离线阶段把短期记忆巩固为长期参数。",
+        "研究还加入由模型生成合成样本并继续训练的阶段。Google 报告称，该框架在实验中可保留最多 1000 万 token 的长上下文知识并改善复杂推理；这些是研究团队公布的实验结果，尚需独立复现。"
+      ],
+      "facts": [
+        "Google Research 于 2026 年 10 月 27 日发布持续学习框架说明。",
+        "框架把主动交互与离线记忆巩固安排为周期性阶段，并将短期上下文写入长期参数。",
+        "Google Research 报告实验可保留最多 10M token 长上下文并改善复杂推理。"
+      ],
+      "context": "这是研究框架与团队实验结果，不是已发布的通用模型服务；原文没有给出独立复现结果。",
+      "status": "研究框架公布 · 实验结果由研究团队报告",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "Google Research",
+          "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+          "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "violet",
+        "eyebrow": "GOOGLE RESEARCH / CONTINUAL LEARNING",
+        "title": "模型的持续学习周期",
+        "caption": "Google Research 发布的研究框架；10M token 为团队报告的实验结果。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "主动阶段",
+            "value": "接收新信息",
+            "detail": "短期记忆暂存交互内容"
+          },
+          {
+            "label": "休眠阶段",
+            "value": "巩固参数",
+            "detail": "把脆弱上下文写入长期记忆"
+          },
+          {
+            "label": "梦境阶段",
+            "value": "合成再训练",
+            "detail": "生成样本并评估推理变化"
+          },
+          {
+            "label": "实验结果",
+            "value": "最多 10M token",
+            "detail": "研究团队报告的长上下文记忆"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "meta-ai-infrastructure-amd-nvidia-2026-10-27",
+      "category": "基础设施",
+      "title": "Meta 同日公布与 AMD、NVIDIA 的 AI 基础设施合作进展",
+      "summary": "AMD 称 Helios 机架系统已在 Meta 运行，NVIDIA 则将扩展 Muse 模型合作；两家公司公布的部署状态和后续计划不同。",
+      "body": [
+        "AMD 10 月 27 日称，Helios 机架级系统已在 Meta 运行，EPYC 处理器为 Muse AI Agent 提供支持，AMD 技术也为 Muse Spark Open 与 Muse Glimmer 提供首日适配。",
+        "NVIDIA 同日表示将扩大与 Meta 在 Muse 模型家族上的合作，并称 Meta 将增加 Vera Rubin、Vera CPU、Spectrum-X 网络和 BlueField-4 的部署。两家公司的公告没有披露这轮合作的合同金额，且部分部署仍属后续安排。"
+      ],
+      "facts": [
+        "AMD 于 2026 年 10 月 27 日宣布 Helios rackscale 系统已在 Meta 运行，并称 EPYC 处理器用于 Muse AI Agent。",
+        "AMD 称其技术对 Muse Spark Open、Muse Glimmer 提供 Day-0 支持。",
+        "NVIDIA 于同日公布扩大 Muse 合作及 Meta 增加 Vera Rubin、Vera CPU、Spectrum-X 和 BlueField-4 部署的安排。"
+      ],
+      "context": "合作内容分别来自 AMD 和 NVIDIA 的公司公告；当前运行与后续部署计划须分开理解，公告未列合同金额。",
+      "status": "两家厂商公布合作 · 部分部署已运行、部分仍计划中",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "AMD Investor Relations",
+          "title": "AMD and Meta Advance Strategic Partnership to Power Meta’s Superintelligence Infrastructure",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        },
+        {
+          "publisher": "NVIDIA Investor Relations",
+          "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Meta-to-Expand-Collaboration-on-Muse-and-Muse-Family-of-Models-Amid-Robust-Growth/default.aspx",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "teal",
+        "eyebrow": "META / AI INFRASTRUCTURE",
+        "title": "Meta 的两条算力合作线",
+        "caption": "AMD 与 NVIDIA 各自公告；现有运行状态与新增部署安排分开呈现。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "AMD 系统",
+            "value": "Helios 已在运行",
+            "detail": "AMD 称 EPYC 处理器支持 Muse AI Agent"
+          },
+          {
+            "label": "AMD 软件适配",
+            "value": "Muse Spark Open",
+            "detail": "AMD 称同时支持 Muse Glimmer"
+          },
+          {
+            "label": "NVIDIA 模型合作",
+            "value": "扩大 Muse 家族",
+            "detail": "双方继续推进训练和推理协作"
+          },
+          {
+            "label": "后续部署",
+            "value": "Vera Rubin 等",
+            "detail": "NVIDIA 称 Meta 将扩大相关部署"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-oracle-enterprise-ai-partnership-2026-10-27",
+      "category": "产品",
+      "title": "OpenAI 与 Oracle 扩大合作：应用接入 ChatGPT，并推出企业 AI 工具",
+      "summary": "Oracle 正在开发 ChatGPT 内的 AI Workspace；双方还公布安全测试、应用构建和小企业方案，访问仍受组织权限控制。",
+      "body": [
+        "OpenAI 和 Oracle 10 月 27 日宣布扩大合作，Oracle 正在开发 AI Workspace，将 Oracle 应用与数据接入 ChatGPT，让员工在权限和审批规则内查询信息并完成工作流程。",
+        "双方同时公布 Oracle AI Security Mesh、AI SMB Bundle 和 App Composer 等产品：安全网使用 OpenAI 网络安全模型辅助发现和修复漏洞，App Composer 面向企业应用构建。AI Workspace 仍处于开发阶段，公告没有把所有新产品描述为已全面开放。"
+      ],
+      "facts": [
+        "OpenAI 于 2026 年 10 月 27 日公布与 Oracle 扩大合作。",
+        "Oracle AI Workspace 正在开发，计划把 Oracle 应用与数据接入 ChatGPT，并沿用组织权限和审批。",
+        "双方列出 AI Security Mesh、AI SMB Bundle 和 App Composer 等新产品或更新；Security Mesh 使用 OpenAI cyber models。"
+      ],
+      "context": "公告描述的是正在开发或新公布的合作能力，不能据此推断所有客户已可使用；安全测试范围由客户授权。",
+      "status": "合作扩展已公布 · AI Workspace 正在开发",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt/",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        },
+        {
+          "publisher": "Oracle",
+          "title": "Oracle Reinvents Enterprise Computing for the AI Era with OpenAI",
+          "url": "https://www.oracle.com/asean/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "OPENAI + ORACLE / ENTERPRISE",
+        "title": "从 ChatGPT 进入企业工作流",
+        "caption": "双方公告；AI Workspace 正在开发，安全测试须在获准范围内进行。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "员工提问",
+            "value": "ChatGPT",
+            "detail": "以自然语言提出业务任务"
+          },
+          {
+            "label": "连接业务数据",
+            "value": "Oracle AI Workspace",
+            "detail": "应用与数据接入仍在开发"
+          },
+          {
+            "label": "执行边界",
+            "value": "权限与审批",
+            "detail": "组织规则控制可访问内容"
+          },
+          {
+            "label": "相关工具",
+            "value": "Security Mesh",
+            "detail": "使用 OpenAI 网络安全模型"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "oracle-google-tpu-oci-2026-10-27",
+      "category": "基础设施",
+      "title": "Google TPU 将进入 Oracle Cloud，计划从 2027 年起提供",
+      "summary": "Oracle 与 Google 宣布在 OCI 提供 TPU，这是 Google Cloud 之外首个 hyperscale 云平台；服务时间仍是 2027 年。",
+      "body": [
+        "Oracle 与 Google 10 月 27 日宣布，Google TPU 将通过 Oracle Cloud Infrastructure 提供。Oracle 称这是 Google 以外首个计划提供 TPU 的 hyperscale 云平台。",
+        "Google 第八代 TPU 分为用于训练的 TPU 8t 和用于推理的 TPU 8i，OCI 将提供数据中心电力、散热与网络设施。双方说服务计划于 2027 年开始逐步推出，未公布更具体日期。"
+      ],
+      "facts": [
+        "Oracle 与 Google 于 2026 年 10 月 27 日宣布 TPU 将可通过 OCI 使用。",
+        "Oracle 称 OCI 将成为 Google 之外首个提供 Google TPU 的 hyperscale 云平台。",
+        "Google 第八代 TPU 包含训练架构 TPU 8t 与推理架构 TPU 8i。",
+        "官方预计 2027 年开始逐步提供，按多年期扩展。"
+      ],
+      "context": "这是未来的云服务安排，并非当前已开放的 OCI 实例；性能和经济性描述来自厂商公告。",
+      "status": "服务公布 · 计划 2027 年开始提供",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "Oracle",
+          "title": "Oracle Brings Google TPUs to Oracle Cloud Infrastructure",
+          "url": "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "amber",
+        "eyebrow": "GOOGLE TPU / ORACLE CLOUD",
+        "title": "TPU 接入 OCI 的计划",
+        "caption": "Oracle 与 Google 公告；TPU 云服务预计 2027 年开始逐步提供。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "训练芯片",
+            "value": "TPU 8t",
+            "detail": "用于大规模模型训练"
+          },
+          {
+            "label": "推理芯片",
+            "value": "TPU 8i",
+            "detail": "面向推理与多代理工作负载"
+          },
+          {
+            "label": "云平台",
+            "value": "Oracle OCI",
+            "detail": "Oracle 提供电力、散热和网络"
+          },
+          {
+            "label": "开放时间",
+            "value": "2027 年起",
+            "detail": "预计分阶段、多年扩展"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "oracle-ai-data-platform-business-context-2026-10-27",
+      "category": "产品",
+      "title": "Oracle AI Data Platform 加入企业本体、语义推理与 AI 治理能力",
+      "summary": "Oracle 公布新的企业数据上下文和治理功能，面向需要让代理理解业务实体、关系、政策与工作流程的场景。",
+      "body": [
+        "Oracle 10 月 27 日公布 AI Data Platform 新能力，目标是让代理共享企业实体、关系、政策和工作流程的业务上下文，并通过可配置安全控制来支持 AI 应用开发。",
+        "公告还列出 AI 资产治理、使用与成本监控、token 消耗优化及企业本体和语义推理等功能。Oracle 同时介绍 Innovation Service，但公告未为每项能力提供统一的上线时间，因此当前可用范围需以具体产品配置为准。"
+      ],
+      "facts": [
+        "Oracle 于 2026 年 10 月 27 日在 AI World 公布 Oracle AI Data Platform 新能力。",
+        "公告包含企业本体、语义推理、共享业务上下文和可配置安全控制。",
+        "治理功能涉及 AI 资产、使用和成本监控以及 token 消耗优化。"
+      ],
+      "context": "能力清单来自 Oracle 公告；各功能的可用阶段不完全相同，原文未给出统一发布时间。",
+      "status": "能力更新公布 · 分项可用时间未统一说明",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "Oracle",
+          "title": "Oracle AI Data Platform Brings AI-Assisted Business Context to Enterprise AI",
+          "url": "https://www.oracle.com/ca-en/news/announcement/ai-world-oracle-ai-data-platform-brings-ai-assisted-business-context-to-enterprise-ai-2026-10-27/",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "violet",
+        "eyebrow": "ORACLE / AI DATA PLATFORM",
+        "title": "企业 AI 的共享业务上下文",
+        "caption": "功能与治理范围来自 Oracle 公告；具体可用阶段需按产品能力核对。",
+        "source_refs": [
+          0
+        ],
+        "focus": {
+          "value": "业务语义",
+          "label": "代理共享的上下文"
+        },
+        "items": [
+          {
+            "label": "企业本体",
+            "value": "实体与关系",
+            "detail": "描述组织业务对象及其联系"
+          },
+          {
+            "label": "语义推理",
+            "value": "政策与流程",
+            "detail": "将业务规则提供给 AI 应用"
+          },
+          {
+            "label": "治理监控",
+            "value": "使用与成本",
+            "detail": "追踪 AI 资产和 token 消耗"
+          },
+          {
+            "label": "访问控制",
+            "value": "配置安全规则",
+            "detail": "为数据与工作流设定边界"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "oracle-snowflake-native-oci-2026-10-27",
+      "category": "基础设施",
+      "title": "Snowflake AI Data Cloud 将作为 OCI 原生服务提供",
+      "summary": "Oracle 与 Snowflake 宣布把 Snowflake 纳入 OCI 的一方服务，支持统一采购、计费及 Oracle Universal Credits。",
+      "body": [
+        "Oracle 与 Snowflake 10 月 27 日宣布，Snowflake AI Data Cloud 将作为 OCI 的原生一方服务提供。客户计划可直接通过 Oracle 购买、配置和消费该服务。",
+        "方案将 Oracle 的采购、折扣和账单管理与 Snowflake 数据分析、AI 能力结合，也可使用 Oracle Universal Credits。公告未给出开放日期；Oracle 表示此举扩展 OCI 上的 AI 与数据服务选择。"
+      ],
+      "facts": [
+        "Oracle 与 Snowflake 于 2026 年 10 月 27 日宣布 Snowflake AI Data Cloud 将成为 OCI 原生一方服务。",
+        "客户可直接通过 Oracle 购买和配置，并使用 Oracle Universal Credits。",
+        "Oracle 负责该服务的定价、折扣和账单管理；公告未列具体开放日期。"
+      ],
+      "context": "服务开放日期未披露；统一采购和计费是 Oracle 公告中的商业安排。",
+      "status": "合作公布 · OCI 开放时间未披露",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "Oracle",
+          "title": "Oracle Expands Native AI and Data Services on OCI with Snowflake",
+          "url": "https://www.oracle.com/news/announcement/ai-world-oracle-expands-native-ai-and-data-services-on-oci-with-snowflake-2026-10-27/",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "teal",
+        "eyebrow": "SNOWFLAKE + OCI",
+        "title": "Snowflake 接入 OCI 的路径",
+        "caption": "Oracle 公告；服务将提供，但未公布开放日期。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "服务",
+            "value": "Snowflake AI Data Cloud",
+            "detail": "作为 OCI 原生一方服务"
+          },
+          {
+            "label": "采购",
+            "value": "通过 Oracle",
+            "detail": "由 Oracle 管理定价和账单"
+          },
+          {
+            "label": "云额度",
+            "value": "Universal Credits",
+            "detail": "客户可使用已有 Oracle 承诺"
+          },
+          {
+            "label": "开放时间",
+            "value": "尚未公布",
+            "detail": "原公告未列具体日期"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "servicenow-google-gemini-industry-workflows-2026-10-27",
+      "category": "产品",
+      "title": "ServiceNow 工作流将接入 Gemini Enterprise",
+      "summary": "ServiceNow 与 Google Cloud 扩大合作，把 Action Fabric 工作流连接到 Gemini Enterprise，首批场景覆盖零售、电信销售和 IT。",
+      "body": [
+        "ServiceNow 与 Google Cloud 10 月 27 日宣布扩大合作，将 ServiceNow Action Fabric 的行业工作流接入 Gemini Enterprise，让用户可在日常使用的助手中调用 ServiceNow 流程。",
+        "双方称新集成包含已上线和计划中的部分，初始行业场景包括零售、电信销售与 IT，并计划通过 Google Cloud Marketplace 提供。公告没有给出全部集成的发布时间和客户采用数据。"
+      ],
+      "facts": [
+        "ServiceNow 与 Google Cloud 于 2026 年 10 月 27 日宣布扩大合作。",
+        "Action Fabric 工作流将接入 Gemini Enterprise，以支持多步骤推理和任务执行。",
+        "初期行业集成面向零售、电信销售与 IT，并计划上架 Google Cloud Marketplace。",
+        "公告明确新集成同时包括已上线和计划中项目。"
+      ],
+      "context": "合作公告同时涵盖 live 与 planned integrations；不能把所有行业集成视为已全面上线。",
+      "status": "合作扩展 · 集成分阶段推出",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "ServiceNow",
+          "title": "ServiceNow and Google Cloud advance agentic AI for industry workflows",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-and-Google-Cloud-advance-agentic-AI-for-industry-workflows/default.aspx",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "SERVICENOW + GOOGLE CLOUD",
+        "title": "从 Gemini Enterprise 到业务流程",
+        "caption": "ServiceNow 公告包含已上线与计划中集成，行业覆盖按阶段推进。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "用户入口",
+            "value": "Gemini Enterprise",
+            "detail": "作为日常使用的 AI 助手"
+          },
+          {
+            "label": "工作流",
+            "value": "ServiceNow Action Fabric",
+            "detail": "提供行业操作上下文"
+          },
+          {
+            "label": "首批行业",
+            "value": "零售、电信、IT",
+            "detail": "行业集成分阶段提供"
+          },
+          {
+            "label": "分发渠道",
+            "value": "Google Cloud Marketplace",
+            "detail": "公告称相关集成将上架"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "pinecone-pg-pinecone-postgres-search-2026-10-27",
+      "category": "开源",
+      "title": "Pinecone 发布开源 pg_pinecone，为 PostgreSQL 数据提供向量搜索",
+      "summary": "pg_pinecone 在 PostgreSQL 内使用紧凑的 RaBitQ 编码和 IVF 索引；Pinecone 公布了索引占用和查询延迟对比。",
+      "body": [
+        "Pinecone 10 月 27 日介绍开源 PostgreSQL 扩展 pg_pinecone，用倒排文件索引和 RaBitQ 量化码执行向量搜索，再从原表读取候选向量进行重排。",
+        "在 Pinecone 自行公布的 100 万条、768 维向量测试中，原生索引占用 136 MB；公司报告在 0.95 召回率时查询延迟约 1.3 毫秒，低于其对比的 pgvector HNSW halfvec 与完整向量配置。该结果来自厂商基准，不代表不同硬件和负载下的普遍表现。"
+      ],
+      "facts": [
+        "Pinecone 于 2026 年 10 月 27 日发布 pg_pinecone 开源项目。",
+        "索引使用 IVF 和 RaBitQ 量化编码；1M 条、768 维向量的索引占用为 136 MB。",
+        "Pinecone 报告在 0.95 召回率下查询约 1.3 ms，对比 pgvector halfvec 约 1.7 ms、完整向量约 2.7 ms。",
+        "上述基准来自 Pinecone 的单客户端测试说明。"
+      ],
+      "context": "性能数字来自 Pinecone 自行发布的基准，硬件、召回率和查询条件会影响比较结果。",
+      "status": "开源项目发布 · 基准由 Pinecone 报告",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "Pinecone",
+          "title": "Introducing pg_pinecone: Open-Source Search for Your Postgres Data",
+          "url": "https://www.pinecone.io/blog/introducing-pg-pinecone/",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        },
+        {
+          "publisher": "GitHub",
+          "title": "pinecone-io/pg_pinecone",
+          "url": "https://github.com/pinecone-io/pg_pinecone",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "bars",
+        "theme": "teal",
+        "eyebrow": "PINECONE / POSTGRES VECTOR SEARCH",
+        "title": "0.95 召回率下的查询延迟",
+        "caption": "Pinecone 自行测试；单客户端、相同召回率，结果随硬件与负载变化。",
+        "source_refs": [
+          0
+        ],
+        "axis_max": 3.0,
+        "items": [
+          {
+            "label": "pg_pinecone",
+            "value": "1.3 ms",
+            "detail": "100 万条 768 维向量",
+            "amount": 1.3
+          },
+          {
+            "label": "pgvector halfvec",
+            "value": "1.7 ms",
+            "detail": "Pinecone 报告的 HNSW 对照",
+            "amount": 1.7
+          },
+          {
+            "label": "pgvector full",
+            "value": "2.7 ms",
+            "detail": "Pinecone 报告的 HNSW 对照",
+            "amount": 2.7
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "mitre-attack-ai-platform-2026-10-27",
+      "category": "治理",
+      "title": "MITRE ATT&CK 将新增 AI 系统平台，计划明年初发布",
+      "summary": "ATT&CK Enterprise 将把 AI-enabled systems 列为独立平台，并结合 MITRE ATLAS 收录针对 AI 系统的攻击技术。",
+      "body": [
+        "MITRE 10 月 27 日宣布，ATT&CK Enterprise 将新增 AI 系统平台，整理攻击者针对 AI-enabled systems 使用的技术，例如结果投毒和提示注入。",
+        "新内容计划在 2027 年初发布，并部分借助 MITRE ATLAS 的资料。现阶段这是框架扩展计划，尚不是已经发布的完整技术矩阵。"
+      ],
+      "facts": [
+        "MITRE 于 2026 年 10 月 27 日宣布 ATT&CK Enterprise 将新增面向 AI-enabled systems 的平台。",
+        "首批内容计划于 2027 年初发布。",
+        "计划收录的例子包括结果投毒和提示注入，内容将部分参考 MITRE ATLAS。"
+      ],
+      "context": "MITRE 公布的是计划中的框架扩展，发布时间为 2027 年初，具体日期未给出。",
+      "status": "计划公布 · 预计 2027 年初发布",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "MITRE",
+          "title": "MITRE ATT&CK Enterprise to Add AI Platform",
+          "url": "https://www.mitre.org/news-insights/news-release/mitre-attck-enterprise-add-ai-platform",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "MITRE ATT&CK / AI SECURITY",
+        "title": "AI 攻击技术框架扩展",
+        "caption": "MITRE 计划在 2027 年初发布新平台内容。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "10 月 27 日",
+            "value": "公布新增平台",
+            "detail": "ATT&CK Enterprise 增加 AI 系统"
+          },
+          {
+            "label": "内容基础",
+            "value": "MITRE ATLAS",
+            "detail": "部分内容参考其知识库"
+          },
+          {
+            "label": "攻击例子",
+            "value": "提示注入",
+            "detail": "还包括结果投毒等技术"
+          },
+          {
+            "label": "计划时间",
+            "value": "2027 年初",
+            "detail": "新内容尚未正式发布"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "avepoint-trust-platform-ai-governance-2026-10-27",
+      "category": "治理",
+      "title": "AvePoint 推出跨平台 AI 治理与成本管理平台",
+      "summary": "AvePoint Trust Platform 宣布新增 AI 代理、模型、工具和 MCP 服务发现、策略治理、审计及成本优化能力。",
+      "body": [
+        "AvePoint 10 月 27 日公布 Trust Platform，扩展 AI Governance、Security 与 Cost Optimization 能力，目标是跨云、模型和 AI 服务商查看并管理企业代理。",
+        "公司列出的功能包括发现 AI agents、模型、工具及 MCP servers，应用策略并生成审计证据，同时扩展对 Claude、Windows 和服务器托管代理的可见性。公告没有提供独立测试或统一的商业开放时间。"
+      ],
+      "facts": [
+        "AvePoint 于 2026 年 10 月 27 日宣布 Trust Platform。",
+        "发布内容包括 AI Governance、Security 和 Cost Optimization 能力。",
+        "平台宣称可发现 AI agents、模型、工具和 MCP servers，并应用政策、生成审计证据。",
+        "公司称其扩大对 Claude、Windows 与服务器托管代理的可见性。"
+      ],
+      "context": "平台能力来自 AvePoint 的产品公告，实际覆盖范围与开放时间需以客户部署和产品文档为准。",
+      "status": "平台公布 · 功能覆盖范围由厂商描述",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "AvePoint",
+          "title": "AvePoint Trust Platform to Govern, Secure, and Optimize AI",
+          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389112/0/en/avepoint-the-ai-trust-company-announces-the-avepoint-trust-platform-to-govern-secure-and-optimize-ai.html",
+          "published_at": "2026-10-27T09:00:00-04:00",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "violet",
+        "eyebrow": "AVEPOINT / AI TRUST PLATFORM",
+        "title": "企业 AI 管理的四个方向",
+        "caption": "功能范围来自 AvePoint 公告，开放状态和覆盖效果未独立验证。",
+        "source_refs": [
+          0
+        ],
+        "focus": {
+          "value": "AI Trust",
+          "label": "跨平台治理"
+        },
+        "items": [
+          {
+            "label": "发现资产",
+            "value": "代理、模型、工具",
+            "detail": "还包括 MCP servers"
+          },
+          {
+            "label": "应用政策",
+            "value": "生命周期治理",
+            "detail": "为 AI 资产配置管理规则"
+          },
+          {
+            "label": "审计证据",
+            "value": "可追踪记录",
+            "detail": "生成合规与治理证据"
+          },
+          {
+            "label": "成本管理",
+            "value": "用量与预算",
+            "detail": "新增 AI 成本优化能力"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "mintlify-enterprise-aws-agent-visits-2026-10-27",
+      "category": "产品",
+      "title": "Mintlify Enterprise 上架 AWS Marketplace，披露 AI 代理访问数据",
+      "summary": "Mintlify 宣布企业版可在 AWS Marketplace 采购，并称其文档去年获得超过 20 亿次 AI 代理访问。",
+      "body": [
+        "Mintlify 10 月 27 日宣布 Enterprise 产品进入 AWS Marketplace，企业可在已有 AWS 环境中采购、部署并统一结算。",
+        "Mintlify 还称其文档平台过去一年服务超过 3 亿人类访客和 20 亿次代理访问，AWS 上的服务可用率为 99.999%；这些数字均由公司披露，AWS 新闻稿没有提供独立审计口径。"
+      ],
+      "facts": [
+        "AWS Press Center 于 2026 年 10 月 27 日发布 Mintlify 的企业市场上架消息。",
+        "Mintlify Enterprise 可在 AWS Marketplace 的 AI Agents and Tools 类别采购。",
+        "Mintlify 声称过去一年获得超过 3 亿人类访客与 20 亿次代理访问，并有 99.999% uptime。"
+      ],
+      "context": "访问量与可用率均为 Mintlify 提供的公司数据；新闻稿未说明独立审计或统计定义。",
+      "status": "企业版已上架 · 访问量和可用率为公司披露",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "AWS Press Center",
+          "title": "Mintlify Taps AWS to Deliver Billions of Agent Visits with 99.999% Uptime, Launches Enterprise Offering in AWS Marketplace",
+          "url": "https://press.aboutamazon.com/aws/2026/10/mintlify-taps-aws-to-deliver-billions-of-agent-visits-with-99-999-uptime-launches-enterprise-offering-in-aws-marketplace",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "MINTLIFY / AWS MARKETPLACE",
+        "title": "文档平台面对代理流量",
+        "caption": "访客与 uptime 数字由 Mintlify 披露，未见独立审计口径。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "采购渠道",
+            "value": "AWS Marketplace",
+            "detail": "Mintlify Enterprise 已上架"
+          },
+          {
+            "label": "人类访客",
+            "value": "超过 3 亿",
+            "detail": "Mintlify 声称的过去一年规模"
+          },
+          {
+            "label": "AI 代理访问",
+            "value": "超过 20 亿",
+            "detail": "Mintlify 声称的过去一年规模"
+          },
+          {
+            "label": "服务可用率",
+            "value": "99.999%",
+            "detail": "Mintlify 公布的 AWS uptime"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "physicsx-fortescue-industrial-ai-2026-10-27",
+      "category": "产业",
+      "title": "PhysicsX 与 Fortescue 扩大工业 AI 合作，覆盖矿业运营与研发",
+      "summary": "双方将把合作从研发扩展到 Fortescue 的采矿和金属业务；公告描述的是多年合作目标，未披露已实现的效率数据。",
+      "body": [
+        "PhysicsX 与 Fortescue 10 月 27 日宣布扩大已有两年多的合作，PhysicsX 将成为 Fortescue 的 AI 技术与创新伙伴，范围从研发扩展到采矿和金属运营。",
+        "合作将结合 PhysicsX 的大规模物理模型、仿真和工程应用，与 Fortescue 的运营数据和经验，用于测试生产、运营和新技术问题。双方把它描述为多年合作，尚未公布具体项目结果或量化收益。"
+      ],
+      "facts": [
+        "PhysicsX 与 Fortescue 于 2026 年 10 月 27 日宣布扩大合作。",
+        "此前合作已持续两年多，新协议为多年期。",
+        "合作范围将从研发延伸至矿业和金属业务运营。",
+        "技术组合包括大规模物理模型、仿真和 AI 工程应用。"
+      ],
+      "context": "公告描述合作目标和技术组合，没有披露已经实现的运营指标或具体交付时间。",
+      "status": "多年合作扩展 · 运营结果尚未公布",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "PhysicsX",
+          "title": "PhysicsX and Fortescue Expand Partnership to Accelerate Industrial Innovation with AI",
+          "url": "https://www.physicsx.ai/newsroom/physicsx-and-fortescue-expand-partnership-to-accelerate-industrial-innovation-with-ai",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "amber",
+        "eyebrow": "PHYSICSX + FORTESCUE",
+        "title": "物理 AI 进入工业场景",
+        "caption": "多年合作计划；双方未公布可量化的运营结果。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "模型",
+            "value": "大规模物理模型",
+            "detail": "从仿真与实验数据学习系统行为"
+          },
+          {
+            "label": "工程工具",
+            "value": "仿真与应用",
+            "detail": "支持工程设计和问题分析"
+          },
+          {
+            "label": "应用范围",
+            "value": "矿业与金属",
+            "detail": "合作扩展至生产和运营"
+          },
+          {
+            "label": "状态",
+            "value": "多年期合作",
+            "detail": "当前尚未披露量化成果"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "symbolic-mind-intel-cpu-ai-poc-2026-10-27",
+      "category": "基础设施",
+      "title": "Symbolic Mind 与 Intel 展示 Xeon 6 CPU 服务器 AI 训练概念验证",
+      "summary": "双方称已在 Intel Xeon 6 CPU 服务器上完成 Charm AI 概念验证，后续计划面向本地部署和私有云。",
+      "body": [
+        "Symbolic Mind 与 Intel 10 月 27 日宣布，已在 Intel Xeon 6 处理器上完成 Charm AI 的概念验证，尝试在 CPU 服务器上进行模型训练和推理。",
+        "公司计划通过本地部署、私有云和 AI 服务器机架等渠道提供方案，但没有给出开放日期或公开客户评测。Symbolic Mind 关于成本优势的说法目前属于厂商主张，尚无独立对照结果。"
+      ],
+      "facts": [
+        "Symbolic Mind 与 Intel 于 2026 年 10 月 27 日公布 Charm AI 的概念验证。",
+        "双方称模型在 Intel Xeon 6 CPU 服务器上完成训练与推理验证。",
+        "Symbolic Mind 计划面向本地部署和私有云提供产品，未给出发布时间。",
+        "成本优势属于厂商说法，公开材料没有独立基准测试。"
+      ],
+      "context": "这是合作方公布的概念验证和商业化计划；成本、性能与连续学习能力尚未独立验证。",
+      "status": "概念验证完成 · 商业部署仍为计划",
+      "published_at": "2026-10-27",
+      "sources": [
+        {
+          "publisher": "PR Newswire（Symbolic Mind 与 Intel）",
+          "title": "Symbolic Mind Collaborates With Intel to Bring AI Training, Not Just Inference, to CPU-Based Server Infrastructure",
+          "url": "https://www.prnewswire.com/news-releases/symbolic-mind-collaborates-with-intel-to-bring-ai-training-not-just-inference-to-cpu-based-server-infrastructure-302919727.html",
+          "published_at": "2026-10-27T08:42:00-04:00",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00"
+        },
+        {
+          "publisher": "Intel",
+          "title": "Symbolic Mind - Charm Frontier AI on CPUs - Partner Brief",
+          "url": "https://www.intel.com/content/www/us/en/content-details/925652/symbolic-mind-charm-frontier-ai-on-cpus-partner-brief.html",
+          "accessed_at": "2026-10-28T01:07:29.475356+00:00",
+          "published_at": "2026-10-27"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "blue",
+        "eyebrow": "SYMBOLIC MIND + INTEL",
+        "title": "CPU 服务器上的 AI 方案进度",
+        "caption": "双方报告已完成概念验证，具体性能与未来商用计划尚待验证。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "处理器",
+            "value": "Intel Xeon 6",
+            "detail": "概念验证使用的 CPU 平台"
+          },
+          {
+            "label": "已完成",
+            "value": "Charm AI PoC",
+            "detail": "双方称训练与推理均在 CPU 服务器"
+          },
+          {
+            "label": "计划部署",
+            "value": "本地与私有云",
+            "detail": "产品发布渠道尚未确定"
+          },
+          {
+            "label": "待核实",
+            "value": "成本与性能",
+            "detail": "暂无独立公开基准"
+          }
+        ]
+      },
+      "issue_date": "2026-10-28",
+      "discovered_at": "2026-10-28T01:07:29.475356+00:00",
+      "verified_at": "2026-10-28T01:07:29.475356+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -1248,7 +2176,38 @@
       "updated_at": "2026-10-27T16:56:37.573877+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-10-27.json"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "模型研究、企业代理与 AI 基础设施的多线推进",
+      "dek": "本期汇总 13 条窗口内可核实消息，覆盖持续学习研究、算力合作、企业 AI 产品、开源检索、安全治理与产业应用。",
+      "coverage": "2026-10-27 09:00 至 2026-10-28 09:00（Asia/Singapore）；原文仅标日期者保留日期精度",
+      "lead_ids": [
+        "google-sleep-framework-continual-learning",
+        "meta-ai-infrastructure-amd-nvidia-2026-10-27",
+        "openai-oracle-enterprise-ai-partnership-2026-10-27"
+      ],
+      "event_ids": [
+        "google-sleep-framework-continual-learning",
+        "meta-ai-infrastructure-amd-nvidia-2026-10-27",
+        "openai-oracle-enterprise-ai-partnership-2026-10-27",
+        "oracle-google-tpu-oci-2026-10-27",
+        "oracle-ai-data-platform-business-context-2026-10-27",
+        "oracle-snowflake-native-oci-2026-10-27",
+        "servicenow-google-gemini-industry-workflows-2026-10-27",
+        "pinecone-pg-pinecone-postgres-search-2026-10-27",
+        "mitre-attack-ai-platform-2026-10-27",
+        "avepoint-trust-platform-ai-governance-2026-10-27",
+        "mintlify-enterprise-aws-agent-visits-2026-10-27",
+        "physicsx-fortescue-industrial-ai-2026-10-27",
+        "symbolic-mind-intel-cpu-ai-poc-2026-10-27"
+      ],
+      "number": "004",
+      "published_at": "2026-10-28T01:07:29.475356+00:00",
+      "updated_at": "2026-10-28T01:07:29.475356+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-10-28.json"
     }
   ],
-  "updated_at": "2026-10-27T16:56:37.573877+00:00"
+  "updated_at": "2026-10-28T01:07:29.475356+00:00"
 }
