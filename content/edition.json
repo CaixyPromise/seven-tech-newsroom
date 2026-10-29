@@ -2103,6 +2103,686 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "gemini-4-carbon",
+      "category": "模型",
+      "title": "Google 发布 Gemini 4 Carbon，先向网络安全防御人员开放",
+      "summary": "Gemini 4 Carbon 把长期编码任务与网络安全能力作为重点，但目前仅向部分网络安全防御人员逐步开放。",
+      "body": [
+        "Google DeepMind 于 10 月 28 日公布 Gemini 4 Carbon，称其面向长周期工程任务及网络安全防御。",
+        "Google 列出的 SEC-bench Pro、ExploitGym 与 CWE-bench 成绩分别为 88.2%、54.8% 与 71.0%；Carbon 目前按 Fairwind 计划分批提供给部分网络安全防御人员，面向开发者和消费者的开放仍在后续安排中。"
+      ],
+      "facts": [
+        "Google 于 2026-10-28 公布 Gemini 4 Carbon。",
+        "Google 报告 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0%。",
+        "首批接入对象为部分网络安全防御人员，消费者与开发者访问尚未开放。"
+      ],
+      "context": "基准结果来自 Google 公布的测试；当前产品访问限于受邀网络安全防御人员。",
+      "status": "已公布 · 受限预览启动",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "Google DeepMind",
+          "title": "Gemini 4 Carbon: our next frontier model",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "published_at": "2026-10-28",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "GOOGLE DEEPMIND",
+        "title": "Carbon 首批能力与开放阶段",
+        "caption": "安全评测数值为 Google 公布结果；外部访问当前受限。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "漏洞发现",
+            "value": "88.2%",
+            "detail": "SEC-bench Pro，Google 公布"
+          },
+          {
+            "label": "漏洞利用",
+            "value": "54.8%",
+            "detail": "ExploitGym，Google 公布"
+          },
+          {
+            "label": "漏洞修补",
+            "value": "71.0%",
+            "detail": "CWE-bench，Google 公布"
+          },
+          {
+            "label": "当前开放",
+            "value": "部分防御者",
+            "detail": "开发者和消费者尚待后续推出"
+          }
+        ]
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "模型"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "meta-university-ai-research-2026-10-28",
+      "category": "研究",
+      "title": "Meta 向五所美国高校提供模型与 200 万美元研究资助",
+      "summary": "Meta 将与五所高校合作推进医疗和科学研究，资助总额为 200 万美元，并提供其模型访问。",
+      "body": [
+        "Meta 10 月 28 日宣布与加州理工、俄亥俄州立大学医学院、路易斯安那州立大学、印第安纳大学及 UTHealth Houston 合作，并向五校提供合计 200 万美元资助和最新模型访问。",
+        "项目包括监测婴儿气管切开导管移位、探索心衰风险预测，以及改善失智症患者交流等。Meta 的公告称，部分项目仍在开发或验证阶段；相关研究目标不等同于已经证明的临床效果。"
+      ],
+      "facts": [
+        "合作覆盖五所美国高校，Meta 称将提供总计 200 万美元资助及模型访问。",
+        "研究方向包括婴儿气管导管监测、HFpEF 风险研究和失智症交流辅助。",
+        "公告中的项目包含概念验证与研究计划，未宣称已取得临床成效。"
+      ],
+      "context": "这是研究合作公告，医疗用途仍处于研究阶段。",
+      "status": "合作公布 · 项目研究中",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "Meta Newsroom",
+          "title": "Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs",
+          "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/",
+          "published_at": "2026-10-28",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "teal",
+        "eyebrow": "META + ACADEMIA",
+        "title": "五校合作的研究方向",
+        "caption": "Meta 公告称提供模型访问与合计 200 万美元资助。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "医学影像",
+            "value": "心衰风险",
+            "detail": "用 CT、病历与 ECG 探索预测"
+          },
+          {
+            "label": "婴儿护理",
+            "value": "导管监测",
+            "detail": "识别气管导管移位与压力迹象"
+          },
+          {
+            "label": "辅助沟通",
+            "value": "失智症研究",
+            "detail": "研究适应认知差异的对话系统"
+          }
+        ],
+        "focus": {
+          "value": "5 所高校",
+          "label": "研究合作"
+        }
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "microsoft-copilot-harness-2026-10-28",
+      "category": "产品",
+      "title": "Microsoft 将 Copilot 多模型 harness 开放给 Foundry 客户",
+      "summary": "Microsoft 将其用于多个 Copilot 产品的 Agent 编排层提供给开发者和企业客户，以支持多模型、工具和长任务流程。",
+      "body": [
+        "Microsoft 10 月 28 日宣布，通过 Microsoft Foundry 提供 Copilot harness 的托管版本。该编排层负责为 Agent 配置指令、上下文、执行环境和控制，并支持 MCP、Agent Skills 与插件。",
+        "微软称该 harness 已用于 Copilot Code、Copilot Studio、GitHub Copilot 应用、CLI 和 VS Code 等产品，并支持 20 多种前沿模型及自带密钥。性能和用户规模数据来自公司自身介绍，实际选择仍取决于 Foundry 客户的配置与模型接入。"
+      ],
+      "facts": [
+        "微软于 2026-10-28 宣布在 Foundry 提供托管版 Copilot harness。",
+        "该层覆盖上下文、执行环境、工具和权限控制。",
+        "微软称其可连接 20 多种前沿模型并支持自带密钥。"
+      ],
+      "context": "规模及性能描述来自微软产品公告；实际可用范围受 Foundry 与模型配置影响。",
+      "status": "已公布 · 通过 Microsoft Foundry 提供",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "Microsoft Official Blog",
+          "title": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+          "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+          "published_at": "2026-10-28",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "violet",
+        "eyebrow": "MICROSOFT FOUNDRY",
+        "title": "Copilot harness 位于模型与 Agent 之间",
+        "caption": "微软称此编排层可管理上下文、工具、运行环境与控制。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "模型层",
+            "value": "20+ 模型",
+            "detail": "支持多家模型及自带密钥"
+          },
+          {
+            "label": "编排层",
+            "value": "Copilot harness",
+            "detail": "指令、上下文、工具与执行控制"
+          },
+          {
+            "label": "应用层",
+            "value": "多种 Copilot",
+            "detail": "Code、Studio、CLI、VS Code 等"
+          }
+        ]
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-servicenow-enterprise-workflows-2026-10-28",
+      "category": "产品",
+      "title": "OpenAI 与 ServiceNow 扩大企业工作流合作",
+      "summary": "双方计划把 ServiceNow 工作流接入 ChatGPT 与 Codex，并将 OpenAI 模型用于 ServiceNow 的应用开发和安全能力。",
+      "body": [
+        "OpenAI 与 ServiceNow 10 月 28 日宣布扩大合作。用户未来可在 ChatGPT 中查询相似 IT 事件、评估变更风险并更新 ServiceNow 记录，组织可自行选择开放哪些操作，Action Fabric 将沿用既有业务规则与权限。",
+        "目前 ServiceNow MCP 插件已在 OpenAI 市场提供；安全能力预计 2027 年 1 月进入早期访问，第二季度计划一般开放，语音能力与 Codex 开发集成也在后续计划中。合作公告把多项能力标为未来安排，现阶段不应视作全部上线。"
+      ],
+      "facts": [
+        "ServiceNow MCP 插件已在 OpenAI 市场提供。",
+        "ChatGPT 内工作流操作将遵循组织配置的业务规则与访问权限。",
+        "安全功能计划于 2027 年 1 月早期访问、第二季度一般开放。",
+        "语音体验预计 2027 年第一季度推出；Codex 集成计划于 2027 年提供。"
+      ],
+      "context": "合作中已开放与计划中的功能并存，按公告给出的阶段区分。",
+      "status": "合作扩展 · 插件已提供，其他能力分期推出",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/",
+          "published_at": "2026-10-28",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "blue",
+        "eyebrow": "OPENAI + SERVICENOW",
+        "title": "企业工作流接入 ChatGPT 与 Codex",
+        "caption": "MCP 插件已提供；其他合作功能按公告计划分期推出。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "现已提供",
+            "value": "ServiceNow MCP",
+            "detail": "可从 OpenAI 市场接入"
+          },
+          {
+            "label": "2027 Q1",
+            "value": "语音能力",
+            "detail": "语音描述并填写 AI 评估信息"
+          },
+          {
+            "label": "2027 Q2",
+            "value": "安全功能 GA",
+            "detail": "1 月预计开始早期访问"
+          },
+          {
+            "label": "2027",
+            "value": "Codex 集成",
+            "detail": "计划进入 AI Workflow Factory"
+          }
+        ]
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "github-agentic-workflows-ga-2026-10-28",
+      "category": "开源",
+      "title": "GitHub Agentic Workflows 正式可用，默认权限为只读",
+      "summary": "GitHub 将以 Markdown 描述任务、由编程 Agent 在 Actions 中执行的开源工作流项目推至正式可用。",
+      "body": [
+        "GitHub 10 月 28 日宣布 Agentic Workflows 一般可用，用户可用自然语言 Markdown 描述问题分流、CI 失败分析或文档维护任务，再由工具生成标准 GitHub Actions YAML。工作流可选 Copilot 或自带编程 Agent，并复用现有 runner 与策略。",
+        "GitHub 称 Agent 默认采用只读权限，在沙箱容器和 Agent Workflow Firewall 中执行，输出还要经过安全校验与威胁检测。产品已面向 GitHub Free、Team 和 Enterprise 可用；使用默认 Copilot CLI 引擎需要 Copilot 许可。"
+      ],
+      "facts": [
+        "GitHub Agentic Workflows 于 2026-10-28 一般可用。",
+        "工作定义使用 Markdown，随后编译为标准 GitHub Actions YAML。",
+        "Agent 默认只读，并运行在隔离沙箱中；输出需安全校验。",
+        "适用 GitHub Free、Team、Enterprise；默认 Copilot CLI 引擎需 Copilot 许可。"
+      ],
+      "context": "权限与沙箱设计来自 GitHub 公告；发布后仍需团队按自身 Actions 策略审查。",
+      "status": "正式可用 · 支持 GitHub Free、Team、Enterprise",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "GitHub Changelog",
+          "title": "GitHub Agentic Workflows generally available",
+          "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+          "published_at": "2026-10-28",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "teal",
+        "eyebrow": "GITHUB ACTIONS",
+        "title": "从任务描述到 Agent 工作流",
+        "caption": "GitHub 公告说明默认只读、沙箱执行及变更安全检查。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "任务定义",
+            "value": "Markdown",
+            "detail": "自然语言描述要自动化的任务"
+          },
+          {
+            "label": "工作流生成",
+            "value": "Actions YAML",
+            "detail": "编译为标准 GitHub Actions"
+          },
+          {
+            "label": "Agent 执行",
+            "value": "只读 + 沙箱",
+            "detail": "默认只读并隔离运行"
+          },
+          {
+            "label": "变更检查",
+            "value": "校验 + 扫描",
+            "detail": "应用前经过安全输出和威胁检测"
+          }
+        ]
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "github-replica-oss-ai-prototyping-2026-10-28",
+      "category": "开源",
+      "title": "GitHub 开源 Replica：用团队设计系统生成交互原型",
+      "summary": "GitHub Design 发布 MIT 许可的 AI 原型工具 Replica，供产品团队基于自身组件和设计规则生成可交互原型。",
+      "body": [
+        "GitHub 10 月 28 日开源 Replica，团队可将设计系统组件、模式和文档作为生成约束，再用自然语言在 Copilot app 中创建与修改交互原型。",
+        "原型可以在本地试用，也可通过可选的自托管 Replica Hub 分享并收集反馈。工具目前是协助探索设计方案的原型流程，公告没有把生成结果描述为可直接投产的产品实现。"
+      ],
+      "facts": [
+        "Replica 由 GitHub Design 开发并于 2026-10-28 开源。",
+        "项目采用 MIT 许可。",
+        "可依据现有组件、模式和文档生成原型，并在 Copilot app 中迭代。",
+        "Replica Hub 为可选的自托管分享服务。"
+      ],
+      "context": "生成内容定位为交互原型，投入生产前仍需团队设计和工程审查。",
+      "status": "开源发布 · MIT 许可",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "GitHub Changelog",
+          "title": "Introducing Replica, an open-source AI prototyping tool",
+          "url": "https://github.blog/changelog/2026-10-28-introducing-replica-an-open-source-ai-prototyping-tool/",
+          "published_at": "2026-10-28",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "GITHUB DESIGN",
+        "title": "Replica 将设计系统带入原型生成",
+        "caption": "开源工具从团队组件与文档出发，产出交互原型供协作评估。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "输入规范",
+            "value": "团队设计系统",
+            "detail": "组件、模式与设计文档"
+          },
+          {
+            "label": "自然语言",
+            "value": "提出原型想法",
+            "detail": "在 Copilot app 创建并迭代"
+          },
+          {
+            "label": "协作评估",
+            "value": "本地或 Hub",
+            "detail": "Hub 可自托管并分享反馈"
+          },
+          {
+            "label": "许可",
+            "value": "MIT",
+            "detail": "GitHub 已开源项目"
+          }
+        ]
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "nvidia-nemotron-35-transcribe-2026-10-28",
+      "category": "开源",
+      "title": "NVIDIA 发布 Nemotron 3.5 Transcribe，覆盖 40 种语言",
+      "summary": "NVIDIA 将转录、说话人标注、翻译和语言识别能力整合到开放权重语音模型中，并同步发布模型权重。",
+      "body": [
+        "NVIDIA 10 月 28 日发布 Nemotron 3.5 Transcribe，模型支持逐字稿、书面形式、上下文转录、说话人标注、语音翻译与 40 种语言识别，单段录音最长一小时，并可按需输出说话人归属的词级时间戳。",
+        "NVIDIA 同时开放 BF16、FP8、NVFP4 与 GGUF 权重，并提供 NeMo Speech 微调工具包，许可证为 OpenMDW-1.1。其排行榜 WER、速度和精度数据均由 NVIDIA 报告，需结合具体测试集和部署硬件理解。"
+      ],
+      "facts": [
+        "NVIDIA 于 2026-10-28 发布模型及技术报告。",
+        "支持 40 种语言和最长 1 小时录音。",
+        "发布 BF16、FP8、NVFP4、GGUF 检查点与微调工具包。",
+        "模型按 OpenMDW-1.1 许可发布。"
+      ],
+      "context": "排行榜准确率与吞吐数据由 NVIDIA 公布；使用条件受模型许可约束。",
+      "status": "开放权重发布 · OpenMDW-1.1",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "NVIDIA Nemotron Research",
+          "title": "NVIDIA Nemotron 3.5 Transcribe: Intelligent Transcription with a Speech LLM",
+          "url": "https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Transcribe/",
+          "published_at": "2026-10-28",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "amber",
+        "eyebrow": "NVIDIA NEMOTRON",
+        "title": "一个模型，多种转录方式",
+        "caption": "模型权重公开；榜单准确率为 NVIDIA 自行报告的评测结果。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "语言范围",
+            "value": "40 种语言",
+            "detail": "支持语音识别与语音翻译"
+          },
+          {
+            "label": "录音时长",
+            "value": "最长 1 小时",
+            "detail": "可按需生成说话人词级时间戳"
+          },
+          {
+            "label": "模型规模",
+            "value": "约 4.3B 活跃参数",
+            "detail": "基于约 30B 总参数 MoE"
+          },
+          {
+            "label": "权重格式",
+            "value": "4 种格式",
+            "detail": "BF16、FP8、NVFP4、GGUF"
+          }
+        ]
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "rime-prism-speech-2026-10-28",
+      "category": "产品",
+      "title": "Rime 推出可微调语音到语音模型 Prism",
+      "summary": "Rime 发布面向企业语音代理的 Prism，强调企业可微调模型并在自有基础设施运行。",
+      "body": [
+        "Rime 10 月 28 日通过新闻稿发布 Prism，称企业可在本地或私有云运行，并根据自身通话数据调整模型、词汇、发音和防护规则。该模型先生成文字，再输出语音，使企业可在播出前检查文本。",
+        "Rime 公布一项与 Revmo 的企业试验：订单确认与取货方式指标从 GPT 对照组的 68% 升至 100%，无长时间静默通话比例从 66% 升至 88%。数据来自公司披露的客户试验，新闻稿未提供完整实验设计或独立评测。"
+      ],
+      "facts": [
+        "Rime 于 2026-10-28 发布 Prism。",
+        "模型支持本地或私有云运行，并可使用企业通话数据微调。",
+        "Revmo 客户试验中的两项指标由 Rime 报告，未提供独立评估。"
+      ],
+      "context": "性能提升数字来自 Rime 新闻稿所述的 Revmo 试验，不能视作第三方基准。",
+      "status": "已发布 · 企业试验数据由厂商披露",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "Rime（PR Newswire）",
+          "title": "Rime Launches Prism: The First Fine-Tunable Frontier Speech-to-Speech Model",
+          "url": "https://www.prnewswire.com/news-releases/rime-launches-prism-the-first-fine-tunable-frontier-speech-to-speech-model-302922665.html",
+          "published_at": "2026-10-28T16:05:00-04:00",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "RIME PRISM",
+        "title": "企业语音模型的可控环节",
+        "caption": "Revmo 对照数据由 Rime 新闻稿披露，未提供独立复核。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "部署",
+            "value": "本地 / 私有云",
+            "detail": "企业可在自有基础设施运行"
+          },
+          {
+            "label": "输出流程",
+            "value": "先文本后语音",
+            "detail": "播出前可检查生成文字"
+          },
+          {
+            "label": "企业试验",
+            "value": "68% → 100%",
+            "detail": "订单确认与取货方式，Rime 报告"
+          },
+          {
+            "label": "企业试验",
+            "value": "66% → 88%",
+            "detail": "无长时间静默通话比例，Rime 报告"
+          }
+        ]
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "fragment-funding-procurement-agent-2026-10-28",
+      "category": "产业",
+      "title": "企业 AI 初创 Fragment 以 5600 万美元融资亮相",
+      "summary": "Fragment 宣布累计融资 5600 万美元，推出面向大型企业采购异常的 AI 代理平台。",
+      "body": [
+        "Fragment 10 月 28 日公开亮相并披露累计融资 5600 万美元，其中 A 轮由 8VC 领投，种子轮由 General Catalyst 与 A* 联合领投。公司产品面向大型制造、分销和能源企业采购，试图跨现有系统处理订单变更、发票差异及付款异常。",
+        "公司称平台已在 Graybar 和 CNX 开始应用，其代理会结合企业政策、关系和内部知识调查异常并执行获授权的处理步骤。公告未披露融资两轮的具体拆分金额或量化客户成效，相关自动化能力仍以公司与客户描述为主。"
+      ],
+      "facts": [
+        "Fragment 于 2026-10-28 宣布亮相及累计融资 5600 万美元。",
+        "A 轮由 8VC 领投；种子轮由 General Catalyst 与 A* 联合领投。",
+        "产品聚焦采购、订单和付款异常，声称可跨现有业务系统执行授权操作。",
+        "公司称已与 Graybar、CNX 合作，未公布量化客户成效。"
+      ],
+      "context": "融资金额与应用进展来自公司新闻稿，客户成效尚无独立数据。",
+      "status": "公司亮相 · 累计融资 5600 万美元",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "Fragment（GlobeNewswire）",
+          "title": "Fragment Launches With $56 Million to Automate the Work Enterprise Software Leaves Behind",
+          "url": "https://www.globenewswire.com/news-release/2026/10/28/3390260/0/en/fragment-launches-with-56-million-to-automate-the-work-enterprise-software-leaves-behind.html",
+          "published_at": "2026-10-28T09:00:00-04:00",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "amber",
+        "eyebrow": "FRAGMENT",
+        "title": "采购异常处理的 Agent 流程",
+        "caption": "融资及客户应用信息来自 Fragment 新闻稿。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "识别异常",
+            "value": "订单 / 发票",
+            "detail": "汇集跨系统采购与付款问题"
+          },
+          {
+            "label": "注入上下文",
+            "value": "企业规则",
+            "detail": "关联政策、关系与内部知识"
+          },
+          {
+            "label": "执行处理",
+            "value": "授权操作",
+            "detail": "在现有系统中推进解决"
+          },
+          {
+            "label": "已提及客户",
+            "value": "Graybar + CNX",
+            "detail": "公司称已开始应用，未披露量化成效"
+          }
+        ]
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "microsoft-fy27-q1-cloud-ai-2026-10-28",
+      "category": "产业",
+      "title": "Microsoft 财季收入增长 19%，Azure 增长 48%",
+      "summary": "Microsoft 公布 FY2027 第一季度业绩，Azure 与 Microsoft Cloud 延续增长，但财报未单独拆分 AI 对增长的贡献。",
+      "body": [
+        "Microsoft 10 月 28 日公布截至 9 月 30 日的 FY2027 第一季度业绩：营收 923 亿美元，同比增长 19%；Microsoft Cloud 营收 639 亿美元，同比增长 30%；Azure 营收同比增长 48%。",
+        "公司还披露商业剩余履约义务增至 6770 亿美元，同比增长 73%。这些数字为公司财报口径，业务增长覆盖多类云服务和订单，不可直接等同于 AI 收入或 AI 工作负载增幅。"
+      ],
+      "facts": [
+        "截至 2026-09-30 的季度营收 923 亿美元，同比增长 19%。",
+        "Microsoft Cloud 营收 639 亿美元，同比增长 30%。",
+        "Azure 营收同比增长 48%；财报未单独列出 AI 对该增幅的贡献。",
+        "商业剩余履约义务为 6770 亿美元，同比增长 73%。"
+      ],
+      "context": "财报数据来自 Microsoft；Azure 增长不能全部归因于 AI。",
+      "status": "财报公布 · Azure 同比增长 48%",
+      "published_at": "2026-10-28",
+      "sources": [
+        {
+          "publisher": "Microsoft Investor Relations",
+          "title": "Microsoft Announces First Quarter Results",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+          "published_at": "2026-10-28",
+          "accessed_at": "2026-10-29T01:05:14.000155+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "MICROSOFT FY27 Q1",
+        "title": "云业务继续扩张",
+        "caption": "公司财报数据；Azure 增长不等同于 AI 收入增长。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "季度营收",
+            "value": "$92.3B",
+            "detail": "同比增长 19%"
+          },
+          {
+            "label": "Microsoft Cloud",
+            "value": "$63.9B",
+            "detail": "同比增长 30%"
+          },
+          {
+            "label": "Azure",
+            "value": "+48%",
+            "detail": "同比增长，公司未拆分 AI 贡献"
+          },
+          {
+            "label": "商业履约义务",
+            "value": "$677B",
+            "detail": "同比增长 73%"
+          }
+        ]
+      },
+      "issue_date": "2026-10-29",
+      "discovered_at": "2026-10-29T01:05:14.000155+00:00",
+      "verified_at": "2026-10-29T01:05:14.000155+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -2207,7 +2887,35 @@
       "updated_at": "2026-10-28T01:07:29.475356+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-10-28.json"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "前沿模型、智能体工具与企业部署继续扩展",
+      "dek": "本期核实 10 条新进展，覆盖网络安全模型、开源工具、企业工作流、语音 AI 与云业务。",
+      "coverage": "2026-10-28 09:00 至 2026-10-29 09:00（Asia/Singapore）；原文仅标日期者保留日期精度",
+      "lead_ids": [
+        "gemini-4-carbon",
+        "github-agentic-workflows-ga-2026-10-28",
+        "nvidia-nemotron-35-transcribe-2026-10-28"
+      ],
+      "event_ids": [
+        "gemini-4-carbon",
+        "meta-university-ai-research-2026-10-28",
+        "microsoft-copilot-harness-2026-10-28",
+        "openai-servicenow-enterprise-workflows-2026-10-28",
+        "github-agentic-workflows-ga-2026-10-28",
+        "github-replica-oss-ai-prototyping-2026-10-28",
+        "nvidia-nemotron-35-transcribe-2026-10-28",
+        "rime-prism-speech-2026-10-28",
+        "fragment-funding-procurement-agent-2026-10-28",
+        "microsoft-fy27-q1-cloud-ai-2026-10-28"
+      ],
+      "number": "005",
+      "published_at": "2026-10-29T01:05:14.000155+00:00",
+      "updated_at": "2026-10-29T01:05:14.000155+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-10-29.json"
     }
   ],
-  "updated_at": "2026-10-28T01:07:29.475356+00:00"
+  "updated_at": "2026-10-29T01:05:14.000155+00:00"
 }
