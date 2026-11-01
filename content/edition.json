@@ -2783,6 +2783,797 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "mistral-large-4-open-weights",
+      "category": "开源",
+      "title": "Mistral 发布 Large 4 权重，开放部署方式仍需看许可",
+      "summary": "Mistral 公布 Large 4 权重，并称后续强化学习提升了编程和防御性网络安全表现；这些成绩属于厂商报告。",
+      "body": [
+        "Mistral 于 10 月 29 日宣布开放 Mistral Large 4（Le Chonk）的模型权重。公司称，该模型在早前公开预览后继续进行强化学习训练，并在编程与防御性网络安全任务上取得进展；这些比较结果来自 Mistral 的自述。",
+        "开放权重让开发者可以自行评估部署方式，但实际使用仍取决于模型许可、算力和具体任务。Mistral 将其定位为可定制的多模态模型；独立评测及不同部署环境下的表现，不能由厂商发布材料替代。"
+      ],
+      "facts": [
+        "Mistral 于 10 月 29 日宣布发布 Large 4 权重。",
+        "Mistral 称模型经过额外强化学习训练，并报告编程与防御性网络安全能力提升。",
+        "该模型此前已在 10 月 6 日进入公开预览。"
+      ],
+      "context": "性能比较来自模型发布方；权重开放不等于免许可限制，也不证明所有硬件和任务上的表现。",
+      "status": "模型发布 · 权重开放",
+      "published_at": "2026-10-29",
+      "sources": [
+        {
+          "publisher": "Mistral",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-29",
+          "title": "Mistral 发布 Large 4 权重，开放部署方式仍需看许可"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "violet",
+        "eyebrow": "MISTRAL LARGE 4",
+        "title": "从公开预览到权重发布",
+        "caption": "Mistral 公告；能力提升为厂商报告，使用条件以模型许可为准。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "10 月 6 日",
+            "value": "公开预览",
+            "detail": "Mistral Large 4 首次开放预览 API"
+          },
+          {
+            "label": "10 月 29 日",
+            "value": "权重发布",
+            "detail": "Mistral 称已完成额外强化学习训练"
+          },
+          {
+            "label": "能力主张",
+            "value": "编程与防御安全",
+            "detail": "效果数据来自 Mistral 公告"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "gemini-app-edit-files",
+      "category": "产品",
+      "title": "Gemini 应用新增文件预览与编辑入口",
+      "summary": "Google 为 Gemini 应用加入文件生成、预览和编辑能力；PDF 支持网页与移动端，其余格式仅支持网页。",
+      "body": [
+        "Google 于 10 月 29 日为 Gemini 应用加入文件生成、预览和编辑功能。用户可以在对话中打开文件、直接修改内容、选中文字提问，或让 Gemini 调整文档。",
+        "Google 表示，PDF 的预览与编辑可在网页和移动端使用；Google Docs、表格、简报、Markdown、TXT 与代码文件目前仅支持网页。该功能向 Gemini 应用支持地区和语言的所有用户开放，实际格式范围仍有区别。"
+      ],
+      "facts": [
+        "功能包括在对话中生成、预览和编辑文件，并可选中文本继续提问或修改。",
+        "PDF 支持网页与移动端；其他列出的文件格式仅支持网页。",
+        "Google 称功能面向 Gemini 应用支持地区的所有用户及语言开放。"
+      ],
+      "context": "网页与移动端的格式支持并不相同。",
+      "status": "产品更新 · 已开放",
+      "published_at": "2026-10-29",
+      "sources": [
+        {
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-29",
+          "title": "Gemini 应用新增文件预览与编辑入口"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "GEMINI APP",
+        "title": "在对话中处理文件",
+        "caption": "Google 公告；PDF 支持网页和移动端，其他格式仅支持网页。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "创建",
+            "value": "生成文件",
+            "detail": "文档、PDF、简报、代码等"
+          },
+          {
+            "label": "查看",
+            "value": "对话内预览",
+            "detail": "无需离开当前聊天"
+          },
+          {
+            "label": "修改",
+            "value": "直接编辑",
+            "detail": "网页支持除 PDF 外列出的格式"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "niq-google-agentic-commerce",
+      "category": "产业",
+      "title": "NIQ 与 Google 合作探索 AI 购物商品数据接入",
+      "summary": "双方计划将零售商品与门店数据接入 Google 的 AI 商务生态；合作公告说明了方向，具体里程碑尚待公布。",
+      "body": [
+        "NIQ 与 Google 于 10 月 29 日公布合作，计划把 NIQ 的商品和零售数据用于 Google 的 AI 商务生态，支持商品发现和本地库存信息。公告称，Google Shopping Graph 收录超过 600 亿条商品列表，NIQ 的 Product Intelligence 覆盖逾 2.5 亿种商品。",
+        "合作还包括 NIQ 扩大使用 Google Cloud 与 Gemini for business，以及将 Google 开源的 Meridian 营销模型接入 NIQ Cadence。双方尚未公布具体产品里程碑，因此当前应视为合作方向与计划，而不是已经全面上线的购物服务。"
+      ],
+      "facts": [
+        "Google Shopping Graph 超过 600 亿条商品列表，为 Google 与 NIQ 公告中的数字。",
+        "NIQ 称其 Product Intelligence 覆盖超过 2.5 亿种商品，门店数据涉及 90 个国家。",
+        "双方将 Meridian 接入 NIQ Cadence 的合作也在公告中列出。"
+      ],
+      "context": "双方描述的是合作计划与目标，尚未公布具体里程碑或普遍可用的购物功能。",
+      "status": "合作公布 · 计划阶段",
+      "published_at": "2026-10-29",
+      "sources": [
+        {
+          "publisher": "Google Cloud Press Corner / NIQ",
+          "url": "https://www.googlecloudpresscorner.com/2026-10-29-NIQ-and-Google-Partner-to-Advance-Agentic-Commerce",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-29",
+          "title": "NIQ 与 Google 合作探索 AI 购物商品数据接入"
+        }
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "teal",
+        "eyebrow": "NIQ × GOOGLE",
+        "title": "合作涉及零售数据与商务",
+        "caption": "双方公告；商品与门店规模是 NIQ / Google 公布数据，具体功能仍属计划。",
+        "source_refs": [
+          0
+        ],
+        "focus": {
+          "value": "合作计划",
+          "label": "尚待里程碑"
+        },
+        "items": [
+          {
+            "label": "商品目录",
+            "value": "2.5 亿+",
+            "detail": "NIQ Product Intelligence 商品数"
+          },
+          {
+            "label": "门店数据",
+            "value": "90 个国家",
+            "detail": "NIQ Store Intelligence 覆盖"
+          },
+          {
+            "label": "购物图谱",
+            "value": "600 亿+",
+            "detail": "Google Shopping Graph 商品列表"
+          },
+          {
+            "label": "营销衡量",
+            "value": "Meridian",
+            "detail": "计划接入 NIQ Cadence 平台"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-model-spec-five-values-2026-10-29",
+      "category": "治理",
+      "title": "OpenAI 更新 Model Spec，按五项价值观重组行为指南",
+      "summary": "新版 Model Spec 增加对上下文、监督与用户自主权的说明；OpenAI 同时指出，规范描述的是目标行为，模型尚未完全达到。",
+      "body": [
+        "OpenAI 于 10 月 29 日更新 Model Spec，将行为指南按遵循人类意图、减少伤害、诚实透明、支持人的自主权和关怀五项价值观重新组织。新版还补充了上下文、监督和副作用处理方面的指导，并调整或移除部分风格默认规则。",
+        "这份文件说明 OpenAI 希望模型如何表现，并非对当前模型能力的独立评估。OpenAI 在公告中明确表示，现有模型还没有完全体现规范所描述的行为；实际效果仍需结合产品表现与外部检验观察。"
+      ],
+      "facts": [
+        "新版按五项核心价值观组织内容：遵循人类意图、减少伤害、诚实透明、支持自主权和关怀。",
+        "新增或扩写了上下文、监督、人类自主权及副作用管理方面的指导。",
+        "OpenAI 表示当前模型尚未完全符合规范描述。"
+      ],
+      "context": "Model Spec 是 OpenAI 对目标行为的公开说明，不等同于第三方对现有模型表现的评估。",
+      "status": "规范更新 · 行为目标",
+      "published_at": "2026-10-29",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/updated-model-spec/",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-29",
+          "title": "OpenAI 更新 Model Spec，按五项价值观重组行为指南"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "OPENAI MODEL SPEC",
+        "title": "新版按五项价值观组织",
+        "caption": "OpenAI 对目标行为的说明；公告承认现有模型尚未完全体现规范。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "意图与伤害",
+            "value": "忠实 · 减害",
+            "detail": "理解人的目标并考虑后果"
+          },
+          {
+            "label": "可信沟通",
+            "value": "诚实 · 透明",
+            "detail": "表达所知、所做与不确定性"
+          },
+          {
+            "label": "人的处境",
+            "value": "自主 · 关怀",
+            "detail": "支持选择并关注受影响者"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-frontier-misalignment-monitoring-2026-10-29",
+      "category": "研究",
+      "title": "OpenAI 介绍前沿模型行为监测的分层机制",
+      "summary": "OpenAI 公布内部监测流程，并披露一项此前覆盖缺口；这是公司对自身安全系统的描述，系统有效性仍需持续评估。",
+      "body": [
+        "OpenAI 于 10 月 29 日介绍其用于发现模型偏离预期行为的分层监测机制。公司说，监测现已覆盖更广泛的训练、评估、内部使用及部分外部部署，并称此前一次内部网络安全评估暴露了监测覆盖不足。",
+        "流程先用探针筛查，再由模型审阅、调查代理和遥测分析处理被标记的案例；OpenAI 称前沿强化学习运行和内部 Codex 流量会按回合检查，并正调整到最长间隔不超过 30 分钟。该说明来自开发方，且文中也提到独立红队曾发现其系统漏洞。"
+      ],
+      "facts": [
+        "OpenAI 将监测拆为探针、模型审阅、调查代理和自动化调查等层级。",
+        "公司称部分内部前沿 RL 和 Codex 流量在每个回合结束时进行 L1 检查，正调整为不超过 30 分钟间隔。",
+        "OpenAI 披露独立红队评估曾发现监测系统漏洞，其中大多数已修补，仍有一项修复进行中。"
+      ],
+      "context": "内容是 OpenAI 对内部安全系统的自述；公布流程本身不能证明漏报率或部署效果。",
+      "status": "安全机制说明 · 持续评估",
+      "published_at": "2026-10-29",
+      "sources": [
+        {
+          "publisher": "OpenAI Alignment Research",
+          "url": "https://alignment.openai.com/how-we-detect-frontier-model-misalignment/",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-29",
+          "title": "OpenAI 介绍前沿模型行为监测的分层机制"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "amber",
+        "eyebrow": "OPENAI ALIGNMENT",
+        "title": "从筛查到调查的监测流程",
+        "caption": "OpenAI 描述的内部机制；公司同时披露独立红队发现的漏洞。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "L0",
+            "value": "激活探针",
+            "detail": "轻量筛查并向后续层转交疑似案例"
+          },
+          {
+            "label": "L1",
+            "value": "模型审阅",
+            "detail": "检查推理、工具调用与未授权行为"
+          },
+          {
+            "label": "L2",
+            "value": "调查代理",
+            "detail": "回看上下文并重建事件"
+          },
+          {
+            "label": "L3",
+            "value": "遥测核查",
+            "detail": "结合网络日志等外部证据"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-gpt-6-rosalind-research",
+      "category": "模型",
+      "title": "GPT-6 Rosalind Research 面向获批生命科学研究用户开放",
+      "summary": "OpenAI 推出 GPT-6 Rosalind Research 的受限使用阶段，企业版默认关闭并先进入两周管理员预览。",
+      "body": [
+        "OpenAI 于 10 月 30 日公布 GPT-6 Rosalind Research，面向获批的生命科学研究机构和授权用户逐步开放，可在 Work、Codex 和经批准的 API 场景使用。该型号不在 Chat 标签中提供，Discovery 级别的审批也不会自动授予 Research 权限。",
+        "企业工作区先进入两周管理员预览，且默认关闭，管理员需为获批用户启用。OpenAI 将其描述为面向多步骤生命科学研究、并配有生物研究安全措施的模型；这次更新是有限开放，不是普遍可用发布。"
+      ],
+      "facts": [
+        "GPT-6 Rosalind Research 于 10 月 30 日公布，型号名为 gpt-6-rosalind。",
+        "仅向获得 Research 审批的组织和授权用户逐步开放；不在 Chat 标签提供。",
+        "Enterprise 工作区先进入两周管理员预览，默认关闭。"
+      ],
+      "context": "访问需要组织和用户分别满足 Research 审批；企业工作区预览期默认关闭。",
+      "status": "受限开放 · 需 Research 审批",
+      "published_at": "2026-10-30",
+      "sources": [
+        {
+          "publisher": "OpenAI API Changelog",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-30",
+          "title": "GPT-6 Rosalind Research 面向获批生命科学研究用户开放"
+        },
+        {
+          "publisher": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-30",
+          "title": "GPT-6 Rosalind Research 面向获批生命科学研究用户开放"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "GPT-6 ROSALIND",
+        "title": "研究模型的开放范围",
+        "caption": "OpenAI 发布说明；组织与用户审批均为必要条件。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "申请",
+            "value": "Research 审批",
+            "detail": "Discovery 审批不包含 Research"
+          },
+          {
+            "label": "产品范围",
+            "value": "Work / Codex / API",
+            "detail": "API 还需单独获批"
+          },
+          {
+            "label": "企业工作区",
+            "value": "两周管理员预览",
+            "detail": "默认关闭，管理员启用"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "模型"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-shared-robots-ai-training-signal",
+      "category": "治理",
+      "title": "OpenAI 将支持网站表达 AI 训练偏好的共享信号",
+      "summary": "OpenAI 表示将尊重 robots.txt 中的共同训练偏好信号，但实现计划仍在未来数月，现有爬虫控制继续适用。",
+      "body": [
+        "OpenAI 于 10 月 30 日表示，将支持 robots.txt 中一项供多个 AI 服务商共同识别的训练偏好信号。网站经营者可用统一表达减少为不同爬虫分别维护规则的工作；OpenAI 称相关信号来自 IETF AI Preferences 工作组的持续讨论。",
+        "这项支持尚未即时部署：OpenAI 表示目标是在未来数月完成实现，并会另行公布细节。公司称现有 robots.txt 爬虫控制仍然有效，因此目前不能把共同信号视为已经生效的新屏蔽机制。"
+      ],
+      "facts": [
+        "公告日期为 2026 年 10 月 30 日。",
+        "OpenAI 表示会尊重 robots.txt 中的共享 AI 训练偏好信号。",
+        "公司称计划在未来数月实现，并会另行公布细节。"
+      ],
+      "context": "OpenAI 尚未完成实施；公告称既有 robots.txt 控制继续适用。",
+      "status": "政策承诺 · 实施计划中",
+      "published_at": "2026-10-30",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-30",
+          "title": "OpenAI 将支持网站表达 AI 训练偏好的共享信号"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "WEB PUBLISHER SIGNAL",
+        "title": "共享信号尚待实施",
+        "caption": "OpenAI 公告；计划未来数月实现，既有爬虫控制继续适用。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "当前",
+            "value": "公告支持",
+            "detail": "拟尊重 robots.txt 共享训练偏好"
+          },
+          {
+            "label": "后续",
+            "value": "未来数月",
+            "detail": "OpenAI 计划完成实现并公布细节"
+          },
+          {
+            "label": "现行规则",
+            "value": "继续适用",
+            "detail": "既有爬虫控制不被替代"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-community-safety-report-teen-weapons",
+      "category": "治理",
+      "title": "OpenAI 公布社区安全报告计划并收紧未成年人武器内容",
+      "summary": "OpenAI 承诺发布社区安全报告，并扩大对青少年接收武器与安防系统实用信息的限制；公司报告第三季度提交逾 200 次执法转介。",
+      "body": [
+        "OpenAI 于 10 月 30 日公布社区安全报告计划，并表示将进一步限制未成年人获取有关武器和安防系统的实用信息，即使提问看似无害也可能受限。公司称，其在 2026 年第三季度向执法部门转介了超过 200 起迫近暴力威胁。",
+        "OpenAI 计划在报告中说明安全机制、匿名案例、缓解措施与相关数据，并称首期报告预计于 2027 年初发布，覆盖 2026 年下半年。上述转介数字来自公司披露；报告尚未发布，也不是独立评估。"
+      ],
+      "facts": [
+        "OpenAI 表示 2026 年第三季度向执法部门转介超过 200 起威胁事件。",
+        "公司承诺发布社区安全报告，说明安全机制、匿名案例、缓解措施和相关数据。",
+        "未成年人将进一步受限于武器和安防系统相关的实用信息，即使请求表面无害。"
+      ],
+      "context": "转介数字和措施进度均来自 OpenAI；社区安全报告是后续承诺。",
+      "status": "安全政策更新 · 报告待推出",
+      "published_at": "2026-10-30",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-30",
+          "title": "OpenAI 公布社区安全报告计划并收紧未成年人武器内容"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "OPENAI SAFETY",
+        "title": "安全报告计划与青少年限制",
+        "caption": "OpenAI 公布的数据与政策变化；社区安全报告尚待推出。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "执法转介",
+            "value": "200+ 起",
+            "detail": "OpenAI 报告的 2026 年第三季度数字"
+          },
+          {
+            "label": "未成年人",
+            "value": "扩大限制",
+            "detail": "武器与安防系统实用信息"
+          },
+          {
+            "label": "报告",
+            "value": "计划推出",
+            "detail": "拟公布匿名案例、措施与数据"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "aws-chatgpt-desktop-bedrock-govcloud",
+      "category": "基础设施",
+      "title": "ChatGPT 桌面应用新增 Bedrock GovCloud 配置指南",
+      "summary": "AWS 公布在 GovCloud 环境将 ChatGPT 桌面应用推理路由至 Bedrock 的本地配置路径，面向受控验证部署。",
+      "body": [
+        "AWS 于 10 月 30 日介绍了在 AWS GovCloud（美国）环境配置 ChatGPT 桌面应用的方法。其指南将推理请求路由到 AWS GovCloud US-West 的 Amazon Bedrock，并使用 API 模式登录、设备管理策略、命名 AWS 配置档及网络限制。",
+        "这是一份受控本地部署和验证流程说明，不代表所有 GovCloud 用户已默认获得同一设置。组织仍需按自身安全策略检查设备、网络和模型访问条件，再决定是否扩大使用范围。"
+      ],
+      "facts": [
+        "AWS 文章发布日期为 2026 年 10 月 30 日。",
+        "推理路由指向 AWS GovCloud（US-West）中的 Amazon Bedrock。",
+        "指南包括 API 模式登录、管理设备策略、命名 AWS profile 和网络限制。"
+      ],
+      "context": "这是 AWS 技术指南中的受控本地配置方案，不是所有用户的默认开通声明。",
+      "status": "技术配置指南 · 受控部署",
+      "published_at": "2026-10-30",
+      "sources": [
+        {
+          "publisher": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-30",
+          "title": "ChatGPT 桌面应用新增 Bedrock GovCloud 配置指南"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "teal",
+        "eyebrow": "AWS GOVCLOUD",
+        "title": "桌面应用的受控推理路由",
+        "caption": "AWS 技术指南；具体部署还需管理员按组织安全策略验证。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "身份",
+            "value": "API 模式登录",
+            "detail": "使用命名 AWS 配置档"
+          },
+          {
+            "label": "推理",
+            "value": "Amazon Bedrock",
+            "detail": "路由至 GovCloud US-West"
+          },
+          {
+            "label": "控制",
+            "value": "策略与网络限制",
+            "detail": "受管设备后本地验证"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "aws-worldwide-express-bedrock-freight",
+      "category": "产业",
+      "title": "Worldwide Express 披露 Bedrock 多代理处理货运账单异常",
+      "summary": "AWS 客户案例称，Worldwide Express 部署六个月后活跃异常减少 75%；数据来自供应商与客户案例，尚非独立审计。",
+      "body": [
+        "AWS 于 10 月 30 日介绍 Worldwide Express 使用 Amazon Bedrock 处理零担货运账单异常的案例。该多代理系统接入公司的 SpeedShip 运输管理系统，分别核对发票、合同价格和附加费用，并将处理结果写回原有工作流。",
+        "AWS 与 Worldwide Express 披露，系统上线六个月后覆盖 40 多家承运商，每周处理约 1 万项异常，活跃异常量下降 75%，回款周期缩短四周。以上为 AWS 客户案例中的数据；其中部分决策仍经过人工审核，不能直接外推到其他企业。"
+      ],
+      "facts": [
+        "案例称系统覆盖 40 多家零担承运商，每周关闭约 10,000 项异常。",
+        "公司报告活跃异常减少 75%、回款周期改善四周、释放 1,000 万美元现金流。",
+        "系统将异常分配给发票匹配、价格差异和附加费用验证三个代理。"
+      ],
+      "context": "结果为 AWS 与客户披露的数据；供应商案例不是独立审计或可泛化的保证。",
+      "status": "客户案例 · 厂商披露结果",
+      "published_at": "2026-10-30",
+      "sources": [
+        {
+          "publisher": "AWS Machine Learning Blog / Worldwide Express",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-30",
+          "title": "Worldwide Express 披露 Bedrock 多代理处理货运账单异常"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "WORLDWIDE EXPRESS",
+        "title": "货运异常处理的客户案例",
+        "caption": "AWS 与客户公布的六个月数据；不代表独立审计或其他企业结果。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "承运商",
+            "value": "40+",
+            "detail": "已覆盖的零担承运商"
+          },
+          {
+            "label": "每周处理",
+            "value": "约 10,000 项",
+            "detail": "客户案例称已关闭的异常数"
+          },
+          {
+            "label": "活跃异常",
+            "value": "减少 75%",
+            "detail": "上线六个月后的客户报告"
+          },
+          {
+            "label": "回款周期",
+            "value": "缩短 4 周",
+            "detail": "AWS / 客户披露结果"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "nvidia-seti-agentic-ai-observatory",
+      "category": "研究",
+      "title": "SETI 研究团队将代理接入射电望远镜数据流程",
+      "summary": "Breakthrough Listen 与 SETI Institute 描述代理如何协助控制望远镜和处理实时数据；吞吐量及检测结果来自 NVIDIA 公布。",
+      "body": [
+        "NVIDIA 于 10 月 30 日介绍 Breakthrough Listen 与 SETI Institute 在 Allen Telescope Array 使用代理式 AI 的研究流程。研究人员可用自然语言请求代理控制设备、校正数据并调用分析模型，Nexus 协调仪器状态、计算资源与处理管线。",
+        "NVIDIA 称该系统使用 RTX PRO 6000 Blackwell GPU，可处理每秒 2.4 太比特数据，并报告在蟹状星云首次实时 AI 脉冲星探测。结果和吞吐量由厂商文章披露；团队仍在评估开放模型，报道不代表已发现地外生命信号。"
+      ],
+      "facts": [
+        "系统在 Allen Telescope Array 接入自然语言代理及传感器数据处理流程。",
+        "NVIDIA 报告每秒 2.4 太比特处理能力，使用 RTX PRO 6000 Blackwell GPU。",
+        "文章称流程完成蟹状星云脉冲星的首次实时 AI 探测，未称发现地外生命。"
+      ],
+      "context": "吞吐量与探测进展为 NVIDIA 公布；脉冲星探测不等于发现地外生命。",
+      "status": "科研应用进展 · 厂商披露",
+      "published_at": "2026-10-30",
+      "sources": [
+        {
+          "publisher": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-30",
+          "title": "SETI 研究团队将代理接入射电望远镜数据流程"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "SETI / BREAKTHROUGH LISTEN",
+        "title": "代理协助望远镜实时分析",
+        "caption": "NVIDIA 披露的研究流程与性能数字；结果不代表发现地外生命。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "输入",
+            "value": "望远镜数据流",
+            "detail": "Allen Telescope Array"
+          },
+          {
+            "label": "分析",
+            "value": "2.4 Tb/s",
+            "detail": "NVIDIA 报告的系统处理能力"
+          },
+          {
+            "label": "输出",
+            "value": "实时脉冲星探测",
+            "detail": "厂商称在蟹状星云完成"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "apache-spark-430-release",
+      "category": "基础设施",
+      "title": "Apache Spark 4.3.0 正式发布",
+      "summary": "Apache Spark 社区发布 4.3.0 功能版本并提供发行说明；项目建议用户查看 JIRA 变更清单后评估升级。",
+      "body": [
+        "Apache Spark 社区于 10 月 30 日发布 Spark 4.3.0，将其标注为新的功能版本。项目已提供源码和预构建发行包，并在发行说明中汇总已解决问题及详细变更。",
+        "社区建议使用者先检查 JIRA 中的变更记录，再按现有作业和依赖进行兼容性验证。发布公告没有给出一组可概括所有用户影响的统一性能数据，因此这里仅记录版本发布，不推断升级收益。"
+      ],
+      "facts": [
+        "Apache Spark 4.3.0 公告日期为 2026 年 10 月 30 日。",
+        "项目将其归为功能版本，已提供源码与发行包。",
+        "具体改动通过 JIRA release notes 列出。"
+      ],
+      "context": "新功能版本的具体行为和兼容性需查看 release notes 并按本地作业验证。",
+      "status": "开源项目发布 · 功能版本",
+      "published_at": "2026-10-30",
+      "sources": [
+        {
+          "publisher": "Apache Spark",
+          "url": "https://spark.apache.org/news/spark-4-3-0-released.html",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-30",
+          "title": "Apache Spark 4.3.0 正式发布"
+        },
+        {
+          "publisher": "Apache Spark Release Notes",
+          "url": "https://spark.apache.org/releases/spark-release-4-3-0.html",
+          "accessed_at": "2026-11-01T01:05:16.243828+00:00",
+          "published_at": "2026-10-30",
+          "title": "Apache Spark 4.3.0 正式发布"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "teal",
+        "eyebrow": "APACHE SPARK",
+        "title": "4.3.0 功能版本发布",
+        "caption": "Apache Spark 公告；升级差异以项目发行说明与 JIRA 清单为准。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "10 月 30 日",
+            "value": "4.3.0 发布",
+            "detail": "Apache Spark 社区正式公告"
+          },
+          {
+            "label": "版本类型",
+            "value": "功能版本",
+            "detail": "项目建议查看具体变更"
+          },
+          {
+            "label": "升级前",
+            "value": "核对发行说明",
+            "detail": "按项目依赖验证兼容性"
+          }
+        ]
+      },
+      "issue_date": "2026-11-01",
+      "discovered_at": "2026-11-01T01:05:16.243828+00:00",
+      "verified_at": "2026-11-01T01:05:16.243828+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -2915,7 +3706,37 @@
       "updated_at": "2026-10-29T01:05:14.000155+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-10-29.json"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "开放模型、智能体与安全机制迎来新进展",
+      "dek": "本期补齐上次成功发布以来的窗口，覆盖开放权重、文件编辑、科研与业务流程中的 AI 应用，以及模型安全和数据治理。公告中的计划、厂商数据与实际可用范围分别标注。",
+      "coverage": "补齐窗口：2026-10-29 09:00 至 2026-11-01 09:00（Asia/Singapore）；原文仅标日期者保留日期精度",
+      "lead_ids": [
+        "mistral-large-4-open-weights",
+        "gemini-app-edit-files",
+        "openai-gpt-6-rosalind-research"
+      ],
+      "event_ids": [
+        "mistral-large-4-open-weights",
+        "gemini-app-edit-files",
+        "niq-google-agentic-commerce",
+        "openai-model-spec-five-values-2026-10-29",
+        "openai-frontier-misalignment-monitoring-2026-10-29",
+        "openai-gpt-6-rosalind-research",
+        "openai-shared-robots-ai-training-signal",
+        "openai-community-safety-report-teen-weapons",
+        "aws-chatgpt-desktop-bedrock-govcloud",
+        "aws-worldwide-express-bedrock-freight",
+        "nvidia-seti-agentic-ai-observatory",
+        "apache-spark-430-release"
+      ],
+      "number": "006",
+      "published_at": "2026-11-01T01:05:16.243828+00:00",
+      "updated_at": "2026-11-01T01:05:16.243828+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-01.json"
     }
   ],
-  "updated_at": "2026-10-29T01:05:14.000155+00:00"
+  "updated_at": "2026-11-01T01:05:16.243828+00:00"
 }
