@@ -4,7 +4,7 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-01。共 6 期、52 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-03。共 7 期、63 条独立记录；按实际发布状态与来源标时。
 
 **最新数据快照**：2026-10-29 09:03 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
@@ -17,188 +17,177 @@
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-01
+## 最新一期 · 2026-11-03
 
-**开放模型、智能体与安全机制迎来新进展**
+**模型、算力基础设施与企业 AI 应用继续推进**
 
-本期补齐上次成功发布以来的窗口，覆盖开放权重、文件编辑、科研与业务流程中的 AI 应用，以及模型安全和数据治理。公告中的计划、厂商数据与实际可用范围分别标注。
+本期补齐两日窗口，整理 11 条来自官方公告、企业技术文章与开源项目的进展，涉及模型评测、能源与云基础设施、企业软件及 AI 部署。
 
-每日精选，第 006 期。收录范围：补齐窗口：2026-10-29 09:00 至 2026-11-01 09:00（Asia/Singapore）；原文仅标日期者保留日期精度。
-实际首次整理：2026-11-01 09:05 UTC+8。
+每日精选，第 007 期。收录范围：补齐窗口：2026-11-01 09:00 至 2026-11-03 09:00（Asia/Singapore）；原文仅标日期者保留日期精度。
+实际首次整理：2026-11-03 09:03 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. Mistral 发布 Large 4 权重，开放部署方式仍需看许可
+## 1. 美团发布 LongCat-2.5：面向长程智能体任务的多模态模型
 
-![从公开预览到权重发布。10 月 6 日：公开预览，Mistral Large 4 首次开放预览 API；10 月 29 日：权重发布，Mistral 称已完成额外强化学习训练；能力主张：编程与防御安全，效果数据来自 Mistral 公告](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/mistral-large-4-open-weights.svg)
+![LongCat-2.5 发布信息。总参数：1.6 万亿，美团公告所列规模；模型形态：原生多模态，发布方产品定位；任务方向：长程智能体，公告描述的目标场景；训练算力：国产算力，美团公告披露](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/meituan-longcat-25-2026-11-02.svg)
 
-Mistral 公告；能力提升为厂商报告，使用条件以模型许可为准。
+模型规模与定位据美团公告；评测结果为发布方披露。
 
-Mistral 于 10 月 29 日宣布开放 Mistral Large 4（Le Chonk）的模型权重。公司称，该模型在早前公开预览后继续进行强化学习训练，并在编程与防御性网络安全任务上取得进展；这些比较结果来自 Mistral 的自述。
+美团 11 月 2 日发布 LongCat-2.5，将其定位为面向长程智能体任务的原生多模态模型。公司公告称，模型总参数为 1.6 万亿，训练全程使用国产算力。
 
-开放权重让开发者可以自行评估部署方式，但实际使用仍取决于模型许可、算力和具体任务。Mistral 将其定位为可定制的多模态模型；独立评测及不同部署环境下的表现，不能由厂商发布材料替代。
+美团还公布了模型介绍和评测结果；这些性能数字属于发布方披露，不能直接视为独立复测。现有公告将 LongCat-2.5 描述为能力发布，实际开放范围和使用条件应以模型页面及服务入口为准。
 
-分类：开源；状态：模型发布 · 权重开放；原文日期：2026-10-29。
+分类：模型；状态：公司发布；性能数据为发布方披露；原文日期：2026-11-02。
 
-来源：[Mistral](https://mistral.ai/news/mistral-large-4-oss/)
+来源：[美团](https://www.meituan.com/news/NN261102280001343)
+来源：[LongCat](https://longcat.ai/blog/longcat-2.5)
 
-## 2. Gemini 应用新增文件预览与编辑入口
+## 2. NVIDIA 开源 Workload Map，统一描述 Kubernetes AI 工作负载
 
-![在对话中处理文件。创建：生成文件，文档、PDF、简报、代码等；查看：对话内预览，无需离开当前聊天；修改：直接编辑，网页支持除 PDF 外列出的格式](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/gemini-app-edit-files.svg)
+![统一工作负载描述的用法。输入定义：CRD + YAML，声明工作负载结构与状态；共享解析：Go 库，读取模板、副本与层级；项目目录：13 类示例，包含 JobSet、Ray 与 KServe](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/nvidia-workload-map-2026-11-02.svg)
 
-Google 公告；PDF 支持网页和移动端，其他格式仅支持网页。
+按 NVIDIA 技术文章说明；Workload Map 采用 Apache 2.0 许可。
 
-Google 于 10 月 29 日为 Gemini 应用加入文件生成、预览和编辑功能。用户可以在对话中打开文件、直接修改内容、选中文字提问，或让 Gemini 调整文档。
+NVIDIA 11 月 2 日介绍开源组件 Workload Map，用统一结构描述 Kubernetes 上不同框架的分布式工作负载。该项目以 CRD、Go 库和声明式定义记录工作节点、模板、副本数与状态，让调度器和平台能够复用同一份框架描述。
 
-Google 表示，PDF 的预览与编辑可在网页和移动端使用；Google Docs、表格、简报、Markdown、TXT 与代码文件目前仅支持网页。该功能向 Gemini 应用支持地区和语言的所有用户开放，实际格式范围仍有区别。
+NVIDIA 表示，目录已包含 JobSet、PyTorchJob、RayCluster、KServe 和 NVIDIA Dynamo 等工作负载定义，并称该组件采用 Apache 2.0 许可、已用于 Run:ai。它降低的是各平台重复编写解析适配器的需要，具体兼容范围仍取决于项目目录和使用者实现。
 
-分类：产品；状态：产品更新 · 已开放；原文日期：2026-10-29。
+分类：开源；状态：开源组件；NVIDIA 技术文章介绍；原文日期：2026-11-02。
 
-来源：[Google](https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/)
+来源：[NVIDIA Developer Blog](https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map/)
 
-## 3. NIQ 与 Google 合作探索 AI 购物商品数据接入
+## 3. OpenAI 发布 LifeVal，评估 AI 完成日常事务的能力
 
-![合作涉及零售数据与商务。商品目录：2.5 亿+，NIQ Product Intelligence 商品数；门店数据：90 个国家，NIQ Store Intelligence 覆盖；购物图谱：600 亿+，Google Shopping Graph 商品列表；营销衡量：Meridian，计划接入 NIQ Cadence 平台](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/niq-google-agentic-commerce.svg)
+![LifeVal 评测构成。受访者：3,995 人，OpenAI 公布的代表性调查；幼儿园筛选：93.1%，页面展示的任务得分；洪水准备：98.0%，页面展示的任务得分；任务领域：7 类，照护、健康至政府服务](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-lifeval-2026-11-02.svg)
 
-双方公告；商品与门店规模是 NIQ / Google 公布数据，具体功能仍属计划。
+样本与示例分数据 OpenAI 页面；成绩由发布方报告。
 
-NIQ 与 Google 于 10 月 29 日公布合作，计划把 NIQ 的商品和零售数据用于 Google 的 AI 商务生态，支持商品发现和本地库存信息。公告称，Google Shopping Graph 收录超过 600 亿条商品列表，NIQ 的 Product Intelligence 覆盖逾 2.5 亿种商品。
+OpenAI 11 月 2 日公布 LifeVal，称这是用于评估 AI 完成日常生活任务的基准，覆盖照护、健康、教育、家庭管理、个人理财、购物和政府服务等领域。该公司先参考美国及跨国时间利用调查，再对 3,995 名受访者进行具有代表性的调查，以筛选人们希望 AI 协助的任务。
 
-合作还包括 NIQ 扩大使用 Google Cloud 与 Gemini for business，以及将 Google 开源的 Meridian 营销模型接入 NIQ Cadence。双方尚未公布具体产品里程碑，因此当前应视为合作方向与计划，而不是已经全面上线的购物服务。
+OpenAI 展示了若干自家模型在特定任务中的得分，例如幼儿园筛选为 93.1%、洪水准备志愿者安排为 98%。这些数字由 OpenAI 公布，页面未提供足以替代独立复测的跨机构结果；LifeVal 当前更适合作为其评测方法和任务样例来阅读。
 
-分类：产业；状态：合作公布 · 计划阶段；原文日期：2026-10-29。
+分类：研究；状态：公司发布的评测方法；示例成绩为发布方数据；原文日期：2026-11-02。
 
-来源：[Google Cloud Press Corner / NIQ](https://www.googlecloudpresscorner.com/2026-10-29-NIQ-and-Google-Partner-to-Advance-Agentic-Commerce)
+来源：[OpenAI](https://openai.com/index/lifeval/)
 
-## 4. OpenAI 更新 Model Spec，按五项价值观重组行为指南
+## 4. OpenAI 推出 Grid Protectors 计划，提出数据中心削峰安排
 
-![新版按五项价值观组织。意图与伤害：忠实 · 减害，理解人的目标并考虑后果；可信沟通：诚实 · 透明，表达所知、所做与不确定性；人的处境：自主 · 关怀，支持选择并关注受影响者](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-model-spec-five-values-2026-10-29.svg)
+![计算园区与电网需求响应。计划：Grid Protectors，与公用事业及监管方协作；协议上限：1,000 MW，Georgia Power 于 2026 年 7 月披露的协议上限；试点阶段：开发中，Effingham County 园区尚未运营](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-grid-protectors-2026-11-02.svg)
 
-OpenAI 对目标行为的说明；公告承认现有模型尚未完全体现规范。
+1,000 兆瓦协议来自 2026 年 7 月公告；Effingham 园区尚在开发。
 
-OpenAI 于 10 月 29 日更新 Model Spec，将行为指南按遵循人类意图、减少伤害、诚实透明、支持人的自主权和关怀五项价值观重新组织。新版还补充了上下文、监督和副作用处理方面的指导，并调整或移除部分风格默认规则。
+OpenAI 11 月 2 日宣布 Grid Protectors 计划，称将与公用事业公司、监管机构和政策制定者合作，为未来计算园区制定在电网紧张时降低用电的安排。公司以佐治亚州 Effingham County 的项目为例；该园区仍在开发，且此前已与 Georgia Power 签订灵活需求响应协议。
 
-这份文件说明 OpenAI 希望模型如何表现，并非对当前模型能力的独立评估。OpenAI 在公告中明确表示，现有模型还没有完全体现规范所描述的行为；实际效果仍需结合产品表现与外部检验观察。
+Georgia Power 在 2026 年 7 月的公告中曾披露，协议包含最高 1,000 兆瓦的灵活需求响应，具体是高峰期由电力公司调低对该设施的供电。这个数字不是 11 月 2 日新签的承诺，也不是已经实现的节电量；OpenAI 将该项目作为 Grid Protectors 的实践方向，未来效果仍取决于园区建设和电网运行。
 
-分类：治理；状态：规范更新 · 行为目标；原文日期：2026-10-29。
+分类：基础设施；状态：计划公布；佐治亚试点仍在开发；原文日期：2026-11-02。
 
-来源：[OpenAI](https://openai.com/index/updated-model-spec/)
+来源：[OpenAI](https://openai.com/index/grid-protectors-program/)
+来源：[Georgia Power](https://www.georgiapower.com/news-hub/press-releases/georgia-power-to-serve-openai-project-in-effingham-county.html)
 
-## 5. OpenAI 介绍前沿模型行为监测的分层机制
+## 5. OpenAI 介绍 Pando：支撑其单体仓库的 Git 后端
 
-![从筛查到调查的监测流程。L0：激活探针，轻量筛查并向后续层转交疑似案例；L1：模型审阅，检查推理、工具调用与未授权行为；L2：调查代理，回看上下文并重建事件；L3：遥测核查，结合网络日志等外部证据](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-frontier-misalignment-monitoring-2026-10-29.svg)
+![Pando 的内部运行数据。部署范围：全公司开发，OpenAI 单体仓库；推送延迟：近 5 倍降低，生产环境中位数；数据传输：近 1 PB / 日，OpenAI 报告的 Git 数据量](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-scaling-git-pando-2026-11-02.svg)
 
-OpenAI 描述的内部机制；公司同时披露独立红队发现的漏洞。
+以下指标为 OpenAI 对自有生产系统的披露。
 
-OpenAI 于 10 月 29 日介绍其用于发现模型偏离预期行为的分层监测机制。公司说，监测现已覆盖更广泛的训练、评估、内部使用及部分外部部署，并称此前一次内部网络安全评估暴露了监测覆盖不足。
+OpenAI 11 月 2 日介绍其内部 Git 后端 Pando。公司称，随着 Codex 带来更多并行分支、推送和构建任务，原有单体仓库服务逐渐遇到读写瓶颈；Pando 保留 Git 协议和客户端兼容性，目前已支撑 OpenAI 的全部开发工作。
 
-流程先用探针筛查，再由模型审阅、调查代理和遥测分析处理被标记的案例；OpenAI 称前沿强化学习运行和内部 Codex 流量会按回合检查，并正调整到最长间隔不超过 30 分钟。该说明来自开发方，且文中也提到独立红队曾发现其系统漏洞。
+按 OpenAI 公布的数据，Pando 将生产环境中的推送中位延迟降低近 5 倍，每天传输接近 1 拍字节的 Git 数据。以上是公司内部系统的数据，文章称 OpenAI 会继续向 Git 生态贡献改进，但没有说 Pando 已作为可安装产品公开发布。
 
-分类：研究；状态：安全机制说明 · 持续评估；原文日期：2026-10-29。
+分类：基础设施；状态：公司内部系统已部署；性能为公司披露；原文日期：2026-11-02。
 
-来源：[OpenAI Alignment Research](https://alignment.openai.com/how-we-detect-frontier-model-misalignment/)
+来源：[OpenAI](https://openai.com/index/scaling-git-at-openai/)
 
-## 6. GPT-6 Rosalind Research 面向获批生命科学研究用户开放
+## 6. 阿布扎比与 OpenAI 签署四项协议，政府 AI 监管试点已投产
 
-![研究模型的开放范围。申请：Research 审批，Discovery 审批不包含 Research；产品范围：Work / Codex / API，API 还需单独获批；企业工作区：两周管理员预览，默认关闭，管理员启用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-gpt-6-rosalind-research.svg)
+![四项合作的落点。政府：机器可读规则，食品进口试点已投产；能源：ADNOC，能源业务 AI 合作；投资：Mubadala，投资分析与风险评估；AI 采用：五年合作，OpenAI 与 Inception42](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/abu-dhabi-openai-agreements-2026-11-02.svg)
 
-OpenAI 发布说明；组织与用户审批均为必要条件。
+据阿布扎比媒体办公室公告；监管试点仍由政府人员作最终决定。
 
-OpenAI 于 10 月 30 日公布 GPT-6 Rosalind Research，面向获批的生命科学研究机构和授权用户逐步开放，可在 Work、Codex 和经批准的 API 场景使用。该型号不在 Chat 标签中提供，Discovery 级别的审批也不会自动授予 Research 权限。
+阿布扎比媒体办公室 11 月 2 日公布，阿布扎比政府实体与 OpenAI 签署四项政府、能源和投资领域协议。政府项目之一是 Machine-Readable Government，将部分政策和法规转换为机器可读形式，协助官员进行合规评估；首个聚焦食品进口的试点已在阿布扎比农业与食品安全局投产。
 
-企业工作区先进入两周管理员预览，且默认关闭，管理员需为获批用户启用。OpenAI 将其描述为面向多步骤生命科学研究、并配有生物研究安全措施的模型；这次更新是有限开放，不是普遍可用发布。
+官方资料称，相关评估可追溯到所依据的规则，最终决定仍由政府人员负责。协议还涉及 ADNOC 能源业务、Mubadala 投资分析，以及 OpenAI 与 Inception42 的五年 AI 采用合作；官方称推理由阿联酋境内数据中心承担。上述进展来自参与方公告，项目覆盖范围和后续扩展仍待执行。
 
-分类：模型；状态：受限开放 · 需 Research 审批；原文日期：2026-10-30。
+分类：产业；状态：政府公告；首个监管辅助试点已投产；原文日期：2026-11-02。
 
-来源：[OpenAI API Changelog](https://developers.openai.com/api/docs/changelog)
-来源：[OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)
+来源：[Abu Dhabi Media Office](https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/)
+来源：[Inception42](https://inception42.ai/news/inception42-open-ai-adnoc-and-mubadala-sign-strategic-partnerships)
 
-## 7. OpenAI 将支持网站表达 AI 训练偏好的共享信号
+## 7. Marvell 拟以全股票交易收购 Lumentum，瞄准 AI 光互连
 
-![共享信号尚待实施。当前：公告支持，拟尊重 robots.txt 共享训练偏好；后续：未来数月，OpenAI 计划完成实现并公布细节；现行规则：继续适用，既有爬虫控制不被替代](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-shared-robots-ai-training-signal.svg)
+![收购协议关键条款。交易方式：全股票，Marvell 收购 Lumentum；隐含企业价值：约 1,150 亿美元，公告所列交易估值；换股比例：4.5 : 1，每股 Lumentum 换 4.5 股 Marvell；当前阶段：待交割，已签最终协议](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/marvell-lumentum-acquisition-2026-11-02.svg)
 
-OpenAI 公告；计划未来数月实现，既有爬虫控制继续适用。
+交易与换股数据据公司公告；交割仍待完成。
 
-OpenAI 于 10 月 30 日表示，将支持 robots.txt 中一项供多个 AI 服务商共同识别的训练偏好信号。网站经营者可用统一表达减少为不同爬虫分别维护规则的工作；OpenAI 称相关信号来自 IETF AI Preferences 工作组的持续讨论。
+Marvell 与光器件厂商 Lumentum 11 月 2 日宣布签署最终收购协议，Marvell 将以全股票方式收购 Lumentum。公告给出的交易隐含企业价值约 1,150 亿美元；按协议，Lumentum 股东每股可换取 4.5 股 Marvell 普通股。
 
-这项支持尚未即时部署：OpenAI 表示目标是在未来数月完成实现，并会另行公布细节。公司称现有 robots.txt 爬虫控制仍然有效，因此目前不能把共同信号视为已经生效的新屏蔽机制。
+两家公司称，合并后希望把 Marvell 的互连、交换和定制芯片能力，与 Lumentum 的激光器、光收发器及光交换技术结合，用于 AI 数据中心的电互连和光互连。交割尚未完成，公告提及的市场规模、协同和产品路线均属公司预期，不是已实现结果。
 
-分类：治理；状态：政策承诺 · 实施计划中；原文日期：2026-10-30。
+分类：产业；状态：已签最终协议；交易待完成；原文日期：2026-11-02。
 
-来源：[OpenAI](https://openai.com/index/helping-websites-express-ai-training-preferences/)
+来源：[Marvell](https://investor.marvell.com/_assets/_4b2ef940d8378f4928a6a90255e70f76/marvell/news/2026-11-02_Marvell_and_Lumentum_to_Combine_Creating_a_1040.pdf)
 
-## 8. OpenAI 公布社区安全报告计划并收紧未成年人武器内容
+## 8. NetApp 完成 PEAK:AIO 收购，补充 AI 存储元数据技术
 
-![安全报告计划与青少年限制。执法转介：200+ 起，OpenAI 报告的 2026 年第三季度数字；未成年人：扩大限制，武器与安防系统实用信息；报告：计划推出，拟公布匿名案例、措施与数据](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-community-safety-report-teen-weapons.svg)
+![收购带来的技术方向。已完成：PEAK:AIO 收购，NetApp 于 11 月 2 日宣布；技术：元数据 + 并行文件，并发与命名空间架构；后续方向：ONTAP / Novus，整合计划未承诺交付时间](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/netapp-peak-aio-acquisition-2026-11-02.svg)
 
-OpenAI 公布的数据与政策变化；社区安全报告尚待推出。
+收购已完成；产品集成与发布时间尚未承诺。
 
-OpenAI 于 10 月 30 日公布社区安全报告计划，并表示将进一步限制未成年人获取有关武器和安防系统的实用信息，即使提问看似无害也可能受限。公司称，其在 2026 年第三季度向执法部门转介了超过 200 起迫近暴力威胁。
+NetApp 11 月 2 日宣布完成对英国 AI 存储软件公司 PEAK:AIO 的收购。NetApp 表示，收购将把 PEAK:AIO 的元数据服务和并行命名空间技术带入其 ONTAP 数据架构，面向 AI 云和 GPU 云服务商的数据密集型工作负载。
 
-OpenAI 计划在报告中说明安全机制、匿名案例、缓解措施与相关数据，并称首期报告预计于 2027 年初发布，覆盖 2026 年下半年。上述转介数字来自公司披露；报告尚未发布，也不是独立评估。
+公司称，这项技术旨在帮助存储系统处理更高并发与更大命名空间，并提到未来可能用于 NetApp Novus 等能力；公告同时明确，后续产品的开发、整合和推出时间并未承诺。此次收购已完成，所述新功能仍是产品方向。
 
-分类：治理；状态：安全政策更新 · 报告待推出；原文日期：2026-10-30。
+分类：基础设施；状态：收购完成；产品整合未承诺；原文日期：2026-11-02。
 
-来源：[OpenAI](https://openai.com/index/community-safety-report-and-new-protections-for-teens/)
+来源：[NetApp](https://www.netapp.com/newsroom/press-releases/news-rel-20261102-492821/)
 
-## 9. ChatGPT 桌面应用新增 Bedrock GovCloud 配置指南
+## 9. CrowdStrike 与 CoreWeave 扩大合作，为 AI 云提供安全服务
 
-![桌面应用的受控推理路由。身份：API 模式登录，使用命名 AWS 配置档；推理：Amazon Bedrock，路由至 GovCloud US-West；控制：策略与网络限制，受管设备后本地验证](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/aws-chatgpt-desktop-bedrock-govcloud.svg)
+![AI 云安全合作覆盖。防护对象：云、容器、GPU，生产 AI 工作负载；安全服务：24/7 威胁搜寻，Falcon 专家服务；响应：托管检测响应，调查、遏制与修复；模型基础设施：SafeMind，CoreWeave 支持训练与推理](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/crowdstrike-coreweave-ai-security-2026-11-02.svg)
 
-AWS 技术指南；具体部署还需管理员按组织安全策略验证。
+服务范围由 CrowdStrike 公告披露。
 
-AWS 于 10 月 30 日介绍了在 AWS GovCloud（美国）环境配置 ChatGPT 桌面应用的方法。其指南将推理请求路由到 AWS GovCloud US-West 的 Amazon Bedrock，并使用 API 模式登录、设备管理策略、命名 AWS 配置档及网络限制。
+CrowdStrike 与 CoreWeave 11 月 2 日宣布扩大合作，为在 CoreWeave 云上运行关键 AI 工作负载的客户提供 Falcon 平台防护和全天候托管安全服务。方案覆盖云工作负载、容器和 GPU 集群，并包含威胁搜寻以及检测、调查和响应。
 
-这是一份受控本地部署和验证流程说明，不代表所有 GovCloud 用户已默认获得同一设置。组织仍需按自身安全策略检查设备、网络和模型访问条件，再决定是否扩大使用范围。
+两家公司还表示，CoreWeave 为 CrowdStrike 的 SafeMind 安全模型提供训练与推理基础设施。公告描述的是双方联合提供的商业安全服务，没有披露独立客户成效或统一的部署范围，用户实际可用条件仍需向服务方确认。
 
-分类：基础设施；状态：技术配置指南 · 受控部署；原文日期：2026-10-30。
+分类：治理；状态：合作扩大；服务范围据厂商公告；原文日期：2026-11-02。
 
-来源：[AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/)
+来源：[CrowdStrike](https://crowdstrike.gcs-web.com/news-releases/news-release-details/coreweave-partners-crowdstrike-secure-mission-critical-ai)
 
-## 10. Worldwide Express 披露 Bedrock 多代理处理货运账单异常
+## 10. Lumen 与微软扩大合作，计划共同销售企业 AI 网络服务
 
-![货运异常处理的客户案例。承运商：40+，已覆盖的零担承运商；每周处理：约 10,000 项，客户案例称已关闭的异常数；活跃异常：减少 75%，上线六个月后的客户报告；回款周期：缩短 4 周，AWS / 客户披露结果](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/aws-worldwide-express-bedrock-freight.svg)
+![AI 网络合作的当前状态。当前：Alkira 已上架，Microsoft Marketplace 采购选项；合作方式：联合销售，共同规划企业客户机会；未来计划：更多 Azure 能力，范围与时间尚未公布](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/lumen-microsoft-ai-ready-networks-2026-11-02.svg)
 
-AWS 与客户公布的六个月数据；不代表独立审计或其他企业结果。
+Marketplace 上的 Alkira 已可采购；其余扩展仍为计划。
 
-AWS 于 10 月 30 日介绍 Worldwide Express 使用 Amazon Bedrock 处理零担货运账单异常的案例。该多代理系统接入公司的 SpeedShip 运输管理系统，分别核对发票、合同价格和附加费用，并将处理结果写回原有工作流。
+Lumen 与微软 11 月 2 日宣布扩大合作，计划共同面向企业销售网络服务，并在客户规划中结合网络现代化、Azure 迁移和 AI 基础设施需求。Lumen 表示，将推动旗下云网络与应用连接服务进入 Azure 及微软云生态。
 
-AWS 与 Worldwide Express 披露，系统上线六个月后覆盖 40 多家承运商，每周处理约 1 万项异常，活跃异常量下降 75%，回款周期缩短四周。以上为 AWS 客户案例中的数据；其中部分决策仍经过人工审核，不能直接外推到其他企业。
+公告提到 Alkira 已可通过 Microsoft Marketplace 采购；其他能力进入 Azure 或 Marketplace 仍是双方计划，尚未逐项说明时间和可用范围。合作重点是连接分布在公有云、私有数据中心和办公地点的数据与应用，并未披露新增网络覆盖或客户成效数据。
 
-分类：产业；状态：客户案例 · 厂商披露结果；原文日期：2026-10-30。
+分类：基础设施；状态：合作扩大；部分能力仍属计划；原文日期：2026-11-02。
 
-来源：[AWS Machine Learning Blog / Worldwide Express](https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/)
+来源：[Lumen](https://ir.lumen.com/news/news-details/2026/Lumen-and-Microsoft-Expand-Collaboration-to-Co-Sell-Enterprise-AI-Ready-Networks/default.aspx)
+来源：[Microsoft Source](https://news.microsoft.com/source/?section=materials)
 
-## 11. SETI 研究团队将代理接入射电望远镜数据流程
+## 11. HCLTech 推出 AI 主机运维服务，强调人员监督
 
-![代理协助望远镜实时分析。输入：望远镜数据流，Allen Telescope Array；分析：2.4 Tb/s，NVIDIA 报告的系统处理能力；输出：实时脉冲星探测，厂商称在蟹状星云完成](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/nvidia-seti-agentic-ai-observatory.svg)
+![AI 主机运维服务组成。服务对象：关键主机环境，企业核心系统运维；AI 组件：技能代理 + 对话助手，协助系统管理与流程处理；人工控制：人员监督，公告说明的服务边界](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/hcltech-ai-mainframe-operations-2026-11-02.svg)
 
-NVIDIA 披露的研究流程与性能数字；结果不代表发现地外生命。
+服务与人工监督描述据 HCLTech 公告；独立成效数据未公布。
 
-NVIDIA 于 10 月 30 日介绍 Breakthrough Listen 与 SETI Institute 在 Allen Telescope Array 使用代理式 AI 的研究流程。研究人员可用自然语言请求代理控制设备、校正数据并调用分析模型，Nexus 协调仪器状态、计算资源与处理管线。
+HCLTech 11 月 2 日发布面向大型主机环境的 AI-Powered Operations 服务，目标是协助企业管理关键系统中的日常运维、可观测性和优化工作。公司介绍，该方案组合主机技能代理与对话式 AI 助手，并由专门的 Mainframe Center of Excellence 提供领域支持。
 
-NVIDIA 称该系统使用 RTX PRO 6000 Blackwell GPU，可处理每秒 2.4 太比特数据，并报告在蟹状星云首次实时 AI 脉冲星探测。结果和吞吐量由厂商文章披露；团队仍在评估开放模型，报道不代表已发现地外生命信号。
+HCLTech 表示，服务用于提升运维效率和加快问题处理，但没有公布可独立核验的客户效果数据。公告明确将人员监督纳入方案；目前发布的是服务项目，具体客户部署、自动化权限和成效需结合合同及现场实施确认。
 
-分类：研究；状态：科研应用进展 · 厂商披露；原文日期：2026-10-30。
+分类：产品；状态：服务发布；成效数据未披露；原文日期：2026-11-02。
 
-来源：[NVIDIA Blog](https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/)
-
-## 12. Apache Spark 4.3.0 正式发布
-
-![4.3.0 功能版本发布。10 月 30 日：4.3.0 发布，Apache Spark 社区正式公告；版本类型：功能版本，项目建议查看具体变更；升级前：核对发行说明，按项目依赖验证兼容性](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/apache-spark-430-release.svg)
-
-Apache Spark 公告；升级差异以项目发行说明与 JIRA 清单为准。
-
-Apache Spark 社区于 10 月 30 日发布 Spark 4.3.0，将其标注为新的功能版本。项目已提供源码和预构建发行包，并在发行说明中汇总已解决问题及详细变更。
-
-社区建议使用者先检查 JIRA 中的变更记录，再按现有作业和依赖进行兼容性验证。发布公告没有给出一组可概括所有用户影响的统一性能数据，因此这里仅记录版本发布，不推断升级收益。
-
-分类：基础设施；状态：开源项目发布 · 功能版本；原文日期：2026-10-30。
-
-来源：[Apache Spark](https://spark.apache.org/news/spark-4-3-0-released.html)
-来源：[Apache Spark Release Notes](https://spark.apache.org/releases/spark-release-4-3-0.html)
+来源：[HCLTech](https://www.hcltech.com/press-releases/hcltech-launches-ai-powered-operations-mainframe-environments)
 
 **历史归档**
 
+- [2026-11-03 · 模型、算力基础设施与企业 AI 应用继续推进](archive/2026-11-03.md)
 - [2026-11-01 · 开放模型、智能体与安全机制迎来新进展](archive/2026-11-01.md)
 - [2026-10-29 · 前沿模型、智能体工具与企业部署继续扩展](archive/2026-10-29.md)
 - [2026-10-28 · 模型研究、企业代理与 AI 基础设施的多线推进](archive/2026-10-28.md)
