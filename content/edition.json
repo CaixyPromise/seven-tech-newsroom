@@ -4328,6 +4328,721 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "google-ai-learning-era-2026-11-03",
+      "category": "产品",
+      "title": "Google 把 Guided Learning 扩展到 Classroom 与 Search",
+      "summary": "Google 宣布将 Guided Learning 引入 Classroom，并把相关学习能力带到 Search，同时调整 K-12 学生账号的 AI 控制。",
+      "body": [
+        "Google 11 月 3 日公布一组面向教育场景的 AI 更新：Guided Learning 将在全球 Google Classroom 推出，Google Search 也会加入相关引导式学习能力。公司同时调整 Gemini、NotebookLM、Classroom 和 Search 的 K-12 学生账号控制。",
+        "公告还包括新研究、Google.org 资助和教师 AI 培训扩展。Google 将这些变化定位为教育产品更新；具体功能在各服务中的开放时间与地区范围，需以产品界面和学校管理员设置为准。"
+      ],
+      "facts": [
+        "原文日期为 2026-11-03。",
+        "Guided Learning 将扩展至 Google Classroom 与 Google Search。",
+        "公告同时提及多项 K-12 学生账号 AI 控制。"
+      ],
+      "context": "具体开放状态按产品及学校配置逐步呈现。",
+      "status": "产品更新；各服务开放范围不同",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "AI in the learning era",
+          "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "blue",
+        "eyebrow": "GOOGLE · EDUCATION",
+        "title": "AI 学习功能覆盖面",
+        "caption": "Google 对产品更新的公告；各产品开放情况可能不同。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "课堂",
+            "value": "Guided Learning",
+            "detail": "扩展到 Google Classroom"
+          },
+          {
+            "label": "搜索",
+            "value": "学习引导能力",
+            "detail": "带入 Google Search"
+          },
+          {
+            "label": "学生控制",
+            "value": "K-12 账号",
+            "detail": "更新多项 AI 服务设置"
+          }
+        ],
+        "focus": {
+          "value": "AI 学习",
+          "label": "产品更新"
+        }
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-physical-engineering-2026-11-03",
+      "category": "研究",
+      "title": "OpenAI 展示模型辅助机械与电子工程的试验",
+      "summary": "OpenAI 公布模型参与 CAD、PCB 设计、模拟和制造图纸流程的内部试验，并与 Mazda、Chip Ganassi Racing 开展合作。",
+      "body": [
+        "OpenAI 11 月 3 日介绍其模型在机械与电子工程中的试验，包括生成 CAD 设计、PCB 方案、制造图纸、设置模拟和协助设计审查。公司称其硬件团队自 2 月以来的模型使用量按 token 计算增长 23 倍，这是内部使用数据。",
+        "公告同时披露与 Chip Ganassi Racing 的合作及新加入的 Mazda 研究合作，工程师会审查模型产出。OpenAI 也指出原型仍需多轮检查，当前重点是受控协作和评估，还不是面向所有工程团队的普遍产品承诺。"
+      ],
+      "facts": [
+        "原文日期为 2026-11-03。",
+        "工作流涉及 CAD、PCB、仿真与制造图纸。",
+        "OpenAI 报告内部硬件团队模型 token 使用量自 2 月增长 23 倍。"
+      ],
+      "context": "使用量数据与能力描述来自 OpenAI；原型仍需工程师审查。",
+      "status": "合作试验；尚非普遍产品",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Accelerating engineering for the physical world",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "OPENAI · ENGINEERING",
+        "title": "模型进入工程工作流",
+        "caption": "厂商展示的内部与合作试验，仍需工程师检查。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "设计",
+            "value": "CAD 与 PCB",
+            "detail": "探索机械、电气设计"
+          },
+          {
+            "label": "验证",
+            "value": "仿真与审查",
+            "detail": "工程师检查模型结果"
+          },
+          {
+            "label": "合作",
+            "value": "Mazda / CGR",
+            "detail": "评估真实工程任务"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "sarvam-prism-decision-model-2026-11-03",
+      "category": "模型",
+      "title": "Sarvam 发布开放权重决策模型 Prism",
+      "summary": "Sarvam 发布基于 Sarvam 105B 的选项决策模型 Prism，并称其在自建评测中兼顾准确率、校准和响应速度。",
+      "body": [
+        "Sarvam 11 月 3 日发布 Sarvam Prism，一个针对给定状态、问题与候选项输出概率的决策模型，采用 Sarvam 105B 的 LoRA 微调。公司称模型权重以 Apache 2.0 许可开放，推理需要至少 120 GB 显存；另提供 Sarvam API 接入。",
+        "在 Sarvam 自行运行的 25 个决策模型比较中，Prism 三项指数平均得分为 71.8，中位响应时间为 44 毫秒，测试使用 B200 GPU。上述是厂商披露的评测结果，指标组合包含内部印度语言基准，不等同于独立通用评测。"
+      ],
+      "facts": [
+        "原文日期为 2026-11-03。",
+        "Prism 为 Sarvam 105B LoRA 微调，Apache 2.0 许可。",
+        "厂商报告三项指数平均 71.8 分、B200 上中位响应 44 毫秒。",
+        "单卡部署至少需要 120 GB 显存。"
+      ],
+      "context": "准确率、速度和比较结果均为 Sarvam 自行测试与报告。",
+      "status": "开放权重；评测为厂商自测",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "Sarvam AI",
+          "title": "Introducing Sarvam Prism",
+          "url": "https://www.sarvam.ai/blogs/sarvam-prism",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "SARVAM · PRISM",
+        "title": "面向选项判断的模型",
+        "caption": "三项指数与延迟为 Sarvam 自行测试结果。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "基础模型",
+            "value": "Sarvam 105B",
+            "detail": "LoRA 微调的决策模型"
+          },
+          {
+            "label": "综合得分",
+            "value": "71.8",
+            "detail": "厂商三项指数平均"
+          },
+          {
+            "label": "中位响应",
+            "value": "44 ms",
+            "detail": "B200 单请求测试"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "模型"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "open-webui-v013-release-2026-11-03",
+      "category": "开源",
+      "title": "Open WebUI 0.13.0 加入标签式工作区",
+      "summary": "Open WebUI 发布 0.13.0，将终端、文件、预览等内容组织为聊天内标签式工作区，并扩展多轮工具调用。",
+      "body": [
+        "Open WebUI 在 GitHub 于 11 月 3 日发布 0.13.0。更新加入标签式工作区，可在同一聊天中切换文件、多个终端、产物、预览、语音通话和评论，也可拖动标签排序并将文件保存到选定终端。",
+        "版本说明还列出聊天中的 MCP Apps、侧边聊天，以及单次响应工具调用轮数上限提升至 1,024。升级时需留意该版本包含数据库 schema 变更，项目说明滚动升级不受支持；部署方应按发布说明安排更新。"
+      ],
+      "facts": [
+        "GitHub Release 于 2026-11-03 发布 v0.13.0。",
+        "标签式工作区覆盖文件、多个终端、产物、预览、语音通话和评论。",
+        "版本说明提醒含 schema 变更且不支持滚动升级。"
+      ],
+      "context": "功能与迁移提醒据上游项目发布说明。",
+      "status": "正式发布；升级需安排",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "GitHub · open-webui",
+          "title": "v0.13.0 Release",
+          "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.0",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "amber",
+        "eyebrow": "OPEN WEBUI · 0.13.0",
+        "title": "聊天界面扩展为工作区",
+        "caption": "升级前须处理数据库变更；不支持滚动升级。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "工作区",
+            "value": "多标签",
+            "detail": "文件、终端、预览等"
+          },
+          {
+            "label": "协作",
+            "value": "MCP Apps",
+            "detail": "支持侧边聊天"
+          },
+          {
+            "label": "升级提示",
+            "value": "不支持滚动升级",
+            "detail": "含数据库 schema 变更"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "crowdstrike-ai-kill-switch-2026-11-03",
+      "category": "治理",
+      "title": "CrowdStrike 推出 AI Kill Switch，先从网关切断代理",
+      "summary": "CrowdStrike 在 Falcon Guardian 推出 AI Kill Switch，授权管理员可阻止失控代理访问模型并限制其再次运行。",
+      "body": [
+        "CrowdStrike 11 月 3 日宣布 Falcon Guardian 的 AI Kill Switch 可用。公司说明，授权管理员可在代理出现偏离行为时，从网关侧终止其模型访问、阻止再次启动并切断企业网络连接，操作会留下审计记录。",
+        "当前终止能力先在 Gateway 执行；直接在端点终止代理进程仍属后续扩展。该功能面向 Falcon Guardian 客户，公告同时介绍的其他端点和代理控制能力有不同发布阶段，不能一概视为已上线。"
+      ],
+      "facts": [
+        "原文日期为 2026-11-03。",
+        "管理员触发控制，操作写入审计记录。",
+        "现阶段先在 Gateway 阻断，端点直接终止计划稍后推出。"
+      ],
+      "context": "当前能力范围与后续端点计划按 CrowdStrike 公告区分。",
+      "status": "Falcon Guardian 客户可用",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "CrowdStrike",
+          "title": "CrowdStrike Introduces the AI Kill Switch for AI Safety",
+          "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-introduces-ai-kill-switch-for-ai-safety/",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "CROWDSTRIKE · GUARDIAN",
+        "title": "失控代理的人工制动",
+        "caption": "网关阻断已推出；端点直接终止仍在后续计划中。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "触发方",
+            "value": "授权管理员",
+            "detail": "保留操作审计记录"
+          },
+          {
+            "label": "当前控制点",
+            "value": "AI Gateway",
+            "detail": "先切断模型访问"
+          },
+          {
+            "label": "后续扩展",
+            "value": "端点进程",
+            "detail": "CrowdStrike 称即将支持"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "research-solutions-copilot-research-2026-11-03",
+      "category": "产品",
+      "title": "Scite 与 Article Galaxy 接入 Microsoft Copilot",
+      "summary": "Research Solutions 将文献证据评估与全文许可查询接入 Copilot，相关集成已在 Microsoft Marketplace 提供。",
+      "body": [
+        "Research Solutions 11 月 3 日宣布 Scite 和 Article Galaxy 集成到 Microsoft Copilot。Scite 的 Smart Citations 会标注后续研究对论文结论的支持、反驳或提及；Article Galaxy 则查询机构订阅、获取价格及单篇文章的使用权。",
+        "该组合允许用户在 Microsoft 365 工作流中查找证据，并核对全文能否用于特定场景，包括生成式 AI 和文本数据挖掘。公司称两项集成已在 Microsoft Marketplace 上架；实际可访问内容与许可仍取决于机构订阅和文章授权。"
+      ],
+      "facts": [
+        "公告日期为 2026-11-03。",
+        "Scite 标注引用研究对论文的支持、反驳或提及。",
+        "Article Galaxy 查询订阅、购买与特定用途复用权。"
+      ],
+      "context": "全文获取与 AI 复用范围按单篇许可及机构订阅判断。",
+      "status": "Microsoft Marketplace 已上架",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "Research Solutions",
+          "title": "Research Solutions Brings Scite & Article Galaxy To Microsoft Copilot",
+          "url": "https://www.researchsolutions.com/resources/press-releases/research-solutions-brings-scite-and-article-galaxy-to-microsoft-copilot",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "RESEARCH SOLUTIONS · COPILOT",
+        "title": "从研究证据到使用许可",
+        "caption": "集成已上架；全文和 AI 使用权取决于订阅与许可。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "证据核验",
+            "value": "Scite",
+            "detail": "支持、反驳或提及引用"
+          },
+          {
+            "label": "全文获取",
+            "value": "Article Galaxy",
+            "detail": "查看订阅与价格"
+          },
+          {
+            "label": "许可核对",
+            "value": "按文章判断",
+            "detail": "包括生成式 AI 使用权"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "snowflake-coco-cowork-bots-2026-11-03",
+      "category": "产品",
+      "title": "Snowflake 扩展 CoCo 与 CoWork 的后台代理功能",
+      "summary": "Snowflake 宣布面向数据与知识工作推出后台代理、定时自动化和跨应用能力；多项新功能处于公开或私有预览阶段。",
+      "body": [
+        "Snowflake 11 月 3 日公布 CoCo 与 CoWork 的一组更新，覆盖后台 Bots、重复任务自动化、记忆与技能共享，以及 Slack、Excel、Sheets 和移动端入口。公司称新 Bots 会在授权和角色边界内执行工作，并在需要决策或批准时回到用户。",
+        "发布说明将不同功能标为不同阶段：部分自动化已 GA，多项应用和资料功能为公开预览，动态模型路由为私有预览，Bots 仍标注“即将进入私有预览”。截至 2026 年 7 月季度末，公司报告 CoWork 使用账户超过 5,800、CoCo 超过 9,100；这是厂商口径。"
+      ],
+      "facts": [
+        "原文日期为 2026-11-03。",
+        "CoCo 面向数据团队，CoWork 面向知识工作者。",
+        "自动化部分 GA；部分组件公开预览，模型路由私有预览，Bots 尚未进入私有预览。",
+        "账户数为截至 2026-07-31 季度末的公司统计。"
+      ],
+      "context": "新功能发布阶段并不一致，账户数是厂商截至指定季度的统计。",
+      "status": "分阶段发布",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "Snowflake",
+          "title": "Snowflake CoCo and CoWork Power the Agentic Enterprise",
+          "url": "https://www.snowflake.com/en/news/press-releases/expedition-2026-coco-cowork/",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "teal",
+        "eyebrow": "SNOWFLAKE · COCO / COWORK",
+        "title": "企业代理更新与开放阶段",
+        "caption": "Snowflake 标注的 GA、公开预览、私有预览与即将预览。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "后台任务",
+            "value": "Bots",
+            "detail": "即将进入私有预览"
+          },
+          {
+            "label": "自动化",
+            "value": "重复工作流",
+            "detail": "部分能力已 GA"
+          },
+          {
+            "label": "应用入口",
+            "value": "Slack / Sheets",
+            "detail": "多项处于公开预览"
+          },
+          {
+            "label": "路由",
+            "value": "模型分级",
+            "detail": "私有预览"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "6sense-agentic-gtm-products-2026-11-03",
+      "category": "产品",
+      "title": "6sense 推出面向销售团队的 Agentic GTM 更新",
+      "summary": "6sense 宣布销售代理、AI 可见度监测与面向自建代理的 API 更新，其中不少功能仍处于 Beta 或后续规划阶段。",
+      "body": [
+        "6sense 在 11 月 3 日的 Breakthrough 2026 活动上宣布一组面向销售流程的产品更新，包括 BDR Agent、AI Visibility、预测模型和销售情报 MCP。公司称销售情报 MCP 当日一般可用，关键字意图 API 纳入正式版本。",
+        "其他功能的开放进度不同：BDR Agent 与可解释性功能计划 11 月 Beta，AI Visibility 预计 12 月 Beta，预测模型先进入封闭 Beta，完整可用安排延至 2027 年 2 月。公告中的买家调研数字来自 6sense 自身研究。"
+      ],
+      "facts": [
+        "6sense 公告日期为 2026-11-03。",
+        "Sales Intelligence MCP 当日 GA，关键词意图 API 纳入 GA。",
+        "BDR Agent、Explainability、AI Visibility 和预测模型处于不同 Beta 阶段。"
+      ],
+      "context": "产品阶段与时间表来自厂商公告，部分功能尚未普遍可用。",
+      "status": "部分 GA；多数功能为 Beta 或计划",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "6sense",
+          "title": "6sense Repositions as Partner for Agentic GTM",
+          "url": "https://6sense.com/news/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "6SENSE · AGENTIC GTM",
+        "title": "销售代理功能分阶段推出",
+        "caption": "按 6sense 公告区分正式可用、Beta 与未来计划。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "现已可用",
+            "value": "Sales MCP",
+            "detail": "兼容代理查询销售情报"
+          },
+          {
+            "label": "11 月 Beta",
+            "value": "BDR / Explainability",
+            "detail": "尚未普遍开放"
+          },
+          {
+            "label": "12 月 Beta",
+            "value": "AI Visibility",
+            "detail": "计划监测品牌 AI 曝光"
+          },
+          {
+            "label": "2027 年 2 月",
+            "value": "完整可解释性",
+            "detail": "厂商公布的目标时间"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "datacore-ai-sansymphony-2026-11-03",
+      "category": "产品",
+      "title": "DataCore 为 SANsymphony 上线存储运维 AI 助手",
+      "summary": "DataCore AI 现已面向 SANsymphony 用户提供，用自然语言查询遥测、文档和存储运行状态。",
+      "body": [
+        "DataCore 11 月 3 日发布 DataCore AI，面向其 SANsymphony 软件定义存储平台提供自然语言运维助手。公告称该助手结合运行遥测、产品文档和厂商经验，支持管理员查询存储池、虚拟磁盘延迟和数据保护配置等状态。",
+        "目前可用范围为 SANsymphony 10.0 PSP21 及以上版本；对象存储产品 Swarm 的支持列为后续计划。DataCore 没有在公告中提供独立验证的故障处理提速或准确率数据，决策仍由管理员负责。"
+      ],
+      "facts": [
+        "公告日期为 2026-11-03。",
+        "助手结合运行遥测、产品文档及经验知识。",
+        "当前要求 SANsymphony 10.0 PSP21 或更高版本。"
+      ],
+      "context": "可用范围来自厂商；公告未披露独立效果评测。",
+      "status": "已发布；限定 SANsymphony 版本",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "DataCore",
+          "title": "DataCore Launches AI Assistant",
+          "url": "https://www.datacore.com/news-post/datacore-launches-ai-assistant-that-turns-storage-questions-into-expert-answers/",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "DATACORE · STORAGE AI",
+        "title": "存储运维问答的产品范围",
+        "caption": "当前支持 SANsymphony；Swarm 尚属后续计划。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "当前产品",
+            "value": "SANsymphony",
+            "detail": "10.0 PSP21 及以上"
+          },
+          {
+            "label": "输入信息",
+            "value": "遥测 + 文档",
+            "detail": "查询存储运行状态"
+          },
+          {
+            "label": "后续范围",
+            "value": "Swarm",
+            "detail": "对象存储支持待推出"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "protegrity-ai-team-policy-engine-2026-11-03",
+      "category": "治理",
+      "title": "Protegrity 用 Cedar 统一企业 AI 访问策略",
+      "summary": "Protegrity 更新 AI Team Edition，以 Cedar 策略引擎覆盖数据、代理和推理，并将多项能力列为技术预览。",
+      "body": [
+        "Protegrity 11 月 3 日宣布 AI Team Edition 更新，新增基于开源 Cedar 策略语言的策略引擎，目标是在数据访问、代理执行和模型推理层统一应用企业规则，并与其 PII 模型集成。",
+        "公司还列出 AI Gateway、Data & AI Fast Lanes 等组件，以及处于技术预览阶段的 Secure Query 和 Iceberg Protector。公告描述的是厂商产品能力，没有披露独立评测或客户规模数据；可用阶段需按各组件分别确认。"
+      ],
+      "facts": [
+        "公告日期为 2026-11-03。",
+        "新策略引擎以 Cedar 构建，覆盖数据、代理和推理层。",
+        "Secure Query 与 Iceberg Protector 标为技术预览。"
+      ],
+      "context": "方案与安全效果为厂商表述，预览功能不等于正式可用。",
+      "status": "产品更新；部分功能预览",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "Protegrity",
+          "title": "Unified Policy Enforcement Across Data, Agents and Inference",
+          "url": "https://www.protegrity.com/news/protegrity-brings-secure-context-to-enterprise-ai-with-a-unified-policy-engine-for-data-agents-and-inference",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "violet",
+        "eyebrow": "PROTEGRITY · AI TEAM",
+        "title": "策略覆盖企业 AI 三层",
+        "caption": "厂商公布的产品能力；部分组件处于技术预览。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "数据",
+            "value": "访问策略",
+            "detail": "保护敏感业务上下文"
+          },
+          {
+            "label": "代理",
+            "value": "Cedar 引擎",
+            "detail": "统一策略控制基础"
+          },
+          {
+            "label": "推理",
+            "value": "AI Gateway",
+            "detail": "纳入策略执行范围"
+          },
+          {
+            "label": "技术预览",
+            "value": "Secure Query",
+            "detail": "与 Iceberg Protector 同阶段"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "digitalocean-q3-ai-arr-2026-11-03",
+      "category": "产业",
+      "title": "DigitalOcean 三季度 AI 客户 ARR 达 3.76 亿美元",
+      "summary": "DigitalOcean 报告第三季度收入同比增长 40%，AI 客户 ARR 同比增长 288%；相关指标按公司披露口径计算。",
+      "body": [
+        "DigitalOcean 11 月 3 日公布截至 9 月 30 日的第三季度业绩，营收为 3.21 亿美元、同比增长 40%。公司披露 AI 客户年度经常性收入（ARR）为 3.76 亿美元，同比增长 288%，季度新增 ARR 达 1.6 亿美元。",
+        "公司同时将第四季度收入增长展望上调至 44%—45%，并预计 2027 年收入增长超过 60%。DigitalOcean 定义 AI 客户 ARR 为最近季度 AI 客户收入乘以四；这是公司自定的年化指标，不能直接等同于季度现金收入或全行业市场规模。"
+      ],
+      "facts": [
+        "季度截至 2026-09-30，公告日期 2026-11-03。",
+        "营收 3.21 亿美元，同比增长 40%。",
+        "AI 客户 ARR 3.76 亿美元，同比增长 288%。",
+        "公司定义 AI 客户 ARR 为最近季度收入乘以四。"
+      ],
+      "context": "财务数字与增长展望来自公司业绩公告；ARR 为公司定义的年化口径。",
+      "status": "三季度财报；ARR 为年化口径",
+      "published_at": "2026-11-03",
+      "sources": [
+        {
+          "publisher": "DigitalOcean",
+          "title": "DigitalOcean Announces Third Quarter 2026 Financial Results",
+          "url": "https://investors.digitalocean.com/news/news-details/2026/DigitalOcean-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-04T01:05:11+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "DIGITALOCEAN · Q3 2026",
+        "title": "AI 客户收入与季度表现",
+        "caption": "ARR 为公司将最近季度对应收入乘以四的年化指标。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "第三季度营收",
+            "value": "$321M",
+            "detail": "同比增长 40%"
+          },
+          {
+            "label": "AI 客户 ARR",
+            "value": "$376M",
+            "detail": "同比增长 288%"
+          },
+          {
+            "label": "季度新增 ARR",
+            "value": "$160M",
+            "detail": "公司披露的季度纪录"
+          }
+        ]
+      },
+      "discovered_at": "2026-11-04T01:06:14.620176+00:00",
+      "verified_at": "2026-11-04T01:05:11+00:00",
+      "issue_date": "2026-11-04",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -4519,7 +5234,36 @@
       "updated_at": "2026-11-03T01:03:47.843610+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-03.json"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "AI 进入工程、教育与企业工作流",
+      "dek": "本期整理 11 条经原始来源核实的 AI 与科技进展，涵盖教育产品、工程模型、开放模型、企业代理、安全治理与云业绩。",
+      "coverage": "2026-11-03 09:00 至 2026-11-04 09:00（Asia/Singapore）；原文仅标日期者保留日期精度。",
+      "lead_ids": [
+        "google-ai-learning-era-2026-11-03",
+        "openai-physical-engineering-2026-11-03",
+        "sarvam-prism-decision-model-2026-11-03"
+      ],
+      "event_ids": [
+        "google-ai-learning-era-2026-11-03",
+        "openai-physical-engineering-2026-11-03",
+        "sarvam-prism-decision-model-2026-11-03",
+        "open-webui-v013-release-2026-11-03",
+        "crowdstrike-ai-kill-switch-2026-11-03",
+        "research-solutions-copilot-research-2026-11-03",
+        "snowflake-coco-cowork-bots-2026-11-03",
+        "6sense-agentic-gtm-products-2026-11-03",
+        "datacore-ai-sansymphony-2026-11-03",
+        "protegrity-ai-team-policy-engine-2026-11-03",
+        "digitalocean-q3-ai-arr-2026-11-03"
+      ],
+      "number": "008",
+      "published_at": "2026-11-04T01:06:14.620176+00:00",
+      "updated_at": "2026-11-04T01:06:14.620176+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-04.json"
     }
   ],
-  "updated_at": "2026-11-03T01:03:47.843610+00:00"
+  "updated_at": "2026-11-04T01:06:14.620176+00:00"
 }
