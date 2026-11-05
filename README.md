@@ -4,185 +4,188 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-04。共 8 期、74 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-05。共 9 期、85 条独立记录；按实际发布状态与来源标时。
 
-**最新数据快照**：2026-10-29 09:03 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
+**最新数据快照**：2026-11-05 09:09 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
 | 观察项 | 最新观测 | 范围 |
 | --- | --- | --- |
-| 模型基本费估算 | $0.002 · Claude Haiku 5.5 | 7 个选定模型，10K 输入 + 2K 输出 Token |
+| 模型基本费估算 | $0.00135 · MiniMax M3.1 Flash | 7 个选定模型，10K 输入 + 2K 输出 Token |
 | 平台单日用量 | 约 7.09T Token · DeepSeek V4.1 Flash 1017 | OpenRouter 2026-10-31 UTC 公开日榜 |
-| 开源关注 | 185,141 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
-| 文本模型下载 | 24,162,298 · Qwen/Qwen3-0.6B | HF 文本生成类，近 30 日滚动量 |
+| 开源关注 | 185,938 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
+| 文本模型下载 | 30,091,264 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-04
+## 最新一期 · 2026-11-05
 
-**AI 进入工程、教育与企业工作流**
+**AI 工具走向工程、研究与企业系统**
 
-本期整理 11 条经原始来源核实的 AI 与科技进展，涵盖教育产品、工程模型、开放模型、企业代理、安全治理与云业绩。
+本期收录 11 条进展，覆盖图像模型、编程与安全工具、生命科学研究，以及企业和算力基础设施。多项发布已开放使用，但部分功能仍有审批、预览或规划阶段限制。
 
-每日精选，第 008 期。收录范围：2026-11-03 09:00 至 2026-11-04 09:00（Asia/Singapore）；原文仅标日期者保留日期精度。。
-实际首次整理：2026-11-04 09:06 UTC+8。
+每日精选，第 009 期。收录范围：2026-11-04 09:00 至 2026-11-05 09:00（Asia/Singapore）；原文仅列日期者保留日期精度。
+实际首次整理：2026-11-05 09:10 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. Google 把 Guided Learning 扩展到 Classroom 与 Search
+## 1. OpenAI 宣布收购开发者工具公司 Pierre Computer
 
-![AI 学习功能覆盖面。课堂：Guided Learning，扩展到 Google Classroom；搜索：学习引导能力，带入 Google Search；学生控制：K-12 账号，更新多项 AI 服务设置](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-ai-learning-era-2026-11-03.svg)
+![从 Git 工具到 Codex。现有工具：Trees / Diffs，已用于 Codex 的文件浏览与差异审阅；开发者平台：Code Storage，支持应用存储代码与 Git 历史；交易阶段：等待交割，仍需惯常条件与监管批准](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-pierre-acquisition-2026-11-04.svg)
 
-Google 对产品更新的公告；各产品开放情况可能不同。
+OpenAI 公告；交易完成前双方独立，开源项目将继续开放。
 
-Google 11 月 3 日公布一组面向教育场景的 AI 更新：Guided Learning 将在全球 Google Classroom 推出，Google Search 也会加入相关引导式学习能力。公司同时调整 Gemini、NotebookLM、Classroom 和 Search 的 K-12 学生账号控制。
+OpenAI 11 月 4 日宣布将收购 Pierre Computer Company。Pierre 开发了 Code Storage，以及 Codex 已使用的 Trees 和 Diffs 等开源工具；OpenAI 表示希望将其 Git 工作流经验纳入 Codex 的开发者工具。
 
-公告还包括新研究、Google.org 资助和教师 AI 培训扩展。Google 将这些变化定位为教育产品更新；具体功能在各服务中的开放时间与地区范围，需以产品界面和学校管理员设置为准。
+交易尚未完成，仍需满足惯常交割条件并取得监管批准。在交割前双方保持独立；Pierre 的开源项目将继续开放，Code Storage 现有客户也可继续使用。OpenAI 表示之后会把相关功能逐步带入 Codex。
 
-分类：产品；状态：产品更新；各服务开放范围不同；原文日期：2026-11-03。
+分类：产业；状态：拟收购；待监管审批；原文日期：2026-11-04。
 
-来源：[Google](https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/)
+来源：[OpenAI](https://openai.com/index/openai-to-acquire-pierre/)
 
-## 2. OpenAI 展示模型辅助机械与电子工程的试验
+## 2. OpenAI 将 Daybreak Red 扩展至 AWS GovCloud
 
-![模型进入工程工作流。设计：CAD 与 PCB，探索机械、电气设计；验证：仿真与审查，工程师检查模型结果；合作：Mazda / CGR，评估真实工程任务](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-physical-engineering-2026-11-03.svg)
+![政府云中的授权安全工作流。云环境：AWS GovCloud，美国东部区域，经 Bedrock 接入；模型：GPT-5.6 Cyber，用于授权漏洞研究与安全测试；接入条件：双重配置，OpenAI 批准并由 AWS 启用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-daybreak-red-govcloud-2026-11-04.svg)
 
-厂商展示的内部与合作试验，仍需工程师检查。
+OpenAI 产品公告；适用对象与操作均受审批、身份验证及访问控制约束。
 
-OpenAI 11 月 3 日介绍其模型在机械与电子工程中的试验，包括生成 CAD 设计、PCB 方案、制造图纸、设置模拟和协助设计审查。公司称其硬件团队自 2 月以来的模型使用量按 token 计算增长 23 倍，这是内部使用数据。
+OpenAI 11 月 4 日宣布，Daybreak Red 已在 AWS GovCloud（美国东部）提供 GPT-5.6 Cyber，供获批政府客户通过 Amazon Bedrock 开展授权的漏洞研究、利用验证和安全测试。
 
-公告同时披露与 Chip Ganassi Racing 的合作及新加入的 Mazda 研究合作，工程师会审查模型产出。OpenAI 也指出原型仍需多轮检查，当前重点是受控协作和评估，还不是面向所有工程团队的普遍产品承诺。
+申请方还需取得 Daybreak Red 许可并完成 AWS 配置，单有 OpenAI 批准并不会自动启用模型。OpenAI 表示该服务会加强身份验证、监控和访问控制，Bedrock 上的推理数据不会用于训练模型；安全人员仍需审核模型发现和修复建议。
 
-分类：研究；状态：合作试验；尚非普遍产品；原文日期：2026-11-03。
+分类：产品；状态：经审批客户可用；原文日期：2026-11-04。
 
-来源：[OpenAI](https://openai.com/index/accelerating-engineering-for-the-physical-world/)
+来源：[OpenAI](https://openai.com/index/daybreak-red-aws-govcloud/)
 
-## 3. Sarvam 发布开放权重决策模型 Prism
+## 3. OpenAI 报告模型辅助发现并修补 Linux 内核漏洞的试验
 
-![面向选项判断的模型。基础模型：Sarvam 105B，LoRA 微调的决策模型；综合得分：71.8，厂商三项指数平均；中位响应：44 ms，B200 单请求测试](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/sarvam-prism-decision-model-2026-11-03.svg)
+![Linux 内核漏洞研究流程。分析候选项：2,308，原型筛查与分析；动态复现：1,724，研究报告列出的漏洞数；本地提权样例：948，候选漏洞与补丁待维护者审查；一次运行成本：$1.2M，OpenAI 报告的 API 成本](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-linux-vulnerability-pipeline-2026-11-04.svg)
 
-三项指数与延迟为 Sarvam 自行测试结果。
+全部数字来自 OpenAI 对研究原型的报告；不代表相同数量已完成上游修复。
 
-Sarvam 11 月 3 日发布 Sarvam Prism，一个针对给定状态、问题与候选项输出概率的决策模型，采用 Sarvam 105B 的 LoRA 微调。公司称模型权重以 Apache 2.0 许可开放，推理需要至少 120 GB 显存；另提供 Sarvam API 接入。
+OpenAI 11 月 4 日公布一项 Linux 内核安全研究：其原型流程分析了 2,308 个候选发现，动态复现 1,724 个漏洞，并生成了 948 个可能使本地非特权用户取得 root 权限的利用样例和候选补丁。
 
-在 Sarvam 自行运行的 25 个决策模型比较中，Prism 三项指数平均得分为 71.8，中位响应时间为 44 毫秒，测试使用 B200 GPU。上述是厂商披露的评测结果，指标组合包含内部印度语言基准，不等同于独立通用评测。
+公司称这次运行的 API 成本为 120 万美元，并表示已优先报告严重问题、与维护者及 Patch the Planet 合作跟进。数字来自 OpenAI 对自有流程的报告；补丁仍要经过维护者审核，不能把候选漏洞数量直接等同于已修复的安全问题。
 
-分类：模型；状态：开放权重；评测为厂商自测；原文日期：2026-11-03。
+分类：研究；状态：研究报告；补丁待维护者审查；原文日期：2026-11-04。
 
-来源：[Sarvam AI](https://www.sarvam.ai/blogs/sarvam-prism)
+来源：[OpenAI](https://openai.com/index/a-thousand-fewer-paths-to-root/)
 
-## 4. Open WebUI 0.13.0 加入标签式工作区
+## 4. OpenAI 发布 Images 2.6，加入 GIF 生成与更细编辑控制
 
-![聊天界面扩展为工作区。工作区：多标签，文件、终端、预览等；协作：MCP Apps，支持侧边聊天；升级提示：不支持滚动升级，含数据库 schema 变更](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/open-webui-v013-release-2026-11-03.svg)
+![生成与编辑能力更新。生成速度：快 50%，OpenAI 与前代比较的说法；快速模式：最快 6 秒，Flare，低质量设置；API 选项：Flare / Sunburst，分别侧重速度与细节一致性；新能力：GIF / SVG，含动画生成与 SVG 导出](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-images-2-6-2026-11-04.svg)
 
-升级前须处理数据库变更；不支持滚动升级。
+速度数据为 OpenAI 公布；ChatGPT、Codex 与 API 的开放形态不同。
 
-Open WebUI 在 GitHub 于 11 月 3 日发布 0.13.0。更新加入标签式工作区，可在同一聊天中切换文件、多个终端、产物、预览、语音通话和评论，也可拖动标签排序并将文件保存到选定终端。
+OpenAI 11 月 4 日发布 Images 2.6，将图像生成与编辑功能带到 ChatGPT、Codex 和 API，并加入 GIF 生成、图像标注编辑和 SVG 导出。公司称生成速度较前代提高 50%，低质量设置下 Flare 最快可在 6 秒生成图像。
 
-版本说明还列出聊天中的 MCP Apps、侧边聊天，以及单次响应工具调用轮数上限提升至 1,024。升级时需留意该版本包含数据库 schema 变更，项目说明滚动升级不受支持；部署方应按发布说明安排更新。
+API 提供面向快速生成的 Flare 与侧重细节和编辑一致性的 Sunburst；ChatGPT 与 Codex 则已向全球各订阅层级开放。速度和质量描述来自 OpenAI，实际效果仍会受请求复杂度与质量设置影响。
 
-分类：开源；状态：正式发布；升级需安排；原文日期：2026-11-03。
+分类：模型；状态：ChatGPT、Codex 与 API 已发布；原文日期：2026-11-04。
 
-来源：[GitHub · open-webui](https://github.com/open-webui/open-webui/releases/tag/v0.13.0)
+来源：[OpenAI](https://openai.com/index/introducing-images-2-6/)
 
-## 5. CrowdStrike 推出 AI Kill Switch，先从网关切断代理
+## 5. Anthropic 团队报告发现原核生物中的 vault 颗粒结构
 
-![失控代理的人工制动。触发方：授权管理员，保留操作审计记录；当前控制点：AI Gateway，先切断模型访问；后续扩展：端点进程，CrowdStrike 称即将支持](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/crowdstrike-ai-kill-switch-2026-11-03.svg)
+![噬菌体 vault 样颗粒。结构组成：96 个 L05，每半 48 个蛋白拷贝；颗粒尺寸：54 × 45 nm，约长 54、宽 45 纳米；纯化时间：约 90 分钟，团队报告的优化流程；科学问题：功能未知，预印本与更多数据待发布](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/anthropic-prokaryotic-vault-2026-11-04.svg)
 
-网关阻断已推出；端点直接终止仍在后续计划中。
+Anthropic 团队报告；研究尚未确定颗粒功能，模型协助过程也出现过错误。
 
-CrowdStrike 11 月 3 日宣布 Falcon Guardian 的 AI Kill Switch 可用。公司说明，授权管理员可在代理出现偏离行为时，从网关侧终止其模型访问、阻止再次启动并切断企业网络连接，操作会留下审计记录。
+Anthropic 11 月 4 日发布一项生命科学研究，报告其团队用冷冻电镜解析出来自噬菌体的 vault 样蛋白颗粒三维结构。研究称该颗粒由 96 个 L05 蛋白拷贝组成，长约 54 纳米、宽约 45 纳米；研究者表示这是已知原核生物中最大的蛋白壳之一。
 
-当前终止能力先在 Gateway 执行；直接在端点终止代理进程仍属后续扩展。该功能面向 Falcon Guardian 客户，公告同时介绍的其他端点和代理控制能力有不同发布阶段，不能一概视为已上线。
+团队称 Claude 协助搜索蛋白数据库、设计 DNA 构建、优化分离流程和处理显微镜数据，使纯化步骤从约三天缩短到约 90 分钟。颗粒的生物学功能仍未知，预印本和更多数据尚待发布；作者也记录了模型造成的实验延误和分析错误。
 
-分类：治理；状态：Falcon Guardian 客户可用；原文日期：2026-11-03。
+分类：研究；状态：研究报告；功能待研究；原文日期：2026-11-04。
 
-来源：[CrowdStrike](https://www.crowdstrike.com/en-us/press-releases/crowdstrike-introduces-ai-kill-switch-for-ai-safety/)
+来源：[Anthropic](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
-## 6. Scite 与 Article Galaxy 接入 Microsoft Copilot
+## 6. GitHub Copilot 进入 Xcode 内置编程助手公开预览
 
-![从研究证据到使用许可。证据核验：Scite，支持、反驳或提及引用；全文获取：Article Galaxy，查看订阅与价格；许可核对：按文章判断，包括生成式 AI 使用权](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/research-solutions-copilot-research-2026-11-03.svg)
+![启用内置编程助手。获取测试版：Xcode 27.3 beta，从 Apple Developer 下载；系统要求：macOS 26.6+，macOS Tahoe 26.6 或更新版本；使用入口：Xcode Intelligence，内置助手公开预览；旧扩展仍可选](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/github-copilot-xcode-assistant-2026-11-04.svg)
 
-集成已上架；全文和 AI 使用权取决于订阅与许可。
+GitHub 公告；目前为 Xcode beta 中的公开预览功能。
 
-Research Solutions 11 月 3 日宣布 Scite 和 Article Galaxy 集成到 Microsoft Copilot。Scite 的 Smart Citations 会标注后续研究对论文结论的支持、反驳或提及；Article Galaxy 则查询机构订阅、获取价格及单篇文章的使用权。
+GitHub 11 月 4 日宣布，Copilot 已进入 Xcode 内置 coding assistant 的公开预览版，开发者可在 Xcode 的设置中启用。此集成从 Xcode 27.3 beta 开始提供，支持所有 Copilot 套餐。
 
-该组合允许用户在 Microsoft 365 工作流中查找证据，并核对全文能否用于特定场景，包括生成式 AI 和文本数据挖掘。公司称两项集成已在 Microsoft Marketplace 上架；实际可访问内容与许可仍取决于机构订阅和文章授权。
+使用者需要从 Apple Developer 下载该测试版，并运行 macOS Tahoe 26.6 或更新版本。原有 GitHub Copilot for Xcode 扩展仍是独立选项；这次更新扩大了 Xcode 原生助手中的选择，但目前仍处于 beta 阶段。
 
-分类：产品；状态：Microsoft Marketplace 已上架；原文日期：2026-11-03。
+分类：产品；状态：公开预览；原文日期：2026-11-04。
 
-来源：[Research Solutions](https://www.researchsolutions.com/resources/press-releases/research-solutions-brings-scite-and-article-galaxy-to-microsoft-copilot)
+来源：[GitHub](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/)
 
-## 7. Snowflake 扩展 CoCo 与 CoWork 的后台代理功能
+## 7. CodeQL 2.27.4 更新多语言查询准确性与安全检查
 
-![企业代理更新与开放阶段。后台任务：Bots，即将进入私有预览；自动化：重复工作流，部分能力已 GA；应用入口：Slack / Sheets，多项处于公开预览；路由：模型分级，私有预览](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/snowflake-coco-cowork-bots-2026-11-03.svg)
+![查询规则更新范围。Java / Kotlin：识别更多净化规则，扩展输入与路径保护识别；Rust：减少误报，覆盖三类安全查询；C / C++：调整指针查询，忽略特定 std::byte* 运算；企业版：GHES 3.24，GitHub 计划纳入的版本](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/github-codeql-2274-2026-11-04.svg)
 
-Snowflake 标注的 GA、公开预览、私有预览与即将预览。
+查询变动与 GHES 版本安排来自 GitHub 发布说明。
 
-Snowflake 11 月 3 日公布 CoCo 与 CoWork 的一组更新，覆盖后台 Bots、重复任务自动化、记忆与技能共享，以及 Slack、Excel、Sheets 和移动端入口。公司称新 Bots 会在授权和角色边界内执行工作，并在需要决策或批准时回到用户。
+GitHub 11 月 4 日发布 CodeQL 2.27.4，更新 Java、Kotlin、Rust 与 C/C++ 的查询规则，包括识别更多输入清理模式、减少若干 Rust 查询的误报，以及避免把有意的 std::byte* 指针运算报告为问题。
 
-发布说明将不同功能标为不同阶段：部分自动化已 GA，多项应用和资料功能为公开预览，动态模型路由为私有预览，Bots 仍标注“即将进入私有预览”。截至 2026 年 7 月季度末，公司报告 CoWork 使用账户超过 5,800、CoCo 超过 9,100；这是厂商口径。
+版本还加强了打包或发布 CodeQL pack 时的安全检查，并修正查询元数据。GitHub 表示相关功能也会纳入 GitHub Enterprise Server 3.24；这类规则调整影响静态分析结果，用户仍需结合代码语境审查告警。
 
-分类：产品；状态：分阶段发布；原文日期：2026-11-03。
+分类：开源；状态：CodeQL 2.27.4 已发布；原文日期：2026-11-04。
 
-来源：[Snowflake](https://www.snowflake.com/en/news/press-releases/expedition-2026-coco-cowork/)
+来源：[GitHub](https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata/)
 
-## 8. 6sense 推出面向销售团队的 Agentic GTM 更新
+## 8. Lambda Cloud 新增用户、群组与服务身份访问管理
 
-![销售代理功能分阶段推出。现已可用：Sales MCP，兼容代理查询销售情报；11 月 Beta：BDR / Explainability，尚未普遍开放；12 月 Beta：AI Visibility，计划监测品牌 AI 曝光；2027 年 2 月：完整可解释性，厂商公布的目标时间](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/6sense-agentic-gtm-products-2026-11-03.svg)
+![云账户访问控制更新。权限模型：角色与群组，支持账户与工作区范围；自动化：服务身份，可单独配置密钥与角色；审计留存：6 个月，覆盖身份、密钥和资源；账户上限：100 / 50，群组 / 服务身份数量](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/lambda-cloud-iam-2026-11-04.svg)
 
-按 6sense 公告区分正式可用、Beta 与未来计划。
+配额和留存周期来自 Lambda 公告；IAM 管理目前免费。
 
-6sense 在 11 月 3 日的 Breakthrough 2026 活动上宣布一组面向销售流程的产品更新，包括 BDR Agent、AI Visibility、预测模型和销售情报 MCP。公司称销售情报 MCP 当日一般可用，关键字意图 API 纳入正式版本。
+Lambda 11 月 4 日为 Lambda Cloud 推出身份与访问管理功能，新增角色型访问控制、用户群组及服务身份。自动化脚本可以使用独立身份和密钥，并按工作需要获授角色，减少共用个人 API key 的情况。
 
-其他功能的开放进度不同：BDR Agent 与可解释性功能计划 11 月 Beta，AI Visibility 预计 12 月 Beta，预测模型先进入封闭 Beta，完整可用安排延至 2027 年 2 月。公告中的买家调研数字来自 6sense 自身研究。
+权限管理现已进入控制台，审计日志覆盖密钥、身份、工作区和资源，保留六个月；每个账户最多可建 100 个群组和 50 个服务身份。Lambda 表示 IAM 免费，账户管理员或 IAM 管理员才能查看和修改设置。
 
-分类：产品；状态：部分 GA；多数功能为 Beta 或计划；原文日期：2026-11-03。
+分类：基础设施；状态：控制台已提供；原文日期：2026-11-04。
 
-来源：[6sense](https://6sense.com/news/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026)
+来源：[Lambda](https://lambda.ai/blog/lambda-cloud-iam-rbac)
 
-## 9. DataCore 为 SANsymphony 上线存储运维 AI 助手
+## 9. Lambda 计划在阿拉巴马州投资 331 亿美元建设数据中心园区
 
-![存储运维问答的产品范围。当前产品：SANsymphony，10.0 PSP21 及以上；输入信息：遥测 + 文档，查询存储运行状态；后续范围：Swarm，对象存储支持待推出](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/datacore-ai-sansymphony-2026-11-03.svg)
+![阿拉巴马州数据中心计划。项目估值：$33.1B，Lambda 公布的项目投资额；2027 Q1：预计开工，仍待监管批准；施工周期：最长 5 年，项目方预期；税收预期：$3.4B 至 2049，州与地方税收预测](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/lambda-alabama-datacenter-2026-11-04.svg)
 
-当前支持 SANsymphony；Swarm 尚属后续计划。
+金额、日期和就业计划来自 Lambda 公告，均为项目方预期。
 
-DataCore 11 月 3 日发布 DataCore AI，面向其 SANsymphony 软件定义存储平台提供自然语言运维助手。公告称该助手结合运行遥测、产品文档和厂商经验，支持管理员查询存储池、虚拟磁盘延迟和数据保护配置等状态。
+Lambda 11 月 4 日公布计划，在美国阿拉巴马州 Lowndes County 建设 Red Clay Technology Center Campus，项目估值 331 亿美元，施工期间预计创造逾 1,000 个岗位。项目将由 Alabama Power 供电，仍待监管批准。
 
-目前可用范围为 SANsymphony 10.0 PSP21 及以上版本；对象存储产品 Swarm 的支持列为后续计划。DataCore 没有在公告中提供独立验证的故障处理提速或准确率数据，决策仍由管理员负责。
+公司预计当地及州级税收至 2049 年合计约 34 亿美元，并称计划采用闭环冷却、承担供电及电网设施成本。项目预计 2027 年第一季度开工，施工最长约五年；目前这些数字和社区承诺均为项目方公布的预期。
 
-分类：产品；状态：已发布；限定 SANsymphony 版本；原文日期：2026-11-03。
+分类：基础设施；状态：建设计划；待监管审批；原文日期：2026-11-04。
 
-来源：[DataCore](https://www.datacore.com/news-post/datacore-launches-ai-assistant-that-turns-storage-questions-into-expert-answers/)
+来源：[Lambda](https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center)
 
-## 10. Protegrity 用 Cedar 统一企业 AI 访问策略
+## 10. Adobe 将 CX Enterprise Coworker 接入多家 AI 平台
 
-![策略覆盖企业 AI 三层。数据：访问策略，保护敏感业务上下文；代理：Cedar 引擎，统一策略控制基础；推理：AI Gateway，纳入策略执行范围；技术预览：Secure Query，与 Iceberg Protector 同阶段](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/protegrity-ai-team-policy-engine-2026-11-03.svg)
+![Coworker 跨平台接入。已接入平台：ChatGPT / Claude，包括插件与平台内入口；企业平台：Gemini / Copilot，另接入 Databricks Genie；新增连接器：MCP，广告、数据与营销系统；后续接入：AWS / IBM / Snowflake，公告列为计划推出](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/adobe-cx-coworker-integrations-2026-11-04.svg)
 
-厂商公布的产品能力；部分组件处于技术预览。
+Adobe 发布信息；已接入与计划中的平台分别标示。
 
-Protegrity 11 月 3 日宣布 AI Team Edition 更新，新增基于开源 Cedar 策略语言的策略引擎，目标是在数据访问、代理执行和模型推理层统一应用企业规则，并与其 PII 模型集成。
+Adobe 11 月 4 日宣布，CX Enterprise Coworker 已进入 ChatGPT 插件、Claude、Databricks Genie、Gemini for business 和 Microsoft Copilot，供企业在这些 AI 平台中调用客户体验工作流。Adobe 同时发布多个预建 MCP 连接器，以连接广告、数据和营销系统。
 
-公司还列出 AI Gateway、Data & AI Fast Lanes 等组件，以及处于技术预览阶段的 Secure Query 和 Iceberg Protector。公告描述的是厂商产品能力，没有披露独立评测或客户规模数据；可用阶段需按各组件分别确认。
+Adobe 称 Coworker 可协助分析营销表现、规划受众和优化客户旅程，并在自动化执行中保留人工监督。Amazon Quick、IBM 和 Snowflake 的接入仍属后续计划；公司没有在这次公告中给出独立评测结果，具体能力还取决于企业已使用的平台与连接器。
 
-分类：治理；状态：产品更新；部分功能预览；原文日期：2026-11-03。
+分类：产品；状态：部分平台已接入；其余后续推出；原文日期：2026-11-04。
 
-来源：[Protegrity](https://www.protegrity.com/news/protegrity-brings-secure-context-to-enterprise-ai-with-a-unified-policy-engine-for-data-agents-and-inference)
+来源：[Adobe](https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms)
 
-## 11. DigitalOcean 三季度 AI 客户 ARR 达 3.76 亿美元
+## 11. Changshin 与 Palantir 合作连接鞋类开发与工厂生产数据
 
-![AI 客户收入与季度表现。第三季度营收：$321M，同比增长 40%；AI 客户 ARR：$376M，同比增长 288%；季度新增 ARR：$160M，公司披露的季度纪录](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/digitalocean-q3-ai-arr-2026-11-03.svg)
+![鞋类开发与生产数据协作。现有演示：AgentCamp，使用 Changshin 实时数据演示初步流程；平台：Foundry + AIP，合作应用的 Palantir 软件；下一阶段：连通生产流程，从开发和样品规划延伸至工厂执行](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/changshin-palantir-footwear-ai-2026-11-04.svg)
 
-ARR 为公司将最近季度对应收入乘以四的年化指标。
+合作方公布的计划；尚无部署范围或成效数据。
 
-DigitalOcean 11 月 3 日公布截至 9 月 30 日的第三季度业绩，营收为 3.21 亿美元、同比增长 40%。公司披露 AI 客户年度经常性收入（ARR）为 3.76 亿美元，同比增长 288%，季度新增 ARR 达 1.6 亿美元。
+韩国鞋类制造商 Changshin 与 Palantir 11 月 4 日宣布合作，计划将 Foundry 和 AIP 用于鞋类开发与生产运营，把开发、样品规划和工厂流程中的信息与工作连接起来。双方称早前已用 Changshin 的实时数据开展 AgentCamp，演示初步工作流。
 
-公司同时将第四季度收入增长展望上调至 44%—45%，并预计 2027 年收入增长超过 60%。DigitalOcean 定义 AI 客户 ARR 为最近季度 AI 客户收入乘以四；这是公司自定的年化指标，不能直接等同于季度现金收入或全行业市场规模。
+下一阶段计划将开发决策与工厂规划、执行相连，以便更早发现问题并把生产反馈带回后续设计。公告未披露合同金额、部署范围或量化成效，因此目前能确认的是合作方向与初步演示，而非已实现的效率提升。
 
-分类：产业；状态：三季度财报；ARR 为年化口径；原文日期：2026-11-03。
+分类：产业；状态：合作与后续部署计划；原文日期：2026-11-04。
 
-来源：[DigitalOcean](https://investors.digitalocean.com/news/news-details/2026/DigitalOcean-Announces-Third-Quarter-2026-Financial-Results/default.aspx)
+来源：[Palantir via Financial Times company announcement feed](https://markets.ft.markitdigital.com/data/announce/detail?dockey=600-202611040659BIZWIRE_USPRX____20261104_BW808312-1)
+
+更正：2026-11-05T01:11:19.025044+00:00 · 来源链接更新为 Financial Times 展示的 Palantir 公司公告版本，新闻内容未变。
 
 **历史归档**
 
+- [2026-11-05 · AI 工具走向工程、研究与企业系统](archive/2026-11-05.md)
 - [2026-11-04 · AI 进入工程、教育与企业工作流](archive/2026-11-04.md)
 - [2026-11-03 · 模型、算力基础设施与企业 AI 应用继续推进](archive/2026-11-03.md)
 - [2026-11-01 · 开放模型、智能体与安全机制迎来新进展](archive/2026-11-01.md)

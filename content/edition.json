@@ -5043,6 +5043,771 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "openai-pierre-acquisition-2026-11-04",
+      "category": "产业",
+      "title": "OpenAI 宣布收购开发者工具公司 Pierre Computer",
+      "summary": "OpenAI 将收购 Code Storage 及多款开发者工具背后的 Pierre Computer，交易完成仍需满足惯常条件和监管审批。",
+      "body": [
+        "OpenAI 11 月 4 日宣布将收购 Pierre Computer Company。Pierre 开发了 Code Storage，以及 Codex 已使用的 Trees 和 Diffs 等开源工具；OpenAI 表示希望将其 Git 工作流经验纳入 Codex 的开发者工具。",
+        "交易尚未完成，仍需满足惯常交割条件并取得监管批准。在交割前双方保持独立；Pierre 的开源项目将继续开放，Code Storage 现有客户也可继续使用。OpenAI 表示之后会把相关功能逐步带入 Codex。"
+      ],
+      "facts": [
+        "Pierre 是 Code Storage、Trees 和 Diffs 等开发者工具的开发方；Trees 与 Diffs 已用于 Codex。",
+        "收购尚待惯常交割条件和监管审批；交易完成前双方独立运营。",
+        "OpenAI 表示 Pierre 开源项目将继续开源，Code Storage 客户可继续使用。"
+      ],
+      "context": "公告没有披露交易金额或预计交割日期。",
+      "status": "拟收购；待监管审批",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "产业",
+        "Codex",
+        "开发者工具"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "OPENAI × PIERRE",
+        "title": "从 Git 工具到 Codex",
+        "items": [
+          {
+            "label": "现有工具",
+            "value": "Trees / Diffs",
+            "detail": "已用于 Codex 的文件浏览与差异审阅"
+          },
+          {
+            "label": "开发者平台",
+            "value": "Code Storage",
+            "detail": "支持应用存储代码与 Git 历史"
+          },
+          {
+            "label": "交易阶段",
+            "value": "等待交割",
+            "detail": "仍需惯常条件与监管批准"
+          }
+        ],
+        "caption": "OpenAI 公告；交易完成前双方独立，开源项目将继续开放。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "openai-daybreak-red-govcloud-2026-11-04",
+      "category": "产品",
+      "title": "OpenAI 将 Daybreak Red 扩展至 AWS GovCloud",
+      "summary": "获批用户可通过 Amazon Bedrock 在 AWS GovCloud（美国东部）使用 GPT-5.6 Cyber；访问还需单独完成 OpenAI 审批和 AWS 配置。",
+      "body": [
+        "OpenAI 11 月 4 日宣布，Daybreak Red 已在 AWS GovCloud（美国东部）提供 GPT-5.6 Cyber，供获批政府客户通过 Amazon Bedrock 开展授权的漏洞研究、利用验证和安全测试。",
+        "申请方还需取得 Daybreak Red 许可并完成 AWS 配置，单有 OpenAI 批准并不会自动启用模型。OpenAI 表示该服务会加强身份验证、监控和访问控制，Bedrock 上的推理数据不会用于训练模型；安全人员仍需审核模型发现和修复建议。"
+      ],
+      "facts": [
+        "GPT-5.6 Cyber 通过 Amazon Bedrock 面向获批用户开放于 AWS GovCloud（美国东部）。",
+        "使用需取得 OpenAI Daybreak Red 批准并由 AWS 完成配置。",
+        "OpenAI 表示 Bedrock 推理数据不用于训练，客户无需向 OpenAI 共享该数据。"
+      ],
+      "context": "属于面向经过验证的防御者、需分别审批与配置的政府云产品。",
+      "status": "经审批客户可用",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud/",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "产品",
+        "网络安全",
+        "AWS"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "layers",
+        "theme": "teal",
+        "eyebrow": "DAYBREAK RED",
+        "title": "政府云中的授权安全工作流",
+        "items": [
+          {
+            "label": "云环境",
+            "value": "AWS GovCloud",
+            "detail": "美国东部区域，经 Bedrock 接入"
+          },
+          {
+            "label": "模型",
+            "value": "GPT-5.6 Cyber",
+            "detail": "用于授权漏洞研究与安全测试"
+          },
+          {
+            "label": "接入条件",
+            "value": "双重配置",
+            "detail": "OpenAI 批准并由 AWS 启用"
+          }
+        ],
+        "caption": "OpenAI 产品公告；适用对象与操作均受审批、身份验证及访问控制约束。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "openai-linux-vulnerability-pipeline-2026-11-04",
+      "category": "研究",
+      "title": "OpenAI 报告模型辅助发现并修补 Linux 内核漏洞的试验",
+      "summary": "OpenAI 称其研究流程在一次运行中分析 2,308 个候选项，复现 1,724 个漏洞，并为 948 个本地提权漏洞生成补丁供维护者审查。",
+      "body": [
+        "OpenAI 11 月 4 日公布一项 Linux 内核安全研究：其原型流程分析了 2,308 个候选发现，动态复现 1,724 个漏洞，并生成了 948 个可能使本地非特权用户取得 root 权限的利用样例和候选补丁。",
+        "公司称这次运行的 API 成本为 120 万美元，并表示已优先报告严重问题、与维护者及 Patch the Planet 合作跟进。数字来自 OpenAI 对自有流程的报告；补丁仍要经过维护者审核，不能把候选漏洞数量直接等同于已修复的安全问题。"
+      ],
+      "facts": [
+        "研究流程识别并分析 2,308 个候选项，动态复现 1,724 个漏洞。",
+        "OpenAI 报告生成 948 个 Linux 本地提权漏洞利用样例及候选补丁。",
+        "该次运行报告的 API 成本为 120 万美元；候选补丁待维护者审查。"
+      ],
+      "context": "数字来自 OpenAI 自行报告的原型研究；候选发现、复现、补丁审查和正式修复是不同阶段。",
+      "status": "研究报告；补丁待维护者审查",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "A thousand fewer paths to root",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "研究",
+        "网络安全",
+        "Linux"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "OPENAI SECURITY RESEARCH",
+        "title": "Linux 内核漏洞研究流程",
+        "items": [
+          {
+            "label": "分析候选项",
+            "value": "2,308",
+            "detail": "原型筛查与分析"
+          },
+          {
+            "label": "动态复现",
+            "value": "1,724",
+            "detail": "研究报告列出的漏洞数"
+          },
+          {
+            "label": "本地提权样例",
+            "value": "948",
+            "detail": "候选漏洞与补丁待维护者审查"
+          },
+          {
+            "label": "一次运行成本",
+            "value": "$1.2M",
+            "detail": "OpenAI 报告的 API 成本"
+          }
+        ],
+        "caption": "全部数字来自 OpenAI 对研究原型的报告；不代表相同数量已完成上游修复。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "openai-images-2-6-2026-11-04",
+      "category": "模型",
+      "title": "OpenAI 发布 Images 2.6，加入 GIF 生成与更细编辑控制",
+      "summary": "Images 2.6 已在 ChatGPT、Codex 和 API 推出；OpenAI 称新模型生成速度提升 50%，API 提供 Flare 与 Sunburst 两种选择。",
+      "body": [
+        "OpenAI 11 月 4 日发布 Images 2.6，将图像生成与编辑功能带到 ChatGPT、Codex 和 API，并加入 GIF 生成、图像标注编辑和 SVG 导出。公司称生成速度较前代提高 50%，低质量设置下 Flare 最快可在 6 秒生成图像。",
+        "API 提供面向快速生成的 Flare 与侧重细节和编辑一致性的 Sunburst；ChatGPT 与 Codex 则已向全球各订阅层级开放。速度和质量描述来自 OpenAI，实际效果仍会受请求复杂度与质量设置影响。"
+      ],
+      "facts": [
+        "OpenAI 称 Images 2.6 比前代生成速度快 50%。",
+        "Flare 在低质量设置下最快 6 秒生成图像，属于厂商给出的最快表现。",
+        "API 提供 Flare 与 Sunburst；ChatGPT 和 Codex 全球各订阅级别已可用。",
+        "新功能包括 GIF、图像标注编辑和 SVG 导出。"
+      ],
+      "context": "速度数据和产品描述来自 OpenAI；不同质量与复杂度设置会改变生成耗时和结果。",
+      "status": "ChatGPT、Codex 与 API 已发布",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Introducing Images 2.6",
+          "url": "https://openai.com/index/introducing-images-2-6/",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "模型",
+        "图像生成",
+        "产品"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "OPENAI IMAGES 2.6",
+        "title": "生成与编辑能力更新",
+        "items": [
+          {
+            "label": "生成速度",
+            "value": "快 50%",
+            "detail": "OpenAI 与前代比较的说法"
+          },
+          {
+            "label": "快速模式",
+            "value": "最快 6 秒",
+            "detail": "Flare，低质量设置"
+          },
+          {
+            "label": "API 选项",
+            "value": "Flare / Sunburst",
+            "detail": "分别侧重速度与细节一致性"
+          },
+          {
+            "label": "新能力",
+            "value": "GIF / SVG",
+            "detail": "含动画生成与 SVG 导出"
+          }
+        ],
+        "caption": "速度数据为 OpenAI 公布；ChatGPT、Codex 与 API 的开放形态不同。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "anthropic-prokaryotic-vault-2026-11-04",
+      "category": "研究",
+      "title": "Anthropic 团队报告发现原核生物中的 vault 颗粒结构",
+      "summary": "Anthropic 称其团队借助 Claude 解析噬菌体编码的 vault 样蛋白壳结构；颗粒功能尚未确定，研究预印本与数据将陆续公开。",
+      "body": [
+        "Anthropic 11 月 4 日发布一项生命科学研究，报告其团队用冷冻电镜解析出来自噬菌体的 vault 样蛋白颗粒三维结构。研究称该颗粒由 96 个 L05 蛋白拷贝组成，长约 54 纳米、宽约 45 纳米；研究者表示这是已知原核生物中最大的蛋白壳之一。",
+        "团队称 Claude 协助搜索蛋白数据库、设计 DNA 构建、优化分离流程和处理显微镜数据，使纯化步骤从约三天缩短到约 90 分钟。颗粒的生物学功能仍未知，预印本和更多数据尚待发布；作者也记录了模型造成的实验延误和分析错误。"
+      ],
+      "facts": [
+        "团队报告首次解析出原核生物中的 vault 样颗粒，为噬菌体蛋白 L05 组装而成，共 96 个拷贝。",
+        "颗粒约长 54 纳米、宽 45 纳米；功能仍未明确。",
+        "作者称纯化过程从约三天缩短至约 90 分钟，初始结构模型 34 小时后完成。",
+        "研究团队指出 Claude 曾导致实验延误与一处错误结构分析；预印本和数据将后续发布。"
+      ],
+      "context": "Anthropic 自有研究团队的研究报告；结果尚待预印本及后续数据公开，模型在实验中也出现错误。",
+      "status": "研究报告；功能待研究",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Anthropic",
+          "title": "Investigating vault particles with Claude",
+          "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "研究",
+        "生命科学",
+        "Claude"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "ANTHROPIC BIOLOGY RESEARCH",
+        "title": "噬菌体 vault 样颗粒",
+        "items": [
+          {
+            "label": "结构组成",
+            "value": "96 个 L05",
+            "detail": "每半 48 个蛋白拷贝"
+          },
+          {
+            "label": "颗粒尺寸",
+            "value": "54 × 45 nm",
+            "detail": "约长 54、宽 45 纳米"
+          },
+          {
+            "label": "纯化时间",
+            "value": "约 90 分钟",
+            "detail": "团队报告的优化流程"
+          },
+          {
+            "label": "科学问题",
+            "value": "功能未知",
+            "detail": "预印本与更多数据待发布"
+          }
+        ],
+        "caption": "Anthropic 团队报告；研究尚未确定颗粒功能，模型协助过程也出现过错误。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "github-copilot-xcode-assistant-2026-11-04",
+      "category": "产品",
+      "title": "GitHub Copilot 进入 Xcode 内置编程助手公开预览",
+      "summary": "Xcode 27.3 beta 开始支持在内置 coding assistant 中使用 Copilot，现有独立 Xcode 扩展仍保留。",
+      "body": [
+        "GitHub 11 月 4 日宣布，Copilot 已进入 Xcode 内置 coding assistant 的公开预览版，开发者可在 Xcode 的设置中启用。此集成从 Xcode 27.3 beta 开始提供，支持所有 Copilot 套餐。",
+        "使用者需要从 Apple Developer 下载该测试版，并运行 macOS Tahoe 26.6 或更新版本。原有 GitHub Copilot for Xcode 扩展仍是独立选项；这次更新扩大了 Xcode 原生助手中的选择，但目前仍处于 beta 阶段。"
+      ],
+      "facts": [
+        "Copilot 集成已进入 Xcode 内置 coding assistant 的公开预览。",
+        "从 Xcode 27.3 beta 开始，需要 macOS Tahoe 26.6 或更新版本。",
+        "GitHub 表示所有 Copilot 套餐均支持；原有 Xcode 扩展仍单独提供。"
+      ],
+      "context": "功能要求安装 Xcode beta 和较新的 macOS，并非 Xcode 正式版中的普遍发布。",
+      "status": "公开预览",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+          "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "产品",
+        "开发者工具",
+        "Apple"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "GITHUB COPILOT × XCODE",
+        "title": "启用内置编程助手",
+        "items": [
+          {
+            "label": "获取测试版",
+            "value": "Xcode 27.3 beta",
+            "detail": "从 Apple Developer 下载"
+          },
+          {
+            "label": "系统要求",
+            "value": "macOS 26.6+",
+            "detail": "macOS Tahoe 26.6 或更新版本"
+          },
+          {
+            "label": "使用入口",
+            "value": "Xcode Intelligence",
+            "detail": "内置助手公开预览；旧扩展仍可选"
+          }
+        ],
+        "caption": "GitHub 公告；目前为 Xcode beta 中的公开预览功能。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "github-codeql-2274-2026-11-04",
+      "category": "开源",
+      "title": "CodeQL 2.27.4 更新多语言查询准确性与安全检查",
+      "summary": "GitHub 发布 CodeQL 2.27.4，调整 Java、Kotlin、Rust、C/C++ 查询，并加强包发布和打包时的安全检查。",
+      "body": [
+        "GitHub 11 月 4 日发布 CodeQL 2.27.4，更新 Java、Kotlin、Rust 与 C/C++ 的查询规则，包括识别更多输入清理模式、减少若干 Rust 查询的误报，以及避免把有意的 std::byte* 指针运算报告为问题。",
+        "版本还加强了打包或发布 CodeQL pack 时的安全检查，并修正查询元数据。GitHub 表示相关功能也会纳入 GitHub Enterprise Server 3.24；这类规则调整影响静态分析结果，用户仍需结合代码语境审查告警。"
+      ],
+      "facts": [
+        "Java/Kotlin 查询扩展了对多类输入净化与路径保护操作的识别。",
+        "Rust 的 uncontrolled allocation size、log injection、cleartext logging 查询减少误报。",
+        "C/C++ 的 suspicious pointer scaling 查询不再报告特定有意的 std::byte* 运算。",
+        "GitHub 表示改动会随 GHES 3.24 提供。"
+      ],
+      "context": "静态分析查询规则的改进不替代代码审查，告警准确性仍受具体代码环境影响。",
+      "status": "CodeQL 2.27.4 已发布",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "title": "CodeQL 2.27.4 improves accuracy and query metadata",
+          "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata/",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "开源",
+        "安全",
+        "开发工具"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "specs",
+        "theme": "amber",
+        "eyebrow": "CODEQL 2.27.4",
+        "title": "查询规则更新范围",
+        "items": [
+          {
+            "label": "Java / Kotlin",
+            "value": "识别更多净化规则",
+            "detail": "扩展输入与路径保护识别"
+          },
+          {
+            "label": "Rust",
+            "value": "减少误报",
+            "detail": "覆盖三类安全查询"
+          },
+          {
+            "label": "C / C++",
+            "value": "调整指针查询",
+            "detail": "忽略特定 std::byte* 运算"
+          },
+          {
+            "label": "企业版",
+            "value": "GHES 3.24",
+            "detail": "GitHub 计划纳入的版本"
+          }
+        ],
+        "caption": "查询变动与 GHES 版本安排来自 GitHub 发布说明。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "lambda-cloud-iam-2026-11-04",
+      "category": "基础设施",
+      "title": "Lambda Cloud 新增用户、群组与服务身份访问管理",
+      "summary": "Lambda Cloud 加入角色型访问控制、群组和独立服务身份，IAM 管理对账户管理员开放且目前免费。",
+      "body": [
+        "Lambda 11 月 4 日为 Lambda Cloud 推出身份与访问管理功能，新增角色型访问控制、用户群组及服务身份。自动化脚本可以使用独立身份和密钥，并按工作需要获授角色，减少共用个人 API key 的情况。",
+        "权限管理现已进入控制台，审计日志覆盖密钥、身份、工作区和资源，保留六个月；每个账户最多可建 100 个群组和 50 个服务身份。Lambda 表示 IAM 免费，账户管理员或 IAM 管理员才能查看和修改设置。"
+      ],
+      "facts": [
+        "Lambda Cloud 提供 RBAC、群组、服务身份和细分角色。",
+        "每个账户最多 100 个群组、50 个服务身份。",
+        "审计日志保留六个月；IAM 管理功能免费。",
+        "仅账户管理员或 IAM 管理员可查看或修改 IAM。"
+      ],
+      "context": "功能用于 Lambda Cloud 账户和工作区权限管理；旧有 API key 不会自动移除。",
+      "status": "控制台已提供",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Lambda",
+          "title": "Introducing identity and access management for Lambda Cloud",
+          "url": "https://lambda.ai/blog/lambda-cloud-iam-rbac",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "基础设施",
+        "云服务",
+        "安全"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "LAMBDA CLOUD IAM",
+        "title": "云账户访问控制更新",
+        "items": [
+          {
+            "label": "权限模型",
+            "value": "角色与群组",
+            "detail": "支持账户与工作区范围"
+          },
+          {
+            "label": "自动化",
+            "value": "服务身份",
+            "detail": "可单独配置密钥与角色"
+          },
+          {
+            "label": "审计留存",
+            "value": "6 个月",
+            "detail": "覆盖身份、密钥和资源"
+          },
+          {
+            "label": "账户上限",
+            "value": "100 / 50",
+            "detail": "群组 / 服务身份数量"
+          }
+        ],
+        "caption": "配额和留存周期来自 Lambda 公告；IAM 管理目前免费。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "lambda-alabama-datacenter-2026-11-04",
+      "category": "基础设施",
+      "title": "Lambda 计划在阿拉巴马州投资 331 亿美元建设数据中心园区",
+      "summary": "Lambda 将在 Lowndes County 建设 Red Clay Technology Center Campus，项目尚待审批，预计 2027 年第一季度开工。",
+      "body": [
+        "Lambda 11 月 4 日公布计划，在美国阿拉巴马州 Lowndes County 建设 Red Clay Technology Center Campus，项目估值 331 亿美元，施工期间预计创造逾 1,000 个岗位。项目将由 Alabama Power 供电，仍待监管批准。",
+        "公司预计当地及州级税收至 2049 年合计约 34 亿美元，并称计划采用闭环冷却、承担供电及电网设施成本。项目预计 2027 年第一季度开工，施工最长约五年；目前这些数字和社区承诺均为项目方公布的预期。"
+      ],
+      "facts": [
+        "Lambda 将建设 Red Clay Technology Center Campus，公布的项目投资估值为 331 亿美元。",
+        "项目预计创造逾 1,000 个建设岗位，并支持逾 225 个长期职位。",
+        "预计施工于 2027 年第一季度开始，最长约五年，待监管批准。",
+        "公司预计州与地方至 2049 年税收约 34 亿美元。"
+      ],
+      "context": "项目仍处规划和审批阶段；投资额、就业与税收数据为 Lambda 预期。",
+      "status": "建设计划；待监管审批",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Lambda",
+          "title": "Lambda to build new data center in Lowndes County, Alabama",
+          "url": "https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "基础设施",
+        "产业",
+        "数据中心"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "PROJECT RED CLAY",
+        "title": "阿拉巴马州数据中心计划",
+        "items": [
+          {
+            "label": "项目估值",
+            "value": "$33.1B",
+            "detail": "Lambda 公布的项目投资额"
+          },
+          {
+            "label": "2027 Q1",
+            "value": "预计开工",
+            "detail": "仍待监管批准"
+          },
+          {
+            "label": "施工周期",
+            "value": "最长 5 年",
+            "detail": "项目方预期"
+          },
+          {
+            "label": "税收预期",
+            "value": "$3.4B 至 2049",
+            "detail": "州与地方税收预测"
+          }
+        ],
+        "caption": "金额、日期和就业计划来自 Lambda 公告，均为项目方预期。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "adobe-cx-coworker-integrations-2026-11-04",
+      "category": "产品",
+      "title": "Adobe 将 CX Enterprise Coworker 接入多家 AI 平台",
+      "summary": "Adobe 表示其客户体验代理已接入 ChatGPT、Claude、Databricks Genie、Gemini for business 和 Microsoft Copilot，并新增 MCP 连接器。",
+      "body": [
+        "Adobe 11 月 4 日宣布，CX Enterprise Coworker 已进入 ChatGPT 插件、Claude、Databricks Genie、Gemini for business 和 Microsoft Copilot，供企业在这些 AI 平台中调用客户体验工作流。Adobe 同时发布多个预建 MCP 连接器，以连接广告、数据和营销系统。",
+        "Adobe 称 Coworker 可协助分析营销表现、规划受众和优化客户旅程，并在自动化执行中保留人工监督。Amazon Quick、IBM 和 Snowflake 的接入仍属后续计划；公司没有在这次公告中给出独立评测结果，具体能力还取决于企业已使用的平台与连接器。"
+      ],
+      "facts": [
+        "已接入 ChatGPT（插件）、Claude、Databricks Genie、Gemini for business 和 Microsoft Copilot。",
+        "Amazon Quick、IBM 和 Snowflake 的接入为后续安排。",
+        "新增预建 MCP 连接器，涉及广告、数据及营销系统。",
+        "Adobe 将产品描述为以人工监督的客户体验工作流自动化。"
+      ],
+      "context": "平台可用状态以 Adobe 公告为准，部分接入尚未上线；所述业务成效为厂商定位。",
+      "status": "部分平台已接入；其余后续推出",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Adobe",
+          "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms",
+          "url": "https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:10:11.338388+00:00"
+        }
+      ],
+      "tags": [
+        "产品",
+        "企业软件",
+        "代理"
+      ],
+      "corrections": [],
+      "graphic": {
+        "layout": "hub",
+        "theme": "violet",
+        "eyebrow": "ADOBE CX ENTERPRISE",
+        "title": "Coworker 跨平台接入",
+        "focus": {
+          "value": "CX",
+          "label": "Enterprise Coworker"
+        },
+        "items": [
+          {
+            "label": "已接入平台",
+            "value": "ChatGPT / Claude",
+            "detail": "包括插件与平台内入口"
+          },
+          {
+            "label": "企业平台",
+            "value": "Gemini / Copilot",
+            "detail": "另接入 Databricks Genie"
+          },
+          {
+            "label": "新增连接器",
+            "value": "MCP",
+            "detail": "广告、数据与营销系统"
+          },
+          {
+            "label": "后续接入",
+            "value": "AWS / IBM / Snowflake",
+            "detail": "公告列为计划推出"
+          }
+        ],
+        "caption": "Adobe 发布信息；已接入与计划中的平台分别标示。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
+    },
+    {
+      "id": "changshin-palantir-footwear-ai-2026-11-04",
+      "category": "产业",
+      "title": "Changshin 与 Palantir 合作连接鞋类开发与工厂生产数据",
+      "summary": "两家公司计划用 Foundry 与 AIP 串联鞋类开发、样品规划和工厂生产，当前公告披露的是合作与下一阶段计划。",
+      "body": [
+        "韩国鞋类制造商 Changshin 与 Palantir 11 月 4 日宣布合作，计划将 Foundry 和 AIP 用于鞋类开发与生产运营，把开发、样品规划和工厂流程中的信息与工作连接起来。双方称早前已用 Changshin 的实时数据开展 AgentCamp，演示初步工作流。",
+        "下一阶段计划将开发决策与工厂规划、执行相连，以便更早发现问题并把生产反馈带回后续设计。公告未披露合同金额、部署范围或量化成效，因此目前能确认的是合作方向与初步演示，而非已实现的效率提升。"
+      ],
+      "facts": [
+        "双方宣布在 Changshin 的开发与生产运营中应用 Palantir Foundry 和 AIP。",
+        "先前 AgentCamp 使用 Changshin 实时数据演示了初步工作流。",
+        "下一阶段计划连接开发决策、工厂规划和执行；公告未披露财务条款或成效数字。"
+      ],
+      "context": "合作公告表达未来目标；未披露正式部署范围和可量化结果。",
+      "status": "合作与后续部署计划",
+      "published_at": "2026-11-04",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Palantir via Financial Times company announcement feed",
+          "title": "Changshin and Palantir Partner to Connect Footwear Development and Factory Operations with Data and AI",
+          "url": "https://markets.ft.markitdigital.com/data/announce/detail?dockey=600-202611040659BIZWIRE_USPRX____20261104_BW808312-1",
+          "published_at": "2026-11-04",
+          "accessed_at": "2026-11-05T01:11:27.667725+00:00"
+        }
+      ],
+      "tags": [
+        "产业",
+        "制造业",
+        "企业 AI"
+      ],
+      "corrections": [
+        {
+          "at": "2026-11-05T01:11:19.025044+00:00",
+          "note": "来源链接更新为 Financial Times 展示的 Palantir 公司公告版本，新闻内容未变。"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "CHANGSHIN × PALANTIR",
+        "title": "鞋类开发与生产数据协作",
+        "items": [
+          {
+            "label": "现有演示",
+            "value": "AgentCamp",
+            "detail": "使用 Changshin 实时数据演示初步流程"
+          },
+          {
+            "label": "平台",
+            "value": "Foundry + AIP",
+            "detail": "合作应用的 Palantir 软件"
+          },
+          {
+            "label": "下一阶段",
+            "value": "连通生产流程",
+            "detail": "从开发和样品规划延伸至工厂执行"
+          }
+        ],
+        "caption": "合作方公布的计划；尚无部署范围或成效数据。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-05",
+      "discovered_at": "2026-11-05T01:10:11.338388+00:00",
+      "verified_at": "2026-11-05T01:13:34.575360+00:00",
+      "visual": "grid"
     }
   ],
   "issues": [
@@ -5263,7 +6028,36 @@
       "updated_at": "2026-11-04T01:06:14.620176+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-04.json"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "AI 工具走向工程、研究与企业系统",
+      "dek": "本期收录 11 条进展，覆盖图像模型、编程与安全工具、生命科学研究，以及企业和算力基础设施。多项发布已开放使用，但部分功能仍有审批、预览或规划阶段限制。",
+      "coverage": "2026-11-04 09:00 至 2026-11-05 09:00（Asia/Singapore）；原文仅列日期者保留日期精度",
+      "lead_ids": [
+        "openai-images-2-6-2026-11-04",
+        "anthropic-prokaryotic-vault-2026-11-04",
+        "openai-linux-vulnerability-pipeline-2026-11-04"
+      ],
+      "event_ids": [
+        "openai-pierre-acquisition-2026-11-04",
+        "openai-daybreak-red-govcloud-2026-11-04",
+        "openai-linux-vulnerability-pipeline-2026-11-04",
+        "openai-images-2-6-2026-11-04",
+        "anthropic-prokaryotic-vault-2026-11-04",
+        "github-copilot-xcode-assistant-2026-11-04",
+        "github-codeql-2274-2026-11-04",
+        "lambda-cloud-iam-2026-11-04",
+        "lambda-alabama-datacenter-2026-11-04",
+        "adobe-cx-coworker-integrations-2026-11-04",
+        "changshin-palantir-footwear-ai-2026-11-04"
+      ],
+      "number": "009",
+      "published_at": "2026-11-05T01:10:11.338388+00:00",
+      "updated_at": "2026-11-05T01:13:34.575360+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-05.json"
     }
   ],
-  "updated_at": "2026-11-04T01:06:14.620176+00:00"
+  "updated_at": "2026-11-05T01:13:34.575360+00:00"
 }
