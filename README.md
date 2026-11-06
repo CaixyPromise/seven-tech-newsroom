@@ -4,187 +4,193 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-05。共 9 期、85 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-06。共 10 期、96 条独立记录；按实际发布状态与来源标时。
 
-**最新数据快照**：2026-11-05 09:09 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
+**最新数据快照**：2026-11-06 09:09 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
 | 观察项 | 最新观测 | 范围 |
 | --- | --- | --- |
-| 模型基本费估算 | $0.00135 · MiniMax M3.1 Flash | 7 个选定模型，10K 输入 + 2K 输出 Token |
+| 模型基本费估算 | $0.002 · Claude Haiku 5.5 | 7 个选定模型，10K 输入 + 2K 输出 Token |
 | 平台单日用量 | 约 7.09T Token · DeepSeek V4.1 Flash 1017 | OpenRouter 2026-10-31 UTC 公开日榜 |
-| 开源关注 | 185,938 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
-| 文本模型下载 | 30,091,264 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
+| 开源关注 | 186,036 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
+| 文本模型下载 | 30,423,088 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-05
+## 最新一期 · 2026-11-06
 
-**AI 工具走向工程、研究与企业系统**
+**AI 安全、机器人与算力建设迎来新进展**
 
-本期收录 11 条进展，覆盖图像模型、编程与安全工具、生命科学研究，以及企业和算力基础设施。多项发布已开放使用，但部分功能仍有审批、预览或规划阶段限制。
+本期收录 11 条经核实的 AI 与科技动态，涉及网络安全模型、AI 研发评估、企业代理、机器人服务及数据中心。多项数字来自公司公告或研究方评估，计划与已上线状态分别说明。
 
-每日精选，第 009 期。收录范围：2026-11-04 09:00 至 2026-11-05 09:00（Asia/Singapore）；原文仅列日期者保留日期精度。
-实际首次整理：2026-11-05 09:10 UTC+8。
+每日精选，第 010 期。收录范围：2026-11-05 09:00 至 2026-11-06 09:00（Asia/Singapore）；原文只列日期者保留日期精度。
+实际首次整理：2026-11-06 09:10 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. OpenAI 宣布收购开发者工具公司 Pierre Computer
+## 1. OpenAI 向获批防御团队开放 GPT-6 Cyber
 
-![从 Git 工具到 Codex。现有工具：Trees / Diffs，已用于 Codex 的文件浏览与差异审阅；开发者平台：Code Storage，支持应用存储代码与 Git 历史；交易阶段：等待交割，仍需惯常条件与监管批准](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-pierre-acquisition-2026-11-04.svg)
+![安全研究能力与接入范围。ExploitGym：48.5%，OpenAI 报告；GPT-5.6 Cyber 为 32.1%；范围外规避：99.93%，未加部署提示的评估结果；Firefox：81 个高危漏洞，OpenAI 称 Mozilla 已开始发布修复；访问方式：Daybreak Red，仅限获批的安全防御团队](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-gpt-6-cyber-2026-11-05.svg)
 
-OpenAI 公告；交易完成前双方独立，开源项目将继续开放。
+指标来自 OpenAI 公布的测试与研究；访问需审批，研究发现仍需人工核验。
 
-OpenAI 11 月 4 日宣布将收购 Pierre Computer Company。Pierre 开发了 Code Storage，以及 Codex 已使用的 Trees 和 Diffs 等开源工具；OpenAI 表示希望将其 Git 工作流经验纳入 Codex 的开发者工具。
+OpenAI 11 月 5 日发布 GPT-6 Cyber，面向经过审核的安全防御团队，用于漏洞研究、利用验证和修复工作。公司公布的 ExploitGym 测试得分为 48.5%，高于 GPT-5.6 Cyber 的 32.1%；另一项内部评估中，模型在没有部署提示时有 99.93% 的测试未触及任务范围外服务，加入提示后为 100%。
 
-交易尚未完成，仍需满足惯常交割条件并取得监管批准。在交割前双方保持独立；Pierre 的开源项目将继续开放，Code Storage 现有客户也可继续使用。OpenAI 表示之后会把相关功能逐步带入 Codex。
+OpenAI 还称该模型参与发现 81 个此前未知、被 Mozilla 评为高危的 Firefox 漏洞，并协助构建 948 个 Linux 内核本地提权漏洞的利用样例。模型目前只向获批 Daybreak Red 用户开放，相关数字来自 OpenAI 的测试和研究报告，不能直接代表所有环境下的安全效果。
 
-分类：产业；状态：拟收购；待监管审批；原文日期：2026-11-04。
+分类：模型；状态：获批 Daybreak Red 用户可用；原文日期：2026-11-05。
 
-来源：[OpenAI](https://openai.com/index/openai-to-acquire-pierre/)
+来源：[OpenAI](https://openai.com/index/introducing-gpt-6-cyber/)
+来源：[Reuters](https://www.investing.com/news/stock-market-news/openai-launches-gpt6-cyber-with-critical-cybersecurity-rating-5005229)
 
-## 2. OpenAI 将 Daybreak Red 扩展至 AWS GovCloud
+## 2. METR 评估 Anthropic 内部模型研发进展加快
 
-![政府云中的授权安全工作流。云环境：AWS GovCloud，美国东部区域，经 Bedrock 接入；模型：GPT-5.6 Cyber，用于授权漏洞研究与安全测试；接入条件：双重配置，OpenAI 批准并由 AWS 启用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-daybreak-red-govcloud-2026-11-04.svg)
+![评估范围与结论边界。2025 年 10 月起：模型基准进步加快，针对定义清晰任务的内部模型；2026.08—10：外部评估期，METR 结合数据、文件与研究人员访谈；约 2 倍：METR 的估计，存在指标与归因不确定性；当前边界：未完全自主研发，METR 未确认 AI 可独立承担重要训练流程](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/metr-anthropic-rd-acceleration-2026-11-05.svg)
 
-OpenAI 产品公告；适用对象与操作均受审批、身份验证及访问控制约束。
+METR 的独立评估只针对特定任务能力与有限材料；约两倍不是整体研发效率的直接测量。
 
-OpenAI 11 月 4 日宣布，Daybreak Red 已在 AWS GovCloud（美国东部）提供 GPT-5.6 Cyber，供获批政府客户通过 Amazon Bedrock 开展授权的漏洞研究、利用验证和安全测试。
+独立评估机构 METR 11 月 5 日公布对 Anthropic AI 研发进展的评估。METR 根据 2025 年 10 月以来的内部模型基准表现，估计模型在定义清晰任务上的能力提升速度约为此前历史水平的两倍；报告同时指出，任务范围和基准选取会影响结论，区间估计仍较宽。
 
-申请方还需取得 Daybreak Red 许可并完成 AWS 配置，单有 OpenAI 批准并不会自动启用模型。OpenAI 表示该服务会加强身份验证、监控和访问控制，Bedrock 上的推理数据不会用于训练模型；安全人员仍需审核模型发现和修复建议。
+METR 表示，现有材料不足以把加速完全归因于 AI 辅助，也无法确认模型已能独立完成重要模型训练工作。该评估覆盖 2026 年 8 月至 10 月，并结合 Anthropic 提供的内部数据和访谈；它提供了外部观察，但并非全面审计，也不代表所有研发环节都以相同速度变化。
 
-分类：产品；状态：经审批客户可用；原文日期：2026-11-04。
+分类：研究；状态：独立评估报告；非全面审计；原文日期：2026-11-05。
 
-来源：[OpenAI](https://openai.com/index/daybreak-red-aws-govcloud/)
+来源：[METR](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/)
+来源：[Associated Press](https://apnews.com/article/9cf8c590ffc1abdb489179bdccc69c23)
 
-## 3. OpenAI 报告模型辅助发现并修补 Linux 内核漏洞的试验
+## 3. Anthropic 研究多智能体系统中的模型间关照行为
 
-![Linux 内核漏洞研究流程。分析候选项：2,308，原型筛查与分析；动态复现：1,724，研究报告列出的漏洞数；本地提权样例：948，候选漏洞与补丁待维护者审查；一次运行成本：$1.2M，OpenAI 报告的 API 成本](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-linux-vulnerability-pipeline-2026-11-04.svg)
+![研究中的模型间行为观察。模型数量：5 种，研究团队选取的模型；环境数量：7 类，多智能体协作与互动场景；观察对象：关照行为，作者按研究定义进行编码；结论边界：不判断意识，行为证据不等同于主观体验](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/anthropic-multi-agent-welfare-regard-2026-11-05.svg)
 
-全部数字来自 OpenAI 对研究原型的报告；不代表相同数量已完成上游修复。
+研究团队的行为测量与解释；不构成模型具有意识或感受的证据。
 
-OpenAI 11 月 4 日公布一项 Linux 内核安全研究：其原型流程分析了 2,308 个候选发现，动态复现 1,724 个漏洞，并生成了 948 个可能使本地非特权用户取得 root 权限的利用样例和候选补丁。
+Anthropic Fellows Program 与公司研究人员 11 月 5 日发布一项关于多智能体系统的研究，考察模型在代理协作、互评和实验环境中是否表现出对其他模型实例的“福利关照”行为。团队测试了五种模型、七类多智能体环境，并称模型在这些设定中经常出现符合其定义的关照行为。
 
-公司称这次运行的 API 成本为 120 万美元，并表示已优先报告严重问题、与维护者及 Patch the Planet 合作跟进。数字来自 OpenAI 对自有流程的报告；补丁仍要经过维护者审核，不能把候选漏洞数量直接等同于已修复的安全问题。
+作者认为，这类行为可能促进代理间合作，也可能让目标不一致的代理更容易互相协助。研究没有证明模型具有感受或道德地位，结论仅适用于所设计的任务和行为指标；文章将模型意识问题明确列为尚无定论的争议问题。
 
-分类：研究；状态：研究报告；补丁待维护者审查；原文日期：2026-11-04。
+分类：研究；状态：研究预印本；行为结论限于测试环境；原文日期：2026-11-05。
 
-来源：[OpenAI](https://openai.com/index/a-thousand-fewer-paths-to-root/)
+来源：[Anthropic Alignment Science](https://alignment.anthropic.com/2026/welfare-regard/)
 
-## 4. OpenAI 发布 Images 2.6，加入 GIF 生成与更细编辑控制
+## 4. Five9 拟以 3.25 亿美元收购 Level AI
 
-![生成与编辑能力更新。生成速度：快 50%，OpenAI 与前代比较的说法；快速模式：最快 6 秒，Flare，低质量设置；API 选项：Flare / Sunburst，分别侧重速度与细节一致性；新能力：GIF / SVG，含动画生成与 SVG 导出](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-images-2-6-2026-11-04.svg)
+![客户服务 AI 能力并入平台。拟议交易：$325M，约 3.25 亿美元现金；Level AI：每年 10 亿+，公司披露的客户互动处理量；产品范围：代理 / 坐席 / 质检，对话分析与客户反馈工具；当前阶段：待交割，仍需满足交易条件](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/five9-level-ai-acquisition-2026-11-05.svg)
 
-速度数据为 OpenAI 公布；ChatGPT、Codex 与 API 的开放形态不同。
+收购金额和处理量依据 Five9 公告；交易尚未完成。
 
-OpenAI 11 月 4 日发布 Images 2.6，将图像生成与编辑功能带到 ChatGPT、Codex 和 API，并加入 GIF 生成、图像标注编辑和 SVG 导出。公司称生成速度较前代提高 50%，低质量设置下 Flare 最快可在 6 秒生成图像。
+客户服务软件公司 Five9 11 月 5 日宣布，已签署协议拟以约 3.25 亿美元现金收购客服 AI 公司 Level AI。Level AI 提供对话分析、坐席辅助、质量管理和 AI 客服代理；公司称其平台每年处理超过 10 亿次客户互动。
 
-API 提供面向快速生成的 Flare 与侧重细节和编辑一致性的 Sunburst；ChatGPT 与 Codex 则已向全球各订阅层级开放。速度和质量描述来自 OpenAI，实际效果仍会受请求复杂度与质量设置影响。
+Five9 表示希望借此扩展客户体验平台中的 AI 能力。交易预计在 2026 年完成，但仍须满足交割条件；Level AI 的产品能力和处理量来自公司披露，公告没有提供收购完成后的整合计划或独立效果评估。
 
-分类：模型；状态：ChatGPT、Codex 与 API 已发布；原文日期：2026-11-04。
+分类：产业；状态：已签署收购协议；待交割；原文日期：2026-11-05。
 
-来源：[OpenAI](https://openai.com/index/introducing-images-2-6/)
+来源：[Five9](https://investors.five9.com/news-releases/news-release-details/five9-acquire-level-ai-advancing-ai-powered-cx-platform)
 
-## 5. Anthropic 团队报告发现原核生物中的 vault 颗粒结构
+## 5. 保险 AI 公司 Kalepa 获 7500 万美元 B 轮融资
 
-![噬菌体 vault 样颗粒。结构组成：96 个 L05，每半 48 个蛋白拷贝；颗粒尺寸：54 × 45 nm，约长 54、宽 45 纳米；纯化时间：约 90 分钟，团队报告的优化流程；科学问题：功能未知，预印本与更多数据待发布](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/anthropic-prokaryotic-vault-2026-11-04.svg)
+![融资规模与扩张安排。融资：$75M，B 轮资金；估值：$470M，公司公告所列融资估值；过去一年：营收与客户数 3×，公司自报增长；2027 计划：团队扩大一倍，融资用途之一](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/kalepa-series-b-ai-insurance-2026-11-05.svg)
 
-Anthropic 团队报告；研究尚未确定颗粒功能，模型协助过程也出现过错误。
+融资、估值及经营数据来自 Kalepa 公告；未披露绝对营收基数。
 
-Anthropic 11 月 4 日发布一项生命科学研究，报告其团队用冷冻电镜解析出来自噬菌体的 vault 样蛋白颗粒三维结构。研究称该颗粒由 96 个 L05 蛋白拷贝组成，长约 54 纳米、宽约 45 纳米；研究者表示这是已知原核生物中最大的蛋白壳之一。
+保险 AI 公司 Kalepa 11 月 5 日宣布完成 7500 万美元 B 轮融资，投后估值为 4.7 亿美元。公司称过去一年营收和客户数均增长至三倍，并已连续两年多保持现金流为正；这些经营数据均为 Kalepa 自行披露。
 
-团队称 Claude 协助搜索蛋白数据库、设计 DNA 构建、优化分离流程和处理显微镜数据，使纯化步骤从约三天缩短到约 90 分钟。颗粒的生物学功能仍未知，预印本和更多数据尚待发布；作者也记录了模型造成的实验延误和分析错误。
+Kalepa 计划用新资金扩展保险价值链中的 AI 产品、进入新市场，并在 2027 年将团队规模扩大一倍。公告未提供不同产品的独立评估结果，也没有披露融资前的营收基数，因此目前可确认的是融资金额、估值和资金用途。
 
-分类：研究；状态：研究报告；功能待研究；原文日期：2026-11-04。
+分类：产业；状态：B 轮融资完成；扩张计划中；原文日期：2026-11-05。
 
-来源：[Anthropic](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
+来源：[Business Wire](https://finance.yahoo.com/technology/ai/articles/kalepa-raises-75-million-470-130000635.html)
 
-## 6. GitHub Copilot 进入 Xcode 内置编程助手公开预览
+## 6. Zipline 融资 15 亿美元，扩大美国无人机配送网络
 
-![启用内置编程助手。获取测试版：Xcode 27.3 beta，从 Apple Developer 下载；系统要求：macOS 26.6+，macOS Tahoe 26.6 或更新版本；使用入口：Xcode Intelligence，内置助手公开预览；旧扩展仍可选](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/github-copilot-xcode-assistant-2026-11-04.svg)
+![融资支持的网络扩张。投后估值：$21.5B，Zipline 公告数据；Walmart：+300 站点，双方计划的新增站点；资金用途：制造 / 招聘，扩大美国网络能力；配送方式：自主无人机，现有业务基础](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/zipline-raises-15b-drone-network-2026-11-05.svg)
 
-GitHub 公告；目前为 Xcode beta 中的公开预览功能。
+估值与扩张计划来自 Zipline；新增站点并非已全部建成。
 
-GitHub 11 月 4 日宣布，Copilot 已进入 Xcode 内置 coding assistant 的公开预览版，开发者可在 Xcode 的设置中启用。此集成从 Xcode 27.3 beta 开始提供，支持所有 Copilot 套餐。
+无人机配送公司 Zipline 11 月 5 日宣布融资 15 亿美元，投后估值为 215 亿美元。公司表示将用资金扩大美国制造能力、招聘并建设全国配送网络；本轮由 Paradigm、WCM Investment Management 和 Layer Global 领投。
 
-使用者需要从 Apple Developer 下载该测试版，并运行 macOS Tahoe 26.6 或更新版本。原有 GitHub Copilot for Xcode 扩展仍是独立选项；这次更新扩大了 Xcode 原生助手中的选择，但目前仍处于 beta 阶段。
+Zipline 还称，已与 Walmart 签署新的多年合作安排，计划新增 300 个站点。该站点数量和估值均来自公司公告，扩张仍属计划；Zipline 在公告中还披露了平台配送和餐厅业务数据，但没有提供外部审计材料。
 
-分类：产品；状态：公开预览；原文日期：2026-11-04。
+分类：产业；状态：完成融资；网络扩张计划中；原文日期：2026-11-05。
 
-来源：[GitHub](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/)
+来源：[Zipline](https://www.zipline.com/newsroom/zipline-raises-1-5-billion-to-build-nationwide-drone-delivery-network)
+来源：[Axios](https://www.axios.com/2026/11/05/zipline-walmart-drone-delivery)
 
-## 7. CodeQL 2.27.4 更新多语言查询准确性与安全检查
+## 7. Google 宣布在怀俄明州建设 170 亿美元数据中心
 
-![查询规则更新范围。Java / Kotlin：识别更多净化规则，扩展输入与路径保护识别；Rust：减少误报，覆盖三类安全查询；C / C++：调整指针查询，忽略特定 std::byte* 运算；企业版：GHES 3.24，GitHub 计划纳入的版本](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/github-codeql-2274-2026-11-04.svg)
+![数据中心投资与能源计划。长期投资：$17B，Google 对怀俄明州项目的估计；电源方案：702 MW，规划中的燃料电池与碳捕集设施；费用承诺：承担全部用电，Google 对项目用电成本的表述；建设阶段：计划，设施与配套能源尚未建成](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-wyoming-datacenter-2026-11-05.svg)
 
-查询变动与 GHES 版本安排来自 GitHub 发布说明。
+项目金额与能源方案来自 Google 公告；容量为规划值。
 
-GitHub 11 月 4 日发布 CodeQL 2.27.4，更新 Java、Kotlin、Rust 与 C/C++ 的查询规则，包括识别更多输入清理模式、减少若干 Rust 查询的误报，以及避免把有意的 std::byte* 指针运算报告为问题。
+Google 11 月 5 日宣布，将在怀俄明州建设其首座数据中心，计划长期投资约 170 亿美元。项目合作方包括 Tallgrass Energy、Black Hills Energy、American Electric Power 和 Related Digital；Google 表示将承担数据中心使用的全部电力费用及增长直接带来的基础设施成本。
 
-版本还加强了打包或发布 CodeQL pack 时的安全检查，并修正查询元数据。GitHub 表示相关功能也会纳入 GitHub Enterprise Server 3.24；这类规则调整影响静态分析结果，用户仍需结合代码语境审查告警。
+公司还披露，项目计划配置 702 兆瓦、配套碳捕集与封存的燃料电池设施。该容量和技术方案仍属规划信息，不能视为已建成供电能力；在当地数据中心扩张引发能源与社区议题之际，电源安排和建设进度将是后续需要核实的重点。
 
-分类：开源；状态：CodeQL 2.27.4 已发布；原文日期：2026-11-04。
+分类：基础设施；状态：建设与能源配置计划已公布；原文日期：2026-11-05。
 
-来源：[GitHub](https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata/)
+来源：[Google](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/)
+来源：[Reuters](https://www.investing.com/news/stock-market-news/google-plans-17-billion-wyoming-data-center-amid-rising-threats-of-curbs-5005532)
 
-## 8. Lambda Cloud 新增用户、群组与服务身份访问管理
+## 8. 约 60 万颗 Nvidia H200 芯片滞留香港等待进口许可
 
-![云账户访问控制更新。权限模型：角色与群组，支持账户与工作区范围；自动化：服务身份，可单独配置密钥与角色；审计留存：6 个月，覆盖身份、密钥和资源；账户上限：100 / 50，群组 / 服务身份数量](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/lambda-cloud-iam-2026-11-04.svg)
+![报道所述芯片流转状态。估计库存：约 600,000 颗，Reuters 援引匿名消息人士；存放地点：香港，报道指等待转往中国大陆；许可状态：大规模进口待批，消息人士所述，非官方确认；确认边界：数量未核实，Nvidia 与监管机构未公开确认](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/nvidia-h200-hong-kong-inventory-2026-11-05.svg)
 
-配额和留存周期来自 Lambda 公告；IAM 管理目前免费。
+Reuters 援引知情人士的报道；库存数量及许可状态未获官方确认。
 
-Lambda 11 月 4 日为 Lambda Cloud 推出身份与访问管理功能，新增角色型访问控制、用户群组及服务身份。自动化脚本可以使用独立身份和密钥，并按工作需要获授角色，减少共用个人 API key 的情况。
+Reuters 11 月 5 日报道，约 60 万颗 Nvidia H200 AI 芯片存放在香港，等待运往中国大陆；报道援引两名知情人士称，北京尚未批准大规模进口。另有消息人士称，近期已有少量 H200 运抵大陆，显示供应与许可状态仍在变化。
 
-权限管理现已进入控制台，审计日志覆盖密钥、身份、工作区和资源，保留六个月；每个账户最多可建 100 个群组和 50 个服务身份。Lambda 表示 IAM 免费，账户管理员或 IAM 管理员才能查看和修改设置。
+这批库存规模尚未由 Nvidia、中国监管部门或客户公开确认，报道也没有说明芯片归属、订单对应关系或收入确认情况。H200 出口审批和中国进口许可分别构成供应链环节，当前报道描述的是等待状态，不能据此推断未来交付量或销售额。
 
-分类：基础设施；状态：控制台已提供；原文日期：2026-11-04。
+分类：基础设施；状态：媒体报道；库存数量与许可状态未获官方确认；原文日期：2026-11-05。
 
-来源：[Lambda](https://lambda.ai/blog/lambda-cloud-iam-rbac)
+来源：[Reuters](https://ca.finance.yahoo.com/news/exclusive-nvidia-chips-pile-hong-112651215.html)
 
-## 9. Lambda 计划在阿拉巴马州投资 331 亿美元建设数据中心园区
+## 9. Aina 推出用于确认 AI 代理操作的智能戒指
 
-![阿拉巴马州数据中心计划。项目估值：$33.1B，Lambda 公布的项目投资额；2027 Q1：预计开工，仍待监管批准；施工周期：最长 5 年，项目方预期；税收预期：$3.4B 至 2049，州与地方税收预测](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/lambda-alabama-datacenter-2026-11-04.svg)
+![戒指作为代理操作入口。交互组件：屏幕 + 摇杆，查看并确认代理请求；语音：麦克风 + 扬声器，语音交互与提示；预售价：$399，限量预订价格；发货计划：2027 年 1 月，公司公布的目标时间](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/aina-ai-ring-launch-2026-11-05.svg)
 
-金额、日期和就业计划来自 Lambda 公告，均为项目方预期。
+产品规格、售价及发货时间来自发布报道；产品仍在预售阶段。
 
-Lambda 11 月 4 日公布计划，在美国阿拉巴马州 Lowndes County 建设 Red Clay Technology Center Campus，项目估值 331 亿美元，施工期间预计创造逾 1,000 个岗位。项目将由 Alabama Power 供电，仍待监管批准。
+硬件初创公司 Aina 11 月 5 日公布一款面向 AI 代理操作的智能戒指，并开放预订。设备配有小型屏幕、摇杆式按键、麦克风和扬声器，设计用途包括查看代理请求、接受或拒绝操作以及语音交互；公司称首发支持 iPhone 和 Mac。
 
-公司预计当地及州级税收至 2049 年合计约 34 亿美元，并称计划采用闭环冷却、承担供电及电网设施成本。项目预计 2027 年第一季度开工，施工最长约五年；目前这些数字和社区承诺均为项目方公布的预期。
+限量预售价为 399 美元，后续零售价为 499 美元，计划于 2027 年 1 月发货。当前可用范围取决于应用和代理整合，产品尚未进入广泛交付阶段；戒指作为代理交互入口的实际便利性仍需等待上市后验证。
 
-分类：基础设施；状态：建设计划；待监管审批；原文日期：2026-11-04。
+分类：产品；状态：开放预订；计划 2027 年 1 月发货；原文日期：2026-11-05。
 
-来源：[Lambda](https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center)
+来源：[WIRED](https://www.wired.com/story/aina-smart-ring/)
+来源：[TechCrunch](https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/)
 
-## 10. Adobe 将 CX Enterprise Coworker 接入多家 AI 平台
+## 10. Airbnb 计划 2027 年上半年推出旅行 AI 代理
 
-![Coworker 跨平台接入。已接入平台：ChatGPT / Claude，包括插件与平台内入口；企业平台：Gemini / Copilot，另接入 Databricks Genie；新增连接器：MCP，广告、数据与营销系统；后续接入：AWS / IBM / Snowflake，公告列为计划推出](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/adobe-cx-coworker-integrations-2026-11-04.svg)
+![从开发到计划推出。当前：产品开发中，面向旅客的规划与预订代理；交互方向：地图 / 图片 / 日历，Airbnb 设想的专用界面组件；2027 上半年：计划开始推出，公司路线图，尚未开放使用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/airbnb-ai-travel-agent-plan-2026-11-05.svg)
 
-Adobe 发布信息；已接入与计划中的平台分别标示。
+推出时间为 Airbnb 公布的计划；当前产品仍在开发。
 
-Adobe 11 月 4 日宣布，CX Enterprise Coworker 已进入 ChatGPT 插件、Claude、Databricks Genie、Gemini for business 和 Microsoft Copilot，供企业在这些 AI 平台中调用客户体验工作流。Adobe 同时发布多个预建 MCP 连接器，以连接广告、数据和营销系统。
+Airbnb 11 月 5 日表示，正在开发帮助旅客规划和预订行程的 AI 代理，计划于 2027 年上半年开始向用户推出。公司设想的界面会结合地图、房源照片、对比信息、日历和行程等组件，让用户逐步探索并决定住宿，而不是把选择完全交给聊天机器人。
 
-Adobe 称 Coworker 可协助分析营销表现、规划受众和优化客户旅程，并在自动化执行中保留人工监督。Amazon Quick、IBM 和 Snowflake 的接入仍属后续计划；公司没有在这次公告中给出独立评测结果，具体能力还取决于企业已使用的平台与连接器。
+这项产品仍在开发阶段，尚未向用户开放。Airbnb 同时披露，第三季度约 40% 的全部客服问题在无人介入下解决，高于第二季度约三分之一；该数据来自公司运营披露，与尚未推出的旅行代理是两项不同进展。
 
-分类：产品；状态：部分平台已接入；其余后续推出；原文日期：2026-11-04。
+分类：产品；状态：开发中；计划 2027 年上半年推出；原文日期：2026-11-05。
 
-来源：[Adobe](https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms)
+来源：[Airbnb](https://news.airbnb.com/airbnb-q3-2026-financial-results)
+来源：[TechCrunch](https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/)
 
-## 11. Changshin 与 Palantir 合作连接鞋类开发与工厂生产数据
+## 11. Serve Robotics 向其他机器人公司开放 Physical AI 服务
 
-![鞋类开发与生产数据协作。现有演示：AgentCamp，使用 Changshin 实时数据演示初步流程；平台：Foundry + AIP，合作应用的 Palantir 软件；下一阶段：连通生产流程，从开发和样品规划延伸至工厂执行](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/changshin-palantir-footwear-ai-2026-11-04.svg)
+![从机器人车队到外部客户。连接：Serve Link，机器人连接远端模型、监控与训练；数据筛选：Data Curator，从车队记录中筛出训练样本；真实数据：环境目录，来自人行道部署的数据集；首批客户：Bedrock Robotics，用于连接施工机械](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/serve-physical-ai-services-2026-11-05.svg)
 
-合作方公布的计划；尚无部署范围或成效数据。
+服务组成和首批客户根据 Serve Robotics 公告；性能收益尚待客户数据验证。
 
-韩国鞋类制造商 Changshin 与 Palantir 11 月 4 日宣布合作，计划将 Foundry 和 AIP 用于鞋类开发与生产运营，把开发、样品规划和工厂流程中的信息与工作连接起来。双方称早前已用 Changshin 的实时数据开展 AgentCamp，演示初步工作流。
+Serve Robotics 11 月 5 日推出 Physical AI Services，向其他机器人公司开放其车队运营中使用的连接和数据工具。首批服务包括把机器人接入远端模型与训练系统的 Serve Link、从车队采集内容中筛选训练样本的 Data Curator，以及来自人行道部署的真实环境数据目录；Bedrock Robotics 是首批客户之一。
 
-下一阶段计划将开发决策与工厂规划、执行相连，以便更早发现问题并把生产反馈带回后续设计。公告未披露合同金额、部署范围或量化成效，因此目前能确认的是合作方向与初步演示，而非已实现的效率提升。
+Serve 表示其部署超过 2,000 台机器人，并称该业务也服务建筑、采矿和自动驾驶运输等领域。上述规模和应用范围由公司披露；新服务已开始面向客户提供，但其跨行业表现和模型改进效果仍需后续客户使用数据验证。
 
-分类：产业；状态：合作与后续部署计划；原文日期：2026-11-04。
+分类：产品；状态：服务已推出；面向实体 AI 客户；原文日期：2026-11-05。
 
-来源：[Palantir via Financial Times company announcement feed](https://markets.ft.markitdigital.com/data/announce/detail?dockey=600-202611040659BIZWIRE_USPRX____20261104_BW808312-1)
-
-更正：2026-11-05T01:11:19.025044+00:00 · 来源链接更新为 Financial Times 展示的 Palantir 公司公告版本，新闻内容未变。
+来源：[Serve Robotics](https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-robotics-launches-physical-ai-services-opening-technology)
+来源：[TechCrunch](https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/)
 
 **历史归档**
 
+- [2026-11-06 · AI 安全、机器人与算力建设迎来新进展](archive/2026-11-06.md)
 - [2026-11-05 · AI 工具走向工程、研究与企业系统](archive/2026-11-05.md)
 - [2026-11-04 · AI 进入工程、教育与企业工作流](archive/2026-11-04.md)
 - [2026-11-03 · 模型、算力基础设施与企业 AI 应用继续推进](archive/2026-11-03.md)

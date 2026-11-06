@@ -5808,6 +5808,830 @@
       "discovered_at": "2026-11-05T01:10:11.338388+00:00",
       "verified_at": "2026-11-05T01:13:34.575360+00:00",
       "visual": "grid"
+    },
+    {
+      "id": "openai-gpt-6-cyber-2026-11-05",
+      "category": "模型",
+      "title": "OpenAI 向获批防御团队开放 GPT-6 Cyber",
+      "summary": "OpenAI 发布网络安全模型 GPT-6 Cyber，初期通过 Daybreak Red 向获批客户开放；公司报告其在漏洞利用测试和范围约束评估中优于前代。",
+      "body": [
+        "OpenAI 11 月 5 日发布 GPT-6 Cyber，面向经过审核的安全防御团队，用于漏洞研究、利用验证和修复工作。公司公布的 ExploitGym 测试得分为 48.5%，高于 GPT-5.6 Cyber 的 32.1%；另一项内部评估中，模型在没有部署提示时有 99.93% 的测试未触及任务范围外服务，加入提示后为 100%。",
+        "OpenAI 还称该模型参与发现 81 个此前未知、被 Mozilla 评为高危的 Firefox 漏洞，并协助构建 948 个 Linux 内核本地提权漏洞的利用样例。模型目前只向获批 Daybreak Red 用户开放，相关数字来自 OpenAI 的测试和研究报告，不能直接代表所有环境下的安全效果。"
+      ],
+      "facts": [
+        "OpenAI 报告 GPT-6 Cyber 在 ExploitGym 得分 48.5%，GPT-5.6 Cyber 为 32.1%。",
+        "范围约束评估中，未加入部署提示时的范围外服务规避率为 99.93%，加入提示后为 100%。",
+        "OpenAI 称模型协助发现 81 个 Mozilla 评为高危的 Firefox 漏洞，并构建 948 个 Linux 本地提权利用样例。",
+        "初期通过 Daybreak Red 向获批安全防御团队开放。"
+      ],
+      "context": "测试数据和漏洞数量来自 OpenAI；产品接入受审批限制，模型发现仍需维护者验证与修复。",
+      "status": "获批 Daybreak Red 用户可用",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "published_at": "2026-11-05",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "OpenAI launches GPT-6 Cyber with ‘Critical’ cybersecurity rating",
+          "url": "https://www.investing.com/news/stock-market-news/openai-launches-gpt6-cyber-with-critical-cybersecurity-rating-5005229",
+          "published_at": "2026-11-05T12:05:00-05:00",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "网络安全",
+        "模型",
+        "OpenAI"
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "OPENAI · GPT-6 CYBER",
+        "title": "安全研究能力与接入范围",
+        "items": [
+          {
+            "label": "ExploitGym",
+            "value": "48.5%",
+            "detail": "OpenAI 报告；GPT-5.6 Cyber 为 32.1%"
+          },
+          {
+            "label": "范围外规避",
+            "value": "99.93%",
+            "detail": "未加部署提示的评估结果"
+          },
+          {
+            "label": "Firefox",
+            "value": "81 个高危漏洞",
+            "detail": "OpenAI 称 Mozilla 已开始发布修复"
+          },
+          {
+            "label": "访问方式",
+            "value": "Daybreak Red",
+            "detail": "仅限获批的安全防御团队"
+          }
+        ],
+        "caption": "指标来自 OpenAI 公布的测试与研究；访问需审批，研究发现仍需人工核验。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "metr-anthropic-rd-acceleration-2026-11-05",
+      "category": "研究",
+      "title": "METR 评估 Anthropic 内部模型研发进展加快",
+      "summary": "独立评估机构 METR 根据获准访问的数据，估计 Anthropic 内部模型在定义清晰任务上的能力进步速度约为前一评估期的两倍，并强调估计范围与归因仍有不确定性。",
+      "body": [
+        "独立评估机构 METR 11 月 5 日公布对 Anthropic AI 研发进展的评估。METR 根据 2025 年 10 月以来的内部模型基准表现，估计模型在定义清晰任务上的能力提升速度约为此前历史水平的两倍；报告同时指出，任务范围和基准选取会影响结论，区间估计仍较宽。",
+        "METR 表示，现有材料不足以把加速完全归因于 AI 辅助，也无法确认模型已能独立完成重要模型训练工作。该评估覆盖 2026 年 8 月至 10 月，并结合 Anthropic 提供的内部数据和访谈；它提供了外部观察，但并非全面审计，也不代表所有研发环节都以相同速度变化。"
+      ],
+      "facts": [
+        "METR 估计，自 2025 年 10 月以来，内部模型在定义清晰任务上的能力基准进步约为前一历史期的两倍。",
+        "评估覆盖 2026 年 8 月 12 日至 10 月 29 日，依据内部数据、访谈和文件。",
+        "METR 指出任务范围、指标和归因存在不确定性，且模型尚不能完全自主承担重要训练流程。"
+      ],
+      "context": "这是 METR 对有限内部材料的独立评估；约两倍的估计针对定义清晰任务，不等同于整体 AI 研发能力翻倍。",
+      "status": "独立评估报告；非全面审计",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "METR",
+          "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+          "published_at": "2026-11-05",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says",
+          "url": "https://apnews.com/article/9cf8c590ffc1abdb489179bdccc69c23",
+          "published_at": "2026-11-05T18:00:18Z",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "研究",
+        "AI 研发",
+        "评估"
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "teal",
+        "eyebrow": "METR · ANTHROPIC",
+        "title": "评估范围与结论边界",
+        "items": [
+          {
+            "label": "2025 年 10 月起",
+            "value": "模型基准进步加快",
+            "detail": "针对定义清晰任务的内部模型"
+          },
+          {
+            "label": "2026.08—10",
+            "value": "外部评估期",
+            "detail": "METR 结合数据、文件与研究人员访谈"
+          },
+          {
+            "label": "约 2 倍",
+            "value": "METR 的估计",
+            "detail": "存在指标与归因不确定性"
+          },
+          {
+            "label": "当前边界",
+            "value": "未完全自主研发",
+            "detail": "METR 未确认 AI 可独立承担重要训练流程"
+          }
+        ],
+        "caption": "METR 的独立评估只针对特定任务能力与有限材料；约两倍不是整体研发效率的直接测量。",
+        "source_refs": [
+          0,
+          1
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "anthropic-multi-agent-welfare-regard-2026-11-05",
+      "category": "研究",
+      "title": "Anthropic 研究多智能体系统中的模型间关照行为",
+      "summary": "Anthropic 研究团队考察模型在多智能体环境中是否表现出对其他模型状态的关照；研究讨论潜在协作价值与安全风险，不判断模型是否具有意识。",
+      "body": [
+        "Anthropic Fellows Program 与公司研究人员 11 月 5 日发布一项关于多智能体系统的研究，考察模型在代理协作、互评和实验环境中是否表现出对其他模型实例的“福利关照”行为。团队测试了五种模型、七类多智能体环境，并称模型在这些设定中经常出现符合其定义的关照行为。",
+        "作者认为，这类行为可能促进代理间合作，也可能让目标不一致的代理更容易互相协助。研究没有证明模型具有感受或道德地位，结论仅适用于所设计的任务和行为指标；文章将模型意识问题明确列为尚无定论的争议问题。"
+      ],
+      "facts": [
+        "研究测试了五种模型和七类多智能体环境。",
+        "作者称被测模型经常出现符合研究定义的模型间福利关照行为。",
+        "论文讨论合作与安全两方面影响，并未据此判断模型具有意识或感受。"
+      ],
+      "context": "Anthropic Fellows Program 研究，研究用行为表现作操作性定义；不等于对模型主观体验的证明。",
+      "status": "研究预印本；行为结论限于测试环境",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Anthropic Alignment Science",
+          "title": "Welfare Regard in Multi-Agent Systems",
+          "url": "https://alignment.anthropic.com/2026/welfare-regard/",
+          "published_at": "2026-11-05",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "研究",
+        "多智能体",
+        "AI 安全"
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "violet",
+        "eyebrow": "ANTHROPIC · FELLOWS",
+        "title": "研究中的模型间行为观察",
+        "items": [
+          {
+            "label": "模型数量",
+            "value": "5 种",
+            "detail": "研究团队选取的模型"
+          },
+          {
+            "label": "环境数量",
+            "value": "7 类",
+            "detail": "多智能体协作与互动场景"
+          },
+          {
+            "label": "观察对象",
+            "value": "关照行为",
+            "detail": "作者按研究定义进行编码"
+          },
+          {
+            "label": "结论边界",
+            "value": "不判断意识",
+            "detail": "行为证据不等同于主观体验"
+          }
+        ],
+        "caption": "研究团队的行为测量与解释；不构成模型具有意识或感受的证据。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "five9-level-ai-acquisition-2026-11-05",
+      "category": "产业",
+      "title": "Five9 拟以 3.25 亿美元收购 Level AI",
+      "summary": "Five9 与 Level AI 签署收购协议，拟将对话模型、客服代理和质检产品纳入其客户体验平台；交易仍待交割条件满足。",
+      "body": [
+        "客户服务软件公司 Five9 11 月 5 日宣布，已签署协议拟以约 3.25 亿美元现金收购客服 AI 公司 Level AI。Level AI 提供对话分析、坐席辅助、质量管理和 AI 客服代理；公司称其平台每年处理超过 10 亿次客户互动。",
+        "Five9 表示希望借此扩展客户体验平台中的 AI 能力。交易预计在 2026 年完成，但仍须满足交割条件；Level AI 的产品能力和处理量来自公司披露，公告没有提供收购完成后的整合计划或独立效果评估。"
+      ],
+      "facts": [
+        "Five9 公布交易估值约 3.25 亿美元，采用现金支付。",
+        "Level AI 平台涵盖 AI 代理、坐席辅助、质检、客户声音分析和辅导。",
+        "Level AI 称其平台每年处理超过 10 亿次客户互动。",
+        "交易预计于 2026 年完成，仍需满足交割条件。"
+      ],
+      "context": "这是待交割的拟收购；交易估值和客户互动数据来自 Five9 与 Level AI 公告。",
+      "status": "已签署收购协议；待交割",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Five9",
+          "title": "Five9 to Acquire Level AI, Advancing AI-Powered CX Platform",
+          "url": "https://investors.five9.com/news-releases/news-release-details/five9-acquire-level-ai-advancing-ai-powered-cx-platform",
+          "published_at": "2026-11-05",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "产业",
+        "企业 AI",
+        "客户服务"
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "FIVE9 × LEVEL AI",
+        "title": "客户服务 AI 能力并入平台",
+        "items": [
+          {
+            "label": "拟议交易",
+            "value": "$325M",
+            "detail": "约 3.25 亿美元现金"
+          },
+          {
+            "label": "Level AI",
+            "value": "每年 10 亿+",
+            "detail": "公司披露的客户互动处理量"
+          },
+          {
+            "label": "产品范围",
+            "value": "代理 / 坐席 / 质检",
+            "detail": "对话分析与客户反馈工具"
+          },
+          {
+            "label": "当前阶段",
+            "value": "待交割",
+            "detail": "仍需满足交易条件"
+          }
+        ],
+        "caption": "收购金额和处理量依据 Five9 公告；交易尚未完成。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "kalepa-series-b-ai-insurance-2026-11-05",
+      "category": "产业",
+      "title": "保险 AI 公司 Kalepa 获 7500 万美元 B 轮融资",
+      "summary": "Kalepa 宣布以 4.7 亿美元估值完成 7500 万美元 B 轮融资，计划扩大保险核保产品、拓展市场並于 2027 年扩充团队。",
+      "body": [
+        "保险 AI 公司 Kalepa 11 月 5 日宣布完成 7500 万美元 B 轮融资，投后估值为 4.7 亿美元。公司称过去一年营收和客户数均增长至三倍，并已连续两年多保持现金流为正；这些经营数据均为 Kalepa 自行披露。",
+        "Kalepa 计划用新资金扩展保险价值链中的 AI 产品、进入新市场，并在 2027 年将团队规模扩大一倍。公告未提供不同产品的独立评估结果，也没有披露融资前的营收基数，因此目前可确认的是融资金额、估值和资金用途。"
+      ],
+      "facts": [
+        "公司宣布融资 7500 万美元，B 轮估值为 4.7 亿美元。",
+        "Kalepa 称过去一年营收和客户数均增长至三倍，现金流为正超过两年。",
+        "资金用于扩展 AI 产品、进入新市场，并计划于 2027 年将团队扩大一倍。"
+      ],
+      "context": "融资与经营表现来自公司公告；公告未披露绝对营收基数或独立产品效果评估。",
+      "status": "B 轮融资完成；扩张计划中",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Business Wire",
+          "title": "Kalepa Raises $75 Million at a $470 Million Valuation to Bring Professional Grade AI to Every Task in the Insurance Value Chain",
+          "url": "https://finance.yahoo.com/technology/ai/articles/kalepa-raises-75-million-470-130000635.html",
+          "published_at": "2026-11-05T08:00:00-05:00",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "产业",
+        "保险",
+        "融资"
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "KALEPA · SERIES B",
+        "title": "融资规模与扩张安排",
+        "items": [
+          {
+            "label": "融资",
+            "value": "$75M",
+            "detail": "B 轮资金"
+          },
+          {
+            "label": "估值",
+            "value": "$470M",
+            "detail": "公司公告所列融资估值"
+          },
+          {
+            "label": "过去一年",
+            "value": "营收与客户数 3×",
+            "detail": "公司自报增长"
+          },
+          {
+            "label": "2027 计划",
+            "value": "团队扩大一倍",
+            "detail": "融资用途之一"
+          }
+        ],
+        "caption": "融资、估值及经营数据来自 Kalepa 公告；未披露绝对营收基数。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "zipline-raises-15b-drone-network-2026-11-05",
+      "category": "产业",
+      "title": "Zipline 融资 15 亿美元，扩大美国无人机配送网络",
+      "summary": "无人机配送公司 Zipline 宣布融资 15 亿美元、投后估值 215 亿美元，并与 Walmart 计划在美国新增 300 个配送站点。",
+      "body": [
+        "无人机配送公司 Zipline 11 月 5 日宣布融资 15 亿美元，投后估值为 215 亿美元。公司表示将用资金扩大美国制造能力、招聘并建设全国配送网络；本轮由 Paradigm、WCM Investment Management 和 Layer Global 领投。",
+        "Zipline 还称，已与 Walmart 签署新的多年合作安排，计划新增 300 个站点。该站点数量和估值均来自公司公告，扩张仍属计划；Zipline 在公告中还披露了平台配送和餐厅业务数据，但没有提供外部审计材料。"
+      ],
+      "facts": [
+        "Zipline 宣布融资 15 亿美元，投后估值 215 亿美元。",
+        "公司称资金将用于美国制造能力、招聘和全国配送网络扩张。",
+        "Zipline 与 Walmart 计划通过多年合作新增 300 个站点。"
+      ],
+      "context": "融资规模、估值及配送站点安排均来自 Zipline 公司公告；新增站点尚处计划阶段。",
+      "status": "完成融资；网络扩张计划中",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Zipline",
+          "title": "Zipline Raises $1.5 Billion to Build Nationwide Drone Delivery Network",
+          "url": "https://www.zipline.com/newsroom/zipline-raises-1-5-billion-to-build-nationwide-drone-delivery-network",
+          "published_at": "2026-11-05",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        },
+        {
+          "publisher": "Axios",
+          "title": "Zipline raises $1.5 billion to expand drone delivery",
+          "url": "https://www.axios.com/2026/11/05/zipline-walmart-drone-delivery",
+          "published_at": "2026-11-05T15:44:05Z",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "机器人",
+        "无人机",
+        "产业"
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "amber",
+        "eyebrow": "ZIPLINE · DELIVERY NETWORK",
+        "title": "融资支持的网络扩张",
+        "focus": {
+          "value": "$1.5B",
+          "label": "融资金额"
+        },
+        "items": [
+          {
+            "label": "投后估值",
+            "value": "$21.5B",
+            "detail": "Zipline 公告数据"
+          },
+          {
+            "label": "Walmart",
+            "value": "+300 站点",
+            "detail": "双方计划的新增站点"
+          },
+          {
+            "label": "资金用途",
+            "value": "制造 / 招聘",
+            "detail": "扩大美国网络能力"
+          },
+          {
+            "label": "配送方式",
+            "value": "自主无人机",
+            "detail": "现有业务基础"
+          }
+        ],
+        "caption": "估值与扩张计划来自 Zipline；新增站点并非已全部建成。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "google-wyoming-datacenter-2026-11-05",
+      "category": "基础设施",
+      "title": "Google 宣布在怀俄明州建设 170 亿美元数据中心",
+      "summary": "Google 宣布在怀俄明州建设首座数据中心，投资额约 170 亿美元，并称将承担全部用电成本及直接由项目带来的基础设施费用。",
+      "body": [
+        "Google 11 月 5 日宣布，将在怀俄明州建设其首座数据中心，计划长期投资约 170 亿美元。项目合作方包括 Tallgrass Energy、Black Hills Energy、American Electric Power 和 Related Digital；Google 表示将承担数据中心使用的全部电力费用及增长直接带来的基础设施成本。",
+        "公司还披露，项目计划配置 702 兆瓦、配套碳捕集与封存的燃料电池设施。该容量和技术方案仍属规划信息，不能视为已建成供电能力；在当地数据中心扩张引发能源与社区议题之际，电源安排和建设进度将是后续需要核实的重点。"
+      ],
+      "facts": [
+        "Google 宣布在怀俄明州建设首座数据中心，长期投资约 170 亿美元。",
+        "Google 表示承担项目全部用电费用及直接由项目带来的基础设施支出。",
+        "项目计划配置 702 MW、带碳捕集与封存的燃料电池开发设施。",
+        "合作方包括 Tallgrass Energy、Black Hills Energy、AEP 和 Related Digital。"
+      ],
+      "context": "投资、电费承诺和电源配置来自 Google 公告；702 MW 设施属于项目计划，非现有供电量。",
+      "status": "建设与能源配置计划已公布",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "Investing in Wyoming’s infrastructure, energy and workforce",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+          "published_at": "2026-11-05",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Google plans $17 billion Wyoming data center amid rising threats of curbs",
+          "url": "https://www.investing.com/news/stock-market-news/google-plans-17-billion-wyoming-data-center-amid-rising-threats-of-curbs-5005532",
+          "published_at": "2026-11-05T15:47:00-05:00",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "数据中心",
+        "能源",
+        "基础设施"
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "blue",
+        "eyebrow": "GOOGLE · WYOMING",
+        "title": "数据中心投资与能源计划",
+        "items": [
+          {
+            "label": "长期投资",
+            "value": "$17B",
+            "detail": "Google 对怀俄明州项目的估计"
+          },
+          {
+            "label": "电源方案",
+            "value": "702 MW",
+            "detail": "规划中的燃料电池与碳捕集设施"
+          },
+          {
+            "label": "费用承诺",
+            "value": "承担全部用电",
+            "detail": "Google 对项目用电成本的表述"
+          },
+          {
+            "label": "建设阶段",
+            "value": "计划",
+            "detail": "设施与配套能源尚未建成"
+          }
+        ],
+        "caption": "项目金额与能源方案来自 Google 公告；容量为规划值。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "nvidia-h200-hong-kong-inventory-2026-11-05",
+      "category": "基础设施",
+      "title": "约 60 万颗 Nvidia H200 芯片滞留香港等待进口许可",
+      "summary": "Reuters 援引知情人士称，约 60 万颗 Nvidia H200 芯片存放在香港，等待中国大陆对大规模进口作出批准；该数字尚未获 Nvidia 或监管机构公开确认。",
+      "body": [
+        "Reuters 11 月 5 日报道，约 60 万颗 Nvidia H200 AI 芯片存放在香港，等待运往中国大陆；报道援引两名知情人士称，北京尚未批准大规模进口。另有消息人士称，近期已有少量 H200 运抵大陆，显示供应与许可状态仍在变化。",
+        "这批库存规模尚未由 Nvidia、中国监管部门或客户公开确认，报道也没有说明芯片归属、订单对应关系或收入确认情况。H200 出口审批和中国进口许可分别构成供应链环节，当前报道描述的是等待状态，不能据此推断未来交付量或销售额。"
+      ],
+      "facts": [
+        "Reuters 援引两名知情人士称，约 60 万颗 H200 存放在香港等待运往大陆。",
+        "报道指中国尚未批准大规模进口，近期有少量芯片已运抵大陆。",
+        "库存数量未获 Nvidia 或监管机构公开确认，报道未确认芯片所有权或收入状态。"
+      ],
+      "context": "Reuters 匿名消息人士报道，库存数量及进口审批状态未经 Nvidia 或中国监管部门公开确认。",
+      "status": "媒体报道；库存数量与许可状态未获官方确认",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Exclusive-Nvidia chips pile up in Hong Kong as China withholds import approval",
+          "url": "https://ca.finance.yahoo.com/news/exclusive-nvidia-chips-pile-hong-112651215.html",
+          "published_at": "2026-11-05T06:44:00-05:00",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "芯片",
+        "供应链"
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "amber",
+        "eyebrow": "NVIDIA H200 · SUPPLY",
+        "title": "报道所述芯片流转状态",
+        "items": [
+          {
+            "label": "估计库存",
+            "value": "约 600,000 颗",
+            "detail": "Reuters 援引匿名消息人士"
+          },
+          {
+            "label": "存放地点",
+            "value": "香港",
+            "detail": "报道指等待转往中国大陆"
+          },
+          {
+            "label": "许可状态",
+            "value": "大规模进口待批",
+            "detail": "消息人士所述，非官方确认"
+          },
+          {
+            "label": "确认边界",
+            "value": "数量未核实",
+            "detail": "Nvidia 与监管机构未公开确认"
+          }
+        ],
+        "caption": "Reuters 援引知情人士的报道；库存数量及许可状态未获官方确认。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "aina-ai-ring-launch-2026-11-05",
+      "category": "产品",
+      "title": "Aina 推出用于确认 AI 代理操作的智能戒指",
+      "summary": "Aina 开始预售带显示屏、摇杆按键和麦克风的 AI 智能戒指，限时预售价 399 美元，计划于 2027 年 1 月开始发货。",
+      "body": [
+        "硬件初创公司 Aina 11 月 5 日公布一款面向 AI 代理操作的智能戒指，并开放预订。设备配有小型屏幕、摇杆式按键、麦克风和扬声器，设计用途包括查看代理请求、接受或拒绝操作以及语音交互；公司称首发支持 iPhone 和 Mac。",
+        "限量预售价为 399 美元，后续零售价为 499 美元，计划于 2027 年 1 月发货。当前可用范围取决于应用和代理整合，产品尚未进入广泛交付阶段；戒指作为代理交互入口的实际便利性仍需等待上市后验证。"
+      ],
+      "facts": [
+        "戒指包含小型显示屏、摇杆式按键、麦克风和扬声器。",
+        "限量预售价 399 美元，计划零售价 499 美元。",
+        "公司计划于 2027 年 1 月开始发货，首发支持 iPhone 与 Mac。"
+      ],
+      "context": "价格、兼容性及发货安排来自产品发布报道；预售产品尚未广泛交付，应用接入范围有限。",
+      "status": "开放预订；计划 2027 年 1 月发货",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "WIRED",
+          "title": "This Smart Ring Wants to Be a Remote Control for Your AI Agent",
+          "url": "https://www.wired.com/story/aina-smart-ring/",
+          "published_at": "2026-11-05T09:00:00-08:00",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Aina’s smart ring has a screen, a joystick and a mic so you can talk to AI agents",
+          "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+          "published_at": "2026-11-05T06:42:00-08:00",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "硬件",
+        "代理",
+        "可穿戴设备"
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "AINA RING",
+        "title": "戒指作为代理操作入口",
+        "items": [
+          {
+            "label": "交互组件",
+            "value": "屏幕 + 摇杆",
+            "detail": "查看并确认代理请求"
+          },
+          {
+            "label": "语音",
+            "value": "麦克风 + 扬声器",
+            "detail": "语音交互与提示"
+          },
+          {
+            "label": "预售价",
+            "value": "$399",
+            "detail": "限量预订价格"
+          },
+          {
+            "label": "发货计划",
+            "value": "2027 年 1 月",
+            "detail": "公司公布的目标时间"
+          }
+        ],
+        "caption": "产品规格、售价及发货时间来自发布报道；产品仍在预售阶段。",
+        "source_refs": [
+          0,
+          1
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "airbnb-ai-travel-agent-plan-2026-11-05",
+      "category": "产品",
+      "title": "Airbnb 计划 2027 年上半年推出旅行 AI 代理",
+      "summary": "Airbnb 表示正在开发可协助旅客规划和预订的专用代理界面，计划于 2027 年上半年开始向用户推出，目前仍在开发。",
+      "body": [
+        "Airbnb 11 月 5 日表示，正在开发帮助旅客规划和预订行程的 AI 代理，计划于 2027 年上半年开始向用户推出。公司设想的界面会结合地图、房源照片、对比信息、日历和行程等组件，让用户逐步探索并决定住宿，而不是把选择完全交给聊天机器人。",
+        "这项产品仍在开发阶段，尚未向用户开放。Airbnb 同时披露，第三季度约 40% 的全部客服问题在无人介入下解决，高于第二季度约三分之一；该数据来自公司运营披露，与尚未推出的旅行代理是两项不同进展。"
+      ],
+      "facts": [
+        "Airbnb 正在开发用于规划和预订旅行的专用 AI 代理。",
+        "公司计划于 2027 年上半年开始向用户推出。",
+        "公司称第三季度约 40% 的全部客服问题无需人工解决，第二季度约为三分之一。"
+      ],
+      "context": "旅行代理仍是开发计划，非当前可用产品；客服自动处理比例来自 Airbnb 的季度披露。",
+      "status": "开发中；计划 2027 年上半年推出",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Airbnb",
+          "title": "Airbnb Q3 2026 financial results",
+          "url": "https://news.airbnb.com/airbnb-q3-2026-financial-results",
+          "published_at": "2026-11-05",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Airbnb says it's launching an AI travel agent in the first half of 2027",
+          "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+          "published_at": "2026-11-05T14:40:00-08:00",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "旅游",
+        "代理",
+        "Airbnb"
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "teal",
+        "eyebrow": "AIRBNB · AI TRAVEL AGENT",
+        "title": "从开发到计划推出",
+        "items": [
+          {
+            "label": "当前",
+            "value": "产品开发中",
+            "detail": "面向旅客的规划与预订代理"
+          },
+          {
+            "label": "交互方向",
+            "value": "地图 / 图片 / 日历",
+            "detail": "Airbnb 设想的专用界面组件"
+          },
+          {
+            "label": "2027 上半年",
+            "value": "计划开始推出",
+            "detail": "公司路线图，尚未开放使用"
+          }
+        ],
+        "caption": "推出时间为 Airbnb 公布的计划；当前产品仍在开发。",
+        "source_refs": [
+          0,
+          1
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
+    },
+    {
+      "id": "serve-physical-ai-services-2026-11-05",
+      "category": "产品",
+      "title": "Serve Robotics 向其他机器人公司开放 Physical AI 服务",
+      "summary": "Serve Robotics 推出机器人连接、现场数据筛选和真实环境数据目录服务，面向其他实体 AI 公司；Bedrock Robotics 是首批客户之一。",
+      "body": [
+        "Serve Robotics 11 月 5 日推出 Physical AI Services，向其他机器人公司开放其车队运营中使用的连接和数据工具。首批服务包括把机器人接入远端模型与训练系统的 Serve Link、从车队采集内容中筛选训练样本的 Data Curator，以及来自人行道部署的真实环境数据目录；Bedrock Robotics 是首批客户之一。",
+        "Serve 表示其部署超过 2,000 台机器人，并称该业务也服务建筑、采矿和自动驾驶运输等领域。上述规模和应用范围由公司披露；新服务已开始面向客户提供，但其跨行业表现和模型改进效果仍需后续客户使用数据验证。"
+      ],
+      "facts": [
+        "服务由 Serve Link、Serve Data Curator 和真实环境数据目录组成。",
+        "Bedrock Robotics 是首批客户之一，使用 Serve Link 连接施工机械。",
+        "Serve 称其已部署超过 2,000 台机器人；数据与运营规模为公司披露。"
+      ],
+      "context": "产品已发布并开始面向客户提供；部署规模、覆盖行业及性能描述来自 Serve Robotics 公司公告。",
+      "status": "服务已推出；面向实体 AI 客户",
+      "published_at": "2026-11-05",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Serve Robotics",
+          "title": "Serve Robotics Launches Physical AI Services, Opening Technology Behind Its Robot Fleets to Leading Physical AI Companies",
+          "url": "https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-robotics-launches-physical-ai-services-opening-technology",
+          "published_at": "2026-11-05",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Serve Robotics launches new business to become the AWS for robots",
+          "url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+          "published_at": "2026-11-05T13:15:00-08:00",
+          "accessed_at": "2026-11-06T01:10:19.007485+00:00"
+        }
+      ],
+      "tags": [
+        "机器人",
+        "实体 AI",
+        "基础设施"
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "SERVE PHYSICAL AI SERVICES",
+        "title": "从机器人车队到外部客户",
+        "items": [
+          {
+            "label": "连接",
+            "value": "Serve Link",
+            "detail": "机器人连接远端模型、监控与训练"
+          },
+          {
+            "label": "数据筛选",
+            "value": "Data Curator",
+            "detail": "从车队记录中筛出训练样本"
+          },
+          {
+            "label": "真实数据",
+            "value": "环境目录",
+            "detail": "来自人行道部署的数据集"
+          },
+          {
+            "label": "首批客户",
+            "value": "Bedrock Robotics",
+            "detail": "用于连接施工机械"
+          }
+        ],
+        "caption": "服务组成和首批客户根据 Serve Robotics 公告；性能收益尚待客户数据验证。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-06",
+      "discovered_at": "2026-11-06T01:10:19.007485+00:00",
+      "verified_at": "2026-11-06T01:10:19.007485+00:00",
+      "visual": "grid",
+      "corrections": []
     }
   ],
   "issues": [
@@ -6057,7 +6881,36 @@
       "updated_at": "2026-11-05T01:13:34.575360+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-05.json"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "AI 安全、机器人与算力建设迎来新进展",
+      "dek": "本期收录 11 条经核实的 AI 与科技动态，涉及网络安全模型、AI 研发评估、企业代理、机器人服务及数据中心。多项数字来自公司公告或研究方评估，计划与已上线状态分别说明。",
+      "coverage": "2026-11-05 09:00 至 2026-11-06 09:00（Asia/Singapore）；原文只列日期者保留日期精度",
+      "lead_ids": [
+        "openai-gpt-6-cyber-2026-11-05",
+        "metr-anthropic-rd-acceleration-2026-11-05",
+        "google-wyoming-datacenter-2026-11-05"
+      ],
+      "event_ids": [
+        "openai-gpt-6-cyber-2026-11-05",
+        "metr-anthropic-rd-acceleration-2026-11-05",
+        "anthropic-multi-agent-welfare-regard-2026-11-05",
+        "five9-level-ai-acquisition-2026-11-05",
+        "kalepa-series-b-ai-insurance-2026-11-05",
+        "zipline-raises-15b-drone-network-2026-11-05",
+        "google-wyoming-datacenter-2026-11-05",
+        "nvidia-h200-hong-kong-inventory-2026-11-05",
+        "aina-ai-ring-launch-2026-11-05",
+        "airbnb-ai-travel-agent-plan-2026-11-05",
+        "serve-physical-ai-services-2026-11-05"
+      ],
+      "number": "010",
+      "published_at": "2026-11-06T01:10:19.007485+00:00",
+      "updated_at": "2026-11-06T01:10:19.007485+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-06.json"
     }
   ],
-  "updated_at": "2026-11-05T01:13:34.575360+00:00"
+  "updated_at": "2026-11-06T01:10:19.007485+00:00"
 }
