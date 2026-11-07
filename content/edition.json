@@ -6632,6 +6632,363 @@
       "verified_at": "2026-11-06T01:10:19.007485+00:00",
       "visual": "grid",
       "corrections": []
+    },
+    {
+      "id": "openai-biobasicsbench",
+      "category": "研究",
+      "title": "OpenAI 发布 100 项湿实验室任务基准 BioBasicsBench",
+      "summary": "OpenAI 与生物技术公司 Ligo 推出 BioBasicsBench，用 100 项常规实验室任务评估 AI 代理对原始实验数据的解读能力。OpenAI 报告 GPT-6 Astra 在其高推理设置中的得分高于 GPT-5.6 Sol，同时列出模型误判对照和样本的案例。",
+      "body": [
+        "OpenAI 于 11 月 6 日公布 BioBasicsBench，用 100 项常规湿实验室任务测试 AI 代理如何读取原始实验数据、发现错误，并判断证据是否足以支持结论。该基准由 OpenAI 与酶设计公司 Ligo 合作开发，覆盖蛋白质实验、成像、检测、核酸方法和分子克隆。",
+        "OpenAI 称，在允许更多推理的 xhigh 设置下，GPT-6 Astra 平均取得 66.7% 的评分，GPT-5.6 Sol 为 43.8%。报告也展示了 Astra 误选菌落、漏数菌落等失误；这些数字来自 OpenAI 自行公布的基准，尚不能代表真实实验室中的可靠性。"
+      ],
+      "facts": [
+        "BioBasicsBench 包含 100 项常规湿实验室任务，覆盖五类工作。",
+        "OpenAI 报告 xhigh 设置下 GPT-6 Astra 平均得分 66.7%，GPT-5.6 Sol 为 43.8%。",
+        "OpenAI 的示例记录了 Astra 在菌落选择与计数任务中的错误。"
+      ],
+      "context": "基准由 OpenAI 与 Ligo 开发，所列成绩为 OpenAI 报告结果；报告本身指出高分不代表模型已能在实验室可靠判断。",
+      "status": "研究基准发布",
+      "published_at": "2026-11-06",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed_at": "2026-11-07T01:04:12.354041+00:00",
+          "published_at": "2026-11-06"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "BIOBASICSBENCH",
+        "title": "100 项实验室任务评估 AI 读数",
+        "caption": "任务规模与得分为 OpenAI 公布；分数来自其基准测试，不等同于真实实验室可靠性。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "任务总数",
+            "value": "100 项",
+            "detail": "常规湿实验室任务"
+          },
+          {
+            "label": "评估模型",
+            "value": "GPT-6 Astra",
+            "detail": "xhigh 平均得分 66.7%"
+          },
+          {
+            "label": "对照模型",
+            "value": "GPT-5.6 Sol",
+            "detail": "同设置平均得分 43.8%"
+          },
+          {
+            "label": "报告限制",
+            "value": "仍有错误",
+            "detail": "菌落选择与计数案例出现失误"
+          }
+        ]
+      },
+      "issue_date": "2026-11-07",
+      "discovered_at": "2026-11-07T01:04:12.354041+00:00",
+      "verified_at": "2026-11-07T01:06:19.656977+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "meta-muse-specialized-models",
+      "category": "产品",
+      "title": "Meta 将 Muse Wonder 能力用于 Muse 与 Meta AI 专用模型",
+      "summary": "Meta 宣布把基于 Muse Wonder 训练的专用模型推向 Muse 与 Meta AI，加入记忆和持续推进目标等能力。公司报告称，新模型在自有评测中提升了关键上下文调用与任务完成表现。",
+      "body": [
+        "Meta 于 11 月 6 日宣布，把使用 Muse Wonder 训练的专用模型加入 Muse 与 Meta AI，带来 Active Memory 和 Active Focus。前者用于记住对话中的长期信息并在后续任务中调用，后者则让助手在遇到意外问题时继续尝试、调整路径或寻求协作。",
+        "Meta 报告称，新模型在其 Personal Superintelligence Index 得分为 47%，旧模型为 38%；在 Active Memory 评测中，正确使用关键信息的任务占比为 90%，旧模型为 76%。这些是 Meta 公布的内部评估结果，公告未提供独立复测数据。"
+      ],
+      "facts": [
+        "Meta 表示专用模型使用 Muse Wonder 训练，并加入 Active Memory 与 Active Focus。",
+        "Meta 报告 Personal Superintelligence Index 为 47%，前代为 38%。",
+        "Meta 报告 Active Memory 评测正确调用关键信息的任务占比为 90%，前代为 76%。"
+      ],
+      "context": "功能和评测数据来自 Meta 的产品公告与内部评估，公告没有提供独立评测。",
+      "status": "产品更新",
+      "published_at": "2026-11-06",
+      "sources": [
+        {
+          "publisher": "Meta AI Research",
+          "title": "Bringing Specialized Models to Muse and Meta AI",
+          "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+          "accessed_at": "2026-11-07T01:04:12.354041+00:00",
+          "published_at": "2026-11-06"
+        }
+      ],
+      "graphic": {
+        "layout": "bars",
+        "theme": "violet",
+        "eyebrow": "MUSE · META AI",
+        "title": "Meta 公布两项模型评测变化",
+        "caption": "数据来自 Meta 内部评测；模型表现并非独立第三方复测。",
+        "source_refs": [
+          0
+        ],
+        "axis_max": 100,
+        "items": [
+          {
+            "label": "记忆评测·新",
+            "value": "90%",
+            "amount": 90,
+            "detail": "正确使用关键信息的任务"
+          },
+          {
+            "label": "记忆评测·旧",
+            "value": "76%",
+            "amount": 76,
+            "detail": "Meta 所列前代模型"
+          },
+          {
+            "label": "综合指数·新",
+            "value": "47%",
+            "amount": 47,
+            "detail": "Personal Superintelligence Index"
+          },
+          {
+            "label": "综合指数·旧",
+            "value": "38%",
+            "amount": 38,
+            "detail": "Meta 所列前代模型"
+          }
+        ]
+      },
+      "issue_date": "2026-11-07",
+      "discovered_at": "2026-11-07T01:04:12.354041+00:00",
+      "verified_at": "2026-11-07T01:06:19.656977+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "reflection-transfyr-science-evaluation",
+      "category": "产业",
+      "title": "Reflection 与 Transfyr 合作评估开放模型的科研能力与安全边界",
+      "summary": "Reflection 与 Transfyr 宣布合作，在科学实验场景中评估开放模型的辅助能力及安全护栏韧性。双方计划把模型行为与真实实验过程、结果相联系，以便检视模型在动态任务中的作用与风险。",
+      "body": [
+        "Reflection 与科学数据基础设施公司 Transfyr 于 11 月 6 日宣布合作，在科研场景评估开放模型如何辅助实验，以及安全护栏能否应对实验过程中的变化。Transfyr 正在开发记录实验操作与环境信息的物理 AI 系统，合作将利用执行记录和实验结果检查模型实际如何影响工作。",
+        "Reflection 表示，团队希望把模型能力、安全性和可观察的实验过程放在同一评估中，并审慎决定哪些方法和发现适合公开。公告尚未披露具体模型、实验项目或评估结果，因此目前公布的是合作方向，而非已验证的能力结论。"
+      ],
+      "facts": [
+        "Reflection 与 Transfyr 宣布在真实科学工作场景中评估开放模型。",
+        "计划结合执行数据、实验过程和结果，研究模型帮助及安全护栏表现。",
+        "公告未公布具体实验项目或评估结果。"
+      ],
+      "context": "双方公布的是合作范围与研究意图，目前没有发布模型测试结果。",
+      "status": "合作计划",
+      "published_at": "2026-11-06",
+      "sources": [
+        {
+          "publisher": "Reflection",
+          "title": "Transfyr and Reflection partner to enable resilience at the frontier",
+          "url": "https://reflection.ai/news/transfyr-and-reflection-partner",
+          "accessed_at": "2026-11-07T01:04:12.354041+00:00",
+          "published_at": "2026-11-06"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "REFLECTION × TRANSFYR",
+        "title": "用实验过程评估科研 AI",
+        "caption": "双方公布的合作计划；具体模型与评估结果尚未披露。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "模型",
+            "value": "开放模型",
+            "detail": "评估对象"
+          },
+          {
+            "label": "场景",
+            "value": "科学实验",
+            "detail": "研究日常科研工作中的模型辅助"
+          },
+          {
+            "label": "观察",
+            "value": "执行记录",
+            "detail": "连接模型行为与实验过程"
+          },
+          {
+            "label": "验证",
+            "value": "实验结果",
+            "detail": "检视帮助效果与安全护栏"
+          }
+        ]
+      },
+      "issue_date": "2026-11-07",
+      "discovered_at": "2026-11-07T01:04:12.354041+00:00",
+      "verified_at": "2026-11-07T01:06:19.656977+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "coforge-spacexsi-grok-enterprise",
+      "category": "产业",
+      "title": "Coforge 加入 SpaceXSI 合作网络，将协助企业部署 Grok",
+      "summary": "Coforge 宣布成为 SpaceX Super Intelligence 合作网络的转型伙伴，计划借助其工程服务和企业软件，把 Grok 产品接入客户工作流程。公告描述的是合作与部署服务安排，没有披露具体客户上线案例。",
+      "body": [
+        "Coforge 于 11 月 6 日宣布加入 SpaceX Super Intelligence（SpaceXSI）合作网络，成为转型伙伴，协助企业把 Grok 产品接入现有业务系统与工作流程。公司表示，将通过旗下 Momentuum blue 工程团队，在客户环境中开展软件现代化和企业应用集成。",
+        "合作涉及 Grok 的聊天、研究、代码开发、语音和图像视频等产品入口，并可通过 Grok API 接入企业方案。公告描述了双方的合作模式与服务范围，没有列出已完成的客户部署或量化成效。"
+      ],
+      "facts": [
+        "Coforge 于 2026 年 11 月 6 日宣布加入 SpaceXSI Partner Network，身份为 Transformation Partner。",
+        "Coforge 表示将通过 Momentuum blue 为企业提供 Grok 部署与系统集成服务。",
+        "新闻稿列举 Grok chat、research、models、build、bot、voice、imagine 及 API 等产品。"
+      ],
+      "context": "这是双方宣布的渠道及服务合作；公告未提供已部署客户名单或实际成效数据。",
+      "status": "合作公告",
+      "published_at": "2026-11-06",
+      "sources": [
+        {
+          "publisher": "Coforge",
+          "title": "Coforge Joins SpaceX Super Intelligence Partner Network to Take Grok into Enterprise Production",
+          "url": "https://news.coforge.com/newsroom/press-release/coforge-joins-spacex-super-intelligence-partner-network-to-take-grok-into-enterprise-production",
+          "accessed_at": "2026-11-07T01:04:12.354041+00:00",
+          "published_at": "2026-11-06"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "amber",
+        "eyebrow": "COFORGE × SPACEXSI",
+        "title": "企业 Grok 部署合作路径",
+        "caption": "Coforge 新闻稿披露的合作服务范围；尚未披露客户上线案例。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "合作身份",
+            "value": "转型伙伴",
+            "detail": "加入 SpaceXSI Partner Network"
+          },
+          {
+            "label": "交付团队",
+            "value": "Momentuum blue",
+            "detail": "Coforge 的工程服务单元"
+          },
+          {
+            "label": "工作范围",
+            "value": "系统集成",
+            "detail": "软件现代化与企业工作流程"
+          },
+          {
+            "label": "可接入",
+            "value": "Grok 产品与 API",
+            "detail": "合作方公布的产品范围"
+          }
+        ]
+      },
+      "issue_date": "2026-11-07",
+      "discovered_at": "2026-11-07T01:04:12.354041+00:00",
+      "verified_at": "2026-11-07T01:06:19.656977+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "embodied-ai-air-humanoid",
+      "category": "产品",
+      "title": "Embodied AI 展示面向工厂协作的人形机器人 AIR",
+      "summary": "瑞士机器人公司 Embodied AI 在 Humanoid Europe 2026 展示 AIR 人形机器人，称其可承担工厂内重复性任务，并已在全球制造商处测试。公司强调物理安全、现场学习与制造数据训练，未披露量化性能指标。",
+      "body": [
+        "瑞士机器人公司 Embodied AI 于 11 月 6 日在 Humanoid Europe 2026 展示人形机器人 AIR。公司称，这款机器人面向工厂现场，目标是处理变化频繁的重复性手工作业，并已与全球制造商开展测试。",
+        "Embodied AI 表示，AIR 结合柔顺硬件、现场学习和基于真实制造数据训练的 AI，设计目标是与工人共享作业空间。新闻稿没有提供具体客户名称、测试结果或安全性能数据，因此目前仍应将其视为厂商披露的产品与测试进展。"
+      ],
+      "facts": [
+        "Embodied AI 于 2026 年 11 月 6 日在 Humanoid Europe 2026 展示 AIR。",
+        "公司称 AIR 已在全球制造商处进行测试。",
+        "公司描述其技术由柔顺硬件、现场学习和真实制造数据训练组成。"
+      ],
+      "context": "关于物理安全和测试状态的描述来自公司新闻稿；发布材料没有给出独立性能或安全验证数据。",
+      "status": "产品展示",
+      "published_at": "2026-11-06",
+      "sources": [
+        {
+          "publisher": "Embodied AI via Business Wire / Yahoo Finance",
+          "title": "Embodied AI Unveils AIR, a Physically Safe Humanoid Robot That Learns on the Job",
+          "url": "https://finance.yahoo.com/technology/ai/articles/embodied-ai-unveils-air-physically-080000604.html",
+          "accessed_at": "2026-11-07T01:05:27.421197+00:00",
+          "published_at": "2026-11-06"
+        },
+        {
+          "publisher": "Embodied AI",
+          "title": "Embodied AI Robotics",
+          "url": "https://embodiedai.ch/",
+          "accessed_at": "2026-11-07T01:05:27.421197+00:00",
+          "published_at": "2026-11-06"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "EMBODIED AI · AIR",
+        "title": "工厂协作人形机器人展示",
+        "caption": "产品能力与测试情况来自厂商发布；未披露独立安全测试数据。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "产品",
+            "value": "AIR",
+            "detail": "人形机器人"
+          },
+          {
+            "label": "目标任务",
+            "value": "重复性手工作业",
+            "detail": "面向变化频繁的工厂任务"
+          },
+          {
+            "label": "测试状态",
+            "value": "厂商称正在测试",
+            "detail": "与全球制造商开展测试"
+          },
+          {
+            "label": "技术组成",
+            "value": "硬件＋学习＋数据",
+            "detail": "柔顺硬件、现场学习、真实制造数据训练"
+          }
+        ]
+      },
+      "corrections": [
+        {
+          "at": "2026-11-07T01:05:20.761909+00:00",
+          "note": "来源链接调整为新闻稿公开分发页与厂商官网，方便读者查阅。"
+        }
+      ],
+      "issue_date": "2026-11-07",
+      "discovered_at": "2026-11-07T01:04:12.354041+00:00",
+      "verified_at": "2026-11-07T01:06:19.656977+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -6910,7 +7267,30 @@
       "updated_at": "2026-11-06T01:10:19.007485+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-06.json"
+    },
+    {
+      "date": "2026-11-07",
+      "title": "AI 走进实验室、助手与制造现场",
+      "dek": "本期关注实验室任务评测、专用助手模型，以及科研和企业部署合作。",
+      "coverage": "2026-11-06 09:00 至 2026-11-07 09:00（Asia/Singapore）；收录原文日期为 11 月 6 日的动态",
+      "lead_ids": [
+        "openai-biobasicsbench",
+        "meta-muse-specialized-models",
+        "reflection-transfyr-science-evaluation"
+      ],
+      "event_ids": [
+        "openai-biobasicsbench",
+        "meta-muse-specialized-models",
+        "reflection-transfyr-science-evaluation",
+        "coforge-spacexsi-grok-enterprise",
+        "embodied-ai-air-humanoid"
+      ],
+      "number": "011",
+      "published_at": "2026-11-07T01:04:12.354041+00:00",
+      "updated_at": "2026-11-07T01:06:19.656977+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-07.json"
     }
   ],
-  "updated_at": "2026-11-06T01:10:19.007485+00:00"
+  "updated_at": "2026-11-07T01:06:19.656977+00:00"
 }
