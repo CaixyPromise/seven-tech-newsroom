@@ -6989,6 +6989,258 @@
         "产品"
       ],
       "publication_precision": "date"
+    },
+    {
+      "id": "meta-muse-spaces-2026-11-07",
+      "category": "产品",
+      "title": "Meta 为 Muse 推出可持续编辑的 Spaces 工作区",
+      "summary": "Meta 在 Muse 应用中加入 Spaces，用户可用自然语言创建规划板、追踪器或小游戏，并把工作区固定在侧栏或主导航，后续继续调整。",
+      "body": [
+        "Meta 于 11 月 7 日凌晨（新加坡时间）在 Muse 应用推出 Spaces。用户可以用自然语言描述想法，生成购物清单、规划板或小游戏等定制空间，并将其放在侧栏或主导航中，之后再回来继续修改。",
+        "Meta 表示，Spaces 可连接应用和信息来源，持续更新活动日期、价格或进度等内容；公告以礼物追踪、学校日程和婚礼规划等场景举例。编辑观察：连接数据的权限边界和后台更新准确性，将影响这类空间能否长期用于日常事务。"
+      ],
+      "facts": [
+        "Meta 于 2026-11-06 在美国时间发布 Muse Spaces；TechCrunch 标注发布时间为 10:44 AM PST，即 2026-11-07 02:44 SGT。",
+        "Spaces 可由自然语言描述生成，并可放入 Muse 的侧栏或主导航，用户可继续编辑。",
+        "Meta 举例包括购物中心、学校日程板、音乐追踪器、婚礼规划和问答游戏。"
+      ],
+      "context": "功能描述与示例来自 Meta 官方公告；第三方连接及后台更新是厂商说明，尚无独立使用数据。",
+      "status": "产品发布",
+      "published_at": "2026-11-07",
+      "publication_precision": "minute",
+      "sources": [
+        {
+          "publisher": "Meta",
+          "title": "Design the Muse App, Just for You",
+          "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+          "published_at": "2026-11-06",
+          "accessed_at": "2026-11-08T01:11:45.407625+00:00"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+          "published_at": "2026-11-06T10:44:00-08:00",
+          "accessed_at": "2026-11-08T01:11:45.407625+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "META MUSE SPACES",
+        "title": "从一句描述到可持续使用的空间",
+        "caption": "功能与示例来自 Meta 公告；第三方连接能力尚无独立评测。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "描述想法",
+            "value": "自然语言",
+            "detail": "输入规划、追踪或创意需求"
+          },
+          {
+            "label": "创建空间",
+            "value": "定制界面",
+            "detail": "可生成清单、规划板或小游戏"
+          },
+          {
+            "label": "放入导航",
+            "value": "侧栏或主导航",
+            "detail": "按日常安排选择位置"
+          },
+          {
+            "label": "继续使用",
+            "value": "编辑与更新",
+            "detail": "可连接应用并在后台更新信息"
+          }
+        ]
+      },
+      "corrections": [
+        {
+          "at": "2026-11-08T01:16:00.443378+00:00",
+          "note": "编辑校订：将功能描述收敛为 Meta 公告所列场景，并把对连接权限与后台更新可靠性的判断明确标注为编辑观察。"
+        }
+      ],
+      "issue_date": "2026-11-08",
+      "discovered_at": "2026-11-08T01:11:45.407625+00:00",
+      "verified_at": "2026-11-08T01:16:00.618630+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ]
+    },
+    {
+      "id": "apple-duo-apps-2026-11-07",
+      "category": "产品",
+      "title": "Apple 称 iPhone Duo 已有逾 10 万款适配应用",
+      "summary": "Apple 表示 App Store 已有超过 10 万款为 iPhone Duo 构建的应用，并有数千款每天加入；部分热门应用仍在等待适配更新。",
+      "body": [
+        "Apple 于 11 月 7 日清晨（新加坡时间）表示，App Store 已有超过 10 万款为 iPhone Duo 构建的应用，并称每天新增数千款。TechCrunch 援引 Apple 的说法称，过去一个月有数千名开发者参加了其在 19 座城市举办的线下工作坊。",
+        "MacRumors 根据 Apple 的补充说明称，这一数字按 iOS 27.1 SDK 或更新版本统计，适配应用可使用 Duo 的内外屏布局。Apple 列出的部分应用更新尚未完整上线。编辑观察：这一数字反映开发者适配规模，不等于每位用户都已拿到对应版本。"
+      ],
+      "facts": [
+        "TechCrunch 标注 Apple 声明发布时间为 2026-11-06 1:38 PM PST，即 2026-11-07 05:38 SGT。",
+        "Apple 称 App Store 中已有超过 100,000 款为 iPhone Duo 构建的应用，且每天新增数千款。",
+        "Apple 称过去一个月数千名开发者参加了分布在 19 座城市的活动；TechCrunch 报道有超过 2,000 名开发者参加 50 多场工作坊。",
+        "MacRumors 称 Apple 说明统计口径为使用 iOS 27.1 SDK 或更新版本构建的应用。"
+      ],
+      "context": "数字来自 Apple 的公开陈述；应用数量不等于所有更新均已在每位用户的设备上可用。",
+      "status": "开发者生态进展",
+      "published_at": "2026-11-07",
+      "publication_precision": "minute",
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "The Duo apps are coming, says Apple",
+          "url": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+          "published_at": "2026-11-06T13:38:00-08:00",
+          "accessed_at": "2026-11-08T01:11:45.407625+00:00"
+        },
+        {
+          "publisher": "MacRumors",
+          "title": "Apple Says More Than 100,000 Apps Optimized for iPhone Duo, Here's What's Still Missing",
+          "url": "https://www.macrumors.com/2026/11/06/apple-says-100k-apps-optimized-for-iphone-duo/",
+          "published_at": "2026-11-06T09:18:00-08:00",
+          "accessed_at": "2026-11-08T01:11:45.407625+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "IPHONE DUO APP STORE",
+        "title": "Apple 公布的适配进度",
+        "caption": "数量、工作坊与 SDK 口径来自 Apple 的公开信息及记者核对。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "适配应用",
+            "value": "100,000+ 款",
+            "detail": "Apple 称已在 App Store 上架"
+          },
+          {
+            "label": "新增速度",
+            "value": "每天数千款",
+            "detail": "Apple 对应用新增量的描述"
+          },
+          {
+            "label": "开发者活动",
+            "value": "50+ 场 / 19 城",
+            "detail": "TechCrunch 报道的工作坊规模"
+          },
+          {
+            "label": "统计口径",
+            "value": "iOS 27.1 SDK+",
+            "detail": "MacRumors 援引 Apple 补充说明"
+          }
+        ]
+      },
+      "corrections": [
+        {
+          "at": "2026-11-08T01:16:00.443378+00:00",
+          "note": "编辑校订：分开说明 iOS 27.1 SDK 统计口径与部分应用尚未完整上线，并明确结论属于编辑观察。"
+        }
+      ],
+      "issue_date": "2026-11-08",
+      "discovered_at": "2026-11-08T01:11:45.407625+00:00",
+      "verified_at": "2026-11-08T01:16:00.618630+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ]
+    },
+    {
+      "id": "google-acquires-crusoe-wyoming-site-2026-11-07",
+      "category": "基础设施",
+      "title": "Google 接手 Crusoe 在怀俄明州的数据中心场址",
+      "summary": "Crusoe 确认 Google 收购其怀俄明州东南部数据中心场址；Crusoe 已完成选址、审批和电力方案等前期工作，交易金额未公布。",
+      "body": [
+        "Crusoe 于 11 月 7 日上午（新加坡时间）确认，Google 已收购其在怀俄明州东南部的数据中心场址。Crusoe 表示，自己已完成选址、政府审批和电力策略等前期开发工作；Google 将接手后续建设，交易金额没有披露。",
+        "Google 另公布 170 亿美元的长期投资计划，称项目将配置 702 兆瓦燃料电池并配套碳捕集与封存；Crusoe 对前期电力方案的描述还包括电网和天然气涡轮机。编辑观察：这些仍属建设规划，实际发电与减排效果要等项目落地后才能评估。"
+      ],
+      "facts": [
+        "Crusoe 公告日期为 2026-11-06；Reuters 报道在 2026-11-06 3:03 PM ET 发布，TechCrunch 标注 5:40 PM PST；均换算至 2026-11-07 Asia/Singapore 窗口内。",
+        "Google 收购场址；Crusoe 表示其前期工作包括选址、政府审批与电力方案，交易价格未公开。",
+        "Crusoe 与 Tallgrass Energy 的电力方案包括燃料电池、电网和天然气涡轮机，碳捕集与封存为长期规划。",
+        "Google 于 2026-11-05 公布长期投资 170 亿美元，并称项目规划包括 702 MW 燃料电池与碳捕集和封存；这不是场址收购价。"
+      ],
+      "context": "收购事实由 Crusoe 确认；投资与 702 MW 电力方案来自 Google 官方公告，Crusoe 补充了前期混合电力策略。相关设施和碳捕集仍处于规划阶段。",
+      "status": "场址收购已确认，建设规划中",
+      "published_at": "2026-11-07",
+      "publication_precision": "minute",
+      "sources": [
+        {
+          "publisher": "Crusoe",
+          "title": "Crusoe Announces Wyoming Data Center Campus Update",
+          "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+          "published_at": "2026-11-06",
+          "accessed_at": "2026-11-08T01:11:45.407625+00:00"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Google acquires Wyoming data center site from AI infrastructure firm Crusoe",
+          "url": "https://www.investing.com/news/stock-market-news/google-acquires-wyoming-data-center-site-from-ai-infrastructure-firm-crusoe-5009084",
+          "published_at": "2026-11-06T15:03:00-05:00",
+          "accessed_at": "2026-11-08T01:11:45.407625+00:00"
+        },
+        {
+          "publisher": "Google",
+          "title": "Investing in Wyoming’s infrastructure, energy and workforce",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+          "published_at": "2026-11-05",
+          "accessed_at": "2026-11-08T01:16:00.618630+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "amber",
+        "eyebrow": "WYOMING AI INFRASTRUCTURE",
+        "title": "从场址前期开发到 Google 接手",
+        "caption": "收购价未披露；投资和 702 MW 电力方案为建设规划。",
+        "source_refs": [
+          0,
+          1,
+          2
+        ],
+        "items": [
+          {
+            "label": "前期工作",
+            "value": "Crusoe 完成",
+            "detail": "选址、审批与电力策略"
+          },
+          {
+            "label": "场址权属",
+            "value": "Google 收购",
+            "detail": "收购金额未披露"
+          },
+          {
+            "label": "建设投资",
+            "value": "计划 170 亿美元",
+            "detail": "Google 公布的园区投资计划"
+          },
+          {
+            "label": "电力规划",
+            "value": "混合供电规划",
+            "detail": "702 MW 燃料电池与 CCS；另含电网和天然气涡轮机"
+          }
+        ]
+      },
+      "corrections": [
+        {
+          "at": "2026-11-08T01:16:00.443378+00:00",
+          "note": "编辑校订：修正 Google 官方公告链接，依据公告补入 702 MW 燃料电池与 CCS 规划，并区分园区投资和未披露的场址收购价。"
+        }
+      ],
+      "issue_date": "2026-11-08",
+      "discovered_at": "2026-11-08T01:11:45.407625+00:00",
+      "verified_at": "2026-11-08T01:16:00.618630+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ]
     }
   ],
   "issues": [
@@ -7290,7 +7542,28 @@
       "updated_at": "2026-11-07T01:06:19.656977+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-07.json"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "助手工作区、折叠屏应用与 AI 算力项目",
+      "dek": "本期记录 Muse 新工作区、iPhone Duo 应用适配进展，以及 Google 接手怀俄明数据中心项目。",
+      "coverage": "2026-11-07 09:00 至 2026-11-08 09:00（Asia/Singapore）；核实到 3 条独立事件，按来源时区换算发布时间",
+      "lead_ids": [
+        "meta-muse-spaces-2026-11-07",
+        "apple-duo-apps-2026-11-07",
+        "google-acquires-crusoe-wyoming-site-2026-11-07"
+      ],
+      "event_ids": [
+        "meta-muse-spaces-2026-11-07",
+        "apple-duo-apps-2026-11-07",
+        "google-acquires-crusoe-wyoming-site-2026-11-07"
+      ],
+      "number": "012",
+      "published_at": "2026-11-08T01:11:45.407625+00:00",
+      "updated_at": "2026-11-08T01:16:00.618630+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-08.json"
     }
   ],
-  "updated_at": "2026-11-07T01:06:19.656977+00:00"
+  "updated_at": "2026-11-08T01:16:00.618630+00:00"
 }

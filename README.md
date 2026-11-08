@@ -4,104 +4,84 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-07。共 11 期、101 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-08。共 12 期、104 条独立记录；按实际发布状态与来源标时。
 
-**最新数据快照**：2026-11-07 09:03 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
+**最新数据快照**：2026-11-08 09:08 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
 | 观察项 | 最新观测 | 范围 |
 | --- | --- | --- |
-| 模型基本费估算 | $0.00135 · MiniMax M3.1 Flash | 7 个选定模型，10K 输入 + 2K 输出 Token |
+| 模型基本费估算 | $0.002 · Claude Haiku 5.5 | 7 个选定模型，10K 输入 + 2K 输出 Token |
 | 平台单日用量 | 约 7.09T Token · DeepSeek V4.1 Flash 1017 | OpenRouter 2026-10-31 UTC 公开日榜 |
-| 开源关注 | 186,147 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
-| 文本模型下载 | 30,819,442 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
+| 开源关注 | 186,286 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
+| 文本模型下载 | 31,318,908 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-07
+## 最新一期 · 2026-11-08
 
-**AI 走进实验室、助手与制造现场**
+**助手工作区、折叠屏应用与 AI 算力项目**
 
-本期关注实验室任务评测、专用助手模型，以及科研和企业部署合作。
+本期记录 Muse 新工作区、iPhone Duo 应用适配进展，以及 Google 接手怀俄明数据中心项目。
 
-每日精选，第 011 期。收录范围：2026-11-06 09:00 至 2026-11-07 09:00（Asia/Singapore）；收录原文日期为 11 月 6 日的动态。
-实际首次整理：2026-11-07 09:04 UTC+8。
+每日精选，第 012 期。收录范围：2026-11-07 09:00 至 2026-11-08 09:00（Asia/Singapore）；核实到 3 条独立事件，按来源时区换算发布时间。
+实际首次整理：2026-11-08 09:11 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. OpenAI 发布 100 项湿实验室任务基准 BioBasicsBench
+## 1. Meta 为 Muse 推出可持续编辑的 Spaces 工作区
 
-![100 项实验室任务评估 AI 读数。任务总数：100 项，常规湿实验室任务；评估模型：GPT-6 Astra，xhigh 平均得分 66.7%；对照模型：GPT-5.6 Sol，同设置平均得分 43.8%；报告限制：仍有错误，菌落选择与计数案例出现失误](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-biobasicsbench.svg)
+![从一句描述到可持续使用的空间。描述想法：自然语言，输入规划、追踪或创意需求；创建空间：定制界面，可生成清单、规划板或小游戏；放入导航：侧栏或主导航，按日常安排选择位置；继续使用：编辑与更新，可连接应用并在后台更新信息](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/meta-muse-spaces-2026-11-07.svg)
 
-任务规模与得分为 OpenAI 公布；分数来自其基准测试，不等同于真实实验室可靠性。
+功能与示例来自 Meta 公告；第三方连接能力尚无独立评测。
 
-OpenAI 于 11 月 6 日公布 BioBasicsBench，用 100 项常规湿实验室任务测试 AI 代理如何读取原始实验数据、发现错误，并判断证据是否足以支持结论。该基准由 OpenAI 与酶设计公司 Ligo 合作开发，覆盖蛋白质实验、成像、检测、核酸方法和分子克隆。
+Meta 于 11 月 7 日凌晨（新加坡时间）在 Muse 应用推出 Spaces。用户可以用自然语言描述想法，生成购物清单、规划板或小游戏等定制空间，并将其放在侧栏或主导航中，之后再回来继续修改。
 
-OpenAI 称，在允许更多推理的 xhigh 设置下，GPT-6 Astra 平均取得 66.7% 的评分，GPT-5.6 Sol 为 43.8%。报告也展示了 Astra 误选菌落、漏数菌落等失误；这些数字来自 OpenAI 自行公布的基准，尚不能代表真实实验室中的可靠性。
+Meta 表示，Spaces 可连接应用和信息来源，持续更新活动日期、价格或进度等内容；公告以礼物追踪、学校日程和婚礼规划等场景举例。编辑观察：连接数据的权限边界和后台更新准确性，将影响这类空间能否长期用于日常事务。
 
-分类：研究；状态：研究基准发布；原文日期：2026-11-06。
+分类：产品；状态：产品发布；原文日期：2026-11-07。
 
-来源：[OpenAI](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/)
+来源：[Meta](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)
+来源：[TechCrunch](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/)
 
-## 2. Meta 将 Muse Wonder 能力用于 Muse 与 Meta AI 专用模型
+更正：2026-11-08T01:16:00.443378+00:00 · 编辑校订：将功能描述收敛为 Meta 公告所列场景，并把对连接权限与后台更新可靠性的判断明确标注为编辑观察。
 
-![Meta 公布两项模型评测变化。记忆评测·新：90%，正确使用关键信息的任务；记忆评测·旧：76%，Meta 所列前代模型；综合指数·新：47%，Personal Superintelligence Index；综合指数·旧：38%，Meta 所列前代模型](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/meta-muse-specialized-models.svg)
+## 2. Apple 称 iPhone Duo 已有逾 10 万款适配应用
 
-数据来自 Meta 内部评测；模型表现并非独立第三方复测。
+![Apple 公布的适配进度。适配应用：100,000+ 款，Apple 称已在 App Store 上架；新增速度：每天数千款，Apple 对应用新增量的描述；开发者活动：50+ 场 / 19 城，TechCrunch 报道的工作坊规模；统计口径：iOS 27.1 SDK+，MacRumors 援引 Apple 补充说明](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/apple-duo-apps-2026-11-07.svg)
 
-Meta 于 11 月 6 日宣布，把使用 Muse Wonder 训练的专用模型加入 Muse 与 Meta AI，带来 Active Memory 和 Active Focus。前者用于记住对话中的长期信息并在后续任务中调用，后者则让助手在遇到意外问题时继续尝试、调整路径或寻求协作。
+数量、工作坊与 SDK 口径来自 Apple 的公开信息及记者核对。
 
-Meta 报告称，新模型在其 Personal Superintelligence Index 得分为 47%，旧模型为 38%；在 Active Memory 评测中，正确使用关键信息的任务占比为 90%，旧模型为 76%。这些是 Meta 公布的内部评估结果，公告未提供独立复测数据。
+Apple 于 11 月 7 日清晨（新加坡时间）表示，App Store 已有超过 10 万款为 iPhone Duo 构建的应用，并称每天新增数千款。TechCrunch 援引 Apple 的说法称，过去一个月有数千名开发者参加了其在 19 座城市举办的线下工作坊。
 
-分类：产品；状态：产品更新；原文日期：2026-11-06。
+MacRumors 根据 Apple 的补充说明称，这一数字按 iOS 27.1 SDK 或更新版本统计，适配应用可使用 Duo 的内外屏布局。Apple 列出的部分应用更新尚未完整上线。编辑观察：这一数字反映开发者适配规模，不等于每位用户都已拿到对应版本。
 
-来源：[Meta AI Research](https://research.meta.ai/blog/specialized-models-for-muse-and-metaai)
+分类：产品；状态：开发者生态进展；原文日期：2026-11-07。
 
-## 3. Reflection 与 Transfyr 合作评估开放模型的科研能力与安全边界
+来源：[TechCrunch](https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/)
+来源：[MacRumors](https://www.macrumors.com/2026/11/06/apple-says-100k-apps-optimized-for-iphone-duo/)
 
-![用实验过程评估科研 AI。模型：开放模型，评估对象；场景：科学实验，研究日常科研工作中的模型辅助；观察：执行记录，连接模型行为与实验过程；验证：实验结果，检视帮助效果与安全护栏](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/reflection-transfyr-science-evaluation.svg)
+更正：2026-11-08T01:16:00.443378+00:00 · 编辑校订：分开说明 iOS 27.1 SDK 统计口径与部分应用尚未完整上线，并明确结论属于编辑观察。
 
-双方公布的合作计划；具体模型与评估结果尚未披露。
+## 3. Google 接手 Crusoe 在怀俄明州的数据中心场址
 
-Reflection 与科学数据基础设施公司 Transfyr 于 11 月 6 日宣布合作，在科研场景评估开放模型如何辅助实验，以及安全护栏能否应对实验过程中的变化。Transfyr 正在开发记录实验操作与环境信息的物理 AI 系统，合作将利用执行记录和实验结果检查模型实际如何影响工作。
+![从场址前期开发到 Google 接手。前期工作：Crusoe 完成，选址、审批与电力策略；场址权属：Google 收购，收购金额未披露；建设投资：计划 170 亿美元，Google 公布的园区投资计划；电力规划：混合供电规划，702 MW 燃料电池与 CCS；另含电网和天然气涡轮机](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-acquires-crusoe-wyoming-site-2026-11-07.svg)
 
-Reflection 表示，团队希望把模型能力、安全性和可观察的实验过程放在同一评估中，并审慎决定哪些方法和发现适合公开。公告尚未披露具体模型、实验项目或评估结果，因此目前公布的是合作方向，而非已验证的能力结论。
+收购价未披露；投资和 702 MW 电力方案为建设规划。
 
-分类：产业；状态：合作计划；原文日期：2026-11-06。
+Crusoe 于 11 月 7 日上午（新加坡时间）确认，Google 已收购其在怀俄明州东南部的数据中心场址。Crusoe 表示，自己已完成选址、政府审批和电力策略等前期开发工作；Google 将接手后续建设，交易金额没有披露。
 
-来源：[Reflection](https://reflection.ai/news/transfyr-and-reflection-partner)
+Google 另公布 170 亿美元的长期投资计划，称项目将配置 702 兆瓦燃料电池并配套碳捕集与封存；Crusoe 对前期电力方案的描述还包括电网和天然气涡轮机。编辑观察：这些仍属建设规划，实际发电与减排效果要等项目落地后才能评估。
 
-## 4. Coforge 加入 SpaceXSI 合作网络，将协助企业部署 Grok
+分类：基础设施；状态：场址收购已确认，建设规划中；原文日期：2026-11-07。
 
-![企业 Grok 部署合作路径。合作身份：转型伙伴，加入 SpaceXSI Partner Network；交付团队：Momentuum blue，Coforge 的工程服务单元；工作范围：系统集成，软件现代化与企业工作流程；可接入：Grok 产品与 API，合作方公布的产品范围](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/coforge-spacexsi-grok-enterprise.svg)
+来源：[Crusoe](https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update)
+来源：[Reuters](https://www.investing.com/news/stock-market-news/google-acquires-wyoming-data-center-site-from-ai-infrastructure-firm-crusoe-5009084)
+来源：[Google](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/)
 
-Coforge 新闻稿披露的合作服务范围；尚未披露客户上线案例。
-
-Coforge 于 11 月 6 日宣布加入 SpaceX Super Intelligence（SpaceXSI）合作网络，成为转型伙伴，协助企业把 Grok 产品接入现有业务系统与工作流程。公司表示，将通过旗下 Momentuum blue 工程团队，在客户环境中开展软件现代化和企业应用集成。
-
-合作涉及 Grok 的聊天、研究、代码开发、语音和图像视频等产品入口，并可通过 Grok API 接入企业方案。公告描述了双方的合作模式与服务范围，没有列出已完成的客户部署或量化成效。
-
-分类：产业；状态：合作公告；原文日期：2026-11-06。
-
-来源：[Coforge](https://news.coforge.com/newsroom/press-release/coforge-joins-spacex-super-intelligence-partner-network-to-take-grok-into-enterprise-production)
-
-## 5. Embodied AI 展示面向工厂协作的人形机器人 AIR
-
-![工厂协作人形机器人展示。产品：AIR，人形机器人；目标任务：重复性手工作业，面向变化频繁的工厂任务；测试状态：厂商称正在测试，与全球制造商开展测试；技术组成：硬件＋学习＋数据，柔顺硬件、现场学习、真实制造数据训练](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/embodied-ai-air-humanoid.svg)
-
-产品能力与测试情况来自厂商发布；未披露独立安全测试数据。
-
-瑞士机器人公司 Embodied AI 于 11 月 6 日在 Humanoid Europe 2026 展示人形机器人 AIR。公司称，这款机器人面向工厂现场，目标是处理变化频繁的重复性手工作业，并已与全球制造商开展测试。
-
-Embodied AI 表示，AIR 结合柔顺硬件、现场学习和基于真实制造数据训练的 AI，设计目标是与工人共享作业空间。新闻稿没有提供具体客户名称、测试结果或安全性能数据，因此目前仍应将其视为厂商披露的产品与测试进展。
-
-分类：产品；状态：产品展示；原文日期：2026-11-06。
-
-来源：[Embodied AI via Business Wire / Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/embodied-ai-unveils-air-physically-080000604.html)
-来源：[Embodied AI](https://embodiedai.ch/)
-
-更正：2026-11-07T01:05:20.761909+00:00 · 来源链接调整为新闻稿公开分发页与厂商官网，方便读者查阅。
+更正：2026-11-08T01:16:00.443378+00:00 · 编辑校订：修正 Google 官方公告链接，依据公告补入 702 MW 燃料电池与 CCS 规划，并区分园区投资和未披露的场址收购价。
 
 **历史归档**
 
+- [2026-11-08 · 助手工作区、折叠屏应用与 AI 算力项目](archive/2026-11-08.md)
 - [2026-11-07 · AI 走进实验室、助手与制造现场](archive/2026-11-07.md)
 - [2026-11-06 · AI 安全、机器人与算力建设迎来新进展](archive/2026-11-06.md)
 - [2026-11-05 · AI 工具走向工程、研究与企业系统](archive/2026-11-05.md)
