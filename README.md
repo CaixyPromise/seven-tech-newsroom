@@ -4,7 +4,7 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-08。共 12 期、104 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-09。共 13 期、107 条独立记录；按实际发布状态与来源标时。
 
 **最新数据快照**：2026-11-08 09:08 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
@@ -17,70 +17,69 @@
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-08
+## 最新一期 · 2026-11-09
 
-**助手工作区、折叠屏应用与 AI 算力项目**
+**AI 供电、监管与芯片治理出现新进展**
 
-本期记录 Muse 新工作区、iPhone Duo 应用适配进展，以及 Google 接手怀俄明数据中心项目。
+本期收录 3 条发布窗口内的独立消息：Anthropic 发电设备采购报道、美国 AI 安全评估机构汇报安排变化，以及 Nvidia 董事会启动独立调查。媒体归因、公司表述和未确认事项均在正文中区分。
 
-每日精选，第 012 期。收录范围：2026-11-07 09:00 至 2026-11-08 09:00（Asia/Singapore）；核实到 3 条独立事件，按来源时区换算发布时间。
-实际首次整理：2026-11-08 09:11 UTC+8。
+每日精选，第 013 期。收录范围：2026-11-08 09:00 至 2026-11-09 09:00（Asia/Singapore）。
+实际首次整理：2026-11-09 09:10 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. Meta 为 Muse 推出可持续编辑的 Spaces 工作区
+## 1. 报道称 Anthropic 接手 1.7 吉瓦燃气发电机采购承诺
 
-![从一句描述到可持续使用的空间。描述想法：自然语言，输入规划、追踪或创意需求；创建空间：定制界面，可生成清单、规划板或小游戏；放入导航：侧栏或主导航，按日常安排选择位置；继续使用：编辑与更新，可连接应用并在后台更新信息](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/meta-muse-spaces-2026-11-07.svg)
+![发电设备采购承诺仍待落地。报道交易额：约 34 亿美元，Financial Times 于 11 月 8 日披露；发电能力：1.7 吉瓦，Reuters 转述的采购承诺规模；供应商：OnePWR Solutions，报道称包含工程与安装能力；履约状态：承诺采购，尚无公开的安装地点或投运日期](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/anthropic-gas-generator-commitments-2026-11-08.svg)
 
-功能与示例来自 Meta 公告；第三方连接能力尚无独立评测。
+Financial Times 报道的交易数据；Reuters 未能立即独立核实，装机地点与投运时间未披露。
 
-Meta 于 11 月 7 日凌晨（新加坡时间）在 Muse 应用推出 Spaces。用户可以用自然语言描述想法，生成购物清单、规划板或小游戏等定制空间，并将其放在侧栏或主导航中，之后再回来继续修改。
+Financial Times 于 11 月 8 日报道称，Anthropic 在 9 月底接手 OnePWR Solutions 的 1.7 吉瓦燃气发电机采购承诺，交易价值约 34 亿美元。Reuters 转述报道说，相关设备由 Caterpillar 供应，交易还包括安装所需的工程与建设能力。
 
-Meta 表示，Spaces 可连接应用和信息来源，持续更新活动日期、价格或进度等内容；公告以礼物追踪、学校日程和婚礼规划等场景举例。编辑观察：连接数据的权限边界和后台更新准确性，将影响这类空间能否长期用于日常事务。
+Reuters 表示无法立即独立核实 FT 报道，Anthropic 与 OnePWR 均未回应置评请求；报道也没有披露设备的具体安装地点或投运时间。因此，这笔交易目前是媒体报道的采购承诺，不代表 1.7 吉瓦电力已投入运行。
 
-分类：产品；状态：产品发布；原文日期：2026-11-07。
+编辑观察：这笔采购显示数据中心扩张正在争取发电设备供给；实际可提供的电力规模与环境影响，还要看设备何时、何地投入运行。
 
-来源：[Meta](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)
-来源：[TechCrunch](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/)
+分类：基础设施；状态：媒体报道；Reuters 未能独立核实，相关公司未回应置评请求；原文日期：2026-11-08。
 
-更正：2026-11-08T01:16:00.443378+00:00 · 编辑校订：将功能描述收敛为 Meta 公告所列场景，并把对连接权限与后台更新可靠性的判断明确标注为编辑观察。
+来源：[Financial Times](https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0)
+来源：[Reuters](https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/)
 
-## 2. Apple 称 iPhone Duo 已有逾 10 万款适配应用
+## 2. 美国 AI 安全评估机构人员被要求非正式向白宫汇报
 
-![Apple 公布的适配进度。适配应用：100,000+ 款，Apple 称已在 App Store 上架；新增速度：每天数千款，Apple 对应用新增量的描述；开发者活动：50+ 场 / 19 城，TechCrunch 报道的工作坊规模；统计口径：iOS 27.1 SDK+，MacRumors 援引 Apple 补充说明](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/apple-duo-apps-2026-11-07.svg)
+![CAISSI 汇报安排与公开评估现状。机构归属：美国商务部，负责 AI 产品安全评估的独立部门；人员汇报：非正式向白宫汇报，消息来自两名了解讨论的前官员；公开研究：已停止发布，美联社报道的当前状态；年度经费：1,000 万美元，美联社报道](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/us-caissi-informal-white-house-reporting-2026-11-08.svg)
 
-数量、工作坊与 SDK 口径来自 Apple 的公开信息及记者核对。
+美联社根据两名前政府官员的说法报道；人员汇报安排被描述为非正式。
 
-Apple 于 11 月 7 日清晨（新加坡时间）表示，App Store 已有超过 10 万款为 iPhone Duo 构建的应用，并称每天新增数千款。TechCrunch 援引 Apple 的说法称，过去一个月有数千名开发者参加了其在 19 座城市举办的线下工作坊。
+美联社 11 月 8 日报道，美国商务部下属、负责评估 AI 产品安全的 CAISSI 工作人员，近期被要求非正式向白宫办公室汇报；消息来自两名了解相关讨论的前政府官员。该中心目前没有常任负责人，也已停止公开发布部分 AI 系统安全评估研究。
 
-MacRumors 根据 Apple 的补充说明称，这一数字按 iOS 27.1 SDK 或更新版本统计，适配应用可使用 Duo 的内外屏布局。Apple 列出的部分应用更新尚未完整上线。编辑观察：这一数字反映开发者适配规模，不等于每位用户都已拿到对应版本。
+报道说，中心年度经费为 1,000 万美元。白宫没有回应有关 CAISSI 的具体问题，只表示总统已正式设立“超级智能”工作组，并委托顾问委员会提交 AI 风险报告。美联社称相关汇报安排是非正式的，目前未见正式组织调整文件。
 
-分类：产品；状态：开发者生态进展；原文日期：2026-11-07。
+编辑观察：报道揭示的是汇报安排和公开研究现状；后续评估工作是否恢复公开，将是观察该机构独立审查职能变化的直接线索。
 
-来源：[TechCrunch](https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/)
-来源：[MacRumors](https://www.macrumors.com/2026/11/06/apple-says-100k-apps-optimized-for-iphone-duo/)
+分类：治理；状态：美联社报道；汇报安排为匿名消息人士所述的非正式安排；原文日期：2026-11-08。
 
-更正：2026-11-08T01:16:00.443378+00:00 · 编辑校订：分开说明 iOS 27.1 SDK 统计口径与部分应用尚未完整上线，并明确结论属于编辑观察。
+来源：[Associated Press](https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13)
 
-## 3. Google 接手 Crusoe 在怀俄明州的数据中心场址
+## 3. Nvidia 董事会就黄仁勋相关报道启动独立调查
 
-![从场址前期开发到 Google 接手。前期工作：Crusoe 完成，选址、审批与电力策略；场址权属：Google 收购，收购金额未披露；建设投资：计划 170 亿美元，Google 公布的园区投资计划；电力规划：混合供电规划，702 MW 燃料电池与 CCS；另含电网和天然气涡轮机](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-acquires-crusoe-wyoming-site-2026-11-07.svg)
+![董事会回应相关报道并启动调查。媒体报道：黄仁勋遭外国情报活动针对，作为董事会调查的报道背景；公司行动：启动独立调查，Nvidia 董事会 11 月 8 日表态；董事会说法：目前无理由认为机密泄露，Reuters 转述的公司立场；待公布：范围与完成时间，截至报道发布尚未披露](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/nvidia-board-foreign-intelligence-review-2026-11-08.svg)
 
-收购价未披露；投资和 702 MW 电力方案为建设规划。
+Nvidia 董事会说法由 Reuters 转述；调查范围与时间表尚未公布。
 
-Crusoe 于 11 月 7 日上午（新加坡时间）确认，Google 已收购其在怀俄明州东南部的数据中心场址。Crusoe 表示，自己已完成选址、政府审批和电力策略等前期开发工作；Google 将接手后续建设，交易金额没有披露。
+Nvidia 董事会 11 月 8 日表示，将对有关创办人兼 CEO 黄仁勋成为外国情报活动目标的报道启动独立调查。Reuters 报道称，董事会称目前没有理由相信美国国家安全或 Nvidia 公司机密已遭泄露。
 
-Google 另公布 170 亿美元的长期投资计划，称项目将配置 702 兆瓦燃料电池并配套碳捕集与封存；Crusoe 对前期电力方案的描述还包括电网和天然气涡轮机。编辑观察：这些仍属建设规划，实际发电与减排效果要等项目落地后才能评估。
+这项调查是公司回应相关媒体报道后的行动；截至 Reuters 发布消息，Nvidia 尚未公布调查范围、负责人或完成时间。有关情报活动的说法仍属于媒体报道背景，公开信息尚未证明公司资料已泄露或供应链受到影响。
 
-分类：基础设施；状态：场址收购已确认，建设规划中；原文日期：2026-11-07。
+编辑观察：后续公布的调查范围与证据，将决定外界能否判断这项审查是否解答了围绕芯片出口和供应链安全的疑问。
 
-来源：[Crusoe](https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update)
-来源：[Reuters](https://www.investing.com/news/stock-market-news/google-acquires-wyoming-data-center-site-from-ai-infrastructure-firm-crusoe-5009084)
-来源：[Google](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/)
+分类：治理；状态：Nvidia 董事会表态经 Reuters 报道；相关背景指称尚非已证实结论；原文日期：2026-11-08。
 
-更正：2026-11-08T01:16:00.443378+00:00 · 编辑校订：修正 Google 官方公告链接，依据公告补入 702 MW 燃料电池与 CCS 规划，并区分园区投资和未披露的场址收购价。
+来源：[Reuters](https://www.investing.com/news/stock-market-news/nvidia-launches-probe-after-report-ceo-huang-was-target-of-foreign-intelligence-5010307)
+来源：[Associated Press](https://apnews.com/article/68839e7ca6ba2b121529f7e475e501d6)
 
 **历史归档**
 
+- [2026-11-09 · AI 供电、监管与芯片治理出现新进展](archive/2026-11-09.md)
 - [2026-11-08 · 助手工作区、折叠屏应用与 AI 算力项目](archive/2026-11-08.md)
 - [2026-11-07 · AI 走进实验室、助手与制造现场](archive/2026-11-07.md)
 - [2026-11-06 · AI 安全、机器人与算力建设迎来新进展](archive/2026-11-06.md)
