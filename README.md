@@ -4,193 +4,226 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-10。共 14 期、117 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-11。共 15 期、130 条独立记录；按实际发布状态与来源标时。
 
-**最新数据快照**：2026-11-08 09:08 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
+**最新数据快照**：2026-11-11 11:50 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
 | 观察项 | 最新观测 | 范围 |
 | --- | --- | --- |
-| 模型基本费估算 | $0.002 · Claude Haiku 5.5 | 7 个选定模型，10K 输入 + 2K 输出 Token |
+| 模型基本费估算 | $0.00106 · DeepSeek V4.1 Flash 1017 | 7 个选定模型，10K 输入 + 2K 输出 Token |
 | 平台单日用量 | 约 7.09T Token · DeepSeek V4.1 Flash 1017 | OpenRouter 2026-10-31 UTC 公开日榜 |
-| 开源关注 | 186,286 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
-| 文本模型下载 | 31,318,908 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
+| 开源关注 | 186,591 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
+| 文本模型下载 | 32,217,183 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-10
+## 最新一期 · 2026-11-11
 
-**模型、算力与 AI 工具迎来新一轮更新**
+**前沿模型、企业智能体与 AI 芯片更新**
 
-本期关注新模型与 API、AI 基础设施、年龄保护措施，以及企业和创作者工具的扩展。
+Google 发布 Gemini 4 Carbon，Anthropic 扩展企业协作工具；芯片、医疗服务与产业投资也有新进展。
 
-每日精选，第 014 期。收录范围：2026-11-09 09:00 至 2026-11-10 09:00（Asia/Singapore）；按来源发布时区核实窗口，收录 10 条独立消息。
-实际首次整理：2026-11-10 09:16 UTC+8。
+每日精选，第 015 期。收录范围：2026-11-10 09:00 至 2026-11-11 09:00（Asia/Singapore）；按原始来源时间核实，日期精度来源未推断具体时分；收录 13 条独立消息。
+实际首次整理：2026-11-11 11:50 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. Meta 将 AI 年龄估算扩展至全球 Instagram 青少年保护
+## 1. Google 发布 Gemini 4 Carbon，API 与企业版开放
 
-![年龄估算接入青少年保护流程。输入信号：账号年龄信息，系统还会使用 Meta 所述的年龄估算技术；平台动作：纳入 Teen Accounts，Meta 称将扩展至全球 Instagram；地区补充：Apple 年龄范围，Meta 称澳大利亚已开始使用；后续计划：Facebook 与 Threads，Facebook 扩展进行中；Threads 计划稍后推出](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/meta-instagram-ai-age-estimation-global-2026-11-09.svg)
+![模型开放范围与 API 价格。输入价格：$2 / 百万 Token，Google 公布的 API 定价；输出价格：$10 / 百万 Token，Google 公布的 API 定价；企业与开发者：API / Business，官方公告称已开放使用；并行协作：/swarm 预览，随模型发布提供的预览功能](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-gemini-4-carbon-2026-11-11.svg)
 
-全球扩展及时间安排据 Meta 公告；未公布误判率。
+价格与开放状态据 Google 公告；/swarm 仍为预览。
 
-Meta 11 月 9 日宣布，把 AI 年龄估算技术扩展到全球 Instagram，目标是让更多即使填写成人生日的青少年进入 Teen Accounts。Meta 称，相关账户保护会限制陌生人联系、内容推荐和使用时间；美国家长本月也将开始收到说明通知。
+Google 于 11 月 10 日发布 Gemini 4 Carbon，面向开发者和企业客户开放 API 与 Gemini for Business 使用；Google AI Ultra 消费者将按地区逐步获得访问权限。Google 同时推出名为 /swarm 的并行协作功能预览。
 
-Meta 还表示，澳大利亚已开始采用 Apple 提供的年龄范围信号，Facebook 的扩展仍在进行，Threads 预计于今年稍后推出类似技术。编辑观察：年龄估算作为平台判断工具，误判与用户纠正仍是措施落地时需要处理的问题。
+官方列出的 API 价格为每百万输入 Token 2 美元、每百万输出 Token 10 美元。Google 将 Carbon 定位为适合复杂推理与长任务的模型，相关能力描述和性能数据来自厂商发布材料，实际效果仍需结合具体任务评估。
 
-分类：治理；状态：全球扩展已宣布；Facebook 与 Threads 进度仍按 Meta 所述安排推进；原文日期：2026-11-09T08:14:00-05:00。
+分类：模型；状态：API 与 Business 可用；消费者分批开放；/swarm 预览；原文日期：2026-11-10T16:00:00+00:00。
 
-来源：[Meta](https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/)
-来源：[Reuters（Yahoo Finance）](https://ca.finance.yahoo.com/news/meta-expands-ai-age-checks-131413768.html)
+来源：[Google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)
 
-更正：2026-11-10T01:24:24+00:00 · 明确区分正文中的事实与编辑观察，事实内容未变。
+## 2. OpenAI 推出 ChatGPT 商家资料与商品信息入口
 
-## 2. Anthropic 发布 Claude Fable 5.2，Mythos 5.2 限定获批研究
+![商家信息进入 ChatGPT 的路径。商家入口：认领资料，企业核验并维护信息；商品发现：提交产品目录，供 ChatGPT 展示商品与服务；互动反馈：聚合提及与点击，部分指标设有隐私门槛；商业代理：美国部分企业，电商与线上服务，需符合条件](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-businesses-chatgpt-2026-11-11.svg)
 
-![两款模型，开放范围不同。Fable 5.2：一般可用，面向编程、数学、科学与金融工作；运行方式：数小时至数天，Anthropic 称可无人持续操作并检查工作；Mythos 5.2：验证计划，网络安全与生命科学获批研究机构；AWS：Bedrock 与 Claude Platform，AWS 于 11 月 9 日宣布开放调用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/anthropic-fable-mythos-52-2026-11-09.svg)
+产品目录与商业代理的开放范围不同；代理目前限美国部分企业。
 
-任务定位与访问条件据 Anthropic；长时运行是公司所述能力。
+OpenAI 于 11 月 10 日推出 Businesses in ChatGPT，让符合条件的商家认领企业资料、核验信息并提交产品目录，以便用户在 ChatGPT 中发现商品和服务。商家还可查看聚合后的提及和点击数据；部分指标会受隐私门槛限制。
 
-Anthropic 11 月 9 日发布 Claude Fable 5.2 和 Claude Mythos 5.2。Fable 面向编程、数学、科学和金融等技术工作，Anthropic 称它可在无人持续操作的情况下运行数小时至数天，并在工作中反复检查结果；这属于公司的能力描述。
+OpenAI 另开放商业代理，目前仅面向符合条件的美国电商和线上服务企业。商家入口、目录展示和代理功能处于不同可用阶段，不能把信息展示等同于订单转化；现阶段公布的指标主要反映平台内互动。
 
-Mythos 5.2 保留了面向网络安全和生命科学研究的能力，但仅通过 Anthropic 验证计划向获批机构提供。Anthropic 将 Fable 作为一般可用模型发布，AWS 也宣布可通过 Bedrock 和 Claude Platform on AWS 调用。编辑观察：长时任务的评估还需关注任务质量、失败恢复与实际成本。
+分类：产品；状态：商家资料与目录入口推出；商业代理目前限符合条件的美国企业使用；原文日期：2026-11-10。
 
-分类：模型；状态：Fable 5.2 一般可用；Mythos 5.2 仅限验证计划批准机构；原文日期：2026-11-09T15:19:00-05:00。
+来源：[OpenAI](https://openai.com/index/introducing-businesses-chatgpt/)
+来源：[TechCrunch](https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/)
 
-来源：[Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2)
-来源：[Reuters（MarketScreener 转载）](https://www.marketscreener.com/news/anthropic-unveils-new-fable-mythos-models-as-competition-heats-up-ahead-ipo-ce785fd3d189f423)
-来源：[AWS](https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws/)
+更正：2026-11-11T03:51:58+00:00 · 将商业代理概述明确为已向符合条件的美国电商和线上服务企业开放，避免表述为试点。
 
-更正：2026-11-10T01:24:24+00:00 · 修正 Anthropic 官方公告的规范链接，并明确区分编辑观察；模型发布事实未变。
+## 3. Anthropic 为 Claude 增加白板与表格协作工具
 
-## 3. LG AI Research 免费开放 K-EXAONE 2.5 API
+![三项协作工具的开放阶段。Whiteboards：测试版，付费计划可用，企业默认关闭；Sheets：测试版，可配合数据连接器使用；Claude Data：正式可用，企业版计划 11 月 19 日启用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/anthropic-claude-workspace-tools-2026-11-11.svg)
 
-![免费 API 与四项内部代理评测。调用：免费 API，通过 EXAONE API Platform 申请 key；SaaS 自动化：74.6，AutomationBench-Openset，LG 内部测试；软件工程：59.2，SWE-Bench Pro，LG 内部测试；网页检索：78.0，BrowseComp，LG 内部测试；工作代理：77.3，Claw-Eval，LG 内部测试](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/lg-k-exaone-25-free-api-2026-11-09.svg)
+官方公告区分测试版、正式可用及企业默认设置。
 
-API 条件及分数据 LG AI Research；评测为机构内部结果。
+Anthropic 11 月 10 日公布 Claude Whiteboards 和 Claude Sheets，作为面向付费计划用户的测试版协作工具；原 Claude Dashboards 更名为 Claude Data，并转为正式可用。相关功能可在网页、桌面和移动端使用。
 
-LG AI Research 11 月 9 日开放 K-EXAONE 2.5 API，开发者可在 EXAONE API Platform 申请密钥后免费调用。研究机构称，这一模型是在 8 月发布版本上继续训练的技术验证模型；API 开放不等同于模型权重或源代码开放。
+Anthropic 的同日公告还介绍互动连接器升级，允许用户在 Claude 会话旁或全屏打开 Adobe、Atlassian、Box 等伙伴应用。企业版默认设置有所不同：Whiteboards 与 Sheets 默认关闭，Claude Data 则将在 11 月 19 日启用。
 
-LG AI Research 以公开数据集进行的内部评测中，模型在 AutomationBench-Openset、SWE-Bench Pro、BrowseComp 和 Claw-Eval 分别获得 74.6、59.2、78.0 和 77.3 分。上述结果是厂商自测，不能直接视为独立评测；当前免费条件也应以平台实际条款为准。
+分类：产品；状态：Whiteboards / Sheets 测试版；Claude Data 正式可用；原文日期：2026-11-10。
 
-分类：模型；状态：免费 API 已开放；评测结果为 LG AI Research 内部测试；原文日期：2026-11-09T10:00:00+09:00。
+来源：[Anthropic](https://claude.com/resources/articles/sheets-whiteboards-data)
+来源：[Anthropic](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
 
-来源：[LG AI Research](https://www.lgresearch.ai/news/view?seq=755)
-来源：[MoneyToday](https://www.mt.co.kr/en/industry/2026/11/09/2026110909413580792)
+更正：2026-11-11T03:58:14+00:00 · 区分 Claude 内的白板/表格工具与同日发布的互动连接器，避免把两类功能混写。
 
-## 4. NXP 推出统一机器人平台，开发套件与无人机参考设计已开放
+## 4. Adobe MAX 扩展创意 AI 工具并加入 MCP 集成
 
-![从已验证子系统到完整无人机。平台底座：Neural Axis，连接传感、控制、AI 与通信；现已提供：SDK 与参考设计，首批方案面向无人机；逐步集成：感知、飞控、导航，NXP 称可基于验证过的子系统扩展；后续支持：2027 年下半年，服务机器人和其他自主系统](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/nxp-unified-robotics-platform-2026-11-09.svg)
+![创意 AI 更新覆盖的产品层。内容生成：Firefly，创意生成与代理工具更新；专业创作：四款桌面应用，加入本地 MCP 集成方案；营销工作流：GenStudio，面向营销创意工作的更新；开放状态：预览 / 私测 / 已开放，需逐项查看 Adobe 的可用说明](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/adobe-max-creative-ai-2026-11-11.svg)
 
-现有支持和后续计划据 NXP；效率指标为厂商示例。
+Adobe 公布多项更新；各功能的开放阶段有所不同。
 
-NXP 于 11 月 9 日发布基于 Neural Axis Architecture 的统一机器人平台，将传感器、实时控制、AI 处理、通信、安全和能耗管理放入同一开发体系。公司称，平台 SDK 和无人机参考设计现已开放，开发者可由已验证的电机控制子系统开始，再加入感知、飞控与导航。
+Adobe 于 11 月 10 日在 MAX 公布面向 Firefly、Creative Cloud 和 GenStudio 的多项 AI 更新，并为 Photoshop、Illustrator、Premiere 和 After Effects 增加本地 MCP 集成方案。公司还宣布与 Google、Microsoft、OpenAI、Anthropic 等厂商开展创意工具合作。
 
-NXP 表示，平台目标是把以往需要数月的子系统集成缩短至数天或数周，并称初步无人机功能可在开箱后 30 分钟内运行；这些是厂商提出的开发效率指标。针对服务机器人和其他自主系统的进一步支持则计划于 2027 年下半年提供。
+发布内容包括已开放、预览和私测项目，具体状态因功能而异；Adobe 的公告没有把所有更新列为普遍可用。Adobe 另宣布与 Disney 达成多年期创意 AI 合作，授权范围和可用功能应按各自产品公告理解。
 
-分类：基础设施；状态：无人机参考设计与 SDK 已开放；更多系统支持计划于 2027 年下半年；原文日期：2026-11-09T09:00:00+01:00。
+分类：产品；状态：多项产品更新已公布；部分仍属预览或私测；原文日期：2026-11-10。
 
-来源：[NXP Semiconductors](https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-UNVEILS-ROBOTICS-PHYSICAL-AI)
+来源：[Adobe](https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity)
+来源：[TechCrunch](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/)
 
-## 5. Google 增加两款 TPU 系统，GKE 动态切片进入正式可用
+## 5. IBM 与 Microsoft 推出面向行业的智能体平台
 
-![新系统规格与 TPU 编排更新。TPU 8tx：机密推理，Google 称支持运行中数据与模型权重保护；TPU 8i Max：双芯片封装，面向长上下文，增加计算与内存带宽；GKE Dynamic Slicing：正式可用，按任务动态组合或拆分 TPU 切片；Google 测量：最多 5× / 4.5×，启动速度 / 故障恢复；限 All Capacity 预留模式](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-tpu-8tx-gke-dynamic-slicing-2026-11-09.svg)
+![Imagine Enterprise 的平台构成。IBM 资产：6,000+，预置智能体及相关资产；技术底座：Microsoft 云与 AI，并提供安全基础设施；首批行业：金融 / 保险 / 零售，初始行业框架；交付方式：顾问服务或自管，IBM Consulting 参与交付](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/ibm-microsoft-imagine-enterprise-2026-11-11.svg)
 
-硬件定位和切片性能据 Google；性能数字非独立评测。
+6,000 多项预置资产为 IBM 的披露；公告尚未给出部署成效。
 
-Google 11 月 9 日公布 TPU 8tx 和 TPU 8i Max，令第八代产品线增至四种系统。公司称，8tx 面向机密推理，采用硬件级隔离；8i Max 将两个 8i 芯片组合，目标是为长上下文工作负载增加计算和内存带宽。Google 尚未在公告中给出价格和交付时间。
+IBM 与 Microsoft 于 11 月 10 日宣布 Imagine Enterprise，面向金融、保险和零售等行业构建 AI 智能体平台。IBM 称将带来 6,000 多个预置智能体和相关资产，Microsoft 提供云、AI 与安全基础设施。
 
-同日，Google Cloud 宣布 GKE 动态切片正式可用，可把预先配置的 TPU 容量按任务动态拼接或拆分。Google 称，相比静态节点池，任务启动最多快 5 倍，故障恢复最多快 4.5 倍；服务仅支持 TPU All Capacity 预留模式。编辑观察：硬件规格与编排服务对应不同层次的资源需求；性能数字来自 Google 自测。
+平台计划通过 IBM Consulting 交付，并为客户提供自主管理选项。双方把它定位为行业转型方案，当前公告描述的是平台发布和合作安排，尚不能据此判断各行业客户的部署结果。
 
-分类：基础设施；状态：动态切片已正式可用；新 TPU 系统未公布价格与交付时间；原文日期：2026-11-09T09:00:00-08:00。
+分类：产业；状态：平台与合作已宣布；初始行业框架包括金融、保险和零售；原文日期：2026-11-10。
 
-来源：[Google Cloud](https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max)
-来源：[Google Cloud](https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus)
-来源：[AI Weekly](https://aiweekly.co/alerts/google-unveils-tpu-8tx-and-8i-max-for-secure-long-context-ai)
+来源：[IBM](https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation)
 
-更正：2026-11-10T01:24:24+00:00 · 明确标注编辑观察并保留厂商自测归属，技术事实未变。
+## 6. Anthropic 向 SEC 更新 IPO 发行价格区间
 
-## 6. Adobe 与 Disney 建立多年合作，探索定制生成式 AI 工具
+![S-1/A 列出的拟议发行条款。拟议价格：$70–78 / 股，注册文件所列价格区间；新发股份：801,351,354 股，由 Anthropic 发行；股东出售：23,648,646 股，由现有股东出售；上市代码：ANT，拟在纳斯达克上市，待注册生效](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/anthropic-ipo-s1a-terms-2026-11-11.svg)
 
-![多年创意技术合作的工作范围。工具：Firefly / Foundry，包含定制生成式模型与创意工具；已在试用：Imagineering，草图转概念图及定制图像模型；协作团队：StudioLAB，探索 Disney Studios 内部创意工作流；协作团队：ESPN Edge，探索体育内容与粉丝互动技术](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/adobe-disney-ai-creative-alliance-2026-11-09.svg)
+价格和股份数来自 SEC 文件；注册声明尚未生效。
 
-现有应用与合作计划据 Adobe 和 Disney 公告。
+Anthropic 于 11 月 10 日向美国证券交易委员会提交 S-1/A 注册文件，为拟议 IPO 列出每股 70 至 78 美元的价格区间。文件显示，公司拟发行 801,351,354 股 A 类普通股，现有股东另拟出售 23,648,646 股。
 
-Adobe 与 Disney 于 11 月 9 日宣布建立多年战略合作，Adobe 将向 Disney 创意团队提供 Firefly、Firefly Foundry、Premiere 和 Photoshop 等技术及工程支持。合作重点包括主题公园与邮轮开发流程、Disney Studios 的 StudioLAB，以及 ESPN Edge 的媒体和体育叙事探索。
+该次发行合计 8.25 亿股，计划在纳斯达克以 ANT 代码上市；SEC 文件同时注明注册声明尚未生效。上述是申报文件中的拟议条款，价格、发行规模和上市安排仍可能在正式生效前调整。
 
-Adobe 称，Firefly Foundry 可围绕 Disney 的角色、环境和视觉风格开发定制模型；Disney Imagineering 已在主题公园开发中使用草图转概念图和定制图像模型。公告描述的是正在开展的流程探索和多年合作，并未称所有 Disney 制作已转向生成式 AI。
+分类：产业；状态：S-1/A 已提交；拟议发行尚待注册生效；原文日期：2026-11-10T06:29:24-05:00。
 
-分类：产业；状态：多年合作已宣布；Disney Imagineering 的部分创意工具已在使用；原文日期：2026-11-09T06:00:00-05:00。
+来源：[美国证券交易委员会（SEC）](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm)
+来源：[美国证券交易委员会（SEC）](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/0001628280-26-072484-index.htm)
 
-来源：[Adobe](https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance)
+## 7. AMD 发布第六代 EPYC 服务器处理器
 
-## 7. IBM Apptio 加入 AI 使用数据连接，扩展成本与回报分析
+![处理器出货与云实例进度。处理器：Zen 6 / SP7，第六代 EPYC 服务器平台；OEM / ODM：系统已出货，AMD 称合作伙伴已开始发货；Azure / OCI：预计稍后推出，云实例仍属后续计划](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/amd-epyc-6th-gen-2026-11-11.svg)
 
-![模型用量进入企业成本管理。数据接入：AI 系统连接器，IBM 称现已普遍可用；成本管理：用量与 token，Cloudability 纳入成本、预算与预测；决策分析：AI Value & ROI，部分能力已于 11 月 6 日可用；后续功能：MCP 与规划，部分能力计划在第四季度推出](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/ibm-apptio-ai-spending-connectors-2026-11-09.svg)
+已出货系统与后续云实例据 AMD 公告区分。
 
-连接器已可用；其余功能按 IBM 公布的状态分批推出。
+AMD 于 11 月 10 日发布第六代 EPYC 服务器处理器，采用 Zen 6 架构和 SP7 平台。AMD 表示，OEM 与 ODM 合作伙伴的系统已经开始出货，Azure 和 OCI 云实例则预计稍后推出。
 
-IBM 旗下 Apptio 于 11 月 9 日宣布为产品组合增加 AI 系统连接器，把模型消耗量和使用数据接入企业技术成本管理。IBM Cloudability 还扩展 AI 应用成本、token 用量、预算、预测和服务承诺建议；公司称 AI 系统连接器已普遍可用。
+AMD 将新处理器定位于通用服务、GPU 主机节点及智能体沙箱等工作负载，并公布自有基准测试结果。现阶段可购买的是合作伙伴系统；云实例仍处于后续计划，性能数字应按 AMD 的测试配置和口径理解。
 
-其他功能的状态并不相同：多款 MCP server 和部分规划能力安排在第四季度推出，AI Value & ROI 的部分能力则已于 11 月 6 日普遍可用。IBM 引用自身调查称，85% 受访技术主管缺少实时 AI 支出的完整可见性；这是企业调查结果，不是对新功能效果的独立验证。
+分类：基础设施；状态：OEM / ODM 系统已开始出货；Azure 与 OCI 云实例待推出；原文日期：2026-11-10T15:39:50+00:00。
 
-分类：产品；状态：AI 系统连接器已普遍可用；部分 MCP 与规划功能仍为季度计划；原文日期：2026-11-09T09:00:00-05:00。
+来源：[AMD](https://newsroom.amd.com/news/6th-gen-epyc-lead-ai-enterprise-computing/)
 
-来源：[IBM Newsroom](https://newsroom.ibm.com/2026-11-09-apptio-expands-portfolio-to-help-enterprises-connect-ai-spending-to-business-value)
-来源：[IBM Newsroom（日期与发布时间索引）](https://newsroom.ibm.com/index.php?l=100&query=9&s=20322)
+## 8. NVIDIA 发布面向自动驾驶推理的 Alpamayo 2 Edge
 
-## 8. OpenAI 介绍 Control Room：在推理层中止研究任务输出
+![模型发布与硬件验证范围。模型规模：约 2B 参数，驾驶视觉语言动作模型；权重 / 代码：OpenMDW-1.1 / Apache-2.0，按模型卡所列许可；已验证 GPU：H100 80GB，其他 GPU 配置尚未验证；显存建议：至少 16GB，模型卡提供的硬件建议](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/nvidia-alpamayo-2-edge-2026-11-11.svg)
 
-![停止决定由推理引擎落实。研究任务：登记 job ID，任务关联获批的安全案例；推理引擎：请求前核验，每次模型输出前检查任务授权；停止决定：拒绝后续输出，引擎执行控制，不依赖任务代码退出；故障模式：Fail-closed，Control Room 不可用时拒绝推理](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-control-room-research-workloads-2026-11-09.svg)
+参数与许可据模型卡；只有 H100 80GB 配置列为已验证。
 
-机制和最长时延均据 OpenAI 对内部系统的说明。
+NVIDIA 于 11 月 10 日发布 Alpamayo 2 Edge，定位为面向自动驾驶场景的 20 亿参数级视觉语言动作模型，加入自适应推理能力并开放模型权重。NVIDIA 将其面向 DRIVE AGX Thor 等车载计算平台的开发工作。
 
-OpenAI 11 月 9 日介绍 Control Room，这是部署在公司研究基础设施中的任务控制系统。研究任务启动时登记 job ID，推理引擎在返回模型输出前向 Control Room 核验授权；若任务被标记停止，引擎会拒绝后续请求，而不是依赖任务代码自行退出。
+模型卡标注权重采用 OpenMDW-1.1 许可，代码使用 Apache-2.0；目前只有 H100 80GB 配置经过验证，文档建议至少 16GB 显存。发布材料描述的是模型与开发支持，尚不能据此推断车辆级产品已完成道路或安全认证。
 
-OpenAI 称，停止决定生效到无法继续生成之间最多相隔 35 秒，延迟来自承载流量的授权缓存，公司希望将其降至零。系统不可用时，相关引擎会拒绝所有推理请求；这一 fail-closed 机制已覆盖前沿强化学习任务，其余研究任务仍在逐步上线。以上是 OpenAI 对内部控制系统的说明。
+分类：开源；状态：权重与代码已发布；硬件验证范围有限；原文日期：2026-11-10T16:00:00+00:00。
 
-分类：治理；状态：研究基础设施已部署；停止时延与覆盖状态据 OpenAI 自述；原文日期：2026-11-09T13:00:00Z。
+来源：[NVIDIA 开发者博客](https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/)
+来源：[NVIDIA / Hugging Face](https://huggingface.co/nvidia/Alpamayo2-Edge)
 
-来源：[OpenAI](https://openai.com/index/control-room/)
-来源：[StreetInsider](https://www.streetinsider.com/Corporate%2BNews/OpenAI%2Bdeploys%2BControl%2BRoom%2Bto%2Bmonitor%2Band%2Bstop%2BAI%2Bmodel%2Bworkloads/27315982.html)
-来源：[Press Release Feed（OpenAI 新闻索引）](https://pressreleasefeed.org/releases/control-room-a-central-system-to-track-and-stop-model-workloads-across-our-9b469531)
+## 9. Arm 推出面向边缘 AI 的 Cortex-M42 处理器 IP
 
-更正：2026-11-10T01:24:24+00:00 · 修正 OpenAI 官方公告规范链接，并按新闻索引更正发布时间为 13:00 UTC。
+![边缘 AI 微控制器 IP 的变化。向量计算：最高 3 倍，Arm 对比 Cortex-M33；向量能效：最高 2 倍，Arm 公布的相对提升；扩展能力：ML / DSP / Helium，面向微控制器级边缘设备；产品阶段：处理器 IP，供芯片设计方授权使用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/arm-cortex-m42-2026-11-11.svg)
 
-## 9. ChatGPT Enterprise 上架 AWS Marketplace
+性能对比是 Arm 相对 Cortex-M33 的官方数据。
 
-![企业产品增加 AWS 采购入口。采购入口：AWS Marketplace，由企业现有 AWS 账号购买和管理；账单：AWS 关系，合格支出可计入 AWS 承诺额度；产品范围：ChatGPT Enterprise，OpenAI 称功能与直购一致；资格确认：联系账户团队，抵扣及产品资格因客户而异](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-chatgpt-enterprise-aws-marketplace-2026-11-09.svg)
+Arm 于 11 月 10 日发布 Cortex-M42 处理器 IP，面向边缘 AI 与嵌入式设备，集成机器学习和 DSP 能力，并支持 Helium 向量扩展。Arm 称，相较 Cortex-M33，其向量计算能力最高提升 3 倍、向量能效最高提升 2 倍。
 
-Marketplace 版本与可计入承诺额度等条件据 OpenAI 公告。
+这些比较数据由 Arm 提供，实际效果取决于工作负载和芯片实现。Cortex-M42 是授权给芯片设计方的处理器 IP，公告代表产品设计可用，不代表搭载该 IP 的终端芯片已经量产上市。
 
-OpenAI 于 11 月 9 日把 ChatGPT Enterprise 上架 AWS Marketplace。企业可沿用已有 AWS 采购和账单关系购买、管理服务，符合条件的支出可计入 AWS 使用承诺。OpenAI 称，Marketplace 版本与直购版本使用相同模型和功能，并同步获得新功能。
+分类：基础设施；状态：处理器 IP 已发布并开放给芯片设计方授权；原文日期：2026-11-10T14:00:00+00:00。
 
-OpenAI 说明，Marketplace 上的 ChatGPT Enterprise 与 Amazon Bedrock 中供开发者构建应用的 OpenAI 模型相互补充；符合条件的客户也可通过该市场获取 ChatGPT for Healthcare 和 Financial Services。实际采购资格和承诺额度适用情况仍需由客户向 OpenAI 或 AWS 确认。
+来源：[Arm](https://newsroom.arm.com/news/arm-cortex-m42-accelerate-edge-ai-innovation)
 
-分类：产品；状态：Marketplace 上架；抵扣与产品资格需客户确认；原文日期：2026-11-09T19:00:00Z。
+## 10. Oura 拟以 6.25 亿美元收购 Counsel Health
 
-来源：[OpenAI](https://openai.com/index/chatgpt-enterprise-aws-marketplace/)
-来源：[The AI Mandate](https://theaimandate.org/)
+![拟议收购金额与交割安排。交易金额：$625M 现金，金额可能按协议调整；交易状态：收购协议已签署，交割尚未完成；预计时间：2026 年底前，仍需满足惯常交割条件](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/oura-counsel-health-acquisition-2026-11-11.svg)
 
-## 10. Google Maps Platform 接入 Google AI Studio 应用构建流程
+交易金额及预计时间来自公司公告，交割仍待惯常条件。
 
-![从自然语言原型到互动地图预览。描述想法：Gemini 提示，说明地图应用所需的真实地点场景；连接能力：Maps Platform，AI Studio 配置并可关联既有 Cloud 项目；沙盒试用：100 次 / API / 日，免信用卡；每 24 小时重置；生产部署：需付费账单，使用标准 Maps Platform 价格](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-maps-ai-studio-integration-2026-11-09.svg)
+Oura 于 11 月 10 日宣布，将以 6.25 亿美元现金收购 AI 原生初级医疗服务公司 Counsel Health，交易仍需完成惯常交割条件。公司预计在年底前完成收购，金额可能按协议作调整。
 
-沙盒调用与生产账单条件据 Google 官方说明。
+Oura 将这笔交易描述为把可穿戴健康数据与医疗服务相连接的计划，Counsel Health 的服务由 AI 工具和医生共同支持。公告说明的是拟议收购及业务方向，交易尚未交割，不能视为 Oura 医疗服务已全面上线。
 
-Google 11 月 9 日宣布，开发者可以在 AI Studio 内直接调用 Google Maps Platform 构建位置相关应用。用户描述想法后，Gemini 可协助连接地图能力并显示互动预览；已有 Google Cloud 项目也可接入，无需在原型阶段离开 AI Studio 配置凭证。
+分类：产业；状态：收购协议已签署；预计年底前交割，仍待惯常条件满足；原文日期：2026-11-10。
 
-Google 提供无需信用卡的试用入口，但沙盒额度为每种 API 每日 100 次调用，额度每 24 小时重置。用于生产或需要更高容量时，必须关联付费 Cloud 账单，并按 Maps Platform 标准价格计费。编辑观察：这个集成减少了原型配置步骤，免费试用仍不覆盖正式部署。
+来源：[Counsel Health](https://www.counselhealth.com/newsroom/oura-to-acquire-counsel-health-advancing-vision-for-more-connected-personalized-healthcare)
+来源：[TechCrunch](https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/)
 
-分类：产品；状态：试用已开放；生产部署需要关联付费 Cloud 账单；原文日期：2026-11-09T17:00:00Z。
+## 11. Proximal Ventures 完成 2750 万美元首期基金募集
 
-来源：[Google for Developers](https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/)
-来源：[Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/)
-来源：[The AI Mandate](https://theaimandate.org/)
+![首期基金规模与投资范围。基金规模：$27.5M，超过最初 25M 美元目标；单笔投资：$0.5M–$1.5M，管理方公布的计划范围；投资阶段：Pre-seed / Seed，生命科学 AI 早期项目；已支持项目：6 家初创公司，管理方披露的现有投资组合](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/proximal-ventures-life-science-fund-2026-11-11.svg)
 
-更正：2026-11-10T01:24:24+00:00 · 明确区分正文中的编辑观察，功能与额度事实未变。
+基金募集和已投数量据管理方；不代表项目临床结果。
+
+专注生命科学 AI 的 Proximal Ventures 于 11 月 10 日宣布完成 2,750 万美元首期基金募集，高于最初 2,500 万美元目标。基金计划投资种子前和种子轮项目，单笔支票预计为 50 万至 150 万美元。
+
+管理方称该基金已支持六家初创公司，重点覆盖将 AI 用于药物研发和生命科学基础设施的团队。基金规模、投资策略和已投数量均为管理方披露；它们反映的是投资计划与募资进展，并不代表相关药物研发项目已取得临床结果。
+
+分类：产业；状态：首期基金募集完成，进入早期项目投资阶段；原文日期：2026-11-10。
+
+来源：[Proximal Ventures（新闻稿转载）](https://www.tmcnet.com/usubmit/-proximal-ventures-announces-275-million-debut-fund-invest-/2026/11/10/10479050.htm)
+来源：[TechCrunch](https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/)
+来源：[Proximal Ventures](https://proximal.vc/)
+
+## 12. Synopsys 与 Infineon 推出 AURIX RC1 虚拟开发套件
+
+![从虚拟平台到实体硬件验证。目标芯片：AURIX TC4x RC1，Infineon 微控制器系列；提前开发：虚拟平台，芯片到货前编写并测试软件；厂商估计：最高 90%，软件验证可在实体系统前完成；最终阶段：目标硬件验证，虚拟平台不能替代真实芯片](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/synopsys-infineon-aurix-vdk-2026-11-11.svg)
+
+最高 90% 为 Synopsys 的工具能力估计，最终仍需真机验证。
+
+Synopsys 于 11 月 10 日发布面向 Infineon AURIX TC4x RC1 微控制器系列的虚拟开发套件，让汽车和物理 AI 团队可在实际芯片到货前开发与测试软件。套件通过虚拟平台模拟微控制器环境及相关软件行为。
+
+Synopsys 称，这种方式可在实体系统具备之前完成最高 90% 的软件验证；该数字是厂商对其工具的估计，取决于验证范围与项目配置。虚拟开发套件现阶段支持提前开发，不能替代真实芯片和目标硬件上的最终验证。
+
+分类：基础设施；状态：虚拟开发套件已公布；支持芯片到货前的软件开发；原文日期：2026-11-10。
+
+来源：[Synopsys](https://news.synopsys.com/2026-11-10-Synopsys-Advances-Virtual-Development-of-Next-Generation-Automotive-and-Physical-AI-Applications-with-Infineon-AURIX-TM-RC1-Microcontroller-Family)
+
+## 13. IBM Impact Accelerator 选出四家教育与就业合作机构
+
+![教育与未来工作合作计划。新一轮伙伴：4 家组织，教育与未来工作主题；支持内容：技术 + 专业协助，未逐项公布各机构金额；全项目投入：最高 $75M，现金与实物支持，截至 2028 年](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/ibm-impact-accelerator-learning-work-2026-11-11.svg)
+
+7,500 万美元为整个项目到 2028 年的支持上限。
+
+IBM 于 11 月 10 日公布 Impact Accelerator 教育与未来工作主题的四家合作组织，将提供技术资源和专业支持，协助推进教育及劳动力发展项目。IBM 称，该项目组合使用 AI、量子计算等技术方向。
+
+公司披露的 7,500 万美元是整个 Accelerator 项目截至 2028 年的现金与实物支持上限，并非本期四家机构各自获得的金额。此次公告列出新一轮合作伙伴，尚未公布各项目对应的单独预算与量化成果。
+
+分类：产业；状态：四家合作组织已选出；具体项目预算未逐项公布；原文日期：2026-11-10。
+
+来源：[IBM](https://newsroom.ibm.com/2026-11-10-ibm-impact-accelerator-brings-ai-and-quantum-to-the-future-of-learning-and-work)
 
 **历史归档**
 
+- [2026-11-11 · 前沿模型、企业智能体与 AI 芯片更新](archive/2026-11-11.md)
 - [2026-11-10 · 模型、算力与 AI 工具迎来新一轮更新](archive/2026-11-10.md)
 - [2026-11-09 · AI 供电、监管与芯片治理出现新进展](archive/2026-11-09.md)
 - [2026-11-08 · 助手工作区、折叠屏应用与 AI 算力项目](archive/2026-11-08.md)
