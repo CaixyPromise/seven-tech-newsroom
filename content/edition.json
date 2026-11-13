@@ -9733,6 +9733,983 @@
       "verified_at": "2026-11-12T01:57:24.476347+00:00",
       "visual": "grid",
       "corrections": []
+    },
+    {
+      "id": "google-gemini-4-hydrogen-2026-11-12",
+      "category": "模型",
+      "title": "Google 推出 Gemini 4 Hydrogen，并扩展至搜索与开发工具",
+      "summary": "Google 发布面向日常编码和代理任务的 Gemini 4 Hydrogen，称其已进入 Gemini、搜索、API 等产品；部分性能数字来自 Google 自行评测。",
+      "body": [
+        "Google 于 11 月 12 日发布 Gemini 4 Hydrogen，定位为处理日常编码和代理工作流的快速模型，并称其已开始覆盖 Gemini 应用、Google 搜索、Gemini API、AI Studio、Android Studio 和企业产品。Google 同日还宣布将 Hydrogen 用于全球搜索，改善多步骤问题理解，并提供更多结构化回答、图片和链接。",
+        "Google 给出的基准成绩、速度和安全性比较来自公司公布的测试；模型标价为每百万输入 Token 1.50 美元、输出 7.50 美元，覆盖 100 万 Token 上下文。实际可用范围因产品和订阅层级而异，搜索功能的推出也不代表每位用户会在同一时间看到完全相同的体验。"
+      ],
+      "facts": [
+        "Google 将 Gemini 4 Hydrogen 定位为快速处理日常编码和代理工作流的模型，并称其在 11 月 12 日开始跨产品推出。",
+        "Google 搜索文章称 Hydrogen 已全球推出，支持多步骤问题、结构化回答、图片和链接。",
+        "Google 公布的 API 价格为每百万输入 Token 1.50 美元、输出 7.50 美元，模型上下文长度为 100 万 Token。"
+      ],
+      "context": "模型性能与安全数字来自 Google 自行发布的测试；不同产品的可用条件及推出速度可能不同。",
+      "status": "官方发布；分批推出",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        },
+        {
+          "publisher": "Google",
+          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "GOOGLE GEMINI 4",
+        "title": "Hydrogen 的发布范围与价格",
+        "caption": "Google 公告所述；性能比较为厂商自报，具体产品推出范围有差异。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "模型定位",
+            "value": "日常编码与代理",
+            "detail": "Google 描述的目标工作流"
+          },
+          {
+            "label": "上下文",
+            "value": "100 万 Token",
+            "detail": "Gemini API 模型上下文"
+          },
+          {
+            "label": "输入价格",
+            "value": "$1.50 / 百万 Token",
+            "detail": "Google 公布的 API 标价"
+          },
+          {
+            "label": "输出价格",
+            "value": "$7.50 / 百万 Token",
+            "detail": "Google 公布的 API 标价"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "模型"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "google-flow-creative-tools-2026-11-12",
+      "category": "产品",
+      "title": "Google Flow 新增五款 AI 影像创作工具",
+      "summary": "Google 在 Flow 推出角色海报、角色发展、复古效果、光学效果和单镜头多机位等工具，面向视觉创作者。",
+      "body": [
+        "Google 于 11 月 12 日为 AI 创作工具 Flow 推出五项功能：Character Poster 用于制作风格统一的角色海报，Character Arc 展示角色跨年龄阶段的变化，Pixel Machine 提供复古数字视觉，Lucid Glass 模拟棱镜和光线折射，Pocket Studio 则可将手机拍摄素材生成多个镜头角度。",
+        "Google 表示这些工具由创作者参与设计，用户可以在 Flow 中试用。Pocket Studio 等功能会生成或修改影像内容，官方介绍强调保持原表演，但公告没有提供独立画质评测或各地区、账户层级的完整可用范围。"
+      ],
+      "facts": [
+        "Google 在 2026 年 11 月 12 日宣布 Flow 推出五款工具。",
+        "五款工具名称为 Character Poster、Character Arc、Pixel Machine、Lucid Glass 和 Pocket Studio。",
+        "Pocket Studio 从单次手机拍摄素材生成多个摄影角度；这是 Google 对产品能力的描述。"
+      ],
+      "context": "功能与效果描述来自 Google 产品介绍，未见独立测试；公告未列出所有地区和账户限制。",
+      "status": "官方发布",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "5 new Google Flow Tools designed by visual artists",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/new-google-flow-tools/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "GOOGLE FLOW",
+        "title": "五项影像创作工具",
+        "caption": "功能名称与描述来自 Google Flow 公告。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "Character Poster",
+            "value": "角色海报",
+            "detail": "建立统一视觉风格"
+          },
+          {
+            "label": "Character Arc",
+            "value": "角色发展",
+            "detail": "呈现不同年龄与阶段"
+          },
+          {
+            "label": "Pixel Machine",
+            "value": "复古数字风格",
+            "detail": "生成像素化影像效果"
+          },
+          {
+            "label": "Lucid Glass",
+            "value": "光学折射效果",
+            "detail": "模拟棱镜、光晕与折射"
+          },
+          {
+            "label": "Pocket Studio",
+            "value": "单镜头多角度",
+            "detail": "由手机素材生成多机位画面"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "google-intelligent-eyewear-preorder-2026-11-12",
+      "category": "产品",
+      "title": "Google 智能眼镜开放预订，12 月起发售",
+      "summary": "Google 与 Warby Parker、Gentle Monster 及 Samsung 合作推出搭载 Gemini 的智能眼镜系列，预订已开始，首发市场和功能设有条件。",
+      "body": [
+        "Google 于 11 月 12 日为与 Warby Parker、Gentle Monster 和 Samsung 合作设计的智能眼镜开放预订。Warby Parker 系列起价 395 美元，Gentle Monster 系列起价 449 美元，官方称眼镜约重 41 克、续航最长约 9 小时，预计 12 月 10 日在线上及门店开售。",
+        "眼镜接入 Gemini，可通过语音或触控获取视觉描述、翻译和日常协助；Google 还公布摄像头指示灯、关闭开关及人脸遮挡等隐私设计。首发使用限美国和韩国 Google 账户，部分辅助功能需兼容 Android 手机，Guided Vision 也不是医疗或导航设备。"
+      ],
+      "facts": [
+        "Warby Parker 系列起价 395 美元，Gentle Monster 系列起价 449 美元。",
+        "Google 称眼镜重量约 41 克，电池最长可用 9 小时，实际续航随使用情况变化。",
+        "Google 称线上和门店发售日期为 2026 年 12 月 10 日；预订已开启。",
+        "Google 账户首发地区为美国和韩国；Guided Vision 与 Aira 首发时仅支持兼容 Android 手机。"
+      ],
+      "context": "预订价格和设备规格来自 Google 产品公告；首发地区、手机兼容性和辅助功能有明确限制。",
+      "status": "预订开放；计划 12 月 10 日发售",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "See our intelligent eyewear lineup and pre-order your pair",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        },
+        {
+          "publisher": "Google",
+          "title": "Designing for privacy on intelligent eyewear",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/intelligent-eyewear-privacy-protections/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "GEMINI INTELLIGENT EYEWEAR",
+        "title": "预订、规格与首发条件",
+        "caption": "价格、规格、地区和发售安排以 Google 公告为准。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "Warby Parker",
+            "value": "起价 $395",
+            "detail": "美国及韩国系列之一"
+          },
+          {
+            "label": "Gentle Monster",
+            "value": "起价 $449",
+            "detail": "共推出六种设计"
+          },
+          {
+            "label": "重量与续航",
+            "value": "约 41 克 / 最长 9 小时",
+            "detail": "续航会随设置和使用变化"
+          },
+          {
+            "label": "首发销售",
+            "value": "12 月 10 日",
+            "detail": "美国、韩国 Google 账户可用"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "google-phd-fellows-funding-2026-11-12",
+      "category": "产业",
+      "title": "Google.org 为新一届博士研究员投入 1300 万美元",
+      "summary": "Google 公布 2026 年博士研究员项目资助，覆盖 AI、芯片、健康、量子等研究方向，并提供计算资源和研究社群支持。",
+      "body": [
+        "Google.org 于 11 月 12 日公布 2026 年 Google PhD Fellows 项目，为新一届全球博士研究员提供总计 1300 万美元支持。Google 表示，项目除资金外还提供计算资源及与公司研究人员交流的机会，研究主题涉及 AI、芯片、量子科学、健康和自然语言处理等领域。",
+        "这是面向早期研究人员的资助项目，不是新模型或商业产品发布。Google 称自 2009 年以来该项目已支持超过 1100 名研究生；这一累计数字和项目影响由主办方提供，公告未给出本届各地区的资金分配明细。"
+      ],
+      "facts": [
+        "Google.org 公布本届资助金额为 1300 万美元。",
+        "研究主题包括 AI、芯片、量子科学、健康与语言技术。",
+        "Google 称项目自 2009 年以来支持超过 1100 名研究生。"
+      ],
+      "context": "金额和项目历年参与人数来自 Google；本届各地区、各研究方向的资金拆分未披露。",
+      "status": "项目资助公布",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "Meet the 2026 Google PhD Fellows",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/phd-fellows-2026/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "amber",
+        "eyebrow": "GOOGLE.ORG",
+        "title": "博士研究项目资助方向",
+        "caption": "资金与历年支持人数为 Google 公布数据。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "本届资金",
+            "value": "$13 million",
+            "detail": "Google.org 公布的总额"
+          },
+          {
+            "label": "研究方向",
+            "value": "AI 与芯片",
+            "detail": "包括模型推理和硬件设计"
+          },
+          {
+            "label": "其他主题",
+            "value": "健康与量子",
+            "detail": "亦涉及语言与无障碍技术"
+          },
+          {
+            "label": "项目累计",
+            "value": "1,100+ 人",
+            "detail": "Google 称自 2009 年以来"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "nfon-ai-agent-studio-2026-11-12",
+      "category": "产品",
+      "title": "NFON 上线面向企业流程的 AI Agent Studio",
+      "summary": "德国通信服务商 NFON 推出可用自然语言或可视化流程构建业务代理的工具，并称已通过欧洲合作伙伴网络提供。",
+      "body": [
+        "德国企业通信服务商 NFON 于 11 月 12 日宣布 AI Agent Studio 已开放使用。企业可以用自然语言描述代理的任务和行为，由系统生成初始方案，再通过对话测试和修改；也可以在同一工作区用可视化流程配置条件与操作步骤。",
+        "NFON 表示，修改建议需要用户审阅批准，变更可追踪和撤销，产品通过其欧洲合作伙伴网络推广。公司列举的保险理赔接收、能源读数处理等是现有语音机器人的场景，不能据此认定新工具已在所有这些流程中完成部署。"
+      ],
+      "facts": [
+        "NFON 公告时间为 2026 年 11 月 12 日 08:39 CET，换算为新加坡时间 15:39。",
+        "Studio 提供自然语言 Agent Mode 和可视化 Flow-Based Mode。",
+        "NFON 表示产品已可使用，并通过欧洲合作伙伴网络推广。"
+      ],
+      "context": "功能、可用性与产品介绍来自 NFON；公告没有披露价格或用户规模。",
+      "status": "已开放使用（厂商公告）",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "NFON AG",
+          "title": "NFON adds AI Agent Studio to its AI portfolio",
+          "url": "https://corporate.nfon.com/en/news/ir-news/corporate-news/nfon-adds-ai-agent-studio-to-its-ai-portfolio-2026-11-12-1200/",
+          "published_at": "2026-11-12T08:39:00+01:00",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "NFON AI AGENT STUDIO",
+        "title": "两种方式搭建业务代理",
+        "caption": "NFON 称产品已开放使用；具体部署由客户和合作伙伴实施。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "Agent Mode",
+            "value": "自然语言描述",
+            "detail": "生成初版并通过对话测试"
+          },
+          {
+            "label": "审核与回滚",
+            "value": "用户确认变更",
+            "detail": "操作留痕且可撤销"
+          },
+          {
+            "label": "Flow-Based Mode",
+            "value": "可视化流程",
+            "detail": "配置条件和具体操作步骤"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "meta-low-carbon-datacenter-supply-2026-11-12",
+      "category": "基础设施",
+      "title": "Meta 扩大数据中心低碳材料与运输采购承诺",
+      "summary": "Meta 公布覆盖水泥、钢材、电动货运和再生塑料的多年采购协议，以长期需求支持供应商建设低碳产能。",
+      "body": [
+        "Meta 于 11 月 12 日公布一组多年采购承诺，涉及低碳水泥、近零排放钢材、电动货运和再生塑料，目标是支持数据中心建设供应链扩大相关产能。公司称，与 Sublime Systems 的协议至少支持 18 万吨低碳水泥生产，并帮助其建设首座商业规模工厂；与 MacroCycle 的协议则支持年产 5000 吨再生 PET 的工厂融资。",
+        "其他安排包括支持 Fortera 建设密苏里州新厂、与 Stegra 合作近零排放钢材，以及扩大 Nevoya 在加州和亚利桑那州的电动货运路线。相关产量和减排效果多为合作方项目计划或 Meta 的采购承诺，部分工厂尚在建设或扩产阶段。"
+      ],
+      "facts": [
+        "Meta 与 Sublime Systems 签订多年协议，支持至少 180,000 吨低碳水泥生产。",
+        "Meta 与 MacroCycle 的长期采购协议支持首座商业工厂，目标年产 5,000 吨再生 PET。",
+        "协议范围还包括钢材与电动货运，部分是新建工厂和路线的支持安排。"
+      ],
+      "context": "采购协议不等同于工厂已经投产或全部材料已交付；项目产能目标和减排收益尚需后续验证。",
+      "status": "多年采购承诺；部分产能仍在规划或建设",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Meta",
+          "title": "Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains",
+          "url": "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "META DATA CENTER SUPPLY",
+        "title": "四类供应链采购承诺",
+        "caption": "产能为协议支持或项目目标，不代表已经全部投产。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "低碳水泥",
+            "value": "至少 18 万吨",
+            "detail": "Sublime 协议支持的生产量"
+          },
+          {
+            "label": "近零排放钢",
+            "value": "Stegra 多年协议",
+            "detail": "支持瑞典项目扩产"
+          },
+          {
+            "label": "电动货运",
+            "value": "加州至亚利桑那",
+            "detail": "Nevoya 扩展 I-10 路线"
+          },
+          {
+            "label": "再生塑料",
+            "value": "年产 5,000 吨",
+            "detail": "MacroCycle 工厂目标产能"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "aws-agentcore-runtime-v2-2026-11-12",
+      "category": "基础设施",
+      "title": "AWS 更新 AgentCore 运行时：会话启动更快并可缩至零",
+      "summary": "Amazon Bedrock AgentCore 新版运行时扩大隔离会话资源、回收闲置内存，并将新版设为新建运行时的默认版本；性能数据来自 AWS 测试。",
+      "body": [
+        "AWS 于 11 月 12 日更新 Amazon Bedrock AgentCore Runtime，为每个会话保留独立硬件隔离的 Firecracker 微型虚拟机，并新增按需扩展至 8 个 vCPU、32 GB 内存及最高 10 GB 容器镜像的能力。闲置代理可缩至零，释放的内存会在数分钟内回收；新版也成为新建运行时的默认版本。",
+        "AWS 称，2 GB 镜像的会话在其测试中 P75 启动时间低于 2 秒，旧版为 29.7 秒，并估计多轮代理每会话内存用量最多可降 68%。已有运行时不会自动迁移；这些比较由 AWS 提供，客户仍需按地区、工作负载和计费条件验证实际收益。"
+      ],
+      "facts": [
+        "会话可扩展至 8 vCPU、32 GB 内存，支持最高 10 GB 容器镜像。",
+        "AWS 报告 2 GB 镜像的 P75 启动时间低于 2 秒，旧版是 29.7 秒。",
+        "AWS 称多轮代理每会话内存用量最多可减少 68%；已有运行时须自行迁移。"
+      ],
+      "context": "性能数字是 AWS 所报测试结果；新建运行时默认使用新版，已部署运行时不会自动迁移。",
+      "status": "新版已开放；新建运行时默认采用",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "AWS",
+          "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        },
+        {
+          "publisher": "AWS What's New",
+          "title": "The next generation AgentCore runtime is now the default",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/new-agentcore-runtime-default/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "AWS BEDROCK AGENTCORE",
+        "title": "新版运行时资源与启动指标",
+        "caption": "性能数字来自 AWS 测试；旧运行时不会自动迁移。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "会话资源",
+            "value": "8 vCPU / 32 GB",
+            "detail": "新版最高配置"
+          },
+          {
+            "label": "容器镜像",
+            "value": "最高 10 GB",
+            "detail": "硬件隔离会话支持"
+          },
+          {
+            "label": "启动 P75",
+            "value": "低于 2 秒",
+            "detail": "AWS 测试中的 2 GB 镜像"
+          },
+          {
+            "label": "内存用量",
+            "value": "最多降低 68%",
+            "detail": "AWS 对多轮会话的估算"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "aws-natera-swarm-agent-case-2026-11-12",
+      "category": "产业",
+      "title": "Natera 分享用 AI 代理辅助实验室设备运维的案例",
+      "summary": "Natera 与 AWS 介绍 SWARM 如何检索仪器手册和历史工单；文中报告的响应时间和覆盖率来自客户案例评估。",
+      "body": [
+        "基因检测公司 Natera 与 AWS 于 11 月 12 日发布案例，介绍实验室运维系统 SWARM 如何用 Amazon Bedrock AgentCore 处理仪器故障工单。系统由后台诊断代理和工程师交互代理组成，共享技能库，并从设备手册、历史工单和运维数据中检索信息，生成诊断报告供工程师查看。",
+        "案例称，在 90 天生产评估中，平均首次响应由 17.4 小时降至约 8 分钟，524 张评估工单中 96.2% 获得自动首响；准确率比较仅覆盖其中有工程师确认结果的子集。数据由客户与云服务商共同发布，反映特定实验室配置，系统定位是补充工程师而非替代其判断。"
+      ],
+      "facts": [
+        "SWARM 使用两个代理和共享技能库，处理后台工单诊断及工程师交互。",
+        "Natera 案例报告平均首次响应从 17.4 小时降至约 8 分钟，评估期为 90 天。",
+        "案例称 96.2% 的工单收到自动首响；评估集为 524 张工单，准确率评估子集更小。"
+      ],
+      "context": "这是 AWS 与客户发布的单一生产案例，性能数字来自该案例评估，不是独立比较研究。",
+      "status": "客户案例；厂商与客户自报评估",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "AWS 与 Natera",
+          "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "amber",
+        "eyebrow": "NATERA SWARM CASE",
+        "title": "实验室设备运维代理案例",
+        "caption": "AWS 与 Natera 报告的 90 天案例数据，非独立评测。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "平均首响",
+            "value": "17.4 小时 → 8 分钟",
+            "detail": "客户案例报告的变化"
+          },
+          {
+            "label": "自动首响覆盖",
+            "value": "96.2%",
+            "detail": "案例所述工单占比"
+          },
+          {
+            "label": "评估范围",
+            "value": "524 张工单",
+            "detail": "准确率评估只含部分工单"
+          },
+          {
+            "label": "系统设计",
+            "value": "2 个代理 + 技能库",
+            "detail": "后台诊断与工程师交互"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "microsoft-idc-frontier-firms-study-2026-11-12",
+      "category": "产业",
+      "title": "Microsoft 委托 IDC 调查：企业 AI 回报仍集中于少数成熟组织",
+      "summary": "Microsoft 发布其委托 IDC 的企业调查，称 AI 成熟度最高一成组织报告的平均回报高于慢速采用者；结论基于赞助研究问卷。",
+      "body": [
+        "Microsoft 于 11 月 12 日发布其委托 IDC 完成的企业 AI 调查，覆盖 28 个行业、5200 多名 IT 和业务负责人。按 IDC 的 AI 成熟度划分，排名最高的 10%“Frontier Firms”报告平均 AI 回报为 4 倍，底部 30% 慢速采用者报告为 2.7 倍；39% 的前者称回报达到 5 倍以上，慢速采用者为 4%。",
+        "调查还显示，能够高度自信衡量 AI 业务价值的受访组织比例，在成熟组为 93%，整体组织为 61%。这些数字是受访者报告的结果，研究由 Microsoft 赞助，不能直接视为随机对照试验或各行业普遍可复现的投资回报。"
+      ],
+      "facts": [
+        "IDC 调查超过 5,200 名 IT 和业务负责人，覆盖 28 个行业；报告由 Microsoft 委托。",
+        "最高成熟度 10% 组织报告平均 AI 回报 4 倍，慢速采用者报告 2.7 倍。",
+        "报告 5 倍及以上回报的比例分别为 39% 和 4%；高信心衡量 ROI 的比例为 93% 和 61%。"
+      ],
+      "context": "数据来自 Microsoft 赞助的 IDC 调查和受访者自报，不是对照实验；定义与样本方法见 IDC 报告。",
+      "status": "赞助调查结果；受访者自报",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Microsoft（委托 IDC）",
+          "title": "Scaling AI value without losing control: Lessons from Frontier Firms",
+          "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "IDC SURVEY / MICROSOFT-SPONSORED",
+        "title": "调查中的成熟度与回报差异",
+        "caption": "IDC 受访者自报数据；研究由 Microsoft 委托。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "调查范围",
+            "value": "5,200+ 人 / 28 行业",
+            "detail": "IT 与业务负责人"
+          },
+          {
+            "label": "平均 AI 回报",
+            "value": "4 倍 vs 2.7 倍",
+            "detail": "成熟度最高 10% vs 慢速采用者"
+          },
+          {
+            "label": "回报达到 5 倍",
+            "value": "39% vs 4%",
+            "detail": "两组受访组织占比"
+          },
+          {
+            "label": "衡量信心",
+            "value": "93% vs 61%",
+            "detail": "成熟组 vs 整体组织"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "ibm-livxp-sports-ai-prize-2026-11-12",
+      "category": "产业",
+      "title": "IBM 体育科技创业挑战赛选出代理式 AI 公司 LivXP",
+      "summary": "LivXP 赢得 IBM 在 Web Summit Lisbon 举办的体育科技创业挑战赛，奖项包含有条件的概念验证支持和 IBM 技术额度。",
+      "body": [
+        "IBM 于 11 月 12 日宣布，体育粉丝互动平台 LivXP 获得其 Web Summit Lisbon 体育科技创业挑战赛大奖。IBM 称，LivXP 提供连接球迷与球队、运动员及赛事体验的互动市场；本届邀请赛共有七家入围初创公司，挑战赛历时一年。",
+        "奖项包括最高 10 万美元的概念验证项目支持和最高 2 万美元 IBM 技术额度，但均须满足后续审查及协议条件。LivXP 对自身产品和全球覆盖范围的描述来自 IBM 新闻稿，目前公告没有披露具体合作项目的签约、上线时间或独立成效。"
+      ],
+      "facts": [
+        "IBM 于 Web Summit Lisbon 宣布 LivXP 为比赛获胜者；赛事决赛为邀请制，共有七家入围公司。",
+        "奖项包含最高 100,000 美元概念验证支持及最高 20,000 美元 IBM 技术额度，均附有条件。",
+        "IBM 将 LivXP 描述为利用代理式 AI 改善体育粉丝参与的公司。"
+      ],
+      "context": "奖项资金和技术额度需另行审查及签署协议；获奖不等于客户项目已落地。",
+      "status": "创业挑战赛获奖；后续项目须另行审核",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "IBM",
+          "title": "IBM Announces Winner of Sports Tech Startup Prize Challenge at Web Summit Lisbon 2026",
+          "url": "https://newsroom.ibm.com/2026-11-12-ibm-announces-winner-of-sports-tech-startup-prize-challenge-at-web-summit-lisbon-2026",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "IBM SPORTS TECH CHALLENGE",
+        "title": "LivXP 获奖及后续支持",
+        "caption": "最高额度须经过独立审核并签署协议。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "获奖者",
+            "value": "LivXP",
+            "detail": "IBM 公布的挑战赛胜出者"
+          },
+          {
+            "label": "最终入围",
+            "value": "7 家初创公司",
+            "detail": "邀请制决赛阵容"
+          },
+          {
+            "label": "概念验证支持",
+            "value": "最高 $100,000",
+            "detail": "须另行审核及达成协议"
+          },
+          {
+            "label": "IBM 技术额度",
+            "value": "最高 $20,000",
+            "detail": "按赛事规则提供"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "aws-sglang-neuron-trainium-2026-11-12",
+      "category": "开源",
+      "title": "SGLang-Neuron 通过 AWS 容器向 Trainium 用户开放",
+      "summary": "RadixArk 与 AWS Annapurna Labs 合作发布 SGLang-Neuron，可在 Trainium 上用 SGLang 接口部署模型服务和生成强化学习样本。",
+      "body": [
+        "AWS 于 11 月 12 日宣布，RadixArk 与 Annapurna Labs 合作开发的 SGLang-Neuron 已通过 AWS Deep Learning Container 公开提供。该插件让开发者在 AWS Trainium 上沿用 SGLang 的模型服务接口，用于推理服务及生成强化学习训练样本，底层使用原生 PyTorch 和 Trainium 专用组件。",
+        "AWS 的上手示例采用 Trainium3 实例和 gpt-oss-120b 模型，并说明插件还支持将提示词预处理与生成阶段拆分到不同服务器。官方文档提醒，实际支持的模型、功能和已验证配置以项目文档为准；公告没有提供独立性能对比。"
+      ],
+      "facts": [
+        "SGLang-Neuron 由 RadixArk 与 AWS Annapurna Labs 合作开发，并通过 AWS Deep Learning Container 提供。",
+        "官方称可在 Trainium 上使用 SGLang 接口进行模型服务和强化学习 rollout。",
+        "AWS 上手示例使用 Trainium3 EC2 实例和 gpt-oss-120b；可用模型以项目验证列表为准。"
+      ],
+      "context": "公开提供不代表覆盖所有 Trainium 版本或模型；性能需结合设备、配置及具体工作负载评估。",
+      "status": "通过 AWS Deep Learning Container 公开提供",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "AWS 与 RadixArk",
+          "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "amber",
+        "eyebrow": "AWS TRAINIUM × SGLANG",
+        "title": "SGLang-Neuron 开放路径",
+        "caption": "上手示例与功能范围以 AWS 及项目文档为准。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "获得方式",
+            "value": "AWS 深度学习容器",
+            "detail": "RadixArk 与 Annapurna Labs 合作"
+          },
+          {
+            "label": "推理硬件",
+            "value": "AWS Trainium",
+            "detail": "教程示例使用 Trainium3"
+          },
+          {
+            "label": "调用方式",
+            "value": "沿用 SGLang 接口",
+            "detail": "原生 PyTorch 执行路径"
+          },
+          {
+            "label": "工作负载",
+            "value": "推理与 RL rollout",
+            "detail": "支持范围以验证清单为准"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "google-kelp-deepvariant-australia-2026-11-12",
+      "category": "研究",
+      "title": "澳洲研究团队用 DeepVariant 分析巨藻基因组",
+      "summary": "CSIRO 与 Google 合作公布巨藻参考基因组和野外样本分析进展，为筛选耐热品系及生态恢复研究提供遗传数据。",
+      "body": [
+        "Google 于 11 月 12 日介绍与澳大利亚国家科学机构 CSIRO 合作的巨藻研究。团队公布两份澳洲巨藻参考基因组，并训练 Google 开源变异分析工具 DeepVariant 的一个版本分析塔斯马尼亚海岸 40 个地点采集的 600 份野生样本，以支持后续保护遗传学工作。",
+        "Google 的文章称，研究区域的巨藻数量已降至历史水平约 5%，团队希望结合基因分析和实验室杂交研究，筛选适应较暖海水的种群，为未来恢复工作打基础。此次公告描述的是研究进展和潜在路径，不表示已有大规模复种或生态恢复成效。"
+      ],
+      "facts": [
+        "合作方公布了两份澳洲巨藻参考基因组。",
+        "DeepVariant 分析了塔斯马尼亚沿岸 40 个地点采集的 600 份野生样本。",
+        "Google 称当地巨藻数量降至历史水平的约 5%；耐热种群恢复仍为研究目标。"
+      ],
+      "context": "研究案例来自 Google 对合作项目的介绍；复种和生态恢复仍属后续目标。",
+      "status": "基因组与样本分析进展；恢复仍属研究目标",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "Scientists are using Google AI to help restore giant kelp forests",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "teal",
+        "eyebrow": "CSIRO × GOOGLE",
+        "title": "从基因组分析到恢复研究",
+        "caption": "研究结果与生态恢复目标须区分；数量为 Google 公布数据。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "参考基因组",
+            "value": "2 份",
+            "detail": "澳大利亚巨藻"
+          },
+          {
+            "label": "野外样本",
+            "value": "600 份 / 40 地点",
+            "detail": "塔斯马尼亚沿岸采集"
+          },
+          {
+            "label": "遗传分析",
+            "value": "DeepVariant",
+            "detail": "Google 开源变异分析工具"
+          },
+          {
+            "label": "下一步目标",
+            "value": "筛选耐热种群",
+            "detail": "用于后续生态恢复研究"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "google-ads-invalid-traffic-card-2026-11-12",
+      "category": "产品",
+      "title": "Google Ads 增加无效流量支出透明度卡片",
+      "summary": "Google 推出 Invalid Traffic Overview Card，向广告主展示过滤无效流量所节省的金额和后续抵扣；曝光下降数字为 Google 自报。",
+      "body": [
+        "Google 于 11 月 12 日宣布在 Google Ads 推出 Invalid Traffic Overview Card，让广告主查看系统拦截的无效流量节省金额，以及事后识别后发放的抵扣。此前 Google 表示相关防护主要在后台运行；新卡片把部分处理结果展示在广告账户界面中。",
+        "Google 称，2026 年以来通过系统升级，广告主遭遇无效线索的平均风险下降 30%。该比例是 Google 对自身平台的统计，没有提供独立审计方法；公司还说明无效流量通常不会收费，事后发现时则在适用情况下抵扣。"
+      ],
+      "facts": [
+        "Google Ads 新卡片展示节省金额和无效活动抵扣。",
+        "Google 称 2026 年以来广告主受到无效线索影响的平均风险降低 30%。",
+        "Google 表示无效流量不收费，事后发现时会在适用情况下给予抵扣。"
+      ],
+      "context": "30% 数字来自 Google 的平台统计，公告未提供独立审计或详细计算口径。",
+      "status": "开始推出；效果数字为 Google 自报",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "We’re introducing a new transparency tool for invalid traffic in Google Ads",
+          "url": "https://blog.google/products/ads-commerce/invalid-traffic-overview-google-ads/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "GOOGLE ADS",
+        "title": "无效流量账单信息展示",
+        "caption": "界面功能与 30% 统计数字来自 Google 公告。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "系统拦截",
+            "value": "无效活动",
+            "detail": "Google 称后台会过滤"
+          },
+          {
+            "label": "账户卡片",
+            "value": "节省金额",
+            "detail": "新增展示支出避免额"
+          },
+          {
+            "label": "事后识别",
+            "value": "适用时抵扣",
+            "detail": "Google 对后续修正的说明"
+          },
+          {
+            "label": "2026 年数据",
+            "value": "平均降低 30%",
+            "detail": "Google 自报无效线索风险变化"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "google-gemini-chrome-sidepanel-2026-11-12",
+      "category": "产品",
+      "title": "Gemini Chrome 侧栏可在当前网页中提供问答",
+      "summary": "Google 介绍 Chrome 工具栏 Gemini 侧栏，可在不切换标签页的情况下总结网页或比较信息；官方文章以功能说明为主，未列出完整推出条件。",
+      "body": [
+        "Google 于 11 月 12 日介绍 Chrome 中的 Gemini 侧栏功能：用户可从浏览器工具栏打开侧栏，在当前网页旁请求总结长报告、比较商品信息或用浅白语言解释内容，不必切换到新标签页。",
+        "这项功能将网页阅读与 Gemini 对话并排放置，Google 的说明重点在操作方式，没有披露完整的地区、账户和浏览器版本条件，也没有公布独立的网页总结准确率评估。敏感页面内容如何处理，应以用户当前账户可见的产品设置和隐私说明为准。"
+      ],
+      "facts": [
+        "Google 文章日期为 2026 年 11 月 12 日。",
+        "Gemini 可从 Chrome 工具栏侧栏打开，并对当前网页内容进行总结、比较或解释。",
+        "来源文章没有列出完整地区、账户及浏览器版本限制。"
+      ],
+      "context": "此处描述的是 Google 发布的功能说明，未见独立准确率评估；可用条件需核对账户和版本。",
+      "status": "官方功能说明；可用范围未详列",
+      "published_at": "2026-11-12",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "Get quick answers from Gemini on any website",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-13T07:10:43.739064+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "GEMINI IN CHROME",
+        "title": "网页旁的 Gemini 侧栏",
+        "caption": "功能操作来自 Google 文章；完整账户和地区条件未列明。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "打开",
+            "value": "点击 Chrome 工具栏",
+            "detail": "在侧栏唤起 Gemini"
+          },
+          {
+            "label": "总结",
+            "value": "概括长报告",
+            "detail": "在当前网页旁查看"
+          },
+          {
+            "label": "比较",
+            "value": "核对商品信息",
+            "detail": "不必切换新标签"
+          },
+          {
+            "label": "解释",
+            "value": "改写为浅白语言",
+            "detail": "由 Gemini 生成说明"
+          }
+        ]
+      },
+      "issue_date": "2026-11-13",
+      "discovered_at": "2026-11-13T07:10:43.739064+00:00",
+      "verified_at": "2026-11-13T07:10:43.739064+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": []
     }
   ],
   "issues": [
@@ -10159,7 +11136,39 @@
       "updated_at": "2026-11-12T01:57:24.476347+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-12.json"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "模型进入产品，AI 基础设施继续扩张",
+      "dek": "本期聚焦 Gemini 4 Hydrogen、智能眼镜与创作工具更新，也关注企业代理运行环境、Trainium 推理支持和数据中心供应链。",
+      "coverage": "2026-11-12 09:00 至 2026-11-13 09:00（Asia/Singapore）；原文仅标日期的条目保留日期精度。",
+      "lead_ids": [
+        "google-gemini-4-hydrogen-2026-11-12",
+        "google-intelligent-eyewear-preorder-2026-11-12",
+        "aws-agentcore-runtime-v2-2026-11-12"
+      ],
+      "event_ids": [
+        "google-gemini-4-hydrogen-2026-11-12",
+        "google-flow-creative-tools-2026-11-12",
+        "google-intelligent-eyewear-preorder-2026-11-12",
+        "google-phd-fellows-funding-2026-11-12",
+        "nfon-ai-agent-studio-2026-11-12",
+        "meta-low-carbon-datacenter-supply-2026-11-12",
+        "aws-agentcore-runtime-v2-2026-11-12",
+        "aws-natera-swarm-agent-case-2026-11-12",
+        "microsoft-idc-frontier-firms-study-2026-11-12",
+        "ibm-livxp-sports-ai-prize-2026-11-12",
+        "aws-sglang-neuron-trainium-2026-11-12",
+        "google-kelp-deepvariant-australia-2026-11-12",
+        "google-ads-invalid-traffic-card-2026-11-12",
+        "google-gemini-chrome-sidepanel-2026-11-12"
+      ],
+      "number": "017",
+      "published_at": "2026-11-13T07:10:43.739064+00:00",
+      "updated_at": "2026-11-13T07:10:43.739064+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-13.json"
     }
   ],
-  "updated_at": "2026-11-12T01:57:24.476347+00:00"
+  "updated_at": "2026-11-13T07:10:43.739064+00:00"
 }
