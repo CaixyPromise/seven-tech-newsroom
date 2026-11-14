@@ -11127,7 +11127,7 @@
           {
             "label": "事件开始",
             "value": "11 月 12 日",
-          "detail": "Exchange Online 受影响"
+            "detail": "Exchange Online 受影响"
           },
           {
             "label": "恢复进度",
