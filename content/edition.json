@@ -10710,6 +10710,523 @@
         "产品"
       ],
       "corrections": []
+    },
+    {
+      "id": "openai-chatgpt-wallet-2026-11-13",
+      "category": "产品",
+      "title": "OpenAI 推出 ChatGPT Wallet，代理购物仍需逐笔确认",
+      "summary": "OpenAI 为 ChatGPT 的代理购物推出 Wallet，首批通过 dots 面向美国符合条件的 Pro 用户分批开放，用户每次付款前都需审核并确认。",
+      "body": [
+        "OpenAI 于 11 月 13 日推出 ChatGPT Wallet，并开始通过 dots 逐步开放代购功能。用户先添加银行卡，再核对商品、金额和所选卡片，并以 Face ID、指纹等安全检查逐笔确认；获批后，支付网络为交易生成替代卡号的支付令牌，网站和代理无需接触实际卡资料。",
+        "首批使用者限于美国年满 18 岁的 ChatGPT Pro 用户，并须持有符合条件的美国发行银行卡。OpenAI 称其与 American Express、Mastercard 和 Visa 合作；当前流程仍需用户确认每一笔交易，公司提到的限额内全自动代付属于后续设想。"
+      ],
+      "facts": [
+        "ChatGPT Wallet 于 2026 年 11 月 13 日公布，并开始在 dots 中逐步开放。",
+        "首批适用范围为美国 18 岁以上 ChatGPT Pro 用户及符合条件的美国发行银行卡。",
+        "每笔交易需用户查看商品、金额与卡片后确认；支付网络返回替代实际卡号的支付令牌。",
+        "OpenAI 表示与 American Express、Mastercard 和 Visa 合作。"
+      ],
+      "context": "公告描述的是有限范围的初期上线。逐笔用户授权已在当前流程中，限额内委托付款是 OpenAI 提到的未来方向。",
+      "status": "美国符合条件的 Pro 用户开始分批开放",
+      "published_at": "2026-11-13",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Introducing ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "CHATGPT WALLET",
+        "title": "代理支付仍由用户逐笔授权",
+        "caption": "OpenAI 公布的首发流程；功能先向美国符合条件的 Pro 用户逐步开放。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "添加卡片",
+            "value": "保存支付方式",
+            "detail": "用户在 Wallet 中添加银行卡"
+          },
+          {
+            "label": "审核订单",
+            "value": "确认商品和金额",
+            "detail": "每次购买前查看所选卡片"
+          },
+          {
+            "label": "安全确认",
+            "value": "逐笔授权",
+            "detail": "支持 Face ID 或指纹等检查"
+          },
+          {
+            "label": "支付令牌",
+            "value": "替代实际卡号",
+            "detail": "网站和代理不会取得真实卡资料"
+          }
+        ]
+      },
+      "issue_date": "2026-11-14",
+      "discovered_at": "2026-11-14T01:16:48.741128+00:00",
+      "verified_at": "2026-11-14T01:16:48.741128+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "google-pardig-satweave-data-2026-11-13",
+      "category": "研究",
+      "title": "Google DeepMind 开放 SatWeave 与 PARDIG 天气数据集",
+      "summary": "Google DeepMind 开放卫星影像拼图 SatWeave 和 AI 降水数据集 PARDIG，供天气、水文和气候研究使用。",
+      "body": [
+        "Google DeepMind 11 月 13 日向研究者开放 SatWeave 与 PARDIG 两套天气数据。SatWeave 将地球同步卫星观测编成全球拼图，含 17 个可见光、水汽和红外通道，并按小时更新；PARDIG 则是 AI 生成的全球降水数据，时间分辨率为 15 分钟、空间尺度约 10 公里。",
+        "两套资料提供实时数据与历史档案：SatWeave 的历史记录覆盖十余年，PARDIG 档案回溯至 1999 年，可从 Google Cloud Storage 获取，PARDIG 历史目录也可在 Google Earth Engine 查阅。Google 报告称，PARDIG 在轻至中等降雨检测上的表现较 IMERG-Final 高出 30% 以上；这是发布方的测试结果，尚不能代替独立评估。"
+      ],
+      "facts": [
+        "SatWeave 含 17 个可见光、水汽与红外通道，实时资料按小时更新，历史档案覆盖十余年。",
+        "PARDIG 提供 15 分钟时间分辨率、约 10 公里空间尺度的全球降水估计，历史资料覆盖 1999 至 2026 年。",
+        "Google DeepMind 报告称，PARDIG 对轻至中等降水的逐小时检测能力较 IMERG-Final 高 30% 以上。",
+        "数据可从 Google Cloud Storage 获取，PARDIG 历史目录亦可在 Google Earth Engine 查阅。"
+      ],
+      "context": "分辨率、更新方式和模型比较来自 Google DeepMind 的发布材料。数据开放不等于已在各地区或用途上完成独立验证。",
+      "status": "数据集已开放",
+      "published_at": "2026-11-13",
+      "sources": [
+        {
+          "publisher": "Google DeepMind",
+          "title": "Opening the datasets behind our AI weather models",
+          "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        },
+        {
+          "publisher": "Google for Developers",
+          "title": "WeatherNext release notes",
+          "url": "https://developers.google.com/weathernext/release-notes",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "GOOGLE DEEPMIND",
+        "title": "两套开放天气数据",
+        "caption": "数据参数与比较结果来自 Google DeepMind 发布材料；性能数字为厂商报告。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "SatWeave",
+            "value": "17 个通道",
+            "detail": "全球卫星影像拼图，每小时更新"
+          },
+          {
+            "label": "SatWeave 档案",
+            "value": "十余年",
+            "detail": "提供历史记录与实时数据流"
+          },
+          {
+            "label": "PARDIG",
+            "value": "15 分钟 / 约 10 公里",
+            "detail": "全球降水数据的时间与空间尺度"
+          },
+          {
+            "label": "PARDIG 档案",
+            "value": "1999—2026",
+            "detail": "另可从 Google Earth Engine 查阅"
+          }
+        ]
+      },
+      "issue_date": "2026-11-14",
+      "discovered_at": "2026-11-14T01:16:48.741128+00:00",
+      "verified_at": "2026-11-14T01:16:48.741128+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "llama-cpp-ggml-v1-2026-11-13",
+      "category": "开源",
+      "title": "llama.cpp 与 ggml 发布 1.0.0，明确兼容性版本规则",
+      "summary": "本地推理项目 llama.cpp 与底层张量库 ggml 发布 1.0.0，并说明后续将用语义版本标记接口兼容变化。",
+      "body": [
+        "llama.cpp 项目团队 11 月 13 日发布 llama.cpp 与 ggml 的 1.0.0 版本。团队称项目已发展约三年半，今后会以主版本号标记 API 与 ABI 不兼容变化；其版本规则将破坏性公开 C API 变更列为主版本，向后兼容的功能、后端和模型支持列为次版本，缺陷修复则使用补丁版本。",
+        "这次更新的重点是让依赖这些库的下游应用更容易判断升级风险。进入 1.0.0 并不保证每个使用者都能无改动升级；开发者仍需根据实际调用的接口查看发布说明。"
+      ],
+      "facts": [
+        "项目团队于 2026 年 11 月 13 日发布 llama.cpp 与 ggml 的 1.0.0 版本。",
+        "项目团队称 llama.cpp 自创立至 1.0.0 发布约三年半。",
+        "团队计划用主版本号标示 API/ABI 不兼容变化；兼容功能更新与缺陷修复分别使用次版本和补丁版本。"
+      ],
+      "context": "版本号规则描述的是项目发布政策，不保证所有下游软件在升级时都兼容，也不替代逐项检查发布说明。",
+      "status": "1.0.0 已发布",
+      "published_at": "2026-11-13",
+      "sources": [
+        {
+          "publisher": "ggml-org / Hugging Face",
+          "title": "llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        },
+        {
+          "publisher": "ggml-org / GitHub",
+          "title": "llama.cpp v1.0.0 release",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "violet",
+        "eyebrow": "LLAMA.CPP + GGML",
+        "title": "1.0.0 开始采用明确的兼容标记",
+        "caption": "项目团队说明的语义版本规则；实际升级影响以对应发布说明为准。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "发布",
+            "value": "v1.0.0",
+            "detail": "llama.cpp 与 ggml 同步进入 1.0.0"
+          },
+          {
+            "label": "主版本",
+            "value": "不兼容变更",
+            "detail": "团队称 API 与 ABI 变化将据此标示"
+          },
+          {
+            "label": "次版本",
+            "value": "兼容更新",
+            "detail": "新功能、后端与模型支持"
+          },
+          {
+            "label": "补丁版本",
+            "value": "缺陷修复",
+            "detail": "不改变 API 的错误修正"
+          }
+        ]
+      },
+      "issue_date": "2026-11-14",
+      "discovered_at": "2026-11-14T01:16:48.741128+00:00",
+      "verified_at": "2026-11-14T01:16:48.741128+00:00",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "allenai-xybench-release-2026-11-13",
+      "category": "研究",
+      "title": "Ai2 发布 XYBench，测试模型能否识别问题背后的误解",
+      "summary": "Ai2 发布包含 8,115 个真实问题的 XYBench，用于评测助手能否识别用户错误前提并回应其实际目标。",
+      "body": [
+        "Allen Institute for AI（Ai2）11 月 13 日发布 XYBench，包含 8,115 个真实场景问题，用来测试助手能否识别用户问题中隐含的误解，并将回应引向真正要解决的目标，而不是照着错误前提给出操作建议。题目涵盖编程、烹饪和家庭维修等场景，数据、代码与论文一并公开。",
+        "该基准获得 EMNLP 2026 最佳资源论文奖。Ai2 将其定位为评测“用户所问路径与实际目标不一致”的能力；单一基准不能代表真实对话中的整体助理质量，但能把识别误解和调整回应这类能力单独量化。"
+      ],
+      "facts": [
+        "XYBench 包含 8,115 个现实问题，覆盖编程及烹饪、家庭维修等日常场景。",
+        "该基准评测模型能否发现用户问题中的误解，并优先处理其真实目标。",
+        "Ai2 表示 XYBench 获得 EMNLP 2026 最佳资源论文奖，配套数据、代码与论文公开。"
+      ],
+      "context": "XYBench 是围绕特定问题类型设计的基准；其得分不能单独代表助手在所有真实对话中的质量。",
+      "status": "基准、数据与代码已公开",
+      "published_at": "2026-11-13",
+      "sources": [
+        {
+          "publisher": "Ai2 / Hugging Face",
+          "title": "XYBench: Helping with the problem behind the question",
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        },
+        {
+          "publisher": "Ai2 / arXiv",
+          "title": "XYBench: Can LLMs Respond Pragmatically to Queries with Misconceptions?",
+          "url": "https://arxiv.org/abs/2609.06842",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        },
+        {
+          "publisher": "Ai2 / GitHub",
+          "title": "XYBench code",
+          "url": "https://github.com/allenai/xybench",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "amber",
+        "eyebrow": "AI2 XYBENCH",
+        "title": "测试助手能否纠正错误前提",
+        "caption": "评测任务与问题数量来自 Ai2 发布；不代表通用对话质量。",
+        "source_refs": [
+          0,
+          2
+        ],
+        "items": [
+          {
+            "label": "用户表述",
+            "value": "提出一个方法",
+            "detail": "提问可能已假设某个错误方向"
+          },
+          {
+            "label": "识别误解",
+            "value": "找出真实目标",
+            "detail": "区分目标与用户猜测的解决办法"
+          },
+          {
+            "label": "回应方向",
+            "value": "帮助解决目标",
+            "detail": "而非机械地照做错误前提"
+          },
+          {
+            "label": "评测规模",
+            "value": "8,115 个问题",
+            "detail": "涵盖编程及日常活动场景"
+          }
+        ]
+      },
+      "issue_date": "2026-11-14",
+      "discovered_at": "2026-11-14T01:16:48.741128+00:00",
+      "verified_at": "2026-11-14T01:16:48.741128+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "github-ai-scan-rest-api-2026-11-13",
+      "category": "产品",
+      "title": "GitHub 预览 AI Scan 仓库扫描 REST API 开关",
+      "summary": "GitHub 为 AI Scan 增加组织与仓库级 REST API 设置，方便通过脚本管理扫描开关。",
+      "body": [
+        "GitHub 11 月 13 日为代码扫描的 AI Scan 仓库级扫描开关推出 REST API 公共预览，组织与单仓库均可读取或修改 repository_scan 设置，便于通过脚本和基础设施即代码统一管理。组织可控制默认策略；组织启用后，仓库可继承设置并由管理员单独退出。",
+        "打开开关不会自动扫描：有写权限的用户仍需手动发起，且每次扫描会消耗 GitHub Code Security AI credits。该能力适用于组织名下的公开仓库，以及启用了相应 Code Security 或 GitHub Advanced Security 方案的私有、内部仓库；GitHub Enterprise Server 暂不支持。"
+      ],
+      "facts": [
+        "REST API 公共预览新增 repository_scan 组织和仓库级设置。",
+        "组织可设置默认开关，启用时仓库继承组织设置并可单独退出。",
+        "启用设置不会自动扫描；用户需按需发起扫描，每次扫描消耗 AI credits。",
+        "GitHub Enterprise Server 暂不支持该功能。"
+      ],
+      "context": "这是对现有 AI Scan 的配置管理能力，不代表扫描自动覆盖所有仓库或漏洞类型。",
+      "status": "公共预览",
+      "published_at": "2026-11-13",
+      "sources": [
+        {
+          "publisher": "GitHub Changelog",
+          "title": "Manage AI Scan for repositories using the REST API",
+          "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "GITHUB AI SCAN",
+        "title": "设置开关与发起扫描分为两步",
+        "caption": "GitHub 公共预览：手动发起的扫描会消耗 Code Security AI credits。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "组织策略",
+            "value": "配置 repository_scan",
+            "detail": "通过组织级 REST API 管理默认设置"
+          },
+          {
+            "label": "仓库设置",
+            "value": "继承或退出",
+            "detail": "组织启用后管理员可单独选择退出"
+          },
+          {
+            "label": "运行扫描",
+            "value": "按需手动发起",
+            "detail": "开关本身不会启动扫描"
+          }
+        ]
+      },
+      "issue_date": "2026-11-14",
+      "discovered_at": "2026-11-14T01:16:48.741128+00:00",
+      "verified_at": "2026-11-14T01:16:48.741128+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "microsoft-365-outage-recovery-2026-11-13",
+      "category": "基础设施",
+      "title": "微软称 Microsoft 365 故障持续恢复，部分访问仍不稳定",
+      "summary": "Microsoft 表示前一日开始的 Microsoft 365 故障出现恢复进展，但 Outlook 等服务仍可能有间歇性访问问题和邮件延迟。",
+      "body": [
+        "Microsoft 11 月 13 日表示，前一日开始的 Microsoft 365 故障出现恢复进展：Outlook 邮件队列已显著减少并接近正常水平，但仍可能有人遇到间歇性访问问题或邮件投递延迟。美联社报道，受影响服务还包括 Teams、SharePoint 和 Microsoft 365 Copilot；当时微软未给出受影响用户总数。",
+        "这是同一服务事件在 13 日的新状态，相关编号为 Exchange Online 的 EX1550543 和 Microsoft 365 的 MO1550821。微软曾称早期缓解未达预期，后续报告部分区域逐步改善；这不代表所有地区和功能均已恢复，实际服务状态仍应以 Microsoft 365 Service Health 为准。"
+      ],
+      "facts": [
+        "美联社于 2026 年 11 月 13 日报道 Microsoft 表示恢复有所进展，Outlook 邮件队列显著减少并接近正常水平。",
+        "当时仍可能出现间歇性访问问题或邮件投递延迟。",
+        "相关服务事件编号为 EX1550543 与 MO1550821，影响涉及 Outlook、Teams、SharePoint 与 Microsoft 365 Copilot。"
+      ],
+      "context": "本条记录的是既有服务事件在 11 月 13 日的恢复进展。此前的故障起始于 11 月 12 日，服务状态会随地区和组件变化。",
+      "status": "恢复进展；仍有间歇性访问问题",
+      "published_at": "2026-11-13",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "The Latest: Microsoft says recovery efforts are making progress on worldwide outage",
+          "url": "https://apnews.com/article/e2330e733db280805dbf7e3eb29ee0e1",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        },
+        {
+          "publisher": "Microsoft 365 Service Health",
+          "title": "Microsoft service health status",
+          "url": "https://status.cloud.microsoft/",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "MICROSOFT 365",
+        "title": "服务恢复仍处于逐步推进中",
+        "caption": "AP 报道的 11 月 13 日状态；微软提示部分用户仍可能遇到延迟。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "事件开始",
+            "value": "11 月 12 日",
+          "detail": "Exchange Online 受影响"
+          },
+          {
+            "label": "恢复进度",
+            "value": "邮件队列接近正常",
+            "detail": "微软在 13 日报告部分改善"
+          },
+          {
+            "label": "未消除问题",
+            "value": "间歇访问与延迟",
+            "detail": "仍需查看所在地区的服务状态"
+          }
+        ]
+      },
+      "issue_date": "2026-11-14",
+      "discovered_at": "2026-11-14T01:16:48.741128+00:00",
+      "verified_at": "2026-11-14T01:16:48.741128+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "dyania-nvidia-synapsis-collaboration-2026-11-13",
+      "category": "产业",
+      "title": "Dyania Health 将病历 AI 部署到医院内 GPU 环境",
+      "summary": "Dyania Health 与 NVIDIA 宣布合作，在医院自有基础设施运行 Synapsis AI，并披露一项覆盖 7,812 名主动脉瓣置换患者的病历分析案例。",
+      "body": [
+        "Dyania Health 与 NVIDIA 11 月 13 日宣布合作，将临床推理系统 Synapsis AI 部署在医院自有基础设施，通过病历、检查报告和化验记录寻找可追溯的临床信息。首个案例是 Cleveland Clinic 一项主动脉瓣研究，覆盖 2005 至 2021 年接受置换手术的 7,812 名患者；公司称系统为每位患者回答 88 个临床问题。",
+        "Dyania 表示，Synapsis AI 在医院私有网络中分析记录，并训练了预测瓣膜失效与再次干预风险的模型，仍需临床人员外部验证。公告没有提供预测准确率或临床结果数据，因此这显示的是病历分析规模与合作部署方式，不能据此判断模型已改善诊疗效果。"
+      ],
+      "facts": [
+        "Dyania Health 与 NVIDIA 于 2026 年 11 月 13 日宣布在医院自有基础设施运行 Synapsis AI 的合作。",
+        "首个案例涵盖 2005 至 2021 年间接受主动脉瓣置换的 7,812 名 Cleveland Clinic 患者。",
+        "Dyania 称系统对每名患者回答 88 个临床问题，并构建用于估计瓣膜失效和再次干预风险的模型。",
+        "公司称模型仍需临床人员外部验证；公告未提供预测准确率或患者临床结果。"
+      ],
+      "context": "合作、样本规模和模型能力来自企业发布材料。新闻稿明确提到仍需临床外部验证，未公布准确率或临床结果。",
+      "status": "合作宣布；预测模型仍需外部验证",
+      "published_at": "2026-11-13",
+      "sources": [
+        {
+          "publisher": "PR Newswire",
+          "title": "Dyania Health Brings Clinical Reasoning AI Inside the Hospital Firewall to Advance Patient Care with NVIDIA",
+          "url": "https://finance.yahoo.com/healthcare/articles/dyania-health-brings-clinical-reasoning-182700957.html",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        },
+        {
+          "publisher": "NVIDIA Blog",
+          "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+          "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+          "accessed_at": "2026-11-14T01:16:48.741128+00:00",
+          "published_at": "2026-11-13"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "DYANIA HEALTH + NVIDIA",
+        "title": "一项院内临床病历分析案例",
+        "caption": "企业发布材料中的样本和工作流；预测模型仍需外部临床验证。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "研究样本",
+            "value": "7,812 名患者",
+            "detail": "Cleveland Clinic 主动脉瓣置换案例"
+          },
+          {
+            "label": "记录区间",
+            "value": "2005—2021",
+            "detail": "覆盖最长约 16 年的病历资料"
+          },
+          {
+            "label": "结构化提取",
+            "value": "88 个问题 / 人",
+            "detail": "涵盖瓣膜、病史、用药和超声等"
+          },
+          {
+            "label": "模型阶段",
+            "value": "需临床验证",
+            "detail": "公告未披露预测准确率或临床结果"
+          }
+        ]
+      },
+      "issue_date": "2026-11-14",
+      "discovered_at": "2026-11-14T01:16:48.741128+00:00",
+      "verified_at": "2026-11-14T01:16:48.741128+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -11168,7 +11685,32 @@
       "updated_at": "2026-11-13T07:10:43.739064+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-13.json"
+    },
+    {
+      "date": "2026-11-14",
+      "title": "AI 数据、代理支付与基础设施的新进展",
+      "dek": "OpenAI 开始试点代理代付；Google 开放天气数据，AI 研究、开源推理和企业服务也有新进展。",
+      "coverage": "2026-11-13 09:00 至 2026-11-14 09:00（Asia/Singapore，UTC+8）",
+      "lead_ids": [
+        "openai-chatgpt-wallet-2026-11-13",
+        "google-pardig-satweave-data-2026-11-13",
+        "microsoft-365-outage-recovery-2026-11-13"
+      ],
+      "event_ids": [
+        "openai-chatgpt-wallet-2026-11-13",
+        "google-pardig-satweave-data-2026-11-13",
+        "llama-cpp-ggml-v1-2026-11-13",
+        "allenai-xybench-release-2026-11-13",
+        "github-ai-scan-rest-api-2026-11-13",
+        "microsoft-365-outage-recovery-2026-11-13",
+        "dyania-nvidia-synapsis-collaboration-2026-11-13"
+      ],
+      "number": "018",
+      "published_at": "2026-11-14T01:16:48.741128+00:00",
+      "updated_at": "2026-11-14T01:16:48.741128+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-14.json"
     }
   ],
-  "updated_at": "2026-11-13T07:10:43.739064+00:00"
+  "updated_at": "2026-11-14T01:16:48.741128+00:00"
 }
