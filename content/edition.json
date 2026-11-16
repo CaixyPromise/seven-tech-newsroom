@@ -11227,6 +11227,232 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "meta-italy-gallery-permission-fine-2026-11-14",
+      "category": "治理",
+      "title": "意大利对 Meta 处以 8.05 亿欧元罚款，要求图库权限单独征求同意",
+      "summary": "意大利数据保护机构认定 Facebook Android 应用的图库建议功能未取得充分、单独的用户同意，并要求 Meta 在 60 天内调整默认设置与授权流程。",
+      "body": [
+        "意大利数据保护机构 11 月 14 日对 Meta Platforms Ireland 处以 8.05 亿欧元罚款，理由是 Facebook Android 应用的图库建议功能在未充分告知用户的情况下访问手机照片、视频及相关元数据。监管机构称，图库访问曾与其他应用功能共用一项权限，相关功能还默认开启；该决定适用意大利隐私法中关于设备信息访问的规定。",
+        "Meta 须在 60 天内将这项功能设为默认关闭，并以独立、明确的请求说明用途和关闭方法；若未按期改正，不得在缺少有效同意时启用。监管机构称，案件涉及意大利约 2000 万名 Android 用户。此次调查没有审查内容是否用于训练 AI，Meta 否认将图库内容用于训练。"
+      ],
+      "facts": [
+        "意大利数据保护机构于 2026 年 11 月 14 日宣布对 Meta Platforms Ireland 罚款 8.05 亿欧元。",
+        "涉及 Facebook Android 的图库建议功能；监管机构认定用户授权说明不具体，且功能预设为开启。",
+        "监管机构估计影响约 2000 万名意大利 Android 用户。",
+        "Meta 须在 60 天内将功能默认关闭并单独征求明确同意；90 天内向监管机构报告已采取的措施。"
+      ],
+      "context": "罚款、法律依据、用户估计及整改要求来自意大利数据保护机构；AP 报道提供独立背景。本案不涉及图库内容是否用于训练 AI。",
+      "status": "监管机构已作出处罚决定；整改期限为 60 天",
+      "published_at": "2026-11-14",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Meta fined $887 million in Italy over Android gallery photos and videos on Facebook",
+          "url": "https://apnews.com/article/9b3073c52464d5cd0e8facbc57285194",
+          "accessed_at": "2026-11-16T01:10:11.759232+00:00",
+          "published_at": "2026-11-14"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Italy fines Meta $887 million over Android users' data access",
+          "url": "https://www.investing.com/news/stock-market-news/italy-fines-meta-887-million-over-android-users-data-access-5027329",
+          "accessed_at": "2026-11-16T01:11:30.043750+00:00",
+          "published_at": "2026-11-14"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "META · ITALY PRIVACY DECISION",
+        "title": "图库访问须有独立同意",
+        "caption": "罚款与整改要求据意大利数据保护机构公告；约 2000 万用户为监管机构估计。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "罚款",
+            "value": "€805 million",
+            "detail": "针对 Facebook Android 图库建议功能"
+          },
+          {
+            "label": "监管机构估计",
+            "value": "约 2,000 万人",
+            "detail": "意大利 Android 用户"
+          },
+          {
+            "label": "60 天内",
+            "value": "默认关闭",
+            "detail": "以单独、明确授权后再启用"
+          },
+          {
+            "label": "调查范围",
+            "value": "不含 AI 训练",
+            "detail": "Meta 否认将图库内容用于训练"
+          }
+        ]
+      },
+      "corrections": [
+        {
+          "at": "2026-11-16T01:11:22+00:00",
+          "note": "最终复核时补充 Reuters 同日交叉报道，并保留 AP 原始报道。"
+        }
+      ],
+      "issue_date": "2026-11-16",
+      "discovered_at": "2026-11-16T01:10:11.759232+00:00",
+      "verified_at": "2026-11-16T01:11:30.043750+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ]
+    },
+    {
+      "id": "microsoft-365-full-restoration-2026-11-14",
+      "category": "基础设施",
+      "title": "Microsoft 称全球 Microsoft 365 故障已完全恢复",
+      "summary": "在 Outlook、Teams 等服务经历全球性中断后，Microsoft 表示已恢复受影响地区的服务，并将问题追溯至较早的一次网络容量升级。",
+      "body": [
+        "Microsoft 11 月 14 日表示，影响 Outlook、Teams、SharePoint 和 Copilot 等服务的全球性 Microsoft 365 故障已完全恢复。公司称，故障由较早进行的一次网络容量升级引入，随后在近期网络变更后显现；服务团队已完成处理并恢复剩余受影响地区的访问。",
+        "这项更新标志着前一日仍处于逐步恢复中的事件进入全面恢复状态。AP 报道指出，故障令多个国家的企业和公共机构无法正常使用邮件及协作服务；Microsoft 表示会继续发布事后复盘，当前披露尚未给出完整技术复盘或总受影响用户数。"
+      ],
+      "facts": [
+        "Microsoft 于 2026 年 11 月 14 日称全球 Microsoft 365 服务已完全恢复。",
+        "受影响服务包括 Outlook、Teams、SharePoint 和 Copilot。",
+        "Microsoft 将问题追溯至较早的网络容量升级，并称近期网络变更后问题显现。",
+        "公司表示将完成并公布更完整的事后复盘；当前材料没有给出受影响用户总数。"
+      ],
+      "context": "本条是 11 月 13 日期刊所载同一服务事件的状态更新，记录从逐步恢复转为微软宣布完全恢复；原期条目保持不变。",
+      "status": "Microsoft 宣布服务已恢复；事后复盘待发布",
+      "published_at": "2026-11-14",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Microsoft 365 Status",
+          "title": "Microsoft 365 status update on the worldwide outage",
+          "url": "https://status.cloud.microsoft/",
+          "accessed_at": "2026-11-16T01:10:11.759232+00:00",
+          "published_at": "2026-11-14"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Microsoft says services fully restored after hourslong global outage",
+          "url": "https://apnews.com/article/microsoft-outage-outlook-email-365-recover-ca395c0f1e51af784b6d70afb6554f6a",
+          "accessed_at": "2026-11-16T01:10:11.759232+00:00",
+          "published_at": "2026-11-14"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "MICROSOFT 365",
+        "title": "故障状态从逐步恢复转为完全恢复",
+        "caption": "恢复状态及原因按 Microsoft 11 月 14 日说明；技术复盘尚待发布。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "故障期间",
+            "value": "多项服务受影响",
+            "detail": "包括 Outlook、Teams、SharePoint 与 Copilot"
+          },
+          {
+            "label": "原因说明",
+            "value": "网络容量升级",
+            "detail": "近期网络变更后问题显现"
+          },
+          {
+            "label": "11 月 14 日",
+            "value": "宣布完全恢复",
+            "detail": "剩余受影响地区服务已恢复"
+          }
+        ]
+      },
+      "issue_date": "2026-11-16",
+      "discovered_at": "2026-11-16T01:10:11.759232+00:00",
+      "verified_at": "2026-11-16T01:11:30.043750+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "nvidia-megaspeed-export-scrutiny-2026-11-14",
+      "category": "产业",
+      "title": "美国议员要求审视 AI 芯片出口，Megaspeed 称已启动内部调查",
+      "summary": "英伟达相关出口争议引发美国两党议员对芯片许可提出更多质询；新加坡云服务公司 Megaspeed 则称相关高管已于 2025 年离职，并表示正调查芯片流向指控。",
+      "body": [
+        "英伟达高端芯片流向中国的争议在 11 月 14 日继续引发美国国会关注。美联社报道，两党议员呼吁收紧对先进芯片及 AI 技术的出口限制，并要求政府说明相关出口许可的审查依据；报道将这些讨论置于当时的美中 AI 与经贸议程背景中。",
+        "次日，新加坡云服务公司 Megaspeed 表示，受到外界关注的 Alice Huang 已于 2025 年 8 月离开公司，目前没有职务，并称已对芯片是否被转运至中国的指控启动内部调查。AP 同时报道新加坡方面曾就服务器采购申报启动调查。上述说法均属公司回应及调查信息，不能据此认定出口违规已被证实。"
+      ],
+      "facts": [
+        "AP 于 2026 年 11 月 14 日报道，美国两党议员要求审视先进 AI 芯片对华出口管制与相关许可。",
+        "Megaspeed 于 11 月 15 日回应称 Alice Huang 于 2025 年 8 月 30 日离开公司，现无职务。",
+        "Megaspeed 称已针对先进 Nvidia 芯片可能被转运至中国的指控启动内部调查。",
+        "AP 报道新加坡政府称 2025 年 2 月启动调查，涉及服务器采购申报；相关指控尚非已证实结论。"
+      ],
+      "context": "以 AP 对 11 月 14 日国会讨论及 11 月 15 日公司回应的报道为依据。各方正在回应相关审查与指控，报道不构成违法认定。",
+      "status": "出口管制审查与公司内部调查进行中；指控未形成定论",
+      "published_at": "2026-11-15",
+      "publication_precision": "date",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "The Nvidia scandal is heightening America's AI rivalry with China ahead of Trump's visit",
+          "url": "https://apnews.com/article/aba7f92a1ec2f0f9e4b4da206d640d61",
+          "accessed_at": "2026-11-16T01:10:11.759232+00:00",
+          "published_at": "2026-11-15"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Megaspeed conducts internal probe as Nvidia fallout continues, says Alice Huang left in 2025",
+          "url": "https://apnews.com/article/singapore-megaspeed-alice-huang-nvidia-probe-e9e2e18169dce0b30a34f39715bf35ed",
+          "accessed_at": "2026-11-16T01:10:11.759232+00:00",
+          "published_at": "2026-11-15"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "blue",
+        "eyebrow": "AI CHIP EXPORT SCRUTINY",
+        "title": "国会审查与公司回应仍在进行",
+        "caption": "日期和各方表态据 AP 报道；所述调查尚未形成违法认定。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "11 月 14 日",
+            "value": "议员要求审视出口限制",
+            "detail": "围绕先进 AI 芯片对华许可"
+          },
+          {
+            "label": "11 月 15 日",
+            "value": "Megaspeed 启动内部调查",
+            "detail": "针对芯片转运指控"
+          },
+          {
+            "label": "公司回应",
+            "value": "相关高管已离职",
+            "detail": "公司称 Alice Huang 于 2025 年离开"
+          }
+        ]
+      },
+      "issue_date": "2026-11-16",
+      "discovered_at": "2026-11-16T01:10:11.759232+00:00",
+      "verified_at": "2026-11-16T01:11:30.043750+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": []
     }
   ],
   "issues": [
@@ -11710,7 +11936,28 @@
       "updated_at": "2026-11-14T01:16:48.741128+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-14.json"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "平台治理、云服务恢复与芯片出口审查",
+      "dek": "Meta 在意大利因图库权限被罚，Microsoft 365 报告服务恢复；美国对 AI 芯片出口的审查也在升温。",
+      "coverage": "2026-11-14 09:00 至 2026-11-16 09:00（Asia/Singapore，UTC+8；承接 11 月 15 日未达最低条数的窗口）",
+      "lead_ids": [
+        "meta-italy-gallery-permission-fine-2026-11-14",
+        "microsoft-365-full-restoration-2026-11-14",
+        "nvidia-megaspeed-export-scrutiny-2026-11-14"
+      ],
+      "event_ids": [
+        "meta-italy-gallery-permission-fine-2026-11-14",
+        "microsoft-365-full-restoration-2026-11-14",
+        "nvidia-megaspeed-export-scrutiny-2026-11-14"
+      ],
+      "number": "019",
+      "published_at": "2026-11-16T01:10:11.759232+00:00",
+      "updated_at": "2026-11-16T01:11:30.043750+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-16.json"
     }
   ],
-  "updated_at": "2026-11-14T01:16:48.741128+00:00"
+  "updated_at": "2026-11-16T01:11:30.043750+00:00"
 }

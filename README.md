@@ -4,7 +4,7 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-14。共 18 期、157 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-16。共 19 期、160 条独立记录；按实际发布状态与来源标时。
 
 **最新数据快照**：2026-11-14 09:04 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
@@ -17,122 +17,66 @@
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-14
+## 最新一期 · 2026-11-16
 
-**AI 数据、代理支付与基础设施的新进展**
+**平台治理、云服务恢复与芯片出口审查**
 
-OpenAI 开始试点代理代付；Google 开放天气数据，AI 研究、开源推理和企业服务也有新进展。
+Meta 在意大利因图库权限被罚，Microsoft 365 报告服务恢复；美国对 AI 芯片出口的审查也在升温。
 
-每日精选，第 018 期。收录范围：2026-11-13 09:00 至 2026-11-14 09:00（Asia/Singapore，UTC+8）。
-实际首次整理：2026-11-14 09:16 UTC+8。
+每日精选，第 019 期。收录范围：2026-11-14 09:00 至 2026-11-16 09:00（Asia/Singapore，UTC+8；承接 11 月 15 日未达最低条数的窗口）。
+实际首次整理：2026-11-16 09:10 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. OpenAI 推出 ChatGPT Wallet，代理购物仍需逐笔确认
+## 1. 意大利对 Meta 处以 8.05 亿欧元罚款，要求图库权限单独征求同意
 
-![代理支付仍由用户逐笔授权。添加卡片：保存支付方式，用户在 Wallet 中添加银行卡；审核订单：确认商品和金额，每次购买前查看所选卡片；安全确认：逐笔授权，支持 Face ID 或指纹等检查；支付令牌：替代实际卡号，网站和代理不会取得真实卡资料](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-chatgpt-wallet-2026-11-13.svg)
+![图库访问须有独立同意。罚款：€805 million，针对 Facebook Android 图库建议功能；监管机构估计：约 2,000 万人，意大利 Android 用户；60 天内：默认关闭，以单独、明确授权后再启用；调查范围：不含 AI 训练，Meta 否认将图库内容用于训练](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/meta-italy-gallery-permission-fine-2026-11-14.svg)
 
-OpenAI 公布的首发流程；功能先向美国符合条件的 Pro 用户逐步开放。
+罚款与整改要求据意大利数据保护机构公告；约 2000 万用户为监管机构估计。
 
-OpenAI 于 11 月 13 日推出 ChatGPT Wallet，并开始通过 dots 逐步开放代购功能。用户先添加银行卡，再核对商品、金额和所选卡片，并以 Face ID、指纹等安全检查逐笔确认；获批后，支付网络为交易生成替代卡号的支付令牌，网站和代理无需接触实际卡资料。
+意大利数据保护机构 11 月 14 日对 Meta Platforms Ireland 处以 8.05 亿欧元罚款，理由是 Facebook Android 应用的图库建议功能在未充分告知用户的情况下访问手机照片、视频及相关元数据。监管机构称，图库访问曾与其他应用功能共用一项权限，相关功能还默认开启；该决定适用意大利隐私法中关于设备信息访问的规定。
 
-首批使用者限于美国年满 18 岁的 ChatGPT Pro 用户，并须持有符合条件的美国发行银行卡。OpenAI 称其与 American Express、Mastercard 和 Visa 合作；当前流程仍需用户确认每一笔交易，公司提到的限额内全自动代付属于后续设想。
+Meta 须在 60 天内将这项功能设为默认关闭，并以独立、明确的请求说明用途和关闭方法；若未按期改正，不得在缺少有效同意时启用。监管机构称，案件涉及意大利约 2000 万名 Android 用户。此次调查没有审查内容是否用于训练 AI，Meta 否认将图库内容用于训练。
 
-分类：产品；状态：美国符合条件的 Pro 用户开始分批开放；原文日期：2026-11-13。
+分类：治理；状态：监管机构已作出处罚决定；整改期限为 60 天；原文日期：2026-11-14。
 
-来源：[OpenAI](https://openai.com/index/introducing-chatgpt-wallet/)
+来源：[Associated Press](https://apnews.com/article/9b3073c52464d5cd0e8facbc57285194)
+来源：[Reuters](https://www.investing.com/news/stock-market-news/italy-fines-meta-887-million-over-android-users-data-access-5027329)
 
-## 2. Google DeepMind 开放 SatWeave 与 PARDIG 天气数据集
+更正：2026-11-16T01:11:22+00:00 · 最终复核时补充 Reuters 同日交叉报道，并保留 AP 原始报道。
 
-![两套开放天气数据。SatWeave：17 个通道，全球卫星影像拼图，每小时更新；SatWeave 档案：十余年，提供历史记录与实时数据流；PARDIG：15 分钟 / 约 10 公里，全球降水数据的时间与空间尺度；PARDIG 档案：1999—2026，另可从 Google Earth Engine 查阅](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-pardig-satweave-data-2026-11-13.svg)
+## 2. Microsoft 称全球 Microsoft 365 故障已完全恢复
 
-数据参数与比较结果来自 Google DeepMind 发布材料；性能数字为厂商报告。
+![故障状态从逐步恢复转为完全恢复。故障期间：多项服务受影响，包括 Outlook、Teams、SharePoint 与 Copilot；原因说明：网络容量升级，近期网络变更后问题显现；11 月 14 日：宣布完全恢复，剩余受影响地区服务已恢复](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-365-full-restoration-2026-11-14.svg)
 
-Google DeepMind 11 月 13 日向研究者开放 SatWeave 与 PARDIG 两套天气数据。SatWeave 将地球同步卫星观测编成全球拼图，含 17 个可见光、水汽和红外通道，并按小时更新；PARDIG 则是 AI 生成的全球降水数据，时间分辨率为 15 分钟、空间尺度约 10 公里。
+恢复状态及原因按 Microsoft 11 月 14 日说明；技术复盘尚待发布。
 
-两套资料提供实时数据与历史档案：SatWeave 的历史记录覆盖十余年，PARDIG 档案回溯至 1999 年，可从 Google Cloud Storage 获取，PARDIG 历史目录也可在 Google Earth Engine 查阅。Google 报告称，PARDIG 在轻至中等降雨检测上的表现较 IMERG-Final 高出 30% 以上；这是发布方的测试结果，尚不能代替独立评估。
+Microsoft 11 月 14 日表示，影响 Outlook、Teams、SharePoint 和 Copilot 等服务的全球性 Microsoft 365 故障已完全恢复。公司称，故障由较早进行的一次网络容量升级引入，随后在近期网络变更后显现；服务团队已完成处理并恢复剩余受影响地区的访问。
 
-分类：研究；状态：数据集已开放；原文日期：2026-11-13。
+这项更新标志着前一日仍处于逐步恢复中的事件进入全面恢复状态。AP 报道指出，故障令多个国家的企业和公共机构无法正常使用邮件及协作服务；Microsoft 表示会继续发布事后复盘，当前披露尚未给出完整技术复盘或总受影响用户数。
 
-来源：[Google DeepMind](https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/)
-来源：[Google for Developers](https://developers.google.com/weathernext/release-notes)
+分类：基础设施；状态：Microsoft 宣布服务已恢复；事后复盘待发布；原文日期：2026-11-14。
 
-## 3. llama.cpp 与 ggml 发布 1.0.0，明确兼容性版本规则
+来源：[Microsoft 365 Status](https://status.cloud.microsoft/)
+来源：[Associated Press](https://apnews.com/article/microsoft-outage-outlook-email-365-recover-ca395c0f1e51af784b6d70afb6554f6a)
 
-![1.0.0 开始采用明确的兼容标记。发布：v1.0.0，llama.cpp 与 ggml 同步进入 1.0.0；主版本：不兼容变更，团队称 API 与 ABI 变化将据此标示；次版本：兼容更新，新功能、后端与模型支持；补丁版本：缺陷修复，不改变 API 的错误修正](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/llama-cpp-ggml-v1-2026-11-13.svg)
+## 3. 美国议员要求审视 AI 芯片出口，Megaspeed 称已启动内部调查
 
-项目团队说明的语义版本规则；实际升级影响以对应发布说明为准。
+![国会审查与公司回应仍在进行。11 月 14 日：议员要求审视出口限制，围绕先进 AI 芯片对华许可；11 月 15 日：Megaspeed 启动内部调查，针对芯片转运指控；公司回应：相关高管已离职，公司称 Alice Huang 于 2025 年离开](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/nvidia-megaspeed-export-scrutiny-2026-11-14.svg)
 
-llama.cpp 项目团队 11 月 13 日发布 llama.cpp 与 ggml 的 1.0.0 版本。团队称项目已发展约三年半，今后会以主版本号标记 API 与 ABI 不兼容变化；其版本规则将破坏性公开 C API 变更列为主版本，向后兼容的功能、后端和模型支持列为次版本，缺陷修复则使用补丁版本。
+日期和各方表态据 AP 报道；所述调查尚未形成违法认定。
 
-这次更新的重点是让依赖这些库的下游应用更容易判断升级风险。进入 1.0.0 并不保证每个使用者都能无改动升级；开发者仍需根据实际调用的接口查看发布说明。
+英伟达高端芯片流向中国的争议在 11 月 14 日继续引发美国国会关注。美联社报道，两党议员呼吁收紧对先进芯片及 AI 技术的出口限制，并要求政府说明相关出口许可的审查依据；报道将这些讨论置于当时的美中 AI 与经贸议程背景中。
 
-分类：开源；状态：1.0.0 已发布；原文日期：2026-11-13。
+次日，新加坡云服务公司 Megaspeed 表示，受到外界关注的 Alice Huang 已于 2025 年 8 月离开公司，目前没有职务，并称已对芯片是否被转运至中国的指控启动内部调查。AP 同时报道新加坡方面曾就服务器采购申报启动调查。上述说法均属公司回应及调查信息，不能据此认定出口违规已被证实。
 
-来源：[ggml-org / Hugging Face](https://huggingface.co/blog/ggml-org/llama-cpp-v1)
-来源：[ggml-org / GitHub](https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0)
+分类：产业；状态：出口管制审查与公司内部调查进行中；指控未形成定论；原文日期：2026-11-15。
 
-## 4. Ai2 发布 XYBench，测试模型能否识别问题背后的误解
-
-![测试助手能否纠正错误前提。用户表述：提出一个方法，提问可能已假设某个错误方向；识别误解：找出真实目标，区分目标与用户猜测的解决办法；回应方向：帮助解决目标，而非机械地照做错误前提；评测规模：8,115 个问题，涵盖编程及日常活动场景](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/allenai-xybench-release-2026-11-13.svg)
-
-评测任务与问题数量来自 Ai2 发布；不代表通用对话质量。
-
-Allen Institute for AI（Ai2）11 月 13 日发布 XYBench，包含 8,115 个真实场景问题，用来测试助手能否识别用户问题中隐含的误解，并将回应引向真正要解决的目标，而不是照着错误前提给出操作建议。题目涵盖编程、烹饪和家庭维修等场景，数据、代码与论文一并公开。
-
-该基准获得 EMNLP 2026 最佳资源论文奖。Ai2 将其定位为评测“用户所问路径与实际目标不一致”的能力；单一基准不能代表真实对话中的整体助理质量，但能把识别误解和调整回应这类能力单独量化。
-
-分类：研究；状态：基准、数据与代码已公开；原文日期：2026-11-13。
-
-来源：[Ai2 / Hugging Face](https://huggingface.co/blog/allenai/xybench)
-来源：[Ai2 / arXiv](https://arxiv.org/abs/2609.06842)
-来源：[Ai2 / GitHub](https://github.com/allenai/xybench)
-
-## 5. GitHub 预览 AI Scan 仓库扫描 REST API 开关
-
-![设置开关与发起扫描分为两步。组织策略：配置 repository_scan，通过组织级 REST API 管理默认设置；仓库设置：继承或退出，组织启用后管理员可单独选择退出；运行扫描：按需手动发起，开关本身不会启动扫描](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/github-ai-scan-rest-api-2026-11-13.svg)
-
-GitHub 公共预览：手动发起的扫描会消耗 Code Security AI credits。
-
-GitHub 11 月 13 日为代码扫描的 AI Scan 仓库级扫描开关推出 REST API 公共预览，组织与单仓库均可读取或修改 repository_scan 设置，便于通过脚本和基础设施即代码统一管理。组织可控制默认策略；组织启用后，仓库可继承设置并由管理员单独退出。
-
-打开开关不会自动扫描：有写权限的用户仍需手动发起，且每次扫描会消耗 GitHub Code Security AI credits。该能力适用于组织名下的公开仓库，以及启用了相应 Code Security 或 GitHub Advanced Security 方案的私有、内部仓库；GitHub Enterprise Server 暂不支持。
-
-分类：产品；状态：公共预览；原文日期：2026-11-13。
-
-来源：[GitHub Changelog](https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/)
-
-## 6. 微软称 Microsoft 365 故障持续恢复，部分访问仍不稳定
-
-![服务恢复仍处于逐步推进中。事件开始：11 月 12 日，Exchange Online 受影响；恢复进度：邮件队列接近正常，微软在 13 日报告部分改善；未消除问题：间歇访问与延迟，仍需查看所在地区的服务状态](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-365-outage-recovery-2026-11-13.svg)
-
-AP 报道的 11 月 13 日状态；微软提示部分用户仍可能遇到延迟。
-
-Microsoft 11 月 13 日表示，前一日开始的 Microsoft 365 故障出现恢复进展：Outlook 邮件队列已显著减少并接近正常水平，但仍可能有人遇到间歇性访问问题或邮件投递延迟。美联社报道，受影响服务还包括 Teams、SharePoint 和 Microsoft 365 Copilot；当时微软未给出受影响用户总数。
-
-这是同一服务事件在 13 日的新状态，相关编号为 Exchange Online 的 EX1550543 和 Microsoft 365 的 MO1550821。微软曾称早期缓解未达预期，后续报告部分区域逐步改善；这不代表所有地区和功能均已恢复，实际服务状态仍应以 Microsoft 365 Service Health 为准。
-
-分类：基础设施；状态：恢复进展；仍有间歇性访问问题；原文日期：2026-11-13。
-
-来源：[Associated Press](https://apnews.com/article/e2330e733db280805dbf7e3eb29ee0e1)
-来源：[Microsoft 365 Service Health](https://status.cloud.microsoft/)
-
-## 7. Dyania Health 将病历 AI 部署到医院内 GPU 环境
-
-![一项院内临床病历分析案例。研究样本：7,812 名患者，Cleveland Clinic 主动脉瓣置换案例；记录区间：2005—2021，覆盖最长约 16 年的病历资料；结构化提取：88 个问题 / 人，涵盖瓣膜、病史、用药和超声等；模型阶段：需临床验证，公告未披露预测准确率或临床结果](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/dyania-nvidia-synapsis-collaboration-2026-11-13.svg)
-
-企业发布材料中的样本和工作流；预测模型仍需外部临床验证。
-
-Dyania Health 与 NVIDIA 11 月 13 日宣布合作，将临床推理系统 Synapsis AI 部署在医院自有基础设施，通过病历、检查报告和化验记录寻找可追溯的临床信息。首个案例是 Cleveland Clinic 一项主动脉瓣研究，覆盖 2005 至 2021 年接受置换手术的 7,812 名患者；公司称系统为每位患者回答 88 个临床问题。
-
-Dyania 表示，Synapsis AI 在医院私有网络中分析记录，并训练了预测瓣膜失效与再次干预风险的模型，仍需临床人员外部验证。公告没有提供预测准确率或临床结果数据，因此这显示的是病历分析规模与合作部署方式，不能据此判断模型已改善诊疗效果。
-
-分类：产业；状态：合作宣布；预测模型仍需外部验证；原文日期：2026-11-13。
-
-来源：[PR Newswire](https://finance.yahoo.com/healthcare/articles/dyania-health-brings-clinical-reasoning-182700957.html)
-来源：[NVIDIA Blog](https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/)
+来源：[Associated Press](https://apnews.com/article/aba7f92a1ec2f0f9e4b4da206d640d61)
+来源：[Associated Press](https://apnews.com/article/singapore-megaspeed-alice-huang-nvidia-probe-e9e2e18169dce0b30a34f39715bf35ed)
 
 **历史归档**
 
+- [2026-11-16 · 平台治理、云服务恢复与芯片出口审查](archive/2026-11-16.md)
 - [2026-11-14 · AI 数据、代理支付与基础设施的新进展](archive/2026-11-14.md)
 - [2026-11-13 · 模型进入产品，AI 基础设施继续扩张](archive/2026-11-13.md)
 - [2026-11-12 · 本地智能体、机器人模型与多模态决策工具更新](archive/2026-11-12.md)
