@@ -4,258 +4,186 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-17。共 20 期、176 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-18。共 21 期、187 条独立记录；按实际发布状态与来源标时。
 
-**最新数据快照**：2026-11-17 09:03 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
+**最新数据快照**：2026-11-18 09:02 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
 | 观察项 | 最新观测 | 范围 |
 | --- | --- | --- |
-| 模型基本费估算 | $0.00136 · DeepSeek V4.1 Flash 1017 | 7 个选定模型，10K 输入 + 2K 输出 Token |
+| 模型基本费估算 | $0.00135 · MiniMax M3.1 Flash | 7 个选定模型，10K 输入 + 2K 输出 Token |
 | 平台单日用量 | 约 7.09T Token · DeepSeek V4.1 Flash 1017 | OpenRouter 2026-10-31 UTC 公开日榜 |
-| 开源关注 | 187,269 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
-| 文本模型下载 | 34,186,762 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
+| 开源关注 | 187,436 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
+| 文本模型下载 | 34,373,187 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-17
+## 最新一期 · 2026-11-18
 
-**模型发布、Agent 产品与 AI 基建治理**
+**模型、企业 AI 与算力更新**
 
-本期关注 Qwen4-Max 发布、Hugging Face 推理路由调整、医疗与开发代理进展，以及算力、环境和监管议题。
+OpenAI 发布新模型并拓展法律与销售工具；Microsoft Ignite 带来模型、Windows 和 Azure 更新，Google Cloud 与 Orange 也公布新计划。
 
-每日精选，第 020 期。收录范围：2026-11-16 09:00 至 2026-11-17 09:00（Asia/Singapore，UTC+8）。
-实际首次整理：2026-11-17 09:09 UTC+8。
+每日精选，第 021 期。收录范围：2026-11-17 09:00 至 2026-11-18 09:00（Asia/Singapore）。
+实际首次整理：2026-11-18 09:02 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. 阿里发布 Qwen4-Max：2.4 万亿参数，提供 API 但暂不开源
+## 1. OpenAI 发布 GPT-6.2 Astra 与 Sol，扩展工作与开发者可用范围
 
-![大模型规模与可用状态。总参数：2.4T，厂商公布的模型规模；激活参数：71B / token，稀疏 MoE 架构；上下文：1M tokens，厂商规格；当前状态：API 可用，开源小模型待后续发布](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/alibaba-qwen4-max-2026-11-16.svg)
+![两款模型与可用入口。GPT-6.2 Astra：复杂专业任务，ChatGPT Work、Codex 与 API；GPT-6.2 Sol：日常工作，ChatGPT Work、Codex 与 API；Astra API：$8 / $40，每百万输入 / 输出 Token](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-gpt62-astsol-2026-11-17.svg)
 
-参数与当前可用状态据阿里云公告；开源型号属于未来计划。
+模型定位与可用范围据 OpenAI 公告；性能数据为厂商或注明基准结果。
 
-阿里云 11 月 16 日发布 Qwen4-Max，称这是 Qwen 系列迄今能力最强的模型。公告列出的规格包括 2.4 万亿总参数、每个 token 激活 710 亿参数，以及 100 万 token 上下文。
+OpenAI 于 11 月 17 日发布 GPT-6.2 Astra 和 GPT-6.2 Sol，分别面向复杂专业任务与日常工作。公司称，两款模型在多步工作流中的输出效率有所提升，并已向 Plus、Pro、Enterprise、Edu 用户开放 ChatGPT Work 和 Codex；开发者也可通过 API 调用。
 
-模型目前可通过 QwenCloud Token Plan 和 API 使用。阿里表示，Qwen4 系列较小的开源模型将于之后推出；该计划尚不等于现有模型已开放权重。
+OpenAI 公布的评测和成本比较来自其内部测试或指定基准，不能直接视作所有任务的独立结果。Astra API 标准价为每百万输入 Token 8 美元、输出 40 美元，缓存输入为 0.40 美元；Sol 延续此前版本的单价。
 
-分类：模型；状态：已发布；原文日期：2026-11-16。
+分类：模型；状态：模型发布；原文日期：2026-11-17。
 
-来源：[Alibaba Cloud](https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max?_p_lc=1)
+来源：[OpenAI](https://openai.com/index/introducing-gpt-6-2-astra-sol/)
 
-## 2. Hugging Face 将语言模型请求路由切换至 OpenRouter
+## 2. OpenAI 更新 Astra for Law，向企业客户开放申请
 
-![请求路由与计费路径。请求入口：HF API，原有代码保持不变；路由选择：80+ 服务商，按价格、速度与可靠性选择；故障处理：自动重试，失败时换用其他服务商；计费变化：HF 账单，语言模型不再支持自带供应商 Key](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/huggingface-openrouter-routing-2026-11-16.svg)
+![更新内容与访问状态。法律索引：扩展 1/3+，相较 9 月小范围推出时；访问范围：Enterprise 可申请，通过 Trusted Access Program；API：纳入申请，需通过相应访问计划](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-astra-law-2026-11-17.svg)
 
-双方公告；路由性能改善数字由 OpenRouter 自测。
+基准数字来自 OpenAI 引述的 Artificial Analysis 测试，不代表实际执业错误率。
 
-Hugging Face 11 月 16 日表示，语言模型推理请求将由 OpenRouter 负责选择服务商，用户可继续使用原有 API 代码。公司称系统还会在单一供应商出错时自动切换，并在模型页面显示供应商价格、速度和可用性数据。
+OpenAI 于 11 月 17 日发布更新版 Astra for Law，并将访问申请扩大至所有 ChatGPT Enterprise 客户。该配置把 GPT-6.2 Astra 与法律检索索引和研究流程结合，API 访问也纳入 Trusted Access Program。
 
-语言模型请求经 OpenRouter 处理并由 Hugging Face 账户计费；用户不能再为这类模型使用自带供应商 API Key。双方称覆盖 80 多家供应商。
+OpenAI 引述的 Artificial Analysis 比较显示，Astra for Law 在指定任务中的实质性幻觉数较低；这仍是特定基准的结果。法律研究需要逐项核对来源与适用法域，模型输出不能代替律师判断。
 
-分类：基础设施；状态：已发布；原文日期：2026-11-16。
+分类：产品；状态：企业申请开放（基准为厂商引用）；原文日期：2026-11-17。
 
-来源：[Hugging Face](https://huggingface.co/blog/openrouter)
+来源：[OpenAI](https://openai.com/index/astra-law-6-2/)
 
-## 3. Google Maps 扩展 Ask Maps：可规划行程并代找预约
+## 3. ChatGPT for Sales 接入 CRM、会议与提案工具
 
-![Ask Maps 新增规划与预约。规划：多站行程，含路线与沿途提示；查询：已保存列表，检索地点和即时空位；预约：美国先行，查找时段并联系商家；覆盖：200+ 地区，欧洲新增 30 个国家](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-maps-ask-maps-holiday-2026-11-16.svg)
+![从客户研究到销售跟进。客户研究：筛选账户，结合 CRM 与外部信号；会前准备：简报与提案，汇集客户记录和会议内容；后续跟进：草拟行动，整理承诺、报价与下一步](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-chatgpt-sales-2026-11-17.svg)
 
-功能范围和地区覆盖据 Google 公告；逐步推送，生成式 AI 仍属实验功能。
+工作流程与合作插件范围据 OpenAI 公告；可用性依方案、地区和工作区设置而异。
 
-Google 宣布 Ask Maps 新增多站旅行计划、路线提示、已保存地点列表搜索，以及寻找美容、宠物护理、汽车和家居维修预约等能力。更新自公告当天起在 Android 与 iOS 推出。
+OpenAI 于 11 月 17 日推出 ChatGPT for Sales，包含销售插件和 30 多款新增或扩展的合作插件，覆盖客户研究、会议准备、提案制作、CRM 信息和跟进等环节。公告列出的连接工具包括 Salesforce、HubSpot、Salesloft、Gong 等。
 
-旅行行程和列表搜索面向 Ask Maps 已开放地区；路线提示与预约功能先在美国推出。Google 称 Ask Maps 正扩展至欧洲 30 个国家，全球覆盖超过 200 个国家和地区。
+企业管理员可在工作区中启用相关插件，并决定成员能够连接的应用及操作权限。具体功能会按方案、地区和工作区设置变化，第三方服务本身也可能需要单独账户或订阅。
 
-分类：产品；状态：已发布；原文日期：2026-11-16。
+分类：产品；状态：产品发布（可用范围因方案而异）；原文日期：2026-11-17。
 
-来源：[Google Maps](https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/)
+来源：[OpenAI](https://openai.com/index/introducing-chatgpt-for-sales/)
 
-## 4. Gemini 应用开始推出 66 种地区语音
+## 4. Microsoft Ignite 推出新 MAI 模型，覆盖编程、安全与多媒体
 
-![Gemini 新增语音选项。新增选项：66 种，地区语音；移动平台：Android / iOS，自 11 月 16 日起推送；应用场景：Live 与朗读，也可用于语言练习；语种示例：英、印地、韩等，Google 公告所列范围](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-gemini-regional-voices-2026-11-16.svg)
+![新 MAI 模型覆盖的任务。编程：Code 2 / Flash，Copilot 可用，Flash 也有 Foundry 预览；网络安全：Cyber 2 Flash，面向防御和漏洞修复工作；图像与语音：Image 2.7 / Realtime 1，Foundry 与 MAI Labs 等入口；转录：Transcribe 2，用于 Dragon Copilot 医疗记录](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-mai-models-ignite-2026-11-17.svg)
 
-数量、平台和语种示例来自 Google 产品公告。
+模型类别与产品可用状态据 Microsoft AI 公告，评测比较为厂商公布。
 
-Google 于 11 月 16 日宣布在 Gemini 应用推出 66 种地区语音，供用户在 Gemini Live 对话、语言练习和朗读聊天回答时选择。公司称语音针对日常语调、节奏和音高进行调整。
+Microsoft 于 11 月 17 日在 Ignite 公布新一批 MAI 模型，覆盖编码、安全、图像、实时语音和转录等用途。MAI Code 2 已在 GitHub Copilot 提供，Code 2 Flash 也可在 Copilot 使用，并以有限预览形式进入 Foundry；图像模型则已在 Foundry 上线。
 
-用户可从 Gemini Live 的菜单预览声音，或在应用语音设置中选择；新选项分批推出至 Android 和 iOS。
+微软称其内部及指定基准测试显示，这些模型在部分任务上以较低价格接近或超过对照模型。相关比较由微软发布，任务范围和测试设置各异；例如 Code 2 主要针对日常企业编码，并未针对基础科学或超长程代理任务调优。
 
-分类：产品；状态：已发布；原文日期：2026-11-16。
+分类：模型；状态：模型发布（部分功能预览）；原文日期：2026-11-17。
 
-来源：[Google](https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/)
+来源：[Microsoft AI](https://microsoft.ai/news/microsoft-ignite-2026/)
 
-## 5. 微软研究院发布 TokenEconomizer，降低编码代理重复开销
+## 5. Microsoft 联合 40 多家机构推进 AI 透明度倡议
 
-![从会话经验到后续提示。经验来源：过往会话，按代码库提取操作线索；机制一：微技能，多次验证后注入简短经验；机制二：工具筛选，缩减低使用率工具说明；实验结果：成本降 18.4–30.9%，277 项缺陷修复任务](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-tokeneconomizer-2026-11-16.svg)
+![倡议的三项工作方向。标准协作：参与 NIST，推进透明度、安全与治理；行业参与：40+ 组织，包括科技、金融与汽车机构；产品落地：逐步纳入，Microsoft AI、Foundry 与 Copilot](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-ai-transparency-initiative-2026-11-17.svg)
 
-成本变化来自微软研究院及合作方在 277 项任务上的评测。
+这是跨行业倡议；统一标准仍在协作制定中。
 
-TokenEconomizer 由微软研究院、微软安全团队及加州大学伯克利分校研究人员合作开发。插件从已完成的编码代理会话提炼代码库经验，再通过微技能、工具筛选和失败循环提示帮助后续任务。
+Microsoft 于 11 月 17 日宣布 AI Transparency Initiative，称正与 40 多家组织合作，推动跨模型、跨供应商的透明度、安全与治理方法。参与方包括 Accenture、Adobe、KPMG、Mastercard 和 Volvo Cars。
 
-作者报告在 277 项真实缺陷修复任务中，多个编码代理的成本下降 18.4% 至 30.9%，成功率整体保持稳定；开源插件不修改代理或底层模型。
+倡议计划扩大对 NIST 代理标准工作的参与，并探索如何记录代理访问的数据和采取的行动，让组织在模型或供应商变化后仍能审查证据。现阶段这是标准和协作倡议，微软表示也会把相关做法逐步纳入自家产品。
 
-分类：开源；状态：已发布；原文日期：2026-11-16。
+分类：治理；状态：行业倡议启动；原文日期：2026-11-17。
 
-来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/)
+来源：[Microsoft Source](https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/)
 
-## 6. OpenAI 将电脑操作代理扩展到医疗工作流
+## 6. Microsoft 与 Salesforce 推出 Copilotforce 连接方案预览
 
-![医疗代理如何准备跨系统工作。资料整理：病历与检查记录，聚合现有系统信息；跨系统步骤：申请与转诊，准备门户中的行政材料；临床评估：99% 评为安全，325 项任务，OpenAI 评审；操作边界：人工复核，权限、审批与审计可配置](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-healthcare-computer-use-2026-11-16.svg)
+![CRM 上下文进入 Copilot。身份验证：MCP 访问，使用现有 Salesforce 权限；工作上下文：CRM + M365，结合客户记录与沟通材料；产品状态：公开预览，Sales Cloud in Teams 仍在试点](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-salesforce-copilotforce-2026-11-17.svg)
 
-评估结果由 OpenAI 报告；真实工作流设有权限、审批和审计控制。
+Salesforce in Copilot 为公开预览；访问和操作仍受 Salesforce 原有权限控制。
 
-OpenAI 表示，新能力可在医疗团队现用软件间执行多步操作，例如根据病历准备 MRI 申请材料，再交由临床人员或行政人员检查。CVS Health、Abridge、Ambience 与 Cigna Healthcare 正开发或应用相关工作流。
+Microsoft 与 Salesforce 于 11 月 17 日公布 Copilotforce 合作，把 Salesforce 客户上下文及部分销售操作接入 Microsoft 的 AI 工作体验。Salesforce in Copilot 通过经过验证的 MCP 访问，销售人员可在 Salesforce 现有权限范围内查看记录并执行支持的业务操作。
 
-OpenAI 报告在其临床任务评审中，325 项 GPT-6 Astra 任务有 99% 被评为安全；646 项任务有 93% 获医师“非常”或“极其”有帮助评价。
+Salesforce in Copilot 从当天起进入公开预览。Microsoft OneLake 与 Salesforce Data 360 之间的数据共享则分别处于正式提供和公开预览阶段；Sales Cloud in Teams 仍在企业试点，后续开放测试尚未开始。
 
-分类：产品；状态：已发布；原文日期：2026-11-16。
+分类：产品；状态：公开预览与企业试点；原文日期：2026-11-17。
 
-来源：[OpenAI](https://openai.com/index/advancing-computer-use-for-healthcare-teams/)
+来源：[Microsoft Source](https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/)
 
-## 7. OpenAI 向合格机构开放儿童性虐待材料识别工具
+## 7. Windows 扩展代理隔离，并预览本地模型路由
 
-![分类器辅助人工审核。输入：用户上传图像，筛查潜在滥用材料；输出：风险分数，协助审核人员排序；模型覆盖：含 AI 生成，增加对应识别信号；早期评估：少标记 48%，检出相近数量，厂商估算](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-child-safety-tools-2026-11-16.svg)
+![代理与本地 AI 的推出阶段。已正式提供：容器学习与宽松模式，在执行限制前观察代理行为；预览：Fusion 本地模型路由，GitHub Copilot 调用开发者电脑模型；后续推出：Copilot+ PC 本地能力，上下文、操作和模型尚未上线](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-windows-hybrid-intelligence-ignite-2026-11-17.svg)
 
-OpenAI 初步评估；仅向经审核机构开放，最终判断仍由审核人员作出。
+按 Microsoft 公告区分正式提供、预览及尚未推出的能力。
 
-新分类器为图像提供风险分数，帮助审核团队排定处理顺序。OpenAI 表示该工具针对 AI 生成材料提供专门信号，并与儿童保护组织及执法部门协作。
+Microsoft 于 11 月 17 日公布 Windows 面向代理计算的新进展，包括 Microsoft Execution Containers 的隔离能力、Windows 365 for Agents，以及 GitHub Copilot Fusion 在开发者电脑上调用本地模型的预览功能。Windows Server 2028 也已进入公开预览。
 
-公司在用户上传图像的初期评估中估计，新工具可在发现相近数量滥用图像时少标记 48% 图像；早期测试包括内部评估与合作方反馈。
+这些更新的阶段并不相同：部分容器管理模式已正式提供，Copilot Fusion 本地模型路由仍在预览，Copilot+ PC 的本地上下文和操作能力则尚未推出。对企业而言，代理隔离、身份和权限管理仍是部署条件的一部分。
 
-分类：治理；状态：已发布；原文日期：2026-11-16。
+分类：产品；状态：多项更新（正式、预览与计划并存）；原文日期：2026-11-17。
 
-来源：[OpenAI](https://openai.com/index/strengthening-online-child-safety/)
+来源：[Windows Experience Blog](https://blogs.windows.com/windowsexperience/2026/11/17/microsoft-ignite-2026-building-windows-for-the-next-era-of-work/)
 
-## 8. OpenAI 扩大研究者计划：目标覆盖 20 万人
+## 8. Azure Cobalt 200 虚拟机正式开放，首批覆盖 14 个区域
 
-![研究者使用计划扩展时间线。现有试点：20,000 人，33 个国家，厂商统计；申请开放：11 月 23 日，符合资格者先到先得；新一轮名额：50,000 份，每份最多含 3 位研究者；计划目标：最多 200,000 人，全球覆盖目标](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-researcher-grants-2026-11-16.svg)
+![开放范围与扩展计划。当前：14 个区域，Cobalt 200 虚拟机正式提供；2026 年底：计划 23 个区域，微软公布的扩展目标；性能：最高 +50%，相对 Cobalt 100，厂商数据](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/azure-cobalt200-ga-2026-11-17.svg)
 
-名额、资格与时间安排来自 OpenAI 计划公告。
+性能数据和区域计划来自 Microsoft Azure 公告。
 
-公司称 7 月开始的试点已覆盖 33 个国家的 2 万名研究人员。新一轮将改为符合条件者先到先得，而不是抽签。
+Microsoft 于 11 月 17 日宣布 Azure Cobalt 200 虚拟机正式提供，首批覆盖 14 个区域。微软称，其相对 Cobalt 100 性能最高提升 50%，并计划在 2026 年底前扩展至 23 个区域。
 
-下一轮计划发出 5 万份资格，每份包括申请者及最多两名合作者；新批次提供 ChatGPT Plus，申请仍需符合计划条件。
+这些 Arm 虚拟机面向云原生、数据密集型和代理式 AI 工作负载，微软还表示计划从 2027 年起让其成为新增 Azure 计算容量的重要组成。性能提升数字来自微软公布的产品数据，实际收益会随工作负载和配置而变化。
 
-分类：产业；状态：已发布；原文日期：2026-11-16。
+分类：基础设施；状态：正式提供（14 个区域）；原文日期：2026-11-17。
 
-来源：[OpenAI](https://openai.com/index/expanding-chatgpt-for-academic-researchers/)
+来源：[Microsoft Azure](https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/)
 
-## 9. OpenAI 报告调查 1,819 名科学家使用 ChatGPT 的情况
+## 9. Google Cloud 为欧洲受监管 AI 初创公司开设加速器
 
-![研究者自报的 ChatGPT 使用体验。对话样本：580,000+，研究者试点记录；科学家样本：1,819 人，纳入对话分析；时间估计：1.9 倍，不用工具完成同质量工作的预估时间；未来预期：98%，相关回答者预计发现会加速](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-scientist-chatgpt-survey-2026-11-16.svg)
+![Sovereign AI 加速器。申请范围：欧洲与以色列，受监管行业 AI 初创团队；项目周期：15 周，线上与线下混合辅导；费用条件：免股权，不收取参与公司股权；申请截止：2027-01-15，Google 公布的最后申请日](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-sovereign-ai-accelerator-2026-11-17.svg)
 
-OpenAI 对试点对话与问卷的分析；时间估计及对未来的看法均为受访者自报。
+项目条件、期限与申请日期据 Google Cloud 公告。
 
-研究团队记录到参与者在文献回顾、证据分析、写代码和形成研究想法等环节使用 ChatGPT。问卷中，参与者估计若要完成同质量工作，不使用 ChatGPT 平均需花约 1.9 倍时间。
+Google Cloud 于 11 月 17 日启动 Google for Startups Accelerator: Sovereign AI 招募，面向欧洲和以色列、开发受监管行业 AI 产品的初创公司。入选团队将参加为期 15 周的混合项目，获得 Google 工程师辅导、架构支持和监管沙盒准备建议。
 
-OpenAI 称 98% 回答相关问题的受访者预期 AI 会加速其领域的发现；作者指出，还需继续研究这些期待是否转化为更快的实际成果。
+项目不收取股权，重点面向政府服务、医疗、金融和网络安全等领域，申请截止日期为 2027 年 1 月 15 日。Google 表示将支持团队在其分层主权云方案中部署；这属于创业支持计划，不代表监管认证或产品合规背书。
 
-分类：研究；状态：已发布；原文日期：2026-11-16。
+分类：产业；状态：开放申请；原文日期：2026-11-17。
 
-来源：[OpenAI](https://openai.com/index/science-at-the-frontier/)
+来源：[Google Cloud](https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open)
 
-## 10. LVMH 媒体部门与 OpenAI 合作探索新闻编辑工具
+## 10. Orange 发布五款支持沃洛夫语的开放权重模型
 
-![新闻团队的 AI 工具与内容入口。内部工具：ChatGPT Enterprise，覆盖媒体部门团队；探索用途：研究、比对、初译，辅助编辑工作；内容呈现：摘要与原文链接，拟进入 ChatGPT 回答；媒体规模：17 个品牌，约 700 名记者](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/lvmh-media-openai-partnership-2026-11-16.svg)
+![沃洛夫语模型资源。模型数量：5 款，经微调的开放权重大语言模型；语言任务：理解与生成，针对沃洛夫语文本；使用许可：非商业用途，商业使用可能需另签协议](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/orange-wolof-models-2026-11-17.svg)
 
-合作规划及 LVMH 媒体部门规模来自公告；具体部署时间尚未公布。
+模型用途与许可来自 Orange 公告；商业使用可能需另行授权。
 
-双方还计划让旗下媒体内容以摘要或摘录形式进入 ChatGPT 的相关回答，并注明来源及链接至原文。LVMH 媒体部门旗下包括新闻、文化与财经媒体。
+Orange 于 11 月 17 日发布五款支持沃洛夫语的微调大语言模型，并在 Hugging Face 提供模型权重和配套训练数据。公司称，模型可处理沃洛夫语文本理解与生成；训练数据基于公开数据自动翻译，不含 Orange 企业数据。
 
-公告称该部门拥有 17 个媒体品牌、约 700 名记者，每月在法国触达逾 2,700 万人；没有披露具体上线日期。
+资源目前可免费用于非商业用途，商业使用可能需要与 Orange 另行签订协议。发布开放权重有助于研究者和开发者开展本地语言实验，但模型在不同方言、口语和实际服务中的表现仍需独立验证。
 
-分类：产业；状态：已发布；原文日期：2026-11-16。
+分类：开源；状态：开放权重发布（非商业用途）；原文日期：2026-11-17。
 
-来源：[OpenAI](https://openai.com/index/lvmh-media-division-partnership/)
+来源：[Orange Newsroom](https://newsroom.orange.com/orange-releases-african-language-ai-models-to-advance-digital-inclusion-in-africa/?lang=eng)
 
-## 11. 美国商务部拟限制第三国数据中心远程提供高端 AI 算力
+## 11. Orange Business 为 Live Intelligence 增加法国托管保护模式
 
-![第三国远程算力的审查链路。服务情形：远程算力访问，第三国数据中心提供服务；涉及对象：先进芯片与服务器，规则定义的敏感算力；新增要求：客户尽调，数据中心等需核查客户；刊登安排：11 月 19 日，联邦公报计划刊登](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/bis-remote-ai-compute-rule-2026-11-16.svg)
+![两种模式的数据处理边界。Protected Mode：法国托管与运营，模型、代理、数据和文档留在 Orange 环境；Open Mode：外部欧洲基础设施，可选择欧洲或瑞士部署的模型](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/orange-live-intelligence-protected-mode-2026-11-17.svg)
 
-商务部公告与联邦公报规则文本；合规义务以正式文本为准。
+服务模式的托管地点与数据处理描述据 Orange 公告，实际范围应查阅合同和配置。
 
-BIS 表示，规则针对海外数据中心以云服务向受限制国家或地区提供计算能力的情形，试图让远程使用算力也受到与芯片实物出口相衔接的管制。
+Orange Business 于 11 月 17 日为 Live Intelligence 推出 Protected Mode，供需要更高数据控制的业务场景使用。Orange 表示，启用后所用模型、代理、数据和文档都留在其于法国托管和运营的环境内，该模式当天起向所有客户提供。
 
-联邦公报规则文本要求数据中心、外国晶圆厂及芯片出口方对客户进行尽职调查；文件安排于 11 月 19 日正式刊登。
+平台同时保留 Open Mode，以使用部署在欧洲或瑞士外部基础设施上的模型。两种模式提供不同的数据处理边界；企业仍需核对服务配置、合同和具体工作流，不能只凭“法国托管”推断所有合规要求均已满足。
 
-分类：治理；状态：已发布；原文日期：2026-11-16。
+分类：产品；状态：产品上线；原文日期：2026-11-17。
 
-来源：[美国商务部工业与安全局](https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology)
-来源：[Federal Register public inspection](https://public-inspection.federalregister.gov/2026-23529.pdf)
-
-更正：2026-11-17T01:12:31.943860+00:00 · 补充联邦公报预先公示的临时最终规则文本，支撑客户尽调要求与刊登时间。
-
-## 12. FAA 表示新 AI 空域系统与航班停飞无关
-
-![SMART 系统部署与停飞事件。试点报告：180 个航班，华盛顿地区协助调整；系统扩展：11 月 10 日，覆盖 22 个空管中心；停飞原因：通信故障，官方称与 SMART 无关；决策方式：人工调度，系统提供建议，不直接控机](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/faa-smart-system-scrutiny-2026-11-16.svg)
-
-AP 引述 FAA 试点数字；官员与供应商否认停飞与 SMART 有关。
-
-SMART 汇集约 200 类数据流，供人员查看航班、天气和拥堵风险。美联社称 FAA 报告其华盛顿地区初期测试曾协助调整 180 个航班，平均每次节省 10 分钟和 80 加仑燃油。
-
-系统不直接控制飞机；全国停飞被归因于通信问题。国会议员和外部团体仍对系统的安全护栏、培训及一线空管人员参与提出疑问。
-
-分类：基础设施；状态：已发布；原文日期：2026-11-16。
-
-来源：[美联社](https://apnews.com/article/08af345749c81fd8364299cd75275fa6)
-
-## 13. 美联储主席谈 AI：生产率机会伴随就业与投资风险
-
-![美联储评估 AI 的经济情境。潜在收益：生产率提升，创新方法与速度可能变化；劳动风险：岗位流失，主席提及技术扩散的影响；投资风险：回报不及预期，可能冲击估值与经济](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/fed-warsh-ai-productivity-risks-2026-11-16.svg)
-
-Warsh 于 11 月 16 日发表的讲话；情境分析并非预测或政策决定。
-
-Warsh 表示，美联储工作人员已开始评估 AI 对生产率和就业的多种情境；他强调分析是情境推演，不是预测。讲话没有讨论通胀，也未给出利率政策调整信号。
-
-美联储对 AI 的经济影响仍在研究中；主席讲话反映政策讨论，不代表已形成政策结论。
-
-分类：产业；状态：已发布；原文日期：2026-11-16。
-
-来源：[美联储](https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm)
-
-## 14. COP31 与国际电信联盟推出 Antalya AI Pledge
-
-![AI 气候承诺涉及的基础设施环节。供能：低排放电力，支持电网可持续整合；运营：节能节水，提高设施效率；披露：衡量环境影响，依标准评估与共享；硬件：再用与回收，负责任管理设施](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/cop31-itu-antalya-ai-pledge-2026-11-16.svg)
-
-COP31 主席国与 ITU 发布的自愿倡议；未设统一强制减排额度。
-
-倡议提出推动数据中心采用低排放电力、提升能源和用水效率、让基础设施更好接入可持续电网，并衡量与披露环境影响。
-
-签署方还承诺负责任地设计和管理 AI，并重用或回收基础设施和硬件；倡议没有统一强制减排额度或执行期限。
-
-分类：治理；状态：已发布；原文日期：2026-11-16。
-
-来源：[国际电信联盟](https://www.itu.int/en/mediacentre/Pages/PR-2026-11-16-COP31-Antalya-AI-Pledge.aspx)
-
-## 15. 研究估算美国 403 座超大规模数据中心用电与排放
-
-![美国超大规模数据中心估算区间。研究样本：403 座，美国超大规模数据中心；用电区间：68–99 TWh，不同设施负荷情境；中心估计：82 TWh，约占同期美国用电 1.8%；排放中心值：25.7 Mt CO₂，依地点电网归因方法估算](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/harvard-hyperscale-datacenter-emissions-2026-11-16.svg)
-
-同行评审研究，统计期为 2024 年 5 月至 2025 年 4 月；用电量为情境估算区间。
-
-论文中心估计为 82 太瓦时电力、约占当时美国用电量 1.8%；按研究采用的电网归因方法，中心排放估计约为 2,570 万吨二氧化碳。
-
-样本和统计期均有限，研究给出情境区间；结果不是 2026 年全年实测值，也不涵盖所有数据中心。
-
-分类：研究；状态：已发布；原文日期：2026-11-16。
-
-来源：[Nature Sustainability](https://www.nature.com/articles/s41893-026-01985-7)
-
-## 16. TensorWave 签六年协议，为 OpenAI 提供 457MW AMD 算力
-
-![OpenAI 专用 AMD 算力的计划部署。协议期限：6 年，TensorWave 与 OpenAI；算力规模：457 MW，多个美国数据中心；首批上线：2027 上半年，公司预计；完成部署：2028 年初，公司预计](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/tensorwave-openai-amd-capacity-2026-11-16.svg)
-
-457MW 与部署时间为 TensorWave 公告；金额及数据中心地址未公开。
-
-TensorWave 称首批容量预计于 2027 年上半年上线，整体部署目标为 2028 年初完成。该公司表示这是其迄今规模最大的部署，并将以 OpenAI 专用的单租户方式运营。
-
-双方未公布协议金额或具体站点；容量与交付日期均来自 TensorWave 的未来部署计划。
-
-分类：基础设施；状态：已发布；原文日期：2026-11-16。
-
-来源：[TensorWave](https://tensorwave.com/blog/tensorwave-to-provide-openai-with-457-megawatts-of-amd-powered-ai-infrastructure)
+来源：[Orange Newsroom](https://newsroom.orange.com/orange-business-launches-protected-mode-for-live-intelligence-giving-organizations-greater-choice-over-their-ai-environment/?lang=eng)
 
 **历史归档**
 
+- [2026-11-18 · 模型、企业 AI 与算力更新](archive/2026-11-18.md)
 - [2026-11-17 · 模型发布、Agent 产品与 AI 基建治理](archive/2026-11-17.md)
 - [2026-11-16 · 平台治理、云服务恢复与芯片出口审查](archive/2026-11-16.md)
 - [2026-11-14 · AI 数据、代理支付与基础设施的新进展](archive/2026-11-14.md)

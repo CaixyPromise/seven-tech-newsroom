@@ -12537,6 +12537,708 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "openai-gpt62-astsol-2026-11-17",
+      "category": "模型",
+      "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol，扩展工作与开发者可用范围",
+      "summary": "OpenAI 推出 GPT-6.2 Astra 与 Sol，面向专业任务和日常工作，并向符合条件的 ChatGPT Work、Codex 与 API 用户开放。",
+      "body": [
+        "OpenAI 于 11 月 17 日发布 GPT-6.2 Astra 和 GPT-6.2 Sol，分别面向复杂专业任务与日常工作。公司称，两款模型在多步工作流中的输出效率有所提升，并已向 Plus、Pro、Enterprise、Edu 用户开放 ChatGPT Work 和 Codex；开发者也可通过 API 调用。",
+        "OpenAI 公布的评测和成本比较来自其内部测试或指定基准，不能直接视作所有任务的独立结果。Astra API 标准价为每百万输入 Token 8 美元、输出 40 美元，缓存输入为 0.40 美元；Sol 延续此前版本的单价。"
+      ],
+      "facts": [
+        "GPT-6.2 Astra 与 Sol 于 2026-11-17 发布，可通过 ChatGPT Work、Codex 和 API 使用。",
+        "Astra 标准 API 价格为每百万输入 Token 8 美元、缓存输入 0.40 美元、输出 40 美元；Sol 延续 GPT-6.1 Sol 价格。",
+        "Astra 的部分性能与成本比较来自 OpenAI 的内部测试或其注明的第三方基准。"
+      ],
+      "context": "访问条件按方案和工作区权限区分；基准结果应结合 OpenAI 公布的测试设置阅读。",
+      "status": "模型发布",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "OPENAI / GPT-6.2",
+        "title": "两款模型与可用入口",
+        "caption": "模型定位与可用范围据 OpenAI 公告；性能数据为厂商或注明基准结果。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "GPT-6.2 Astra",
+            "value": "复杂专业任务",
+            "detail": "ChatGPT Work、Codex 与 API"
+          },
+          {
+            "label": "GPT-6.2 Sol",
+            "value": "日常工作",
+            "detail": "ChatGPT Work、Codex 与 API"
+          },
+          {
+            "label": "Astra API",
+            "value": "$8 / $40",
+            "detail": "每百万输入 / 输出 Token"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "模型"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-astra-law-2026-11-17",
+      "category": "产品",
+      "title": "OpenAI 更新 Astra for Law，向企业客户开放申请",
+      "summary": "更新后的法律工作模型扩展了法律检索索引，并在 OpenAI 引述的法律基准中取得较高成绩；Enterprise 客户可申请访问。",
+      "body": [
+        "OpenAI 于 11 月 17 日发布更新版 Astra for Law，并将访问申请扩大至所有 ChatGPT Enterprise 客户。该配置把 GPT-6.2 Astra 与法律检索索引和研究流程结合，API 访问也纳入 Trusted Access Program。",
+        "OpenAI 引述的 Artificial Analysis 比较显示，Astra for Law 在指定任务中的实质性幻觉数较低；这仍是特定基准的结果。法律研究需要逐项核对来源与适用法域，模型输出不能代替律师判断。"
+      ],
+      "facts": [
+        "更新版 Astra for Law 于 2026-11-17 发布，法律搜索索引较此前扩展三分之一以上。",
+        "ChatGPT Enterprise 客户可申请 Trusted Access Program 访问，包括 API。",
+        "OpenAI 引述 Artificial Analysis 指定比较中 Astra for Law 每项任务平均 0.03 次实质性幻觉，属于该评测结果。"
+      ],
+      "context": "公开结果由 OpenAI 引述的 Artificial Analysis 基准提供，不能外推为真实案件中的错误率或法律意见保障。",
+      "status": "企业申请开放（基准为厂商引用）",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Astra for Law leads in legal intelligence",
+          "url": "https://openai.com/index/astra-law-6-2/",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "OPENAI / ASTRA FOR LAW",
+        "title": "更新内容与访问状态",
+        "caption": "基准数字来自 OpenAI 引述的 Artificial Analysis 测试，不代表实际执业错误率。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "法律索引",
+            "value": "扩展 1/3+",
+            "detail": "相较 9 月小范围推出时"
+          },
+          {
+            "label": "访问范围",
+            "value": "Enterprise 可申请",
+            "detail": "通过 Trusted Access Program"
+          },
+          {
+            "label": "API",
+            "value": "纳入申请",
+            "detail": "需通过相应访问计划"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-chatgpt-sales-2026-11-17",
+      "category": "产品",
+      "title": "ChatGPT for Sales 接入 CRM、会议与提案工具",
+      "summary": "OpenAI 推出面向销售流程的插件和 30 多款合作插件，可用于客户研究、会议准备、提案和跟进。",
+      "body": [
+        "OpenAI 于 11 月 17 日推出 ChatGPT for Sales，包含销售插件和 30 多款新增或扩展的合作插件，覆盖客户研究、会议准备、提案制作、CRM 信息和跟进等环节。公告列出的连接工具包括 Salesforce、HubSpot、Salesloft、Gong 等。",
+        "企业管理员可在工作区中启用相关插件，并决定成员能够连接的应用及操作权限。具体功能会按方案、地区和工作区设置变化，第三方服务本身也可能需要单独账户或订阅。"
+      ],
+      "facts": [
+        "ChatGPT for Sales 于 2026-11-17 发布，包含 Sales 插件及 30 多款合作插件。",
+        "公告列出 CRM、会议记录、提案制作与电子签署等工具连接场景。",
+        "插件功能依方案、地区和工作区设置而异，部分服务需要单独订阅。"
+      ],
+      "context": "连接器只会按获准的账户权限工作，部署前需由管理员检查数据访问与可执行操作。",
+      "status": "产品发布（可用范围因方案而异）",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Introducing ChatGPT for Sales",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales/",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "teal",
+        "eyebrow": "OPENAI / SALES",
+        "title": "从客户研究到销售跟进",
+        "caption": "工作流程与合作插件范围据 OpenAI 公告；可用性依方案、地区和工作区设置而异。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "客户研究",
+            "value": "筛选账户",
+            "detail": "结合 CRM 与外部信号"
+          },
+          {
+            "label": "会前准备",
+            "value": "简报与提案",
+            "detail": "汇集客户记录和会议内容"
+          },
+          {
+            "label": "后续跟进",
+            "value": "草拟行动",
+            "detail": "整理承诺、报价与下一步"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "microsoft-mai-models-ignite-2026-11-17",
+      "category": "模型",
+      "title": "Microsoft Ignite 推出新 MAI 模型，覆盖编程、安全与多媒体",
+      "summary": "Microsoft 公布新一批 MAI 模型，涉及编码、网络安全、图像、语音和转录，并称多项性能与价格数据来自自家评测。",
+      "body": [
+        "Microsoft 于 11 月 17 日在 Ignite 公布新一批 MAI 模型，覆盖编码、安全、图像、实时语音和转录等用途。MAI Code 2 已在 GitHub Copilot 提供，Code 2 Flash 也可在 Copilot 使用，并以有限预览形式进入 Foundry；图像模型则已在 Foundry 上线。",
+        "微软称其内部及指定基准测试显示，这些模型在部分任务上以较低价格接近或超过对照模型。相关比较由微软发布，任务范围和测试设置各异；例如 Code 2 主要针对日常企业编码，并未针对基础科学或超长程代理任务调优。"
+      ],
+      "facts": [
+        "Microsoft AI 于 2026-11-17 公布新一批 MAI 模型，涉及代码、安全、图像、实时语音和转录。",
+        "MAI Code 2 已在 GitHub Copilot 上提供，Code 2 Flash 在 Foundry 为有限访问预览。",
+        "微软公布的竞争力与成本比较依其所列基准和测试设置。"
+      ],
+      "context": "评测、质量与价格比较由微软公布，不能视作跨任务独立评测；不同模型的可用状态不同。",
+      "status": "模型发布（部分功能预览）",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "Microsoft AI",
+          "title": "Seven new world class models at scalable price-performance",
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "blue",
+        "eyebrow": "MICROSOFT AI / IGNITE",
+        "title": "新 MAI 模型覆盖的任务",
+        "focus": {
+          "value": "MAI",
+          "label": "模型系列"
+        },
+        "caption": "模型类别与产品可用状态据 Microsoft AI 公告，评测比较为厂商公布。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "编程",
+            "value": "Code 2 / Flash",
+            "detail": "Copilot 可用，Flash 也有 Foundry 预览"
+          },
+          {
+            "label": "网络安全",
+            "value": "Cyber 2 Flash",
+            "detail": "面向防御和漏洞修复工作"
+          },
+          {
+            "label": "图像与语音",
+            "value": "Image 2.7 / Realtime 1",
+            "detail": "Foundry 与 MAI Labs 等入口"
+          },
+          {
+            "label": "转录",
+            "value": "Transcribe 2",
+            "detail": "用于 Dragon Copilot 医疗记录"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "模型"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "microsoft-ai-transparency-initiative-2026-11-17",
+      "category": "治理",
+      "title": "Microsoft 联合 40 多家机构推进 AI 透明度倡议",
+      "summary": "倡议聚焦模型和代理的可观测性、可验证性与治理标准，并与 NIST 相关工作及多家行业组织合作。",
+      "body": [
+        "Microsoft 于 11 月 17 日宣布 AI Transparency Initiative，称正与 40 多家组织合作，推动跨模型、跨供应商的透明度、安全与治理方法。参与方包括 Accenture、Adobe、KPMG、Mastercard 和 Volvo Cars。",
+        "倡议计划扩大对 NIST 代理标准工作的参与，并探索如何记录代理访问的数据和采取的行动，让组织在模型或供应商变化后仍能审查证据。现阶段这是标准和协作倡议，微软表示也会把相关做法逐步纳入自家产品。"
+      ],
+      "facts": [
+        "Microsoft 于 2026-11-17 宣布 AI Transparency Initiative。",
+        "公司称已有 40 多家机构参与，包括 Accenture、Adobe、KPMG、Mastercard 和 Volvo Cars。",
+        "倡议将参与 NIST 相关标准工作，并拟将实践用于 Microsoft AI、Foundry 和 Copilot。"
+      ],
+      "context": "倡议当前主要是标准协作和产品规划；公告未表明统一标准已完成或已全面部署。",
+      "status": "行业倡议启动",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "Microsoft Source",
+          "title": "Microsoft and organizations across industries launch AI Transparency Initiative",
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "MICROSOFT / GOVERNANCE",
+        "title": "倡议的三项工作方向",
+        "caption": "这是跨行业倡议；统一标准仍在协作制定中。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "标准协作",
+            "value": "参与 NIST",
+            "detail": "推进透明度、安全与治理"
+          },
+          {
+            "label": "行业参与",
+            "value": "40+ 组织",
+            "detail": "包括科技、金融与汽车机构"
+          },
+          {
+            "label": "产品落地",
+            "value": "逐步纳入",
+            "detail": "Microsoft AI、Foundry 与 Copilot"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "microsoft-salesforce-copilotforce-2026-11-17",
+      "category": "产品",
+      "title": "Microsoft 与 Salesforce 推出 Copilotforce 连接方案预览",
+      "summary": "Salesforce 的客户记录和获准操作将接入 Microsoft Copilot；双方还公布 OneLake 与 Data 360 的数据互通状态。",
+      "body": [
+        "Microsoft 与 Salesforce 于 11 月 17 日公布 Copilotforce 合作，把 Salesforce 客户上下文及部分销售操作接入 Microsoft 的 AI 工作体验。Salesforce in Copilot 通过经过验证的 MCP 访问，销售人员可在 Salesforce 现有权限范围内查看记录并执行支持的业务操作。",
+        "Salesforce in Copilot 从当天起进入公开预览。Microsoft OneLake 与 Salesforce Data 360 之间的数据共享则分别处于正式提供和公开预览阶段；Sales Cloud in Teams 仍在企业试点，后续开放测试尚未开始。"
+      ],
+      "facts": [
+        "Microsoft 与 Salesforce 于 2026-11-17 宣布 Copilotforce 合作。",
+        "Salesforce in Copilot 以公开预览方式开放，通过已验证的 MCP 访问并服从 Salesforce 权限。",
+        "Sales Cloud in Teams 仍处于企业试点阶段。"
+      ],
+      "context": "产品可用性不同；公开预览和试点状态不等于普遍正式可用。",
+      "status": "公开预览与企业试点",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "Microsoft Source",
+          "title": "Microsoft and Salesforce Announce Copilotforce",
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "teal",
+        "eyebrow": "MICROSOFT × SALESFORCE",
+        "title": "CRM 上下文进入 Copilot",
+        "caption": "Salesforce in Copilot 为公开预览；访问和操作仍受 Salesforce 原有权限控制。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "身份验证",
+            "value": "MCP 访问",
+            "detail": "使用现有 Salesforce 权限"
+          },
+          {
+            "label": "工作上下文",
+            "value": "CRM + M365",
+            "detail": "结合客户记录与沟通材料"
+          },
+          {
+            "label": "产品状态",
+            "value": "公开预览",
+            "detail": "Sales Cloud in Teams 仍在试点"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "microsoft-windows-hybrid-intelligence-ignite-2026-11-17",
+      "category": "产品",
+      "title": "Windows 扩展代理隔离，并预览本地模型路由",
+      "summary": "Microsoft Ignite 更新 Windows 代理容器、Windows 365 for Agents 和本地模型路由，部分能力已预览或仍在开发。",
+      "body": [
+        "Microsoft 于 11 月 17 日公布 Windows 面向代理计算的新进展，包括 Microsoft Execution Containers 的隔离能力、Windows 365 for Agents，以及 GitHub Copilot Fusion 在开发者电脑上调用本地模型的预览功能。Windows Server 2028 也已进入公开预览。",
+        "这些更新的阶段并不相同：部分容器管理模式已正式提供，Copilot Fusion 本地模型路由仍在预览，Copilot+ PC 的本地上下文和操作能力则尚未推出。对企业而言，代理隔离、身份和权限管理仍是部署条件的一部分。"
+      ],
+      "facts": [
+        "Microsoft 于 2026-11-17 公布 Windows Execution Containers 更新和 GitHub Copilot Fusion 本地模型路由预览。",
+        "Windows 365 for Agents 可作为 Copilot Studio 的电脑使用工具，并可使用 Copilot Credits。",
+        "Windows Server 2028 进入公开预览；Copilot+ PC 本地上下文、操作和模型能力仍属后续计划。"
+      ],
+      "context": "公告中能力阶段包括正式提供、预览、实验与未来计划，不能统一描述为已上线。",
+      "status": "多项更新（正式、预览与计划并存）",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "Windows Experience Blog",
+          "title": "Microsoft Ignite 2026: Building Windows for the next era of work",
+          "url": "https://blogs.windows.com/windowsexperience/2026/11/17/microsoft-ignite-2026-building-windows-for-the-next-era-of-work/",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "blue",
+        "eyebrow": "WINDOWS / IGNITE 2026",
+        "title": "代理与本地 AI 的推出阶段",
+        "caption": "按 Microsoft 公告区分正式提供、预览及尚未推出的能力。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "已正式提供",
+            "value": "容器学习与宽松模式",
+            "detail": "在执行限制前观察代理行为"
+          },
+          {
+            "label": "预览",
+            "value": "Fusion 本地模型路由",
+            "detail": "GitHub Copilot 调用开发者电脑模型"
+          },
+          {
+            "label": "后续推出",
+            "value": "Copilot+ PC 本地能力",
+            "detail": "上下文、操作和模型尚未上线"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "azure-cobalt200-ga-2026-11-17",
+      "category": "基础设施",
+      "title": "Azure Cobalt 200 虚拟机正式开放，首批覆盖 14 个区域",
+      "summary": "Microsoft 宣布 Cobalt 200 虚拟机正式提供，称相对 Cobalt 100 性能最高提升 50%，年底前计划扩至 23 个区域。",
+      "body": [
+        "Microsoft 于 11 月 17 日宣布 Azure Cobalt 200 虚拟机正式提供，首批覆盖 14 个区域。微软称，其相对 Cobalt 100 性能最高提升 50%，并计划在 2026 年底前扩展至 23 个区域。",
+        "这些 Arm 虚拟机面向云原生、数据密集型和代理式 AI 工作负载，微软还表示计划从 2027 年起让其成为新增 Azure 计算容量的重要组成。性能提升数字来自微软公布的产品数据，实际收益会随工作负载和配置而变化。"
+      ],
+      "facts": [
+        "Cobalt 200 虚拟机于 2026-11-17 正式开放，首批覆盖 14 个 Azure 区域。",
+        "微软称其性能较 Cobalt 100 最高提升 50%。",
+        "微软计划在 2026 年底前扩至 23 个区域，并于 2027 年起占新增 Azure 计算容量的重要份额。"
+      ],
+      "context": "最高性能提升为厂商口径，实际表现需结合工作负载、规格和地区验证。",
+      "status": "正式提供（14 个区域）",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "Microsoft Azure",
+          "title": "Azure Cobalt 200 VMs now available",
+          "url": "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "AZURE / COBALT 200",
+        "title": "开放范围与扩展计划",
+        "caption": "性能数据和区域计划来自 Microsoft Azure 公告。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "当前",
+            "value": "14 个区域",
+            "detail": "Cobalt 200 虚拟机正式提供"
+          },
+          {
+            "label": "2026 年底",
+            "value": "计划 23 个区域",
+            "detail": "微软公布的扩展目标"
+          },
+          {
+            "label": "性能",
+            "value": "最高 +50%",
+            "detail": "相对 Cobalt 100，厂商数据"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "google-sovereign-ai-accelerator-2026-11-17",
+      "category": "产业",
+      "title": "Google Cloud 为欧洲受监管 AI 初创公司开设加速器",
+      "summary": "Google for Startups Sovereign AI 计划面向欧洲和以色列初创企业提供 15 周、免股权的混合项目，申请截止日为 2027 年 1 月 15 日。",
+      "body": [
+        "Google Cloud 于 11 月 17 日启动 Google for Startups Accelerator: Sovereign AI 招募，面向欧洲和以色列、开发受监管行业 AI 产品的初创公司。入选团队将参加为期 15 周的混合项目，获得 Google 工程师辅导、架构支持和监管沙盒准备建议。",
+        "项目不收取股权，重点面向政府服务、医疗、金融和网络安全等领域，申请截止日期为 2027 年 1 月 15 日。Google 表示将支持团队在其分层主权云方案中部署；这属于创业支持计划，不代表监管认证或产品合规背书。"
+      ],
+      "facts": [
+        "加速器于 2026-11-17 开放申请，适用区域为欧洲和以色列。",
+        "项目为 15 周混合形式，不收取股权，面向晚期种子轮至 A 轮后初创公司。",
+        "申请截止日期为 2027-01-15。"
+      ],
+      "context": "项目支持包括技术和监管准备辅导，不等于监管部门批准、认证或合规保证。",
+      "status": "开放申请",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "Google Cloud",
+          "title": "Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator",
+          "url": "https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "GOOGLE CLOUD / STARTUPS",
+        "title": "Sovereign AI 加速器",
+        "caption": "项目条件、期限与申请日期据 Google Cloud 公告。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "申请范围",
+            "value": "欧洲与以色列",
+            "detail": "受监管行业 AI 初创团队"
+          },
+          {
+            "label": "项目周期",
+            "value": "15 周",
+            "detail": "线上与线下混合辅导"
+          },
+          {
+            "label": "费用条件",
+            "value": "免股权",
+            "detail": "不收取参与公司股权"
+          },
+          {
+            "label": "申请截止",
+            "value": "2027-01-15",
+            "detail": "Google 公布的最后申请日"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "orange-wolof-models-2026-11-17",
+      "category": "开源",
+      "title": "Orange 发布五款支持沃洛夫语的开放权重模型",
+      "summary": "Orange 将五款微调语言模型和训练数据放上 Hugging Face，供非商业用途使用，商业使用需另行协商。",
+      "body": [
+        "Orange 于 11 月 17 日发布五款支持沃洛夫语的微调大语言模型，并在 Hugging Face 提供模型权重和配套训练数据。公司称，模型可处理沃洛夫语文本理解与生成；训练数据基于公开数据自动翻译，不含 Orange 企业数据。",
+        "资源目前可免费用于非商业用途，商业使用可能需要与 Orange 另行签订协议。发布开放权重有助于研究者和开发者开展本地语言实验，但模型在不同方言、口语和实际服务中的表现仍需独立验证。"
+      ],
+      "facts": [
+        "Orange 于 2026-11-17 发布五款微调的开放权重沃洛夫语大语言模型。",
+        "模型和训练数据已在 Hugging Face 提供，授权范围为非商业用途。",
+        "训练语料基于公开数据自动翻译，Orange 表示不含公司内部数据。"
+      ],
+      "context": "开放权重不等于不受限制的商业许可；当前模型表现和覆盖范围需由使用者进一步验证。",
+      "status": "开放权重发布（非商业用途）",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "Orange Newsroom",
+          "title": "Orange releases African-language AI models to advance digital inclusion in Africa",
+          "url": "https://newsroom.orange.com/orange-releases-african-language-ai-models-to-advance-digital-inclusion-in-africa/?lang=eng",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "amber",
+        "eyebrow": "ORANGE / WOLOF",
+        "title": "沃洛夫语模型资源",
+        "caption": "模型用途与许可来自 Orange 公告；商业使用可能需另行授权。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "模型数量",
+            "value": "5 款",
+            "detail": "经微调的开放权重大语言模型"
+          },
+          {
+            "label": "语言任务",
+            "value": "理解与生成",
+            "detail": "针对沃洛夫语文本"
+          },
+          {
+            "label": "使用许可",
+            "value": "非商业用途",
+            "detail": "商业使用可能需另签协议"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "orange-live-intelligence-protected-mode-2026-11-17",
+      "category": "产品",
+      "title": "Orange Business 为 Live Intelligence 增加法国托管保护模式",
+      "summary": "新模式将模型、代理、数据和文档限制在 Orange 在法国运营的环境内，面向需要更高数据控制的业务场景。",
+      "body": [
+        "Orange Business 于 11 月 17 日为 Live Intelligence 推出 Protected Mode，供需要更高数据控制的业务场景使用。Orange 表示，启用后所用模型、代理、数据和文档都留在其于法国托管和运营的环境内，该模式当天起向所有客户提供。",
+        "平台同时保留 Open Mode，以使用部署在欧洲或瑞士外部基础设施上的模型。两种模式提供不同的数据处理边界；企业仍需核对服务配置、合同和具体工作流，不能只凭“法国托管”推断所有合规要求均已满足。"
+      ],
+      "facts": [
+        "Protected Mode 于 2026-11-17 上线，Orange 称当天起向所有 Live Intelligence 客户提供。",
+        "模式在 Orange 于法国托管和运营的环境中处理所用模型、代理、数据和文档。",
+        "Open Mode 可连接部署在欧洲或瑞士外部基础设施的模型。"
+      ],
+      "context": "数据处理范围以实际服务配置和合同为准；数据驻留不能自动代表满足所有监管要求。",
+      "status": "产品上线",
+      "published_at": "2026-11-17",
+      "sources": [
+        {
+          "publisher": "Orange Newsroom",
+          "title": "Orange Business launches Protected Mode for Live Intelligence",
+          "url": "https://newsroom.orange.com/orange-business-launches-protected-mode-for-live-intelligence-giving-organizations-greater-choice-over-their-ai-environment/?lang=eng",
+          "accessed_at": "2026-11-18T01:02:30.950586+00:00",
+          "published_at": "2026-11-17"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "violet",
+        "eyebrow": "ORANGE BUSINESS / LIVE INTELLIGENCE",
+        "title": "两种模式的数据处理边界",
+        "caption": "服务模式的托管地点与数据处理描述据 Orange 公告，实际范围应查阅合同和配置。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "Protected Mode",
+            "value": "法国托管与运营",
+            "detail": "模型、代理、数据和文档留在 Orange 环境"
+          },
+          {
+            "label": "Open Mode",
+            "value": "外部欧洲基础设施",
+            "detail": "可选择欧洲或瑞士部署的模型"
+          }
+        ]
+      },
+      "issue_date": "2026-11-18",
+      "discovered_at": "2026-11-18T01:02:30.950586+00:00",
+      "verified_at": "2026-11-18T01:02:30.950586+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -13075,7 +13777,36 @@
       "updated_at": "2026-11-17T01:12:32.026001+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-17.json"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "模型、企业 AI 与算力更新",
+      "dek": "OpenAI 发布新模型并拓展法律与销售工具；Microsoft Ignite 带来模型、Windows 和 Azure 更新，Google Cloud 与 Orange 也公布新计划。",
+      "coverage": "2026-11-17 09:00 至 2026-11-18 09:00（Asia/Singapore）",
+      "lead_ids": [
+        "openai-gpt62-astsol-2026-11-17",
+        "microsoft-mai-models-ignite-2026-11-17",
+        "orange-wolof-models-2026-11-17"
+      ],
+      "event_ids": [
+        "openai-gpt62-astsol-2026-11-17",
+        "openai-astra-law-2026-11-17",
+        "openai-chatgpt-sales-2026-11-17",
+        "microsoft-mai-models-ignite-2026-11-17",
+        "microsoft-ai-transparency-initiative-2026-11-17",
+        "microsoft-salesforce-copilotforce-2026-11-17",
+        "microsoft-windows-hybrid-intelligence-ignite-2026-11-17",
+        "azure-cobalt200-ga-2026-11-17",
+        "google-sovereign-ai-accelerator-2026-11-17",
+        "orange-wolof-models-2026-11-17",
+        "orange-live-intelligence-protected-mode-2026-11-17"
+      ],
+      "number": "021",
+      "published_at": "2026-11-18T01:02:30.950586+00:00",
+      "updated_at": "2026-11-18T01:02:30.950586+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-18.json"
     }
   ],
-  "updated_at": "2026-11-17T01:12:32.026001+00:00"
+  "updated_at": "2026-11-18T01:02:30.950586+00:00"
 }
