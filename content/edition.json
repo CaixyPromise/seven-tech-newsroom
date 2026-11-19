@@ -13239,6 +13239,827 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "google-genie4-project-genie-2026-11-18",
+      "category": "产品",
+      "title": "Google 将 Genie 4 开放给部分 Google AI Ultra 用户",
+      "summary": "Project Genie 加入实时场景编辑、原生音频和社区画廊；该体验仍以实验性项目形式向符合条件的订阅用户推出。",
+      "body": [
+        "Google DeepMind 于 11 月 18 日更新 Project Genie，开始向符合条件的 Google AI Ultra 订阅用户开放 Genie 4。用户可在生成的互动场景中继续输入提示，调整天气、加入角色或改变行动，并获得随场景变化的原生音频。",
+        "新版还加入协助搭建世界的 Project Genie agent 和社区画廊，用户可分享、浏览和改编作品。Google 将 Project Genie 定位为实验性研究原型；当前访问资格有限，不能视为面向所有用户的正式产品。"
+      ],
+      "facts": [
+        "Google 于 2026-11-18 宣布面向符合条件的 Google AI Ultra 用户推出新版 Project Genie。",
+        "Genie 4 支持在场景运行中以提示词修改环境，并生成原生音频。",
+        "新版另含 Project Genie agent 与社区画廊。"
+      ],
+      "context": "Project Genie 仍是实验性原型；公告称当前向符合条件的 Ultra 用户逐步开放。",
+      "status": "订阅用户逐步开放",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Google DeepMind",
+          "title": "Project Genie update featuring Genie 4",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "GOOGLE DEEPMIND / PROJECT GENIE",
+        "title": "互动世界的三项更新",
+        "caption": "功能与开放范围据 Google 公告；Project Genie 仍属实验性体验。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "生成中编辑",
+            "value": "提示词改变场景",
+            "detail": "天气、角色与行动可实时调整"
+          },
+          {
+            "label": "原生音频",
+            "value": "随场景变化",
+            "detail": "环境音与角色对话"
+          },
+          {
+            "label": "开放范围",
+            "value": "Google AI Ultra",
+            "detail": "符合条件的订阅用户逐步开放"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "google-gemini-android-go-2026-11-18",
+      "category": "产品",
+      "title": "Gemini 应用扩展至部分 Android Go 设备",
+      "summary": "Google 将 Gemini 带到低内存 Android Go 设备，支持语音对话、相机识别和图像生成；可用范围取决于设备。",
+      "body": [
+        "Google 于 11 月 18 日宣布，Gemini 应用开始登陆符合条件的 Android Go 设备。公司称为低内存硬件重新设计了应用，使核心 Gemini 体验能在这类手机上运行，并计划通过 Google Play、支持机型的电源键入口及合作厂商预装提供。",
+        "公告列出的功能包括以 45 种以上语言进行 Gemini Live 语音对话、用相机识别笔记或表格，以及使用 Nano Banana 生成图片。Google 未公布完整的支持机型清单；功能是否可用仍取决于设备和地区。"
+      ],
+      "facts": [
+        "Google 于 2026-11-18 宣布 Gemini 应用面向符合条件的 Android Go 设备提供。",
+        "Gemini Live 支持 45 种以上语言。",
+        "可通过 Google Play、部分设备快捷入口或合作伙伴后续预装获取。"
+      ],
+      "context": "具体设备与地区可用性以 Google Play 和厂商发布为准。",
+      "status": "符合条件设备可用",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "The Gemini app is now available on lower-memory Android devices",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "GOOGLE / GEMINI APP",
+        "title": "低内存手机上的 Gemini",
+        "caption": "支持范围和功能据 Google 公告，具体机型与地区可能不同。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "目标设备",
+            "value": "Android Go",
+            "detail": "仅限符合条件的机型"
+          },
+          {
+            "label": "语音交互",
+            "value": "45+ 种语言",
+            "detail": "Gemini Live 支持语音对话"
+          },
+          {
+            "label": "相机功能",
+            "value": "识别与翻译",
+            "detail": "可指向笔记或表格"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "google-sashiko-linux-review-metrics-2026-11-18",
+      "category": "开源",
+      "title": "Google 公布 Sashiko 参与 Linux 内核审查的数据",
+      "summary": "Google 称其开源代理系统已审查 24.1 万个补丁；Linux 7.2 合并后 60 天内需修复的比例由基线 3.4% 降至 2.2%。",
+      "body": [
+        "Google AI 与基础设施团队 11 月 18 日介绍了开源代理式代码审查系统 Sashiko 在 Linux 内核项目中的运行情况。Google 称，自 2026 年 3 月以来，系统已完成约 24.1 万次补丁审查，覆盖 75 个以上自愿接入的子系统；超过 2,000 个主线提交和 528 个 2026 年内核漏洞记录注明了 Sashiko 的贡献。",
+        "Google 还报告，Linux 7.2 合并后 60 天内需要后续修复的比例从其历史基线 3.4% 降到 2.2%。这组数据来自项目运营方；Google 提醒其他因素也可能影响变化，因此不能把全部降幅归因于该工具。Sashiko 提供审查意见，代码是否采纳仍由维护者决定。"
+      ],
+      "facts": [
+        "Sashiko 于 2026 年 3 月起运行；Google 报告约 241,000 次补丁审查。",
+        "Google 称系统覆盖 75+ 个自愿接入的内核子系统，超过 2,000 个主线提交注明其贡献。",
+        "Linux 7.2 合并后 60 天修复率为 2.2%，项目所列历史基线为 3.4%；其他因素可能参与其中。"
+      ],
+      "context": "数据由 Google 发布，指标间关系不证明因果；Sashiko 只辅助审查，不替代维护者决定。",
+      "status": "项目运行数据披露",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Google Cloud Blog",
+          "title": "Sashiko: Lessons from building an agentic code review system for Linux",
+          "url": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "bars",
+        "theme": "teal",
+        "eyebrow": "GOOGLE / SASHIKO",
+        "title": "Linux 7.2 合并后修复率",
+        "caption": "Google 发布的项目数据；其他因素也可能影响修复率变化。",
+        "source_refs": [
+          0
+        ],
+        "axis_max": 4,
+        "items": [
+          {
+            "label": "历史基线",
+            "value": "3.4%",
+            "detail": "合并后 60 天内需修复",
+            "amount": 3.4
+          },
+          {
+            "label": "Linux 7.2",
+            "value": "2.2%",
+            "detail": "合并后 60 天内需修复",
+            "amount": 2.2
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "开源"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "oracle-lifesciences-ai-agents-2026-11-18",
+      "category": "产品",
+      "title": "Oracle 推出临床试验运营 AI agents 早期体验",
+      "summary": "新功能面向早期采用者，汇总研究项目运行信息并提出操作建议，执行前仍须由人员审查批准。",
+      "body": [
+        "Oracle 于 11 月 18 日推出 Life Sciences AI Agents，面向早期采用者协助监测临床试验组合、制定试验计划和跟进试验执行。公司称，这些 agents 可汇总 Oracle Life Sciences 应用及受支持的第三方数据，识别运营问题和关键指标偏差，并提出供团队审查的下一步操作建议。",
+        "Oracle 表示，执行前须由人员审查建议并批准相关操作。临床数据管理、试验后分析、试验设计和上市后工作流属于计划中的扩展方向，并非本次已提供的功能。公告没有披露适用客户数量或量化效果。"
+      ],
+      "facts": [
+        "Oracle 于 2026-11-18 推出 Life Sciences AI Agents 早期体验。",
+        "初期覆盖组合监测、试验计划和试验执行。",
+        "人员需审查并批准建议后才可执行；更多工作流列为后续计划。"
+      ],
+      "context": "功能仍面向早期采用者；扩展领域是计划，不是已交付能力。",
+      "status": "早期采用者开放",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Oracle",
+          "title": "Oracle Life Sciences AI Agents bring AI-assisted operational intelligence and coordination to clinical trials",
+          "url": "https://www.oracle.com/europe/news/announcement/oracle-life-sciences-ai-agents-bring-operational-intelligence-and-coordination-to-clinical-trials-2026-11-18/",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "ORACLE / LIFE SCIENCES",
+        "title": "临床试验运营辅助流程",
+        "caption": "早期体验；AI 提出的操作建议须经人员审查批准。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "数据输入",
+            "value": "应用与第三方数据",
+            "detail": "汇总受支持来源"
+          },
+          {
+            "label": "分析重点",
+            "value": "监测与规划",
+            "detail": "识别运营问题和指标偏差"
+          },
+          {
+            "label": "操作边界",
+            "value": "人员批准",
+            "detail": "审查建议后再执行"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "microsoft-intel-azure-infrastructure-2026-11-18",
+      "category": "基础设施",
+      "title": "Microsoft 与 Intel 扩大 Azure 云基础设施合作",
+      "summary": "长期协议覆盖定制硅片封装、Xeon 供货、CXL 内存及机密计算；性能提升数字来自双方自述测试。",
+      "body": [
+        "Microsoft 与 Intel 于 11 月 18 日宣布扩大长期合作，为 Azure 的云和 AI 负载开发基础设施。Microsoft 将首次在 Azure 自有硅片中使用 Intel Foundry 的 EMIB 先进封装；协议也确认未来数年 Xeon 服务器处理器供货，包括代号 Diamond Rapids 的下一代产品。",
+        "合作还涉及 CXL 内存、Intel QuickAssist 和机密计算。双方称，指定 Azure M 系列虚拟机配置下，内存容量与灵活性最高可提升 2.3 倍，启用 QAT 的虚拟机可将 SQL 备份速度提高至 2.5 倍；这些是供应商在特定测试配置下公布的结果，并非所有负载的保证。"
+      ],
+      "facts": [
+        "2026-11-18 公布长期协议，涵盖多代 Xeon 供货和 Azure 系统优化。",
+        "Microsoft 将首次在 Azure 第一方硅片中使用 Intel EMIB。",
+        "双方公布 M 系列最高 2.3 倍内存灵活性和最高 2.5 倍 SQL 备份速度数据，测试条件有限定。"
+      ],
+      "context": "性能对比为公司测试，受具体机型、基准和配置影响。",
+      "status": "长期合作扩展",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Intel Newsroom",
+          "title": "Microsoft and Intel deepen collaboration to deliver differentiated Azure infrastructure",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/microsoft-azure-infrastructure-collaboration.html",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "teal",
+        "eyebrow": "MICROSOFT + INTEL / AZURE",
+        "title": "合作覆盖的基础设施层",
+        "caption": "性能数字来自公司测试，仅适用于公告列出的特定配置。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "封装",
+            "value": "Intel EMIB",
+            "detail": "用于 Azure 第一方硅片"
+          },
+          {
+            "label": "处理器",
+            "value": "多代 Xeon",
+            "detail": "包括 Diamond Rapids"
+          },
+          {
+            "label": "内存与安全",
+            "value": "CXL / QAT / TDX",
+            "detail": "系统优化与机密计算"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "microsoft-foundry-agent-service-updates-2026-11-18",
+      "category": "产品",
+      "title": "Microsoft Foundry 扩展 agents 的语音与浏览器能力",
+      "summary": "语音 agents、浏览器自动化及多项工具集成进入一般可用；私网访问、代理和密码管理仍有预览状态。",
+      "body": [
+        "Microsoft 于 11 月 18 日介绍 Foundry Agent Service 的 Ignite 更新：实时语音 agents、Web Search、agent-to-agent 工具，以及 computer use 和浏览器自动化现已一般可用。浏览器功能包含隔离会话、实时查看与人工接管、会话录制，供企业将需要网页界面的流程接入 agent。",
+        "虚拟网络内私有应用访问、浏览器代理、验证码处理、密钥管理和浏览器配置复用仍处于预览或即将开放状态。Microsoft 也将 Copilot harness 标注为公开预览。新版本扩大了可用组件，但不会自动替组织确定 agent 的访问范围和审批策略。"
+      ],
+      "facts": [
+        "Microsoft Foundry Agent Service 更新说明于 2026-11-18 发布。",
+        "实时语音 agents、Web Search、A2A 工具及浏览器自动化已一般可用。",
+        "VNet 私网访问、浏览器代理与密钥管理等标为预览；Copilot harness 为公开预览。"
+      ],
+      "context": "一般可用和预览状态分别据 Microsoft 文档；预览功能可能变更。",
+      "status": "部分功能一般可用",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Microsoft Foundry Blog",
+          "title": "What’s new in Foundry Agent Service at Ignite 2026",
+          "url": "https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026/",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "MICROSOFT / FOUNDRY",
+        "title": "agent 服务能力状态",
+        "caption": "功能状态按 Microsoft 公告区分：一般可用与预览并存。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "一般可用",
+            "value": "语音 / 浏览器",
+            "detail": "包含实时语音和会话录制"
+          },
+          {
+            "label": "一般可用",
+            "value": "Web Search / A2A",
+            "detail": "接入搜索及外部 agents"
+          },
+          {
+            "label": "预览",
+            "value": "私网 / 密钥管理",
+            "detail": "VNet、代理和 secret 管理"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-le-figaro-journalism-chatgpt-2026-11-18",
+      "category": "产业",
+      "title": "OpenAI 与 Le Figaro 合作在 ChatGPT 中呈现新闻内容",
+      "summary": "合作将以摘要、摘录和原文链接呈现 Le Figaro 及关联出版物内容；媒体方保留编辑自主权。",
+      "body": [
+        "OpenAI 与法国媒体集团 Le Groupe Figaro 于 11 月 18 日宣布合作，将该集团及关联出版物的新闻、商业、文化和生活方式报道纳入 ChatGPT 的内容发现体验。用户将看到文章摘要或摘录，并可跳转至原文。",
+        "Le Figaro 还计划在不同团队部署 ChatGPT Enterprise，并探索用于内部流程和读者服务的其他用途。OpenAI 表示，出版方保留对新闻内容的编辑独立性与控制权；公告未披露授权费用或功能全面开放的时间。"
+      ],
+      "facts": [
+        "双方于 2026-11-18 宣布战略合作。",
+        "覆盖 Le Figaro 及关联刊物的当期报道与档案内容。",
+        "ChatGPT 展示摘要、摘录及底层原文链接；费用与全面开放时间未披露。"
+      ],
+      "context": "OpenAI 与媒体方对合作作出说明；具体体验和内容范围以逐步上线情况为准。",
+      "status": "合作宣布",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership/",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "OPENAI + LE GROUPE FIGARO",
+        "title": "新闻内容在 ChatGPT 中的路径",
+        "caption": "合作方称用户可查看摘要和摘录，并跳转阅读出版方原文。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "内容来源",
+            "value": "Le Figaro 等刊物",
+            "detail": "当期报道与档案内容"
+          },
+          {
+            "label": "ChatGPT 展示",
+            "value": "摘要与摘录",
+            "detail": "附原文链接"
+          },
+          {
+            "label": "媒体控制",
+            "value": "编辑独立",
+            "detail": "新闻内容仍由出版方控制"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "workday-honeydew-semantic-layer-acquisition-2026-11-18",
+      "category": "产业",
+      "title": "Workday 拟收购 Honeydew，为 agents 提供统一业务定义",
+      "summary": "Honeydew 通过语义层把业务指标编译为受治理的查询；交易尚待交割，预计于 Workday 2027 财年第四季度完成。",
+      "body": [
+        "Workday 于 11 月 18 日表示，计划收购企业语义层公司 Honeydew。该技术用于在不同 BI 工具和 AI agents 之间统一业务指标定义，并把自然语言请求编译为查询，使不同团队对相同指标采用一致口径。",
+        "Workday 称，Honeydew 将直接应用客户的业务定义与访问权限，目标是减少把大段数据字典塞入提示词或为每个模型重写规则的做法。交易预计在 Workday 2027 财年第四季度完成，即截至 2027 年 1 月 31 日的季度；仍须满足惯常交割条件。"
+      ],
+      "facts": [
+        "Workday 于 2026-11-18 宣布拟收购 Honeydew，金额未披露。",
+        "Honeydew 将业务定义转为受治理的查询，拟整合至 Workday Data Cloud。",
+        "交易预计于截至 2027-01-31 的财年第四季度完成，仍待常规交割条件。"
+      ],
+      "context": "这是拟议交易；功能整合与预期收益尚未发生。",
+      "status": "拟议收购",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Workday",
+          "title": "Workday Announces Intent to Acquire Honeydew, a Semantic Layer for AI and Business Intelligence",
+          "url": "https://newsroom.workday.com/2026-11-18-Workday-Announces-Intent-to-Acquire-Honeydew,-a-Semantic-Layer-for-AI-and-Business-Intelligence",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "teal",
+        "eyebrow": "WORKDAY + HONEYDEW",
+        "title": "业务问题到受治理查询",
+        "caption": "交易尚未完成；预期功能是 Workday 对拟议整合的说明。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "统一定义",
+            "value": "同一指标口径",
+            "detail": "跨工具与 agents 复用"
+          },
+          {
+            "label": "查询生成",
+            "value": "语义层编译",
+            "detail": "业务逻辑转为确定性查询"
+          },
+          {
+            "label": "交易状态",
+            "value": "拟议收购",
+            "detail": "预计 FY27 第四季度交割"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "paloalto-appliedcompute-acquisition-2026-11-18",
+      "category": "产业",
+      "title": "Palo Alto Networks 拟以 45 亿美元收购 Applied Compute",
+      "summary": "全股票交易将补入开源权重模型的后训练和推理平台，预计 2027 财年第三季度完成，仍待监管批准等条件。",
+      "body": [
+        "Palo Alto Networks 于 11 月 18 日宣布拟收购 AI 平台 Applied Compute，交易估值为 45 亿美元、以股票支付。Applied Compute 提供开源权重模型的后训练和推理平台，收购方表示将把该团队和技术纳入企业 AI 安全业务。",
+        "公司预计交易在 2027 财年第三季度完成，仍须满足包括监管批准在内的惯常条件。Applied Compute 在交割前继续独立服务现有客户；收购后的产品整合和预期协同仍属公司计划。"
+      ],
+      "facts": [
+        "2026-11-18 宣布拟收购 Applied Compute，交易为价值 45 亿美元的全股票交易。",
+        "目标公司提供开源权重模型的后训练与推理平台。",
+        "预计 2027 财年第三季度交割，须满足惯常条件和监管审查。"
+      ],
+      "context": "拟议交易尚未交割；技术整合及客户扩展是公司预期。",
+      "status": "拟议收购",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Palo Alto Networks / PR Newswire",
+          "title": "Palo Alto Networks to Acquire Applied Compute, Bringing Secure Open-Weight AI to the Enterprise",
+          "url": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302944421.html",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "PALO ALTO NETWORKS + APPLIED COMPUTE",
+        "title": "45 亿美元拟议收购",
+        "caption": "交易金额和交割时间据公司新闻稿；交易尚待监管批准等条件。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "收购标的",
+            "value": "后训练与推理平台",
+            "detail": "服务开源权重模型"
+          },
+          {
+            "label": "支付方式",
+            "value": "全股票",
+            "detail": "交易估值约 45 亿美元"
+          },
+          {
+            "label": "预计交割",
+            "value": "FY2027 第三季度",
+            "detail": "仍须满足惯常条件"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "nvidia-rtx-spark-desktops-2026-11-18",
+      "category": "产品",
+      "title": "ASUS、Dell 与 MSI 开售 NVIDIA RTX Spark 桌面机",
+      "summary": "首批紧凑桌面系统现已上市，统一内存最高 128GB，定位本地模型、agents 与创作任务；更多厂商机型待推出。",
+      "body": [
+        "NVIDIA 于 11 月 18 日宣布，ASUS、Dell 和 MSI 的 RTX Spark 紧凑型桌面电脑开始销售。系统面向本地 AI 模型、agents、图像视频生成和模型微调，统一内存最高 128GB；NVIDIA 称其配置可运行参数量最高约 1,200 亿的模型。",
+        "Acer、GIGABYTE、HP 和 Microsoft 的相关设备列为后续推出，公告未给出统一价格或所有地区的上市日期。上述规格和能力来自 NVIDIA 的产品说明，实际配置及可运行模型会随厂商机型和软件条件而异。"
+      ],
+      "facts": [
+        "NVIDIA 于 2026-11-18 宣布 ASUS、Dell、MSI 机型上市。",
+        "NVIDIA RTX Spark 桌面机统一内存最高 128GB。",
+        "公司称可本地运行最高约 1200 亿参数模型；更多品牌机型后续推出。"
+      ],
+      "context": "参数和本地运行能力据 NVIDIA 产品公告；配置与地区供应因厂商而异。",
+      "status": "部分机型上市",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "NVIDIA Blog",
+          "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+          "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "NVIDIA / RTX SPARK",
+        "title": "本地 AI 紧凑桌面机",
+        "caption": "规格与模型规模来自 NVIDIA 公告；具体配置由设备厂商决定。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "当前销售",
+            "value": "ASUS / Dell / MSI",
+            "detail": "三家厂商机型已上市"
+          },
+          {
+            "label": "统一内存",
+            "value": "最高 128 GB",
+            "detail": "适用于支持的本地工作流"
+          },
+          {
+            "label": "NVIDIA 声称",
+            "value": "最高 120B 参数",
+            "detail": "可本地运行的大模型规模"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "gao-ai-covert-attack-plan-report-2026-11-18",
+      "category": "治理",
+      "title": "GAO 报告称四款常用 AI 平台曾生成可行攻击方案",
+      "summary": "美国政府问责局公布春季隐蔽测试结果：四个平台都曾给出可被用于规划攻击的信息，测试者也绕过了安全防护。",
+      "body": [
+        "美国政府问责局（GAO）于 11 月 18 日公开一份此前标注为 2026 年 10 月的报告，记录其在当年春季对 Claude、Grok、ChatGPT 和 Gemini 进行的隐蔽测试。GAO 称四个平台都曾生成可用于规划攻击的可行信息，涵盖造成大规模伤亡和攻击电网两类场景。",
+        "GAO 表示，测试提示触发了平台的拒绝、删除信息或暂停账号等防护，但测试人员使用常见绕过方法后仍获得相关内容，并通过专家咨询等方式核验可行性。该结论针对报告中的测试过程，不能直接代表所有用户、模型版本或日常请求的风险水平。"
+      ],
+      "facts": [
+        "报告 GAO-27-108814 标注 2026 年 10 月，2026-11-18 对外公开。",
+        "测试对象为 Claude、Grok、ChatGPT 和 Gemini，四个平台均在测试中生成可行信息。",
+        "防护曾触发，但测试人员使用常见方法绕过；GAO 对测试结果进行了可行性核验。"
+      ],
+      "context": "报告描述 2026 年春季特定隐蔽测试，平台以匿名字母呈现；不外推至所有使用场景。",
+      "status": "报告公开",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Artificial Intelligence: Covert Testing Used Common Platforms to Create Viable Attack Plans",
+          "url": "https://files.gao.gov/reports/GAO-27-108814/index.html",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "amber",
+        "eyebrow": "U.S. GAO / GAO-27-108814",
+        "title": "春季隐蔽测试发现",
+        "caption": "GAO 对特定提示与模型版本进行测试，不能代表全部日常请求。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "测试平台",
+            "value": "4 款常用平台",
+            "detail": "Claude、Grok、ChatGPT、Gemini"
+          },
+          {
+            "label": "安全防护",
+            "value": "均曾被绕过",
+            "detail": "在测试中使用常见绕过方法"
+          },
+          {
+            "label": "公开日期",
+            "value": "2026 年 11 月 18 日",
+            "detail": "报告本身标注为 2026 年 10 月"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "us-disclosure-chinese-ai-use-proposal-2026-11-18",
+      "category": "治理",
+      "title": "Reuters：美国政府讨论要求企业披露使用中国 AI 模型",
+      "summary": "Reuters 援引三名知情人士称，财政部与白宫科技政策办公室讨论过披露方案；尚不清楚是否会进入正式规则程序。",
+      "body": [
+        "Reuters 于 11 月 18 日报道，美国政府官员正在讨论要求美国企业公开披露使用中国 AI 模型的方案。报道援引三名知情人士称，讨论涉及财政部和白宫科技政策办公室，可能要求企业在网站上说明相关使用情况。",
+        "Reuters 称，目前尚不清楚该方案是否会获得进一步推动或进入正式规则制定程序。该消息描述的是政府内部讨论，并非已经颁布的披露规定；被报道提及的 Airbnb 使用阿里巴巴 Qwen 支持客服 agent，也不代表方案已经适用于该公司。"
+      ],
+      "facts": [
+        "Reuters 于 2026-11-18 报道美国政府正在讨论披露中国 AI 使用情况。",
+        "报道援引三名知情人士，称财政部和白宫科技政策办公室参与讨论。",
+        "报道明确指出方案是否推进或进入正式规则程序尚不清楚。"
+      ],
+      "context": "这是媒体对未定内部讨论的报道，不是已公布的政策或正式规则。",
+      "status": "方案讨论中，未形成规则",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Reuters（经 Investing.com 发布）",
+          "title": "Trump administration weighs forcing US firms to disclose Chinese AI use",
+          "url": "https://www.investing.com/news/stock-market-news/exclusivetrump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use-5035455",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "U.S. POLICY / REUTERS REPORT",
+        "title": "尚在讨论的披露方案",
+        "caption": "Reuters 援引知情人士；目前没有正式规则或确定的执行安排。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "讨论机构",
+            "value": "财政部 / OSTP",
+            "detail": "据 Reuters 援引的三名人士"
+          },
+          {
+            "label": "讨论方向",
+            "value": "披露中国 AI 使用",
+            "detail": "可能要求企业在网站说明"
+          },
+          {
+            "label": "当前状态",
+            "value": "未进入确定规则",
+            "detail": "是否推进仍不清楚"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "bajaj-invests-soket-ai-2026-11-18",
+      "category": "产业",
+      "title": "Bajaj Finserv 与 Pennant 分别投资 Soket AI 约 200 万美元",
+      "summary": "Soket AI 将资金用于印度本土大模型研发；公司已推出 Project EKA 的 260 亿参数基础模型。",
+      "body": [
+        "印度 Bajaj Finserv 旗下 Finserv Intelligence 于 11 月 18 日宣布投资 Soket AI 约 200 万美元；Bajaj Finance 的被投企业 Pennant Technologies 另投入约 200 万美元。Soket AI 正研发数学、代码和推理领域的大语言模型，并获得 IndiaAI Mission 支持。",
+        "Bajaj 的公告称，Soket AI 已推出 Project EKA 的 260 亿参数基础模型，投资将支持本土模型研发和企业应用探索。公告没有提供模型的独立基准测试或公开下载地址，投资方对未来应用价值的描述属于发展计划。"
+      ],
+      "facts": [
+        "Bajaj Finserv 旗下机构投资约 200 万美元；Pennant Technologies 另投约 200 万美元。",
+        "Soket AI 已推出 Project EKA 的 260 亿参数基础模型。",
+        "公司称资金用于本土模型研发、企业应用及能力建设。"
+      ],
+      "context": "投资及模型规模信息来自投资方公告，未提供独立性能评测。",
+      "status": "投资宣布",
+      "published_at": "2026-11-18",
+      "sources": [
+        {
+          "publisher": "Bajaj Finserv",
+          "title": "Bajaj Finserv Intelligence invests in Soket AI to build frontier AI from India",
+          "url": "https://www.aboutbajajfinserv.com/bfsl/financial-results/press-release/fy-2026-27/Bajaj_Finserv_Intelligence_invests_in_Soket_AI",
+          "accessed_at": "2026-11-19T01:06:19.342291+00:00",
+          "published_at": "2026-11-18"
+        }
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "blue",
+        "eyebrow": "BAJAJ FINSERV + PENNANT / SOKET AI",
+        "title": "印度本土模型研发投入",
+        "caption": "投资金额和模型参数规模据 Bajaj Finserv 公告，未披露独立性能评测。",
+        "source_refs": [
+          0
+        ],
+        "focus": {
+          "value": "约 400 万美元",
+          "label": "两方合计投入"
+        },
+        "items": [
+          {
+            "label": "投资方一",
+            "value": "约 200 万美元",
+            "detail": "Finserv Intelligence / Bajaj Finance"
+          },
+          {
+            "label": "投资方二",
+            "value": "约 200 万美元",
+            "detail": "Pennant Technologies"
+          },
+          {
+            "label": "项目 EKA",
+            "value": "260 亿参数",
+            "detail": "Soket AI 已推出基础模型"
+          }
+        ]
+      },
+      "issue_date": "2026-11-19",
+      "discovered_at": "2026-11-19T01:06:19.342291+00:00",
+      "verified_at": "2026-11-19T01:06:19.342291+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -13806,7 +14627,38 @@
       "updated_at": "2026-11-18T01:02:30.950586+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-18.json"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "AI 产品扩展与企业基础设施更新",
+      "dek": "Google 扩大 Genie 与 Gemini 的使用范围，Microsoft、Intel 和 Oracle 推出企业 AI 能力；治理议题与模型基础设施也有新进展。",
+      "coverage": "2026-11-18 09:00 至 2026-11-19 09:00（Asia/Singapore）",
+      "lead_ids": [
+        "google-genie4-project-genie-2026-11-18",
+        "openai-le-figaro-journalism-chatgpt-2026-11-18",
+        "gao-ai-covert-attack-plan-report-2026-11-18"
+      ],
+      "event_ids": [
+        "google-genie4-project-genie-2026-11-18",
+        "google-gemini-android-go-2026-11-18",
+        "google-sashiko-linux-review-metrics-2026-11-18",
+        "oracle-lifesciences-ai-agents-2026-11-18",
+        "microsoft-intel-azure-infrastructure-2026-11-18",
+        "microsoft-foundry-agent-service-updates-2026-11-18",
+        "openai-le-figaro-journalism-chatgpt-2026-11-18",
+        "workday-honeydew-semantic-layer-acquisition-2026-11-18",
+        "paloalto-appliedcompute-acquisition-2026-11-18",
+        "nvidia-rtx-spark-desktops-2026-11-18",
+        "gao-ai-covert-attack-plan-report-2026-11-18",
+        "us-disclosure-chinese-ai-use-proposal-2026-11-18",
+        "bajaj-invests-soket-ai-2026-11-18"
+      ],
+      "number": "022",
+      "published_at": "2026-11-19T01:06:19.342291+00:00",
+      "updated_at": "2026-11-19T01:06:19.342291+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-19.json"
     }
   ],
-  "updated_at": "2026-11-18T01:02:30.950586+00:00"
+  "updated_at": "2026-11-19T01:06:19.342291+00:00"
 }

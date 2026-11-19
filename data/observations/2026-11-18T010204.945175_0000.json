@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-11-18T01:02:04.945175+00:00",
+  "github": [
+    {
+      "id": "ollama/ollama",
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "stars": 187436,
+      "forks": 19124,
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "observed_at": "2026-11-18T01:02:01.640646+00:00",
+      "source_url": "https://api.github.com/repos/ollama/ollama",
+      "daily_delta": null
+    },
+    {
+      "id": "huggingface/transformers",
+      "name": "transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "stars": 169324,
+      "forks": 35297,
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "observed_at": "2026-11-18T01:02:01.640265+00:00",
+      "source_url": "https://api.github.com/repos/huggingface/transformers",
+      "daily_delta": null
+    },
+    {
+      "id": "open-webui/open-webui",
+      "name": "open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": 158959,
+      "forks": 23097,
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "observed_at": "2026-11-18T01:02:02.342508+00:00",
+      "source_url": "https://api.github.com/repos/open-webui/open-webui",
+      "daily_delta": null
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "name": "langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": 149803,
+      "forks": 25154,
+      "description": "The agent engineering platform.",
+      "observed_at": "2026-11-18T01:02:02.309319+00:00",
+      "source_url": "https://api.github.com/repos/langchain-ai/langchain",
+      "daily_delta": null
+    },
+    {
+      "id": "ggml-org/llama.cpp",
+      "name": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "stars": 135684,
+      "forks": 25780,
+      "description": "LLM inference in C/C++",
+      "observed_at": "2026-11-18T01:02:01.640575+00:00",
+      "source_url": "https://api.github.com/repos/ggml-org/llama.cpp",
+      "daily_delta": null
+    },
+    {
+      "id": "vllm-project/vllm",
+      "name": "vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "stars": 97115,
+      "forks": 24943,
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "observed_at": "2026-11-18T01:02:01.640692+00:00",
+      "source_url": "https://api.github.com/repos/vllm-project/vllm",
+      "daily_delta": null
+    }
+  ],
+  "huggingface": {
+    "text-generation": [
+      {
+        "id": "openai-community/gpt2",
+        "downloads_30d": 34373187,
+        "likes": 3946,
+        "task": "text-generation",
+        "url": "https://huggingface.co/openai-community/gpt2",
+        "observed_at": "2026-11-18T01:02:02.406454+00:00"
+      },
+      {
+        "id": "Qwen/Qwen3-0.6B",
+        "downloads_30d": 16465919,
+        "likes": 1911,
+        "task": "text-generation",
+        "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+        "observed_at": "2026-11-18T01:02:02.406454+00:00"
+      },
+      {
+        "id": "Qwen/Qwen3-14B",
+        "downloads_30d": 13086912,
+        "likes": 547,
+        "task": "text-generation",
+        "url": "https://huggingface.co/Qwen/Qwen3-14B",
+        "observed_at": "2026-11-18T01:02:02.406454+00:00"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3.2",
+        "downloads_30d": 9558338,
+        "likes": 1603,
+        "task": "text-generation",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+        "observed_at": "2026-11-18T01:02:02.406454+00:00"
+      },
+      {
+        "id": "Qwen/Qwen2.5-7B-Instruct",
+        "downloads_30d": 6595075,
+        "likes": 2501,
+        "task": "text-generation",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "observed_at": "2026-11-18T01:02:02.406454+00:00"
+      },
+      {
+        "id": "Qwen/Qwen3-8B",
+        "downloads_30d": 6051320,
+        "likes": 2193,
+        "task": "text-generation",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B",
+        "observed_at": "2026-11-18T01:02:02.406454+00:00"
+      }
+    ],
+    "feature-extraction": [
+      {
+        "id": "BAAI/bge-small-en-v1.5",
+        "downloads_30d": 44264187,
+        "likes": 677,
+        "task": "feature-extraction",
+        "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+        "observed_at": "2026-11-18T01:02:02.416856+00:00"
+      },
+      {
+        "id": "BAAI/bge-base-en-v1.5",
+        "downloads_30d": 8594258,
+        "likes": 543,
+        "task": "feature-extraction",
+        "url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+        "observed_at": "2026-11-18T01:02:02.416856+00:00"
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-0.6B",
+        "downloads_30d": 8025584,
+        "likes": 1353,
+        "task": "feature-extraction",
+        "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+        "observed_at": "2026-11-18T01:02:02.416856+00:00"
+      },
+      {
+        "id": "intfloat/multilingual-e5-large",
+        "downloads_30d": 7301192,
+        "likes": 1286,
+        "task": "feature-extraction",
+        "url": "https://huggingface.co/intfloat/multilingual-e5-large",
+        "observed_at": "2026-11-18T01:02:02.416856+00:00"
+      },
+      {
+        "id": "BAAI/bge-large-en-v1.5",
+        "downloads_30d": 7197373,
+        "likes": 787,
+        "task": "feature-extraction",
+        "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+        "observed_at": "2026-11-18T01:02:02.416856+00:00"
+      },
+      {
+        "id": "ibm-granite/granite-embedding-small-english-r2",
+        "downloads_30d": 6689469,
+        "likes": 115,
+        "task": "feature-extraction",
+        "url": "https://huggingface.co/ibm-granite/granite-embedding-small-english-r2",
+        "observed_at": "2026-11-18T01:02:02.416856+00:00"
+      }
+    ]
+  },
+  "prices": [
+    {
+      "id": "moonshotai/kimi-k3.1-pro",
+      "canonical_slug": "moonshotai/kimi-k3.1-pro-20261023",
+      "name": "MoonshotAI: Kimi K3.1 Pro",
+      "input_per_million": 0.2403,
+      "output_per_million": 8.402299999999999,
+      "context_tokens": 1048576,
+      "currency": "USD",
+      "fixed_text_cost": 0.0192076,
+      "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+      "observed_at": "2026-11-18T01:02:02.931489+00:00",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "scope": "OpenRouter listed route base token price"
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
+      "canonical_slug": "minimax/minimax-m3.1-flash-20261019",
+      "name": "MiniMax: MiniMax M3.1 Flash",
+      "input_per_million": 0.075,
+      "output_per_million": 0.3,
+      "context_tokens": 1048576,
+      "currency": "USD",
+      "fixed_text_cost": 0.00135,
+      "url": "https://openrouter.ai/minimax/minimax-m3.1-flash",
+      "observed_at": "2026-11-18T01:02:02.931489+00:00",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "scope": "OpenRouter listed route base token price"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "canonical_slug": "deepseek/deepseek-v4.1-flash-20261017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "input_per_million": 0.036,
+      "output_per_million": 0.5,
+      "context_tokens": 1048576,
+      "currency": "USD",
+      "fixed_text_cost": 0.00136,
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "observed_at": "2026-11-18T01:02:02.931489+00:00",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "scope": "OpenRouter listed route base token price"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "canonical_slug": "anthropic/claude-sonnet-5.5-20260928",
+      "name": "Anthropic: Claude Sonnet 5.5",
+      "input_per_million": 2.0,
+      "output_per_million": 10.0,
+      "context_tokens": 1000000,
+      "currency": "USD",
+      "fixed_text_cost": 0.04,
+      "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5",
+      "observed_at": "2026-11-18T01:02:02.931489+00:00",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "scope": "OpenRouter listed route base token price"
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "canonical_slug": "anthropic/claude-haiku-5.5-20261007",
+      "name": "Anthropic: Claude Haiku 5.5",
+      "input_per_million": 0.09999999999999999,
+      "output_per_million": 0.5,
+      "context_tokens": 1000000,
+      "currency": "USD",
+      "fixed_text_cost": 0.002,
+      "url": "https://openrouter.ai/anthropic/claude-haiku-5.5",
+      "observed_at": "2026-11-18T01:02:02.931489+00:00",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "scope": "OpenRouter listed route base token price"
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "canonical_slug": "openai/gpt-6-luna-20260922",
+      "name": "OpenAI: GPT-6 Luna",
+      "input_per_million": 0.09999999999999999,
+      "output_per_million": 0.5,
+      "context_tokens": 1050000,
+      "currency": "USD",
+      "fixed_text_cost": 0.002,
+      "url": "https://openrouter.ai/openai/gpt-6-luna",
+      "observed_at": "2026-11-18T01:02:02.931489+00:00",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "scope": "OpenRouter listed route base token price"
+    },
+    {
+      "id": "google/gemini-4-argon",
+      "canonical_slug": "google/gemini-4-argon-20261013",
+      "name": "Google: Gemini 4 Argon",
+      "input_per_million": 2.0,
+      "output_per_million": 10.0,
+      "context_tokens": 1048576,
+      "currency": "USD",
+      "fixed_text_cost": 0.04,
+      "url": "https://openrouter.ai/google/gemini-4-argon",
+      "observed_at": "2026-11-18T01:02:02.931489+00:00",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "scope": "OpenRouter listed route base token price"
+    }
+  ],
+  "sources": [
+    {
+      "id": "github:huggingface/transformers",
+      "source_url": "https://api.github.com/repos/huggingface/transformers",
+      "observed_at": "2026-11-18T01:02:01.640265+00:00",
+      "http_status": 200,
+      "response_sha256": "f5e70117f15c8e378de15339602c557c711922895fa34597b1e988bac0fc27af"
+    },
+    {
+      "id": "github:ggml-org/llama.cpp",
+      "source_url": "https://api.github.com/repos/ggml-org/llama.cpp",
+      "observed_at": "2026-11-18T01:02:01.640575+00:00",
+      "http_status": 200,
+      "response_sha256": "a647f936ad911e6b10af0a06932fd5a3e994300a2b72c0e6ab2bc1286a8a0765"
+    },
+    {
+      "id": "github:ollama/ollama",
+      "source_url": "https://api.github.com/repos/ollama/ollama",
+      "observed_at": "2026-11-18T01:02:01.640646+00:00",
+      "http_status": 200,
+      "response_sha256": "69b657d7642d1c30105fa6ff08770f2a02dddc757e3edb2e2b02d1d10a5522ea"
+    },
+    {
+      "id": "github:vllm-project/vllm",
+      "source_url": "https://api.github.com/repos/vllm-project/vllm",
+      "observed_at": "2026-11-18T01:02:01.640692+00:00",
+      "http_status": 200,
+      "response_sha256": "3a811c80d0f9f3072d8524398611405b6e59f4e911b6cefdd77929614778cd70"
+    },
+    {
+      "id": "github:langchain-ai/langchain",
+      "source_url": "https://api.github.com/repos/langchain-ai/langchain",
+      "observed_at": "2026-11-18T01:02:02.309319+00:00",
+      "http_status": 200,
+      "response_sha256": "ec543dc682151105c5e4a3dcaceb37349f075ebfbf274fc3606640389bfd5a1e"
+    },
+    {
+      "id": "github:open-webui/open-webui",
+      "source_url": "https://api.github.com/repos/open-webui/open-webui",
+      "observed_at": "2026-11-18T01:02:02.342508+00:00",
+      "http_status": 200,
+      "response_sha256": "6f87b0f2f425868ad6838ea427804d9f7d02e2c19b8820075387d8f498223fe7"
+    },
+    {
+      "id": "hf:text-generation",
+      "source_url": "https://huggingface.co/api/models?pipeline_tag=text-generation&sort=downloads&direction=-1&limit=6",
+      "observed_at": "2026-11-18T01:02:02.406454+00:00",
+      "http_status": 200,
+      "response_sha256": "16386299b9b3cfeaaf208023fcaa3af23ec2cd8f29c1776bb47544ae4a66fea9"
+    },
+    {
+      "id": "hf:feature-extraction",
+      "source_url": "https://huggingface.co/api/models?pipeline_tag=feature-extraction&sort=downloads&direction=-1&limit=6",
+      "observed_at": "2026-11-18T01:02:02.416856+00:00",
+      "http_status": 200,
+      "response_sha256": "42661d9e64b9ca8e994eaa50248aaa0a961ad28c3ee910737b5f523f92641b16"
+    },
+    {
+      "id": "openrouter:models",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "observed_at": "2026-11-18T01:02:02.931489+00:00",
+      "http_status": 200,
+      "response_sha256": "d9e939ca6c3f8962261e067f53938c34f5eafdc635b738da599769636c2866e7"
+    }
+  ],
+  "history_available": false,
+  "scope": "First public metadata observation; not historical daily snapshots.",
+  "price_catalog_model_count": 478
+}

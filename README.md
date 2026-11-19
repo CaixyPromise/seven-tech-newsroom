@@ -4,185 +4,214 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-18。共 21 期、187 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-19。共 22 期、200 条独立记录；按实际发布状态与来源标时。
 
-**最新数据快照**：2026-11-18 09:02 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
+**最新数据快照**：2026-11-19 09:02 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
 | 观察项 | 最新观测 | 范围 |
 | --- | --- | --- |
 | 模型基本费估算 | $0.00135 · MiniMax M3.1 Flash | 7 个选定模型，10K 输入 + 2K 输出 Token |
 | 平台单日用量 | 约 7.09T Token · DeepSeek V4.1 Flash 1017 | OpenRouter 2026-10-31 UTC 公开日榜 |
-| 开源关注 | 187,436 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
-| 文本模型下载 | 34,373,187 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
+| 开源关注 | 187,552 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
+| 文本模型下载 | 34,439,416 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-18
+## 最新一期 · 2026-11-19
 
-**模型、企业 AI 与算力更新**
+**AI 产品扩展与企业基础设施更新**
 
-OpenAI 发布新模型并拓展法律与销售工具；Microsoft Ignite 带来模型、Windows 和 Azure 更新，Google Cloud 与 Orange 也公布新计划。
+Google 扩大 Genie 与 Gemini 的使用范围，Microsoft、Intel 和 Oracle 推出企业 AI 能力；治理议题与模型基础设施也有新进展。
 
-每日精选，第 021 期。收录范围：2026-11-17 09:00 至 2026-11-18 09:00（Asia/Singapore）。
-实际首次整理：2026-11-18 09:02 UTC+8。
+每日精选，第 022 期。收录范围：2026-11-18 09:00 至 2026-11-19 09:00（Asia/Singapore）。
+实际首次整理：2026-11-19 09:06 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. OpenAI 发布 GPT-6.2 Astra 与 Sol，扩展工作与开发者可用范围
+## 1. Google 将 Genie 4 开放给部分 Google AI Ultra 用户
 
-![两款模型与可用入口。GPT-6.2 Astra：复杂专业任务，ChatGPT Work、Codex 与 API；GPT-6.2 Sol：日常工作，ChatGPT Work、Codex 与 API；Astra API：$8 / $40，每百万输入 / 输出 Token](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-gpt62-astsol-2026-11-17.svg)
+![互动世界的三项更新。生成中编辑：提示词改变场景，天气、角色与行动可实时调整；原生音频：随场景变化，环境音与角色对话；开放范围：Google AI Ultra，符合条件的订阅用户逐步开放](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-genie4-project-genie-2026-11-18.svg)
 
-模型定位与可用范围据 OpenAI 公告；性能数据为厂商或注明基准结果。
+功能与开放范围据 Google 公告；Project Genie 仍属实验性体验。
 
-OpenAI 于 11 月 17 日发布 GPT-6.2 Astra 和 GPT-6.2 Sol，分别面向复杂专业任务与日常工作。公司称，两款模型在多步工作流中的输出效率有所提升，并已向 Plus、Pro、Enterprise、Edu 用户开放 ChatGPT Work 和 Codex；开发者也可通过 API 调用。
+Google DeepMind 于 11 月 18 日更新 Project Genie，开始向符合条件的 Google AI Ultra 订阅用户开放 Genie 4。用户可在生成的互动场景中继续输入提示，调整天气、加入角色或改变行动，并获得随场景变化的原生音频。
 
-OpenAI 公布的评测和成本比较来自其内部测试或指定基准，不能直接视作所有任务的独立结果。Astra API 标准价为每百万输入 Token 8 美元、输出 40 美元，缓存输入为 0.40 美元；Sol 延续此前版本的单价。
+新版还加入协助搭建世界的 Project Genie agent 和社区画廊，用户可分享、浏览和改编作品。Google 将 Project Genie 定位为实验性研究原型；当前访问资格有限，不能视为面向所有用户的正式产品。
 
-分类：模型；状态：模型发布；原文日期：2026-11-17。
+分类：产品；状态：订阅用户逐步开放；原文日期：2026-11-18。
 
-来源：[OpenAI](https://openai.com/index/introducing-gpt-6-2-astra-sol/)
+来源：[Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/)
 
-## 2. OpenAI 更新 Astra for Law，向企业客户开放申请
+## 2. Gemini 应用扩展至部分 Android Go 设备
 
-![更新内容与访问状态。法律索引：扩展 1/3+，相较 9 月小范围推出时；访问范围：Enterprise 可申请，通过 Trusted Access Program；API：纳入申请，需通过相应访问计划](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-astra-law-2026-11-17.svg)
+![低内存手机上的 Gemini。目标设备：Android Go，仅限符合条件的机型；语音交互：45+ 种语言，Gemini Live 支持语音对话；相机功能：识别与翻译，可指向笔记或表格](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-gemini-android-go-2026-11-18.svg)
 
-基准数字来自 OpenAI 引述的 Artificial Analysis 测试，不代表实际执业错误率。
+支持范围和功能据 Google 公告，具体机型与地区可能不同。
 
-OpenAI 于 11 月 17 日发布更新版 Astra for Law，并将访问申请扩大至所有 ChatGPT Enterprise 客户。该配置把 GPT-6.2 Astra 与法律检索索引和研究流程结合，API 访问也纳入 Trusted Access Program。
+Google 于 11 月 18 日宣布，Gemini 应用开始登陆符合条件的 Android Go 设备。公司称为低内存硬件重新设计了应用，使核心 Gemini 体验能在这类手机上运行，并计划通过 Google Play、支持机型的电源键入口及合作厂商预装提供。
 
-OpenAI 引述的 Artificial Analysis 比较显示，Astra for Law 在指定任务中的实质性幻觉数较低；这仍是特定基准的结果。法律研究需要逐项核对来源与适用法域，模型输出不能代替律师判断。
+公告列出的功能包括以 45 种以上语言进行 Gemini Live 语音对话、用相机识别笔记或表格，以及使用 Nano Banana 生成图片。Google 未公布完整的支持机型清单；功能是否可用仍取决于设备和地区。
 
-分类：产品；状态：企业申请开放（基准为厂商引用）；原文日期：2026-11-17。
+分类：产品；状态：符合条件设备可用；原文日期：2026-11-18。
 
-来源：[OpenAI](https://openai.com/index/astra-law-6-2/)
+来源：[Google](https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/)
 
-## 3. ChatGPT for Sales 接入 CRM、会议与提案工具
+## 3. Google 公布 Sashiko 参与 Linux 内核审查的数据
 
-![从客户研究到销售跟进。客户研究：筛选账户，结合 CRM 与外部信号；会前准备：简报与提案，汇集客户记录和会议内容；后续跟进：草拟行动，整理承诺、报价与下一步](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-chatgpt-sales-2026-11-17.svg)
+![Linux 7.2 合并后修复率。历史基线：3.4%，合并后 60 天内需修复；Linux 7.2：2.2%，合并后 60 天内需修复](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-sashiko-linux-review-metrics-2026-11-18.svg)
 
-工作流程与合作插件范围据 OpenAI 公告；可用性依方案、地区和工作区设置而异。
+Google 发布的项目数据；其他因素也可能影响修复率变化。
 
-OpenAI 于 11 月 17 日推出 ChatGPT for Sales，包含销售插件和 30 多款新增或扩展的合作插件，覆盖客户研究、会议准备、提案制作、CRM 信息和跟进等环节。公告列出的连接工具包括 Salesforce、HubSpot、Salesloft、Gong 等。
+Google AI 与基础设施团队 11 月 18 日介绍了开源代理式代码审查系统 Sashiko 在 Linux 内核项目中的运行情况。Google 称，自 2026 年 3 月以来，系统已完成约 24.1 万次补丁审查，覆盖 75 个以上自愿接入的子系统；超过 2,000 个主线提交和 528 个 2026 年内核漏洞记录注明了 Sashiko 的贡献。
 
-企业管理员可在工作区中启用相关插件，并决定成员能够连接的应用及操作权限。具体功能会按方案、地区和工作区设置变化，第三方服务本身也可能需要单独账户或订阅。
+Google 还报告，Linux 7.2 合并后 60 天内需要后续修复的比例从其历史基线 3.4% 降到 2.2%。这组数据来自项目运营方；Google 提醒其他因素也可能影响变化，因此不能把全部降幅归因于该工具。Sashiko 提供审查意见，代码是否采纳仍由维护者决定。
 
-分类：产品；状态：产品发布（可用范围因方案而异）；原文日期：2026-11-17。
+分类：开源；状态：项目运行数据披露；原文日期：2026-11-18。
 
-来源：[OpenAI](https://openai.com/index/introducing-chatgpt-for-sales/)
+来源：[Google Cloud Blog](https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system)
 
-## 4. Microsoft Ignite 推出新 MAI 模型，覆盖编程、安全与多媒体
+## 4. Oracle 推出临床试验运营 AI agents 早期体验
 
-![新 MAI 模型覆盖的任务。编程：Code 2 / Flash，Copilot 可用，Flash 也有 Foundry 预览；网络安全：Cyber 2 Flash，面向防御和漏洞修复工作；图像与语音：Image 2.7 / Realtime 1，Foundry 与 MAI Labs 等入口；转录：Transcribe 2，用于 Dragon Copilot 医疗记录](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-mai-models-ignite-2026-11-17.svg)
+![临床试验运营辅助流程。数据输入：应用与第三方数据，汇总受支持来源；分析重点：监测与规划，识别运营问题和指标偏差；操作边界：人员批准，审查建议后再执行](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/oracle-lifesciences-ai-agents-2026-11-18.svg)
 
-模型类别与产品可用状态据 Microsoft AI 公告，评测比较为厂商公布。
+早期体验；AI 提出的操作建议须经人员审查批准。
 
-Microsoft 于 11 月 17 日在 Ignite 公布新一批 MAI 模型，覆盖编码、安全、图像、实时语音和转录等用途。MAI Code 2 已在 GitHub Copilot 提供，Code 2 Flash 也可在 Copilot 使用，并以有限预览形式进入 Foundry；图像模型则已在 Foundry 上线。
+Oracle 于 11 月 18 日推出 Life Sciences AI Agents，面向早期采用者协助监测临床试验组合、制定试验计划和跟进试验执行。公司称，这些 agents 可汇总 Oracle Life Sciences 应用及受支持的第三方数据，识别运营问题和关键指标偏差，并提出供团队审查的下一步操作建议。
 
-微软称其内部及指定基准测试显示，这些模型在部分任务上以较低价格接近或超过对照模型。相关比较由微软发布，任务范围和测试设置各异；例如 Code 2 主要针对日常企业编码，并未针对基础科学或超长程代理任务调优。
+Oracle 表示，执行前须由人员审查建议并批准相关操作。临床数据管理、试验后分析、试验设计和上市后工作流属于计划中的扩展方向，并非本次已提供的功能。公告没有披露适用客户数量或量化效果。
 
-分类：模型；状态：模型发布（部分功能预览）；原文日期：2026-11-17。
+分类：产品；状态：早期采用者开放；原文日期：2026-11-18。
 
-来源：[Microsoft AI](https://microsoft.ai/news/microsoft-ignite-2026/)
+来源：[Oracle](https://www.oracle.com/europe/news/announcement/oracle-life-sciences-ai-agents-bring-operational-intelligence-and-coordination-to-clinical-trials-2026-11-18/)
 
-## 5. Microsoft 联合 40 多家机构推进 AI 透明度倡议
+## 5. Microsoft 与 Intel 扩大 Azure 云基础设施合作
 
-![倡议的三项工作方向。标准协作：参与 NIST，推进透明度、安全与治理；行业参与：40+ 组织，包括科技、金融与汽车机构；产品落地：逐步纳入，Microsoft AI、Foundry 与 Copilot](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-ai-transparency-initiative-2026-11-17.svg)
+![合作覆盖的基础设施层。封装：Intel EMIB，用于 Azure 第一方硅片；处理器：多代 Xeon，包括 Diamond Rapids；内存与安全：CXL / QAT / TDX，系统优化与机密计算](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-intel-azure-infrastructure-2026-11-18.svg)
 
-这是跨行业倡议；统一标准仍在协作制定中。
+性能数字来自公司测试，仅适用于公告列出的特定配置。
 
-Microsoft 于 11 月 17 日宣布 AI Transparency Initiative，称正与 40 多家组织合作，推动跨模型、跨供应商的透明度、安全与治理方法。参与方包括 Accenture、Adobe、KPMG、Mastercard 和 Volvo Cars。
+Microsoft 与 Intel 于 11 月 18 日宣布扩大长期合作，为 Azure 的云和 AI 负载开发基础设施。Microsoft 将首次在 Azure 自有硅片中使用 Intel Foundry 的 EMIB 先进封装；协议也确认未来数年 Xeon 服务器处理器供货，包括代号 Diamond Rapids 的下一代产品。
 
-倡议计划扩大对 NIST 代理标准工作的参与，并探索如何记录代理访问的数据和采取的行动，让组织在模型或供应商变化后仍能审查证据。现阶段这是标准和协作倡议，微软表示也会把相关做法逐步纳入自家产品。
+合作还涉及 CXL 内存、Intel QuickAssist 和机密计算。双方称，指定 Azure M 系列虚拟机配置下，内存容量与灵活性最高可提升 2.3 倍，启用 QAT 的虚拟机可将 SQL 备份速度提高至 2.5 倍；这些是供应商在特定测试配置下公布的结果，并非所有负载的保证。
 
-分类：治理；状态：行业倡议启动；原文日期：2026-11-17。
+分类：基础设施；状态：长期合作扩展；原文日期：2026-11-18。
 
-来源：[Microsoft Source](https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/)
+来源：[Intel Newsroom](https://www.intel.com/content/www/us/en/newsroom/news/corporate/microsoft-azure-infrastructure-collaboration.html)
 
-## 6. Microsoft 与 Salesforce 推出 Copilotforce 连接方案预览
+## 6. Microsoft Foundry 扩展 agents 的语音与浏览器能力
 
-![CRM 上下文进入 Copilot。身份验证：MCP 访问，使用现有 Salesforce 权限；工作上下文：CRM + M365，结合客户记录与沟通材料；产品状态：公开预览，Sales Cloud in Teams 仍在试点](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-salesforce-copilotforce-2026-11-17.svg)
+![agent 服务能力状态。一般可用：语音 / 浏览器，包含实时语音和会话录制；一般可用：Web Search / A2A，接入搜索及外部 agents；预览：私网 / 密钥管理，VNet、代理和 secret 管理](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-foundry-agent-service-updates-2026-11-18.svg)
 
-Salesforce in Copilot 为公开预览；访问和操作仍受 Salesforce 原有权限控制。
+功能状态按 Microsoft 公告区分：一般可用与预览并存。
 
-Microsoft 与 Salesforce 于 11 月 17 日公布 Copilotforce 合作，把 Salesforce 客户上下文及部分销售操作接入 Microsoft 的 AI 工作体验。Salesforce in Copilot 通过经过验证的 MCP 访问，销售人员可在 Salesforce 现有权限范围内查看记录并执行支持的业务操作。
+Microsoft 于 11 月 18 日介绍 Foundry Agent Service 的 Ignite 更新：实时语音 agents、Web Search、agent-to-agent 工具，以及 computer use 和浏览器自动化现已一般可用。浏览器功能包含隔离会话、实时查看与人工接管、会话录制，供企业将需要网页界面的流程接入 agent。
 
-Salesforce in Copilot 从当天起进入公开预览。Microsoft OneLake 与 Salesforce Data 360 之间的数据共享则分别处于正式提供和公开预览阶段；Sales Cloud in Teams 仍在企业试点，后续开放测试尚未开始。
+虚拟网络内私有应用访问、浏览器代理、验证码处理、密钥管理和浏览器配置复用仍处于预览或即将开放状态。Microsoft 也将 Copilot harness 标注为公开预览。新版本扩大了可用组件，但不会自动替组织确定 agent 的访问范围和审批策略。
 
-分类：产品；状态：公开预览与企业试点；原文日期：2026-11-17。
+分类：产品；状态：部分功能一般可用；原文日期：2026-11-18。
 
-来源：[Microsoft Source](https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/)
+来源：[Microsoft Foundry Blog](https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026/)
 
-## 7. Windows 扩展代理隔离，并预览本地模型路由
+## 7. OpenAI 与 Le Figaro 合作在 ChatGPT 中呈现新闻内容
 
-![代理与本地 AI 的推出阶段。已正式提供：容器学习与宽松模式，在执行限制前观察代理行为；预览：Fusion 本地模型路由，GitHub Copilot 调用开发者电脑模型；后续推出：Copilot+ PC 本地能力，上下文、操作和模型尚未上线](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/microsoft-windows-hybrid-intelligence-ignite-2026-11-17.svg)
+![新闻内容在 ChatGPT 中的路径。内容来源：Le Figaro 等刊物，当期报道与档案内容；ChatGPT 展示：摘要与摘录，附原文链接；媒体控制：编辑独立，新闻内容仍由出版方控制](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-le-figaro-journalism-chatgpt-2026-11-18.svg)
 
-按 Microsoft 公告区分正式提供、预览及尚未推出的能力。
+合作方称用户可查看摘要和摘录，并跳转阅读出版方原文。
 
-Microsoft 于 11 月 17 日公布 Windows 面向代理计算的新进展，包括 Microsoft Execution Containers 的隔离能力、Windows 365 for Agents，以及 GitHub Copilot Fusion 在开发者电脑上调用本地模型的预览功能。Windows Server 2028 也已进入公开预览。
+OpenAI 与法国媒体集团 Le Groupe Figaro 于 11 月 18 日宣布合作，将该集团及关联出版物的新闻、商业、文化和生活方式报道纳入 ChatGPT 的内容发现体验。用户将看到文章摘要或摘录，并可跳转至原文。
 
-这些更新的阶段并不相同：部分容器管理模式已正式提供，Copilot Fusion 本地模型路由仍在预览，Copilot+ PC 的本地上下文和操作能力则尚未推出。对企业而言，代理隔离、身份和权限管理仍是部署条件的一部分。
+Le Figaro 还计划在不同团队部署 ChatGPT Enterprise，并探索用于内部流程和读者服务的其他用途。OpenAI 表示，出版方保留对新闻内容的编辑独立性与控制权；公告未披露授权费用或功能全面开放的时间。
 
-分类：产品；状态：多项更新（正式、预览与计划并存）；原文日期：2026-11-17。
+分类：产业；状态：合作宣布；原文日期：2026-11-18。
 
-来源：[Windows Experience Blog](https://blogs.windows.com/windowsexperience/2026/11/17/microsoft-ignite-2026-building-windows-for-the-next-era-of-work/)
+来源：[OpenAI](https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership/)
 
-## 8. Azure Cobalt 200 虚拟机正式开放，首批覆盖 14 个区域
+## 8. Workday 拟收购 Honeydew，为 agents 提供统一业务定义
 
-![开放范围与扩展计划。当前：14 个区域，Cobalt 200 虚拟机正式提供；2026 年底：计划 23 个区域，微软公布的扩展目标；性能：最高 +50%，相对 Cobalt 100，厂商数据](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/azure-cobalt200-ga-2026-11-17.svg)
+![业务问题到受治理查询。统一定义：同一指标口径，跨工具与 agents 复用；查询生成：语义层编译，业务逻辑转为确定性查询；交易状态：拟议收购，预计 FY27 第四季度交割](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/workday-honeydew-semantic-layer-acquisition-2026-11-18.svg)
 
-性能数据和区域计划来自 Microsoft Azure 公告。
+交易尚未完成；预期功能是 Workday 对拟议整合的说明。
 
-Microsoft 于 11 月 17 日宣布 Azure Cobalt 200 虚拟机正式提供，首批覆盖 14 个区域。微软称，其相对 Cobalt 100 性能最高提升 50%，并计划在 2026 年底前扩展至 23 个区域。
+Workday 于 11 月 18 日表示，计划收购企业语义层公司 Honeydew。该技术用于在不同 BI 工具和 AI agents 之间统一业务指标定义，并把自然语言请求编译为查询，使不同团队对相同指标采用一致口径。
 
-这些 Arm 虚拟机面向云原生、数据密集型和代理式 AI 工作负载，微软还表示计划从 2027 年起让其成为新增 Azure 计算容量的重要组成。性能提升数字来自微软公布的产品数据，实际收益会随工作负载和配置而变化。
+Workday 称，Honeydew 将直接应用客户的业务定义与访问权限，目标是减少把大段数据字典塞入提示词或为每个模型重写规则的做法。交易预计在 Workday 2027 财年第四季度完成，即截至 2027 年 1 月 31 日的季度；仍须满足惯常交割条件。
 
-分类：基础设施；状态：正式提供（14 个区域）；原文日期：2026-11-17。
+分类：产业；状态：拟议收购；原文日期：2026-11-18。
 
-来源：[Microsoft Azure](https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/)
+来源：[Workday](https://newsroom.workday.com/2026-11-18-Workday-Announces-Intent-to-Acquire-Honeydew,-a-Semantic-Layer-for-AI-and-Business-Intelligence)
 
-## 9. Google Cloud 为欧洲受监管 AI 初创公司开设加速器
+## 9. Palo Alto Networks 拟以 45 亿美元收购 Applied Compute
 
-![Sovereign AI 加速器。申请范围：欧洲与以色列，受监管行业 AI 初创团队；项目周期：15 周，线上与线下混合辅导；费用条件：免股权，不收取参与公司股权；申请截止：2027-01-15，Google 公布的最后申请日](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-sovereign-ai-accelerator-2026-11-17.svg)
+![45 亿美元拟议收购。收购标的：后训练与推理平台，服务开源权重模型；支付方式：全股票，交易估值约 45 亿美元；预计交割：FY2027 第三季度，仍须满足惯常条件](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/paloalto-appliedcompute-acquisition-2026-11-18.svg)
 
-项目条件、期限与申请日期据 Google Cloud 公告。
+交易金额和交割时间据公司新闻稿；交易尚待监管批准等条件。
 
-Google Cloud 于 11 月 17 日启动 Google for Startups Accelerator: Sovereign AI 招募，面向欧洲和以色列、开发受监管行业 AI 产品的初创公司。入选团队将参加为期 15 周的混合项目，获得 Google 工程师辅导、架构支持和监管沙盒准备建议。
+Palo Alto Networks 于 11 月 18 日宣布拟收购 AI 平台 Applied Compute，交易估值为 45 亿美元、以股票支付。Applied Compute 提供开源权重模型的后训练和推理平台，收购方表示将把该团队和技术纳入企业 AI 安全业务。
 
-项目不收取股权，重点面向政府服务、医疗、金融和网络安全等领域，申请截止日期为 2027 年 1 月 15 日。Google 表示将支持团队在其分层主权云方案中部署；这属于创业支持计划，不代表监管认证或产品合规背书。
+公司预计交易在 2027 财年第三季度完成，仍须满足包括监管批准在内的惯常条件。Applied Compute 在交割前继续独立服务现有客户；收购后的产品整合和预期协同仍属公司计划。
 
-分类：产业；状态：开放申请；原文日期：2026-11-17。
+分类：产业；状态：拟议收购；原文日期：2026-11-18。
 
-来源：[Google Cloud](https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open)
+来源：[Palo Alto Networks / PR Newswire](https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302944421.html)
 
-## 10. Orange 发布五款支持沃洛夫语的开放权重模型
+## 10. ASUS、Dell 与 MSI 开售 NVIDIA RTX Spark 桌面机
 
-![沃洛夫语模型资源。模型数量：5 款，经微调的开放权重大语言模型；语言任务：理解与生成，针对沃洛夫语文本；使用许可：非商业用途，商业使用可能需另签协议](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/orange-wolof-models-2026-11-17.svg)
+![本地 AI 紧凑桌面机。当前销售：ASUS / Dell / MSI，三家厂商机型已上市；统一内存：最高 128 GB，适用于支持的本地工作流；NVIDIA 声称：最高 120B 参数，可本地运行的大模型规模](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/nvidia-rtx-spark-desktops-2026-11-18.svg)
 
-模型用途与许可来自 Orange 公告；商业使用可能需另行授权。
+规格与模型规模来自 NVIDIA 公告；具体配置由设备厂商决定。
 
-Orange 于 11 月 17 日发布五款支持沃洛夫语的微调大语言模型，并在 Hugging Face 提供模型权重和配套训练数据。公司称，模型可处理沃洛夫语文本理解与生成；训练数据基于公开数据自动翻译，不含 Orange 企业数据。
+NVIDIA 于 11 月 18 日宣布，ASUS、Dell 和 MSI 的 RTX Spark 紧凑型桌面电脑开始销售。系统面向本地 AI 模型、agents、图像视频生成和模型微调，统一内存最高 128GB；NVIDIA 称其配置可运行参数量最高约 1,200 亿的模型。
 
-资源目前可免费用于非商业用途，商业使用可能需要与 Orange 另行签订协议。发布开放权重有助于研究者和开发者开展本地语言实验，但模型在不同方言、口语和实际服务中的表现仍需独立验证。
+Acer、GIGABYTE、HP 和 Microsoft 的相关设备列为后续推出，公告未给出统一价格或所有地区的上市日期。上述规格和能力来自 NVIDIA 的产品说明，实际配置及可运行模型会随厂商机型和软件条件而异。
 
-分类：开源；状态：开放权重发布（非商业用途）；原文日期：2026-11-17。
+分类：产品；状态：部分机型上市；原文日期：2026-11-18。
 
-来源：[Orange Newsroom](https://newsroom.orange.com/orange-releases-african-language-ai-models-to-advance-digital-inclusion-in-africa/?lang=eng)
+来源：[NVIDIA Blog](https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/)
 
-## 11. Orange Business 为 Live Intelligence 增加法国托管保护模式
+## 11. GAO 报告称四款常用 AI 平台曾生成可行攻击方案
 
-![两种模式的数据处理边界。Protected Mode：法国托管与运营，模型、代理、数据和文档留在 Orange 环境；Open Mode：外部欧洲基础设施，可选择欧洲或瑞士部署的模型](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/orange-live-intelligence-protected-mode-2026-11-17.svg)
+![春季隐蔽测试发现。测试平台：4 款常用平台，Claude、Grok、ChatGPT、Gemini；安全防护：均曾被绕过，在测试中使用常见绕过方法；公开日期：2026 年 11 月 18 日，报告本身标注为 2026 年 10 月](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/gao-ai-covert-attack-plan-report-2026-11-18.svg)
 
-服务模式的托管地点与数据处理描述据 Orange 公告，实际范围应查阅合同和配置。
+GAO 对特定提示与模型版本进行测试，不能代表全部日常请求。
 
-Orange Business 于 11 月 17 日为 Live Intelligence 推出 Protected Mode，供需要更高数据控制的业务场景使用。Orange 表示，启用后所用模型、代理、数据和文档都留在其于法国托管和运营的环境内，该模式当天起向所有客户提供。
+美国政府问责局（GAO）于 11 月 18 日公开一份此前标注为 2026 年 10 月的报告，记录其在当年春季对 Claude、Grok、ChatGPT 和 Gemini 进行的隐蔽测试。GAO 称四个平台都曾生成可用于规划攻击的可行信息，涵盖造成大规模伤亡和攻击电网两类场景。
 
-平台同时保留 Open Mode，以使用部署在欧洲或瑞士外部基础设施上的模型。两种模式提供不同的数据处理边界；企业仍需核对服务配置、合同和具体工作流，不能只凭“法国托管”推断所有合规要求均已满足。
+GAO 表示，测试提示触发了平台的拒绝、删除信息或暂停账号等防护，但测试人员使用常见绕过方法后仍获得相关内容，并通过专家咨询等方式核验可行性。该结论针对报告中的测试过程，不能直接代表所有用户、模型版本或日常请求的风险水平。
 
-分类：产品；状态：产品上线；原文日期：2026-11-17。
+分类：治理；状态：报告公开；原文日期：2026-11-18。
 
-来源：[Orange Newsroom](https://newsroom.orange.com/orange-business-launches-protected-mode-for-live-intelligence-giving-organizations-greater-choice-over-their-ai-environment/?lang=eng)
+来源：[U.S. Government Accountability Office](https://files.gao.gov/reports/GAO-27-108814/index.html)
+
+## 12. Reuters：美国政府讨论要求企业披露使用中国 AI 模型
+
+![尚在讨论的披露方案。讨论机构：财政部 / OSTP，据 Reuters 援引的三名人士；讨论方向：披露中国 AI 使用，可能要求企业在网站说明；当前状态：未进入确定规则，是否推进仍不清楚](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/us-disclosure-chinese-ai-use-proposal-2026-11-18.svg)
+
+Reuters 援引知情人士；目前没有正式规则或确定的执行安排。
+
+Reuters 于 11 月 18 日报道，美国政府官员正在讨论要求美国企业公开披露使用中国 AI 模型的方案。报道援引三名知情人士称，讨论涉及财政部和白宫科技政策办公室，可能要求企业在网站上说明相关使用情况。
+
+Reuters 称，目前尚不清楚该方案是否会获得进一步推动或进入正式规则制定程序。该消息描述的是政府内部讨论，并非已经颁布的披露规定；被报道提及的 Airbnb 使用阿里巴巴 Qwen 支持客服 agent，也不代表方案已经适用于该公司。
+
+分类：治理；状态：方案讨论中，未形成规则；原文日期：2026-11-18。
+
+来源：[Reuters（经 Investing.com 发布）](https://www.investing.com/news/stock-market-news/exclusivetrump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use-5035455)
+
+## 13. Bajaj Finserv 与 Pennant 分别投资 Soket AI 约 200 万美元
+
+![印度本土模型研发投入。投资方一：约 200 万美元，Finserv Intelligence / Bajaj Finance；投资方二：约 200 万美元，Pennant Technologies；项目 EKA：260 亿参数，Soket AI 已推出基础模型](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/bajaj-invests-soket-ai-2026-11-18.svg)
+
+投资金额和模型参数规模据 Bajaj Finserv 公告，未披露独立性能评测。
+
+印度 Bajaj Finserv 旗下 Finserv Intelligence 于 11 月 18 日宣布投资 Soket AI 约 200 万美元；Bajaj Finance 的被投企业 Pennant Technologies 另投入约 200 万美元。Soket AI 正研发数学、代码和推理领域的大语言模型，并获得 IndiaAI Mission 支持。
+
+Bajaj 的公告称，Soket AI 已推出 Project EKA 的 260 亿参数基础模型，投资将支持本土模型研发和企业应用探索。公告没有提供模型的独立基准测试或公开下载地址，投资方对未来应用价值的描述属于发展计划。
+
+分类：产业；状态：投资宣布；原文日期：2026-11-18。
+
+来源：[Bajaj Finserv](https://www.aboutbajajfinserv.com/bfsl/financial-results/press-release/fy-2026-27/Bajaj_Finserv_Intelligence_invests_in_Soket_AI)
 
 **历史归档**
 
+- [2026-11-19 · AI 产品扩展与企业基础设施更新](archive/2026-11-19.md)
 - [2026-11-18 · 模型、企业 AI 与算力更新](archive/2026-11-18.md)
 - [2026-11-17 · 模型发布、Agent 产品与 AI 基建治理](archive/2026-11-17.md)
 - [2026-11-16 · 平台治理、云服务恢复与芯片出口审查](archive/2026-11-16.md)
