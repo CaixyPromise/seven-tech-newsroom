@@ -14060,6 +14060,404 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "google-gemini-mac-computer-use-2026-11-19",
+      "category": "产品",
+      "title": "Google 在 Gemini Mac 应用中推出电脑操作功能",
+      "summary": "Gemini 可在独立后台窗口中操作 Mac 应用和网站，帮助完成多步骤任务；目前以英语向美国用户逐步开放。",
+      "body": [
+        "Google 于 11 月 19 日在 Gemini Mac 应用中推出电脑操作功能，可根据用户指令在本地文件、桌面应用和网站间点击、输入及填写表单，处理多步骤任务。功能在独立后台窗口运行，用户可以查看实时预览、随时暂停，并在关键操作前确认。",
+        "该功能目前以英语向美国地区逐步开放，适用于年满 18 岁的个人 Google 账号及 Google AI Plus、Pro、Ultra 用户；设备需使用 Apple Silicon 芯片并运行 macOS Sequoia 15.0 或更新版本。Google 将其定位为减少重复操作的助手，实际执行仍受用户授予的应用权限和确认步骤约束。"
+      ],
+      "facts": [
+        "公告日期为 2026-11-19。",
+        "可跨本地文件、Mac 桌面应用和网站操作；有实时预览、暂停和关键操作确认。",
+        "首轮为美国英语用户，要求 Apple Silicon 与 macOS Sequoia 15.0+。"
+      ],
+      "context": "逐步推出；资格条件来自 Google 公告脚注。",
+      "status": "美国英语用户逐步开放",
+      "published_at": "2026-11-19",
+      "sources": [
+        {
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "accessed_at": "2026-11-20T01:03:05.439091+00:00",
+          "published_at": "2026-11-19",
+          "title": "Google 在 Gemini Mac 应用中推出电脑操作功能"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "Gemini for Mac",
+        "title": "从指令到桌面任务",
+        "caption": "美国英语版逐步开放；关键操作仍需用户确认。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "输入",
+            "value": "描述多步骤任务",
+            "detail": "涵盖本地文件、应用与网站"
+          },
+          {
+            "label": "执行",
+            "value": "后台窗口操作",
+            "detail": "点击、输入与填写表单"
+          },
+          {
+            "label": "控制",
+            "value": "预览并确认",
+            "detail": "可暂停，关键操作前审批"
+          }
+        ]
+      },
+      "issue_date": "2026-11-20",
+      "discovered_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "google-genie4-gemini-api-2026-11-19",
+      "category": "产品",
+      "title": "Genie 4 开放 Gemini API 与 AI Studio 开发者试用",
+      "summary": "Google 将世界生成模型 Genie 4 接入 Gemini API 与 AI Studio，支持生成可实时操控且带原生音频的 720p 场景。",
+      "body": [
+        "Google 于 11 月 19 日宣布，开发者可通过 Gemini API 的 Interactions API 和 Google AI Studio 使用 Genie 4。模型可从文字提示、参考图或两者生成连续的 720p 场景，输出为每秒 24 帧并带同步原生音频，开发者也能在运行中用键盘和文字提示改变环境。",
+        "Google 表示，场景可包含环境声、音效和角色对白，输出带有 SynthID 水印；公司列出的用途包括互动体验原型、空间概念展示和机器人及 AI agent 训练。前一天推出的 Project Genie 面向部分 Google AI Ultra 用户，此次 API 开放则扩展到开发者渠道；公告未在该文中给出价格或一般可用时间表。"
+      ],
+      "facts": [
+        "开发渠道为 Gemini API（Interactions API）和 Google AI Studio。",
+        "公告列出 720p、24fps 与同步原生音频。",
+        "输出带 SynthID 水印；公告未列价格。"
+      ],
+      "context": "参数及预期用途为 Google 公告所述；API 接入不等于所有用途已获验证。",
+      "status": "开发者可试用",
+      "published_at": "2026-11-19",
+      "sources": [
+        {
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+          "accessed_at": "2026-11-20T01:03:05.439091+00:00",
+          "published_at": "2026-11-19",
+          "title": "Genie 4 开放 Gemini API 与 AI Studio 开发者试用"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "Genie 4 · API",
+        "title": "可实时操控的生成场景",
+        "caption": "分辨率、帧率和音频规格据 Google 公告。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "输入",
+            "value": "文字或参考图",
+            "detail": "也可同时提供两者"
+          },
+          {
+            "label": "画面",
+            "value": "720p · 24fps",
+            "detail": "连续生成场景"
+          },
+          {
+            "label": "交互",
+            "value": "键盘与文字提示",
+            "detail": "运行中调整天气、物件或事件"
+          },
+          {
+            "label": "声音",
+            "value": "同步原生音频",
+            "detail": "含环境声、音效和对白"
+          }
+        ]
+      },
+      "issue_date": "2026-11-20",
+      "discovered_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "google-gemini-api-tool-retrieval-2026-11-19",
+      "category": "基础设施",
+      "title": "Gemini API 预览按需加载工具参数方案",
+      "summary": "Google 在 Interactions API 预览 Tool Retrieval，agent 可先保留工具名称与描述，需要时再载入参数 schema。",
+      "body": [
+        "Google 于 11 月 19 日在 Gemini Interactions API 预览 Tool Retrieval。过去，agent 调用大量工具时，通常要在每次请求中附上完整参数 schema；新机制允许开发者将工具标记为延迟加载，模型先看到工具名称和描述，需要调用时再由 API 载入完整参数。",
+        "开发者需加入 tool_search 并为相应工具设置 defer_loading；此功能也支持 Gemini API 中的远程 MCP server。Google 称其可减少不必要的输入 token、延迟及工具选择干扰，但实际节省取决于会话中未被调用的工具比例；功能目前处于预览阶段，token 仍按所用模型的标准费率计费。"
+      ],
+      "facts": [
+        "Tool Retrieval 于 2026-11-19 在 Gemini Interactions API 预览。",
+        "参数 schema 延后到工具被选中时载入；名称和描述仍可见。",
+        "支持 Gemini 3.6 及之后模型；没有独立功能费，token 按模型标准费率。"
+      ],
+      "context": "成本节省取决于实际调用模式；Google 建议按自有流量测量。",
+      "status": "Interactions API 预览",
+      "published_at": "2026-11-19",
+      "sources": [
+        {
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "accessed_at": "2026-11-20T01:03:05.439091+00:00",
+          "published_at": "2026-11-19",
+          "title": "Gemini API 预览按需加载工具参数方案"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "teal",
+        "eyebrow": "Gemini API · Tool Retrieval",
+        "title": "工具参数改为按需载入",
+        "caption": "预览功能；token 按所用模型标准费率计费。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "工具库",
+            "value": "名称与描述可见",
+            "detail": "完整参数 schema 暂缓载入"
+          },
+          {
+            "label": "选择",
+            "value": "模型发起搜索",
+            "detail": "通过 tool_search 请求所需工具"
+          },
+          {
+            "label": "调用",
+            "value": "载入参数后执行",
+            "detail": "本次请求中继续函数调用"
+          }
+        ]
+      },
+      "issue_date": "2026-11-20",
+      "discovered_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "google-quantum-contextuality-2026-11-19",
+      "category": "研究",
+      "title": "Google 在最多 105 量子比特任务中测量量子情境性",
+      "summary": "Google Quantum AI 报告 Willow 处理器在魔方游戏中胜率 98.3%，并在最高 105 量子比特的任务中超过其设定的经典策略界限。",
+      "body": [
+        "Google Quantum AI 研究团队 11 月 19 日在《Science》发表关于量子情境性的实验，并称在 Willow 超导处理器上运行的魔方游戏胜率为 98.3%，高于其列出的经典策略上限 88.89%。团队称，该实验也能用于检测传统随机电路测试可能忽略的硬件误差。",
+        "研究还在最多 105 个量子比特的问题上比较量子电路与受约束的经典策略，并报告实验结果超过经典界限。团队将结果解释为量子情境性可在较大处理器任务中测量；这属于特定实验设置下的研究结果，不能直接等同于通用计算优势或已达实用容错计算。"
+      ],
+      "facts": [
+        "论文题为 Quantum-classical separation in bounded-resource tasks arising from measurement contextuality，发表于 Science。",
+        "魔方游戏实验胜率为 98.30% ± 0.01%；团队给出的经典上限为 88.89%。",
+        "另一项隐藏线性函数任务最高涵盖 105 量子比特；结果超过相应经典界限。"
+      ],
+      "context": "实验由 Google Quantum AI 报告；胜率和任务结论依赖论文描述的处理器与实验设置。",
+      "status": "研究论文发表",
+      "published_at": "2026-11-19",
+      "sources": [
+        {
+          "publisher": "Google Research",
+          "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+          "accessed_at": "2026-11-20T01:03:05.439091+00:00",
+          "published_at": "2026-11-19",
+          "title": "Google 在最多 105 量子比特任务中测量量子情境性"
+        },
+        {
+          "publisher": "Science",
+          "url": "https://www.science.org/doi/10.1126/science.aec3042",
+          "accessed_at": "2026-11-20T01:03:05.439091+00:00",
+          "published_at": "2026-11-19",
+          "title": "Google 在最多 105 量子比特任务中测量量子情境性"
+        }
+      ],
+      "graphic": {
+        "layout": "bars",
+        "theme": "blue",
+        "eyebrow": "Willow · 魔方游戏",
+        "title": "实验胜率高于经典上限",
+        "caption": "Google 报告的实验结果；非通用计算基准。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "axis_max": 100,
+        "items": [
+          {
+            "label": "经典上限",
+            "value": "88.89%",
+            "amount": 88.89,
+            "detail": "Google Research 所述最佳经典策略"
+          },
+          {
+            "label": "Willow 实验",
+            "value": "98.30%",
+            "amount": 98.3,
+            "detail": "100,000 轮 × 9 种设置；±0.01%"
+          }
+        ]
+      },
+      "issue_date": "2026-11-20",
+      "discovered_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "nvidia-microsoft-ai-infrastructure-2026-11-19",
+      "category": "基础设施",
+      "title": "NVIDIA 与微软扩展 Azure 和本地 AI 部署合作",
+      "summary": "两家公司公布 Vera Rubin NVL72 在 Azure 数据中心运行，并扩展模型定制、机密计算和 Windows PC 端部署选项。",
+      "body": [
+        "NVIDIA 与微软 11 月 19 日在 Microsoft Ignite 期间公布扩大 AI 基础设施合作：搭载 NVIDIA Vera Rubin NVL72 的 Azure 虚拟机已在数据中心运行；双方还计划把 NVIDIA 开放模型和定制能力扩展至 Microsoft Foundry，并提供将 AI 工作负载部署到 Windows PC 和工业系统的选项。",
+        "两家公司同时称将把机密计算与验证能力扩展至裸金属及整机架 AI 基础设施，并合作提升数据中心能效。公告中的 Azure Vera Rubin 仍属预览，合作方也引用了自家产品和 MLPerf 测试数据；这些信息说明部署方向与厂商报告结果，不构成独立的跨平台性能比较。"
+      ],
+      "facts": [
+        "公司公告日期为 2026-11-19，发布场合为 Microsoft Ignite。",
+        "NVIDIA Vera Rubin NVL72 系统在 Azure 数据中心运行；对应云服务处于预览。",
+        "合作范围还包括 Microsoft Foundry 模型定制、本地部署、机密计算与能效。"
+      ],
+      "context": "内容及性能数据来自合作公司公告；公告所称预览不代表全面商用。",
+      "status": "部分能力预览与扩展中",
+      "published_at": "2026-11-19",
+      "sources": [
+        {
+          "publisher": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+          "accessed_at": "2026-11-20T01:03:05.439091+00:00",
+          "published_at": "2026-11-19",
+          "title": "NVIDIA 与微软扩展 Azure 和本地 AI 部署合作"
+        }
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "amber",
+        "eyebrow": "Microsoft Ignite 2026",
+        "title": "从 Azure 延伸到本地部署",
+        "caption": "双方公告称 Azure Vera Rubin 服务处于预览。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "云基础设施",
+            "value": "Vera Rubin NVL72",
+            "detail": "在 Azure 数据中心运行；服务预览"
+          },
+          {
+            "label": "模型平台",
+            "value": "Microsoft Foundry",
+            "detail": "扩展 NVIDIA 开放模型与定制能力"
+          },
+          {
+            "label": "本地部署",
+            "value": "Windows PC 与工业系统",
+            "detail": "新增边缘运行选项"
+          },
+          {
+            "label": "数据保护",
+            "value": "机密计算与能效",
+            "detail": "双方称将扩展验证与能效合作"
+          }
+        ]
+      },
+      "issue_date": "2026-11-20",
+      "discovered_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "visual": "grid",
+      "tags": [
+        "基础设施"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-health-android-desktop-2026-11-19",
+      "category": "产品",
+      "title": "ChatGPT Health 扩展到 Android、桌面端与 Sites",
+      "summary": "OpenAI 将 Health 扩展至更多 ChatGPT 使用场景，并支持 Android Health Connect；功能按账号逐步开放，现阶段限美国用户。",
+      "body": [
+        "OpenAI 11 月 19 日宣布，将 ChatGPT Health 扩展至 Android、桌面应用、dots 和 Sites，并支持连接 Android Health Connect。用户可选择连接健康与健身信息，查看睡眠、活动等模式；桌面端也可创建用于追踪训练计划的网站。",
+        "该更新正逐步推出，暂面向美国的 Free、Go、Plus 和 Pro 用户；dots 当前仅对 Pro 用户开放，账号可能尚未获得入口。连接健康数据需用户授权，产品说明将其定位为帮助理解健康信息的工具，并非替代医疗服务。"
+      ],
+      "facts": [
+        "OpenAI Release Notes 将该更新列于 2026-11-19。",
+        "新增支持 Android Health Connect，Health 扩展到 Android、桌面端、dots 与 Sites。",
+        "美国 Free、Go、Plus、Pro 用户可用；逐步推出，dots 当前仅对 Pro 用户开放。"
+      ],
+      "context": "可用性以 OpenAI 发布说明为准，逐步推出期间并非所有符合条件账号都会立即显示。",
+      "status": "美国用户逐步开放",
+      "published_at": "2026-11-19",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "accessed_at": "2026-11-20T01:03:05.439091+00:00",
+          "published_at": "2026-11-19",
+          "title": "ChatGPT Health 扩展到 Android、桌面端与 Sites"
+        }
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "teal",
+        "eyebrow": "ChatGPT Health",
+        "title": "Health 扩展到更多终端",
+        "caption": "美国账号逐步开放；连接健康数据需用户授权。",
+        "source_refs": [
+          0
+        ],
+        "focus": {
+          "value": "Health",
+          "label": "健康信息体验"
+        },
+        "items": [
+          {
+            "label": "Android",
+            "value": "Health Connect",
+            "detail": "连接健康与健身信息"
+          },
+          {
+            "label": "桌面端",
+            "value": "追踪训练计划",
+            "detail": "可创建 Sites 记录进展"
+          },
+          {
+            "label": "适用账号",
+            "value": "美国 Free 至 Pro",
+            "detail": "dots 当前仅限 Pro 用户"
+          }
+        ]
+      },
+      "issue_date": "2026-11-20",
+      "discovered_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -14658,7 +15056,31 @@
       "updated_at": "2026-11-19T01:06:19.342291+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-19.json"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "AI 开始接手桌面操作，模型工具链与算力合作同步扩展",
+      "dek": "本期聚焦桌面电脑操作、生成式世界 API、按需加载工具、量子处理器实验，以及 AI 基础设施和健康功能的新进展。",
+      "coverage": "2026-11-19 09:00 至 2026-11-20 09:00（Asia/Singapore）；按原始来源发布日期核对。",
+      "lead_ids": [
+        "google-gemini-mac-computer-use-2026-11-19",
+        "google-genie4-gemini-api-2026-11-19",
+        "google-quantum-contextuality-2026-11-19"
+      ],
+      "event_ids": [
+        "google-gemini-mac-computer-use-2026-11-19",
+        "google-genie4-gemini-api-2026-11-19",
+        "google-gemini-api-tool-retrieval-2026-11-19",
+        "google-quantum-contextuality-2026-11-19",
+        "nvidia-microsoft-ai-infrastructure-2026-11-19",
+        "openai-health-android-desktop-2026-11-19"
+      ],
+      "number": "023",
+      "published_at": "2026-11-20T01:03:05.439091+00:00",
+      "updated_at": "2026-11-20T01:03:05.439091+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-20.json"
     }
   ],
-  "updated_at": "2026-11-19T01:06:19.342291+00:00"
+  "updated_at": "2026-11-20T01:03:05.439091+00:00"
 }
