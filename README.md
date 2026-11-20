@@ -41,6 +41,8 @@ Google 于 11 月 19 日在 Gemini Mac 应用中推出电脑操作功能，可�
 
 来源：[Google](https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/)
 
+更正：2026-11-20T01:07:43.492611+00:00 · 补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。
+
 ## 2. Genie 4 开放 Gemini API 与 AI Studio 开发者试用
 
 ![可实时操控的生成场景。输入：文字或参考图，也可同时提供两者；画面：720p · 24fps，连续生成场景；交互：键盘与文字提示，运行中调整天气、物件或事件；声音：同步原生音频，含环境声、音效和对白](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-genie4-gemini-api-2026-11-19.svg)
@@ -55,6 +57,8 @@ Google 表示，场景可包含环境声、音效和角色对白，输出带有 
 
 来源：[Google](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)
 
+更正：2026-11-20T01:07:43.492611+00:00 · 补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。
+
 ## 3. Gemini API 预览按需加载工具参数方案
 
 ![工具参数改为按需载入。工具库：名称与描述可见，完整参数 schema 暂缓载入；选择：模型发起搜索，通过 tool_search 请求所需工具；调用：载入参数后执行，本次请求中继续函数调用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-gemini-api-tool-retrieval-2026-11-19.svg)
@@ -68,6 +72,8 @@ Google 于 11 月 19 日在 Gemini Interactions API 预览 Tool Retrieval。过�
 分类：基础设施；状态：Interactions API 预览；原文日期：2026-11-19。
 
 来源：[Google](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)
+
+更正：2026-11-20T01:07:43.492611+00:00 · 补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。
 
 ## 4. Google 在最多 105 量子比特任务中测量量子情境性
 
@@ -97,6 +103,8 @@ NVIDIA 与微软 11 月 19 日在 Microsoft Ignite 期间公布扩大 AI 基础�
 分类：基础设施；状态：部分能力预览与扩展中；原文日期：2026-11-19。
 
 来源：[NVIDIA](https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/)
+
+更正：2026-11-20T01:07:43.492611+00:00 · 补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。
 
 ## 6. ChatGPT Health 扩展到 Android、桌面端与 Sites
 

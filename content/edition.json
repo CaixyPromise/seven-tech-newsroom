@@ -14082,8 +14082,8 @@
         {
           "publisher": "Google",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "published_at": "2026-11-19T17:00:00+00:00",
           "accessed_at": "2026-11-20T01:03:05.439091+00:00",
-          "published_at": "2026-11-19",
           "title": "Google 在 Gemini Mac 应用中推出电脑操作功能"
         }
       ],
@@ -14114,14 +14114,19 @@
           }
         ]
       },
+      "corrections": [
+        {
+          "at": "2026-11-20T01:07:43.492611+00:00",
+          "note": "补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。"
+        }
+      ],
       "issue_date": "2026-11-20",
       "discovered_at": "2026-11-20T01:03:05.439091+00:00",
-      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:07:43.570804+00:00",
       "visual": "grid",
       "tags": [
         "产品"
       ],
-      "corrections": [],
       "publication_precision": "date"
     },
     {
@@ -14145,8 +14150,8 @@
         {
           "publisher": "Google",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+          "published_at": "2026-11-19T17:00:00+00:00",
           "accessed_at": "2026-11-20T01:03:05.439091+00:00",
-          "published_at": "2026-11-19",
           "title": "Genie 4 开放 Gemini API 与 AI Studio 开发者试用"
         }
       ],
@@ -14182,14 +14187,19 @@
           }
         ]
       },
+      "corrections": [
+        {
+          "at": "2026-11-20T01:07:43.492611+00:00",
+          "note": "补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。"
+        }
+      ],
       "issue_date": "2026-11-20",
       "discovered_at": "2026-11-20T01:03:05.439091+00:00",
-      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:07:43.570804+00:00",
       "visual": "grid",
       "tags": [
         "产品"
       ],
-      "corrections": [],
       "publication_precision": "date"
     },
     {
@@ -14213,8 +14223,8 @@
         {
           "publisher": "Google",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "published_at": "2026-11-19T18:00:00+00:00",
           "accessed_at": "2026-11-20T01:03:05.439091+00:00",
-          "published_at": "2026-11-19",
           "title": "Gemini API 预览按需加载工具参数方案"
         }
       ],
@@ -14245,14 +14255,19 @@
           }
         ]
       },
+      "corrections": [
+        {
+          "at": "2026-11-20T01:07:43.492611+00:00",
+          "note": "补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。"
+        }
+      ],
       "issue_date": "2026-11-20",
       "discovered_at": "2026-11-20T01:03:05.439091+00:00",
-      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:07:43.570804+00:00",
       "visual": "grid",
       "tags": [
         "基础设施"
       ],
-      "corrections": [],
       "publication_precision": "date"
     },
     {
@@ -14316,7 +14331,7 @@
       },
       "issue_date": "2026-11-20",
       "discovered_at": "2026-11-20T01:03:05.439091+00:00",
-      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:07:43.570804+00:00",
       "visual": "grid",
       "tags": [
         "研究"
@@ -14345,8 +14360,8 @@
         {
           "publisher": "NVIDIA",
           "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+          "published_at": "2026-11-19T20:00:15+00:00",
           "accessed_at": "2026-11-20T01:03:05.439091+00:00",
-          "published_at": "2026-11-19",
           "title": "NVIDIA 与微软扩展 Azure 和本地 AI 部署合作"
         }
       ],
@@ -14382,14 +14397,19 @@
           }
         ]
       },
+      "corrections": [
+        {
+          "at": "2026-11-20T01:07:43.492611+00:00",
+          "note": "补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。"
+        }
+      ],
       "issue_date": "2026-11-20",
       "discovered_at": "2026-11-20T01:03:05.439091+00:00",
-      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:07:43.570804+00:00",
       "visual": "grid",
       "tags": [
         "基础设施"
       ],
-      "corrections": [],
       "publication_precision": "date"
     },
     {
@@ -14451,7 +14471,7 @@
       },
       "issue_date": "2026-11-20",
       "discovered_at": "2026-11-20T01:03:05.439091+00:00",
-      "verified_at": "2026-11-20T01:03:05.439091+00:00",
+      "verified_at": "2026-11-20T01:07:43.570804+00:00",
       "visual": "grid",
       "tags": [
         "产品"
@@ -15077,10 +15097,10 @@
       ],
       "number": "023",
       "published_at": "2026-11-20T01:03:05.439091+00:00",
-      "updated_at": "2026-11-20T01:03:05.439091+00:00",
+      "updated_at": "2026-11-20T01:07:43.570804+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-20.json"
     }
   ],
-  "updated_at": "2026-11-20T01:03:05.439091+00:00"
+  "updated_at": "2026-11-20T01:07:43.570804+00:00"
 }
