@@ -4,124 +4,132 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-20。共 23 期、206 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-21。共 24 期、212 条独立记录；按实际发布状态与来源标时。
 
-**最新数据快照**：2026-11-20 09:02 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
+**最新数据快照**：2026-11-21 22:12 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
 | 观察项 | 最新观测 | 范围 |
 | --- | --- | --- |
-| 模型基本费估算 | $0.00135 · MiniMax M3.1 Flash | 7 个选定模型，10K 输入 + 2K 输出 Token |
+| 模型基本费估算 | $0.002 · Claude Haiku 5.5 | 7 个选定模型，10K 输入 + 2K 输出 Token |
 | 平台单日用量 | 约 7.09T Token · DeepSeek V4.1 Flash 1017 | OpenRouter 2026-10-31 UTC 公开日榜 |
-| 开源关注 | 187,672 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
-| 文本模型下载 | 34,336,215 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
+| 开源关注 | 187,820 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
+| 文本模型下载 | 34,152,708 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-20
+## 最新一期 · 2026-11-21
 
-**AI 开始接手桌面操作，模型工具链与算力合作同步扩展**
+**AI 安全、研究评测与市场信号更新**
 
-本期聚焦桌面电脑操作、生成式世界 API、按需加载工具、量子处理器实验，以及 AI 基础设施和健康功能的新进展。
+Signal 限制移动端 AI 读取屏幕，OpenAI 发布两项研究进展，Hume 推出语音实体数据集；美国 AI 监管讨论与科技股行情也有新变化。
 
-每日精选，第 023 期。收录范围：2026-11-19 09:00 至 2026-11-20 09:00（Asia/Singapore）；按原始来源发布日期核对。。
-实际首次整理：2026-11-20 09:03 UTC+8。
+每日精选，第 024 期。收录范围：2026-11-20 09:00 至 2026-11-21 09:00（Asia/Singapore）；按原始来源时间核对。。
+实际首次整理：2026-11-21 22:21 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. Google 在 Gemini Mac 应用中推出电脑操作功能
+## 1. Signal 在 iOS 27 与 Android 上限制 AI 读取聊天屏幕
 
-![从指令到桌面任务。输入：描述多步骤任务，涵盖本地文件、应用与网站；执行：后台窗口操作，点击、输入与填写表单；控制：预览并确认，可暂停，关键操作前审批](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-gemini-mac-computer-use-2026-11-19.svg)
+![移动端限制系统 AI 读取聊天画面。iOS 27：阻止应用内截屏，Signal 表示针对系统 AI 捕获聊天画面采取限制。；Android：检测后启动屏幕安全，适用于 Signal 能识别 AI 助手读取屏幕的设备。；macOS：暂未支持，Signal 表示目前无法在该平台实现同类保护。；设备文件：仍可能被读取，应用内截屏保护不覆盖已保存在文件系统中的数据。](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/signal-mobile-ai-screen-protection-2026-11-20.svg)
 
-美国英语版逐步开放；关键操作仍需用户确认。
+依据 Signal 对 iOS 27、Android 与 macOS 支持范围的说明；措施不覆盖设备文件系统中的已有数据。
 
-Google 于 11 月 19 日在 Gemini Mac 应用中推出电脑操作功能，可根据用户指令在本地文件、桌面应用和网站间点击、输入及填写表单，处理多步骤任务。功能在独立后台窗口运行，用户可以查看实时预览、随时暂停，并在关键操作前确认。
+Signal 总裁 Meredith Whittaker 于 11 月 20 日表示，Signal 将限制手机操作系统内置 AI 助手捕获聊天内容：在 iOS 27 中，应用会阻止截屏；在能检测到 AI 助手读取画面的 Android 设备上，则会启用屏幕安全保护。Signal 说，操作系统级助手可能把屏幕内容存入本地数据库或传往远端服务。
 
-该功能目前以英语向美国地区逐步开放，适用于年满 18 岁的个人 Google 账号及 Google AI Plus、Pro、Ultra 用户；设备需使用 Apple Silicon 芯片并运行 macOS Sequoia 15.0 或更新版本。Google 将其定位为减少重复操作的助手，实际执行仍受用户授予的应用权限和确认步骤约束。
+用户仍可在 Signal 设置中关闭相关保护。公司同时说明，这项措施并不完整：macOS 目前无法实现同类拦截，已经保存在设备文件系统中的数据也可能被读取。Signal 呼吁操作系统厂商提供更清楚的 AI 访问说明，以及应用拒绝屏幕、通知和文件访问的机制。
 
-分类：产品；状态：美国英语用户逐步开放；原文日期：2026-11-19。
+评论：端到端加密保护传输过程，应用还需要应对系统权限带来的屏幕读取路径。
 
-来源：[Google](https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/)
+分类：产品；状态：移动端分平台提供；Signal 表示防护并不完整；原文日期：2026-11-20。
 
-更正：2026-11-20T01:07:43.492611+00:00 · 补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。
+来源：[Signal](https://signal.org/blog/protecting-your-privacy/)
+来源：[Reuters（Investing.com转载）](https://www.investing.com/news/stock-market-news/exclusivesignal-restricts-screenshots-to-block-ai-agents-from-reading-messages-5040998)
 
-## 2. Genie 4 开放 Gemini API 与 AI Studio 开发者试用
+## 2. Hume 推出面向语音识别专名准确率的数据集
 
-![可实时操控的生成场景。输入：文字或参考图，也可同时提供两者；画面：720p · 24fps，连续生成场景；交互：键盘与文字提示，运行中调整天气、物件或事件；声音：同步原生音频，含环境声、音效和对白](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-genie4-gemini-api-2026-11-19.svg)
+![语音转写评测开始单独衡量专名。数据规模：约 800 小时，面向后训练的脚本朗读语音。；实体标注：35 万余项 / 28 类，含姓名、地址、账号、日期和代码等。；语言与说话人：8 种 / 约 6,000 人，说话人来自 49 个国家。；准确率差异：7 个百分点，Hume 报告两套 WER 接近系统的实体准确率差值。](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/hume-asr-entity-dataset-2026-11-20.svg)
 
-分辨率、帧率和音频规格据 Google 公告。
+数据规模与准确率比较均来自 Hume 发布的资料；数据集需授权使用。
 
-Google 于 11 月 19 日宣布，开发者可通过 Gemini API 的 Interactions API 和 Google AI Studio 使用 Genie 4。模型可从文字提示、参考图或两者生成连续的 720p 场景，输出为每秒 24 帧并带同步原生音频，开发者也能在运行中用键盘和文字提示改变环境。
+语音识别公司 Hume AI 于 11 月 20 日发布 Hume ASR Entity Dataset，针对姓名、地址、账号、日期和产品代码等容易被整体字错率掩盖的内容。公司称，数据集约 800 小时，覆盖八种语言、28 类实体及超过 35 万个标注实体，约 6000 名来自 49 个国家的说话人参与录制。
 
-Google 表示，场景可包含环境声、音效和角色对白，输出带有 SynthID 水印；公司列出的用途包括互动体验原型、空间概念展示和机器人及 AI agent 训练。前一天推出的 Project Genie 面向部分 Google AI Ultra 用户，此次 API 开放则扩展到开发者渠道；公告未在该文中给出价格或一般可用时间表。
+配套的 Real World VoiceEQ 评测新增实体准确率指标。Hume 报告称，两套整体字错率相近的系统在实体准确率上相差 7 个百分点，表现领先的系统也漏掉近五分之一的实体。该数据集目前以授权方式提供，Hume 也接受新增语言和领域数据的定制需求；评测结果由公司发布。
 
-分类：产品；状态：开发者可试用；原文日期：2026-11-19。
+评论：对语音客服、地址确认和身份核验而言，少数关键字段的误识别可能比总体字错率更直接影响任务结果。
 
-来源：[Google](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)
+分类：研究；状态：数据集按许可提供；评测数字由 Hume 报告；原文日期：2026-11-20。
 
-更正：2026-11-20T01:07:43.492611+00:00 · 补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。
+来源：[Hume AI](https://www.hume.ai/blog/hume-asr-entity-dataset)
+来源：[Hume AI](https://www.hume.ai/blog/asr-entity-accuracy-benchmark)
 
-## 3. Gemini API 预览按需加载工具参数方案
+## 3. OpenAI 发布药物化学推理基准 MedChemBench
 
-![工具参数改为按需载入。工具库：名称与描述可见，完整参数 schema 暂缓载入；选择：模型发起搜索，通过 tool_search 请求所需工具；调用：载入参数后执行，本次请求中继续函数调用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-gemini-api-tool-retrieval-2026-11-19.svg)
+![OpenAI 报告的四个模型成绩。GPT-6.2 Astra：84.5%，OpenAI 报告的 xhigh 得分。；GPT-6 Astra：83.3%，同一基准与推理设置。；GPT-6.1 Sol：82.0%，同一基准与推理设置。；GPT-5.6 Sol：58.2%，同一基准与推理设置。](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-medchembench-2026-11-20.svg)
 
-预览功能；token 按所用模型标准费率计费。
+OpenAI 自建的 99 题基准；分数为发布方报告，不能据此推断真实药物发现能力。
 
-Google 于 11 月 19 日在 Gemini Interactions API 预览 Tool Retrieval。过去，agent 调用大量工具时，通常要在每次请求中附上完整参数 schema；新机制允许开发者将工具标记为延迟加载，模型先看到工具名称和描述，需要调用时再由 API 载入完整参数。
+OpenAI 于 11 月 20 日发布 MedChemBench，用药物化学研究中的结构图、实验结果和候选物选择问题评估模型推理。基准包含 99 道题，依据 117 篇论文和专利整理出 761 种分子结构，测试模型能否重建分子、解释实验结果、排序候选物并预测性质。
 
-开发者需加入 tool_search 并为相应工具设置 defer_loading；此功能也支持 Gemini API 中的远程 MCP server。Google 称其可减少不必要的输入 token、延迟及工具选择干扰，但实际节省取决于会话中未被调用的工具比例；功能目前处于预览阶段，token 仍按所用模型的标准费率计费。
+OpenAI 报告称，GPT-6.2 Astra 在 xhigh 推理设置下取得 84.5% 可得分数，高于 GPT-6 Astra 的 83.3%、GPT-6.1 Sol 的 82.0% 和 GPT-5.6 Sol 的 58.2%。公司也指出，候选物选择和数值性质预测仍较难；基准使用历史资料，无法排除训练数据中已有相同内容，也不代表模型已能发现药物。
 
-分类：基础设施；状态：Interactions API 预览；原文日期：2026-11-19。
+评论：这项基准将分子识别、证据解释和候选物决策拆开计分，便于定位模型在科研流程中的薄弱环节。
 
-来源：[Google](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)
+分类：研究；状态：公司发布的基准与模型成绩；非药物发现验证；原文日期：2026-11-20。
 
-更正：2026-11-20T01:07:43.492611+00:00 · 补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。
+来源：[OpenAI](https://openai.com/index/introducing-medchembench/)
+来源：[OpenAI（X）](https://x.com/OpenAI/status/2123856316187975756)
 
-## 4. Google 在最多 105 量子比特任务中测量量子情境性
+## 4. OpenAI 公布针对推理蒸馏攻击的防护进展
 
-![实验胜率高于经典上限。经典上限：88.89%，Google Research 所述最佳经典策略；Willow 实验：98.30%，100,000 轮 × 9 种设置；±0.01%](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-quantum-contextuality-2026-11-19.svg)
+![受保护推理提取攻击成功率。GPT-6 Astra：54.0%，原有防护下的平均攻击成功率。；GPT-6.2 Astra：0.2%，更新防护后的平均攻击成功率。](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-adversarial-distillation-defenses-2026-11-20.svg)
 
-Google 报告的实验结果；非通用计算基准。
+OpenAI 内部自适应评估的发布方数据；对比的是两个模型版本及其相应防护。
 
-Google Quantum AI 研究团队 11 月 19 日在《Science》发表关于量子情境性的实验，并称在 Willow 超导处理器上运行的魔方游戏胜率为 98.3%，高于其列出的经典策略上限 88.89%。团队称，该实验也能用于检测传统随机电路测试可能忽略的硬件误差。
+OpenAI 于 11 月 20 日发布一份关于对抗性蒸馏的说明，称未经授权地用前沿模型输出训练其他模型，可能在转移能力时不继承原模型的安全防护。公司称其做法结合对抗测试、模型训练、分类器、API 层限制和针对协调式提取行为的调查，并特别加强对内部推理内容的保护。
 
-研究还在最多 105 个量子比特的问题上比较量子电路与受约束的经典策略，并报告实验结果超过经典界限。团队将结果解释为量子情境性可在较大处理器任务中测量；这属于特定实验设置下的研究结果，不能直接等同于通用计算优势或已达实用容错计算。
+在一项由 OpenAI 运行的自适应自动红队评估中，GPT-6 Astra 原有防护下的平均攻击成功率为 54.0%，采用更新防护的 GPT-6.2 Astra 为 0.2%。这组结果是公司内部测试，不是独立评测；OpenAI 也说明，蒸馏本身是常见机器学习方法，风险在于未经授权地抽取能力并部署缺少相同保障的模型。
 
-分类：研究；状态：研究论文发表；原文日期：2026-11-19。
+评论：这次披露把模型防护延伸到训练数据来源和推理内容的再利用问题，外部复测仍是理解效果的重要环节。
 
-来源：[Google Research](https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/)
-来源：[Science](https://www.science.org/doi/10.1126/science.aec3042)
+分类：治理；状态：防护效果为 OpenAI 内部评估结果；原文日期：2026-11-20。
 
-## 5. NVIDIA 与微软扩展 Azure 和本地 AI 部署合作
+来源：[OpenAI](https://openai.com/index/combatting-adversarial-distillation/)
+来源：[OpenAI（X）](https://x.com/OpenAI/status/2123862344422088794)
 
-![从 Azure 延伸到本地部署。云基础设施：Vera Rubin NVL72，在 Azure 数据中心运行；服务预览；模型平台：Microsoft Foundry，扩展 NVIDIA 开放模型与定制能力；本地部署：Windows PC 与工业系统，新增边缘运行选项；数据保护：机密计算与能效，双方称将扩展验证与能效合作](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/nvidia-microsoft-ai-infrastructure-2026-11-19.svg)
+## 5. 美国民主党参议员提议成立 AI 特别委员会
 
-双方公告称 Azure Vera Rubin 服务处于预览。
+![从议程提议到可能的立法讨论。提议者：John Hickenlooper，科罗拉多州民主党参议员。；组织方案：考虑成立 AI 特别委员会，提议用于统筹参议院 AI 讨论。；讨论方向：数据中心、安全标准、监测，仍是民主党人讨论的政策选项。；时间：新一届国会明年 1 月，领导层仍在筹备议程，提案尚未成为法律。](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/us-senate-ai-select-committee-proposal-2026-11-20.svg)
 
-NVIDIA 与微软 11 月 19 日在 Microsoft Ignite 期间公布扩大 AI 基础设施合作：搭载 NVIDIA Vera Rubin NVL72 的 Azure 虚拟机已在数据中心运行；双方还计划把 NVIDIA 开放模型和定制能力扩展至 Microsoft Foundry，并提供将 AI 工作负载部署到 Windows PC 和工业系统的选项。
+美联社报道的参议员提案与讨论方向；目前尚无新委员会或已通过的法案。
 
-两家公司同时称将把机密计算与验证能力扩展至裸金属及整机架 AI 基础设施，并合作提升数据中心能效。公告中的 Azure Vera Rubin 仍属预览，合作方也引用了自家产品和 MLPerf 测试数据；这些信息说明部署方向与厂商报告结果，不构成独立的跨平台性能比较。
+美联社 11 月 20 日报道，科罗拉多州民主党参议员 John Hickenlooper 提议，由参议院民主党领袖候选人推动一项新国会 AI 监管方案，并考虑设立特别委员会统筹相关议题。他说，自三年前成立 AI 工作组以来，国会在建立防护规则和加强监管方面进展有限。
 
-分类：基础设施；状态：部分能力预览与扩展中；原文日期：2026-11-19。
+民主党人正在讨论明年一月取得多数席位后的优先事项，提案方向包括数据中心监管、AI 安全标准、强化监测与研究，以及第三方评估。参议院民主党领袖 Chuck Schumer 的发言人表示正在与即将接任委员会的成员制定 AI 议程；委员会和法案尚未成立或通过。
 
-来源：[NVIDIA](https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/)
+评论：目前的变化是党团开始规划议程，具体监管安排仍取决于新一届国会和领导层决策。
 
-更正：2026-11-20T01:07:43.492611+00:00 · 补充原始页面结构化元数据中的精确发布时间；发布日期与正文未变。
+分类：治理；状态：参议员提案；委员会与立法尚未成立或通过；原文日期：2026-11-20。
 
-## 6. ChatGPT Health 扩展到 Android、桌面端与 Sites
+来源：[Associated Press](https://apnews.com/article/artificial-intelligence-congress-schumer-senate-047d0ab21237984701decd9ed5ced403)
 
-![Health 扩展到更多终端。Android：Health Connect，连接健康与健身信息；桌面端：追踪训练计划，可创建 Sites 记录进展；适用账号：美国 Free 至 Pro，dots 当前仅限 Pro 用户](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-health-android-desktop-2026-11-19.svg)
+## 6. 科技股大幅回落，英伟达与 Anthropic 股价下跌
 
-美国账号逐步开放；连接健康数据需用户授权。
+![AI 相关科技股与指数同步回落。纳斯达克综合指数：−5.3%，美国周五交易日。；标普 500：−3.7%，美国周五交易日。；英伟达：约 −14%，Axios 报道的周五股价变化。；Anthropic：−8.5% · $88.91，IPO 发行价为 $83；回吐大部分首日涨幅。](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/ai-tech-market-selloff-anthropic-nvidia-2026-11-20.svg)
 
-OpenAI 11 月 19 日宣布，将 ChatGPT Health 扩展至 Android、桌面应用、dots 和 Sites，并支持连接 Android Health Connect。用户可选择连接健康与健身信息，查看睡眠、活动等模式；桌面端也可创建用于追踪训练计划的网站。
+Axios 报道的美国交易日变化；股价和指数波动不是长期走势预测。
 
-该更新正逐步推出，暂面向美国的 Free、Go、Plus 和 Pro 用户；dots 当前仅对 Pro 用户开放，账号可能尚未获得入口。连接健康数据需用户授权，产品说明将其定位为帮助理解健康信息的工具，并非替代医疗服务。
+周五美国科技股大幅回落。Axios 于 11 月 20 日收市后报道，纳斯达克综合指数当日下跌 5.3%，标普 500 指数下跌 3.7%；英伟达股价下跌约 14%，Anthropic 下跌 8.5% 至 88.91 美元，较其 83 美元发行价略高，已回吐大部分首日涨幅。
 
-分类：产品；状态：美国用户逐步开放；原文日期：2026-11-19。
+报道将市场波动与对 AI 支出持续性、信贷收紧及英伟达面临的监管与领导层消息并列讨论。单日股价变化无法单独说明投资者对某项产品或公司业绩的判断，英伟达与 Anthropic 的收入、商业模式和市场规模也各不相同。
 
-来源：[OpenAI](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
+评论：AI 公司估值与基础设施支出正受到更严格的市场检验，但单日回落不足以判断长期需求走向。
+
+分类：产业；状态：据 11 月 20 日收市行情报道；原文日期：2026-11-20。
+
+来源：[Axios](https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff)
 
 **历史归档**
 
+- [2026-11-21 · AI 安全、研究评测与市场信号更新](archive/2026-11-21.md)
 - [2026-11-20 · AI 开始接手桌面操作，模型工具链与算力合作同步扩展](archive/2026-11-20.md)
 - [2026-11-19 · AI 产品扩展与企业基础设施更新](archive/2026-11-19.md)
 - [2026-11-18 · 模型、企业 AI 与算力更新](archive/2026-11-18.md)

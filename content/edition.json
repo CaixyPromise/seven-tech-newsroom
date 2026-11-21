@@ -14478,6 +14478,443 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "signal-mobile-ai-screen-protection-2026-11-20",
+      "category": "产品",
+      "title": "Signal 在 iOS 27 与 Android 上限制 AI 读取聊天屏幕",
+      "summary": "Signal 宣布在 iOS 27 阻止应用内截屏，并在可检测到系统 AI 助手读取画面的 Android 设备上启用屏幕安全保护。公司称措施并不覆盖 macOS 和设备文件系统中的数据。",
+      "body": [
+        "Signal 总裁 Meredith Whittaker 于 11 月 20 日表示，Signal 将限制手机操作系统内置 AI 助手捕获聊天内容：在 iOS 27 中，应用会阻止截屏；在能检测到 AI 助手读取画面的 Android 设备上，则会启用屏幕安全保护。Signal 说，操作系统级助手可能把屏幕内容存入本地数据库或传往远端服务。",
+        "用户仍可在 Signal 设置中关闭相关保护。公司同时说明，这项措施并不完整：macOS 目前无法实现同类拦截，已经保存在设备文件系统中的数据也可能被读取。Signal 呼吁操作系统厂商提供更清楚的 AI 访问说明，以及应用拒绝屏幕、通知和文件访问的机制。",
+        "评论：端到端加密保护传输过程，应用还需要应对系统权限带来的屏幕读取路径。"
+      ],
+      "facts": [
+        "Signal 表示将在 iOS 27 阻止应用内截屏，并在可检测到 AI 助手读取屏幕的 Android 设备上启用保护。",
+        "用户可以关闭保护；Signal 表示该措施不能防止读取设备文件系统中的已有内容，也暂不适用于 macOS。"
+      ],
+      "context": "内容依据 Signal 官方说明；Reuters 同日报道了功能默认行为及操作系统厂商回应情况。",
+      "status": "移动端分平台提供；Signal 表示防护并不完整",
+      "published_at": "2026-11-20",
+      "sources": [
+        {
+          "publisher": "Signal",
+          "url": "https://signal.org/blog/protecting-your-privacy/",
+          "published_at": "2026-11-20",
+          "title": "Signal is Serious About Protecting Your Privacy",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        },
+        {
+          "publisher": "Reuters（Investing.com转载）",
+          "url": "https://www.investing.com/news/stock-market-news/exclusivesignal-restricts-screenshots-to-block-ai-agents-from-reading-messages-5040998",
+          "published_at": "2026-11-20T09:04:00+00:00",
+          "title": "Signal restricts screenshots to block AI agents from reading messages",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "violet",
+        "eyebrow": "Signal 屏幕安全",
+        "title": "移动端限制系统 AI 读取聊天画面",
+        "caption": "依据 Signal 对 iOS 27、Android 与 macOS 支持范围的说明；措施不覆盖设备文件系统中的已有数据。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "iOS 27",
+            "value": "阻止应用内截屏",
+            "detail": "Signal 表示针对系统 AI 捕获聊天画面采取限制。"
+          },
+          {
+            "label": "Android",
+            "value": "检测后启动屏幕安全",
+            "detail": "适用于 Signal 能识别 AI 助手读取屏幕的设备。"
+          },
+          {
+            "label": "macOS",
+            "value": "暂未支持",
+            "detail": "Signal 表示目前无法在该平台实现同类保护。"
+          },
+          {
+            "label": "设备文件",
+            "value": "仍可能被读取",
+            "detail": "应用内截屏保护不覆盖已保存在文件系统中的数据。"
+          }
+        ]
+      },
+      "issue_date": "2026-11-21",
+      "discovered_at": "2026-11-21T14:21:17.904508+00:00",
+      "verified_at": "2026-11-21T14:21:17.904508+00:00",
+      "visual": "grid",
+      "tags": [
+        "产品"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "hume-asr-entity-dataset-2026-11-20",
+      "category": "研究",
+      "title": "Hume 推出面向语音识别专名准确率的数据集",
+      "summary": "Hume 发布约 800 小时的语音数据集，覆盖八种语言、28 类实体和超过 35 万个标注项目，并将实体准确率加入其 ASR 评测。",
+      "body": [
+        "语音识别公司 Hume AI 于 11 月 20 日发布 Hume ASR Entity Dataset，针对姓名、地址、账号、日期和产品代码等容易被整体字错率掩盖的内容。公司称，数据集约 800 小时，覆盖八种语言、28 类实体及超过 35 万个标注实体，约 6000 名来自 49 个国家的说话人参与录制。",
+        "配套的 Real World VoiceEQ 评测新增实体准确率指标。Hume 报告称，两套整体字错率相近的系统在实体准确率上相差 7 个百分点，表现领先的系统也漏掉近五分之一的实体。该数据集目前以授权方式提供，Hume 也接受新增语言和领域数据的定制需求；评测结果由公司发布。",
+        "评论：对语音客服、地址确认和身份核验而言，少数关键字段的误识别可能比总体字错率更直接影响任务结果。"
+      ],
+      "facts": [
+        "数据集约 800 小时，包含八种语言、超过 35 万个标注实体和 28 类标签。",
+        "约 6000 名来自 49 个国家的说话人参与录制；Hume 将实体准确率加入其 Real World VoiceEQ 评测。",
+        "Hume 称两套整体字错率接近的系统仍相差 7 个百分点实体准确率，排名靠前者漏掉近五分之一实体。"
+      ],
+      "context": "数据集面向训练并通过商业授权提供；性能比较来自 Hume 自有评测，不是独立复测。",
+      "status": "数据集按许可提供；评测数字由 Hume 报告",
+      "published_at": "2026-11-20",
+      "sources": [
+        {
+          "publisher": "Hume AI",
+          "url": "https://www.hume.ai/blog/hume-asr-entity-dataset",
+          "published_at": "2026-11-20T16:00:00+00:00",
+          "title": "Introducing the Hume ASR Entity Dataset",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        },
+        {
+          "publisher": "Hume AI",
+          "url": "https://www.hume.ai/blog/asr-entity-accuracy-benchmark",
+          "published_at": "2026-11-20T16:00:00+00:00",
+          "title": "When low word error rate is not enough: Measuring entity accuracy in ASR",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "teal",
+        "eyebrow": "Hume ASR Entity Dataset",
+        "title": "语音转写评测开始单独衡量专名",
+        "caption": "数据规模与准确率比较均来自 Hume 发布的资料；数据集需授权使用。",
+        "source_refs": [
+          0,
+          1
+        ],
+        "items": [
+          {
+            "label": "数据规模",
+            "value": "约 800 小时",
+            "detail": "面向后训练的脚本朗读语音。"
+          },
+          {
+            "label": "实体标注",
+            "value": "35 万余项 / 28 类",
+            "detail": "含姓名、地址、账号、日期和代码等。"
+          },
+          {
+            "label": "语言与说话人",
+            "value": "8 种 / 约 6,000 人",
+            "detail": "说话人来自 49 个国家。"
+          },
+          {
+            "label": "准确率差异",
+            "value": "7 个百分点",
+            "detail": "Hume 报告两套 WER 接近系统的实体准确率差值。"
+          }
+        ]
+      },
+      "issue_date": "2026-11-21",
+      "discovered_at": "2026-11-21T14:21:17.904508+00:00",
+      "verified_at": "2026-11-21T14:21:17.904508+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-medchembench-2026-11-20",
+      "category": "研究",
+      "title": "OpenAI 发布药物化学推理基准 MedChemBench",
+      "summary": "MedChemBench 用 99 道题评估模型重建分子结构、解释实验结果、筛选候选物和预测性质的能力；OpenAI 报告 GPT-6.2 Astra 在 xhigh 设置下得分 84.5%。",
+      "body": [
+        "OpenAI 于 11 月 20 日发布 MedChemBench，用药物化学研究中的结构图、实验结果和候选物选择问题评估模型推理。基准包含 99 道题，依据 117 篇论文和专利整理出 761 种分子结构，测试模型能否重建分子、解释实验结果、排序候选物并预测性质。",
+        "OpenAI 报告称，GPT-6.2 Astra 在 xhigh 推理设置下取得 84.5% 可得分数，高于 GPT-6 Astra 的 83.3%、GPT-6.1 Sol 的 82.0% 和 GPT-5.6 Sol 的 58.2%。公司也指出，候选物选择和数值性质预测仍较难；基准使用历史资料，无法排除训练数据中已有相同内容，也不代表模型已能发现药物。",
+        "评论：这项基准将分子识别、证据解释和候选物决策拆开计分，便于定位模型在科研流程中的薄弱环节。"
+      ],
+      "facts": [
+        "MedChemBench 包含 99 道题、117 篇论文和专利来源、761 种分子结构。",
+        "OpenAI 报告 GPT-6.2 Astra 在 xhigh 下得 84.5%；公司说明该基准不能证明模型能发现新药。"
+      ],
+      "context": "分数来自 OpenAI 自建基准；该测试使用历史科研资料，发布方说明无法排除模型此前接触过部分原始来源。",
+      "status": "公司发布的基准与模型成绩；非药物发现验证",
+      "published_at": "2026-11-20",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/introducing-medchembench/",
+          "published_at": "2026-11-20",
+          "title": "Can AI help scientists identify promising drug candidates?",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        },
+        {
+          "publisher": "OpenAI（X）",
+          "url": "https://x.com/OpenAI/status/2123856316187975756",
+          "published_at": "2026-11-20T19:09:39.778+00:00",
+          "title": "MedChemBench is a new benchmark for AI reasoning in medicinal chemistry",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "bars",
+        "theme": "blue",
+        "eyebrow": "MedChemBench · xhigh",
+        "title": "OpenAI 报告的四个模型成绩",
+        "caption": "OpenAI 自建的 99 题基准；分数为发布方报告，不能据此推断真实药物发现能力。",
+        "source_refs": [
+          0
+        ],
+        "axis_max": 100,
+        "items": [
+          {
+            "label": "GPT-6.2 Astra",
+            "value": "84.5%",
+            "amount": 84.5,
+            "detail": "OpenAI 报告的 xhigh 得分。"
+          },
+          {
+            "label": "GPT-6 Astra",
+            "value": "83.3%",
+            "amount": 83.3,
+            "detail": "同一基准与推理设置。"
+          },
+          {
+            "label": "GPT-6.1 Sol",
+            "value": "82.0%",
+            "amount": 82,
+            "detail": "同一基准与推理设置。"
+          },
+          {
+            "label": "GPT-5.6 Sol",
+            "value": "58.2%",
+            "amount": 58.2,
+            "detail": "同一基准与推理设置。"
+          }
+        ]
+      },
+      "issue_date": "2026-11-21",
+      "discovered_at": "2026-11-21T14:21:17.904508+00:00",
+      "verified_at": "2026-11-21T14:21:17.904508+00:00",
+      "visual": "grid",
+      "tags": [
+        "研究"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openai-adversarial-distillation-defenses-2026-11-20",
+      "category": "治理",
+      "title": "OpenAI 公布针对推理蒸馏攻击的防护进展",
+      "summary": "OpenAI 介绍模型训练、分类器、API 控制和滥用调查等多层防护，并称内部自适应测试中，GPT-6 Astra 与 GPT-6.2 Astra 的受保护推理提取攻击成功率从 54.0% 降至 0.2%。",
+      "body": [
+        "OpenAI 于 11 月 20 日发布一份关于对抗性蒸馏的说明，称未经授权地用前沿模型输出训练其他模型，可能在转移能力时不继承原模型的安全防护。公司称其做法结合对抗测试、模型训练、分类器、API 层限制和针对协调式提取行为的调查，并特别加强对内部推理内容的保护。",
+        "在一项由 OpenAI 运行的自适应自动红队评估中，GPT-6 Astra 原有防护下的平均攻击成功率为 54.0%，采用更新防护的 GPT-6.2 Astra 为 0.2%。这组结果是公司内部测试，不是独立评测；OpenAI 也说明，蒸馏本身是常见机器学习方法，风险在于未经授权地抽取能力并部署缺少相同保障的模型。",
+        "评论：这次披露把模型防护延伸到训练数据来源和推理内容的再利用问题，外部复测仍是理解效果的重要环节。"
+      ],
+      "facts": [
+        "OpenAI 表示其防护组合包含模型训练、分类器、API 限制、对抗测试和调查。",
+        "OpenAI 内部自动红队测试的平均攻击成功率从 GPT-6 Astra 的 54.0% 降至 GPT-6.2 Astra 的 0.2%。"
+      ],
+      "context": "攻击成功率来自 OpenAI 自适应内部评估；该页面没有提供独立机构复测结果。",
+      "status": "防护效果为 OpenAI 内部评估结果",
+      "published_at": "2026-11-20",
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/combatting-adversarial-distillation/",
+          "published_at": "2026-11-20",
+          "title": "Combatting adversarial distillation",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        },
+        {
+          "publisher": "OpenAI（X）",
+          "url": "https://x.com/OpenAI/status/2123862344422088794",
+          "published_at": "2026-11-20T19:33:37.021+00:00",
+          "title": "OpenAI 分享对抗性蒸馏防护与受保护推理评估",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "bars",
+        "theme": "amber",
+        "eyebrow": "OpenAI 内部自动红队评估",
+        "title": "受保护推理提取攻击成功率",
+        "caption": "OpenAI 内部自适应评估的发布方数据；对比的是两个模型版本及其相应防护。",
+        "source_refs": [
+          0
+        ],
+        "axis_max": 60,
+        "items": [
+          {
+            "label": "GPT-6 Astra",
+            "value": "54.0%",
+            "amount": 54,
+            "detail": "原有防护下的平均攻击成功率。"
+          },
+          {
+            "label": "GPT-6.2 Astra",
+            "value": "0.2%",
+            "amount": 0.2,
+            "detail": "更新防护后的平均攻击成功率。"
+          }
+        ]
+      },
+      "issue_date": "2026-11-21",
+      "discovered_at": "2026-11-21T14:21:17.904508+00:00",
+      "verified_at": "2026-11-21T14:21:17.904508+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "us-senate-ai-select-committee-proposal-2026-11-20",
+      "category": "治理",
+      "title": "美国民主党参议员提议成立 AI 特别委员会",
+      "summary": "科罗拉多州参议员 John Hickenlooper 提议两位参议院民主党领袖候选人为新一届国会制定 AI 监管方案，并考虑成立特别委员会；目前仍处于议程讨论阶段。",
+      "body": [
+        "美联社 11 月 20 日报道，科罗拉多州民主党参议员 John Hickenlooper 提议，由参议院民主党领袖候选人推动一项新国会 AI 监管方案，并考虑设立特别委员会统筹相关议题。他说，自三年前成立 AI 工作组以来，国会在建立防护规则和加强监管方面进展有限。",
+        "民主党人正在讨论明年一月取得多数席位后的优先事项，提案方向包括数据中心监管、AI 安全标准、强化监测与研究，以及第三方评估。参议院民主党领袖 Chuck Schumer 的发言人表示正在与即将接任委员会的成员制定 AI 议程；委员会和法案尚未成立或通过。",
+        "评论：目前的变化是党团开始规划议程，具体监管安排仍取决于新一届国会和领导层决策。"
+      ],
+      "facts": [
+        "John Hickenlooper 提议参议院多数党领导人考虑成立 AI 特别委员会。",
+        "民主党人讨论的政策方向包括数据中心监管、安全标准、技术监测和第三方评估。"
+      ],
+      "context": "AP 报道称这些内容属于新一届国会的议程讨论，尚非已提出或通过的具体法案。",
+      "status": "参议员提案；委员会与立法尚未成立或通过",
+      "published_at": "2026-11-20",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/artificial-intelligence-congress-schumer-senate-047d0ab21237984701decd9ed5ced403",
+          "published_at": "2026-11-20T22:07:01+00:00",
+          "title": "Senator proposes select committee on AI as Democrats hope to move quickly to regulate it",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "blue",
+        "eyebrow": "美国参议院 · AI 议程",
+        "title": "从议程提议到可能的立法讨论",
+        "caption": "美联社报道的参议员提案与讨论方向；目前尚无新委员会或已通过的法案。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "提议者",
+            "value": "John Hickenlooper",
+            "detail": "科罗拉多州民主党参议员。"
+          },
+          {
+            "label": "组织方案",
+            "value": "考虑成立 AI 特别委员会",
+            "detail": "提议用于统筹参议院 AI 讨论。"
+          },
+          {
+            "label": "讨论方向",
+            "value": "数据中心、安全标准、监测",
+            "detail": "仍是民主党人讨论的政策选项。"
+          },
+          {
+            "label": "时间",
+            "value": "新一届国会明年 1 月",
+            "detail": "领导层仍在筹备议程，提案尚未成为法律。"
+          }
+        ]
+      },
+      "issue_date": "2026-11-21",
+      "discovered_at": "2026-11-21T14:21:17.904508+00:00",
+      "verified_at": "2026-11-21T14:21:17.904508+00:00",
+      "visual": "grid",
+      "tags": [
+        "治理"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "ai-tech-market-selloff-anthropic-nvidia-2026-11-20",
+      "category": "产业",
+      "title": "科技股大幅回落，英伟达与 Anthropic 股价下跌",
+      "summary": "Axios 报道，11 月 20 日纳斯达克综合指数下跌 5.3%，英伟达下跌约 14%，Anthropic 下跌 8.5% 至 88.91 美元，回吐大部分 IPO 首日涨幅。",
+      "body": [
+        "周五美国科技股大幅回落。Axios 于 11 月 20 日收市后报道，纳斯达克综合指数当日下跌 5.3%，标普 500 指数下跌 3.7%；英伟达股价下跌约 14%，Anthropic 下跌 8.5% 至 88.91 美元，较其 83 美元发行价略高，已回吐大部分首日涨幅。",
+        "报道将市场波动与对 AI 支出持续性、信贷收紧及英伟达面临的监管与领导层消息并列讨论。单日股价变化无法单独说明投资者对某项产品或公司业绩的判断，英伟达与 Anthropic 的收入、商业模式和市场规模也各不相同。",
+        "评论：AI 公司估值与基础设施支出正受到更严格的市场检验，但单日回落不足以判断长期需求走向。"
+      ],
+      "facts": [
+        "Axios 报道纳斯达克综合指数周五下跌 5.3%，标普 500 指数下跌 3.7%。",
+        "Axios 报道英伟达下跌约 14%，Anthropic 下跌 8.5% 至 88.91 美元；其 IPO 发行价为 83 美元。"
+      ],
+      "context": "指数与股价变动为 2026 年 11 月 20 日美国交易日的市场表现；单日行情不构成长期趋势判断。",
+      "status": "据 11 月 20 日收市行情报道",
+      "published_at": "2026-11-20",
+      "sources": [
+        {
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff",
+          "published_at": "2026-11-20T21:56:32+00:00",
+          "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff",
+          "accessed_at": "2026-11-21T14:21:17.904508+00:00"
+        }
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "amber",
+        "eyebrow": "2026 年 11 月 20 日市场",
+        "title": "AI 相关科技股与指数同步回落",
+        "caption": "Axios 报道的美国交易日变化；股价和指数波动不是长期走势预测。",
+        "source_refs": [
+          0
+        ],
+        "items": [
+          {
+            "label": "纳斯达克综合指数",
+            "value": "−5.3%",
+            "detail": "美国周五交易日。"
+          },
+          {
+            "label": "标普 500",
+            "value": "−3.7%",
+            "detail": "美国周五交易日。"
+          },
+          {
+            "label": "英伟达",
+            "value": "约 −14%",
+            "detail": "Axios 报道的周五股价变化。"
+          },
+          {
+            "label": "Anthropic",
+            "value": "−8.5% · $88.91",
+            "detail": "IPO 发行价为 $83；回吐大部分首日涨幅。"
+          }
+        ]
+      },
+      "issue_date": "2026-11-21",
+      "discovered_at": "2026-11-21T14:21:17.904508+00:00",
+      "verified_at": "2026-11-21T14:21:17.904508+00:00",
+      "visual": "grid",
+      "tags": [
+        "产业"
+      ],
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -15100,7 +15537,31 @@
       "updated_at": "2026-11-20T01:07:43.570804+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-20.json"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "AI 安全、研究评测与市场信号更新",
+      "dek": "Signal 限制移动端 AI 读取屏幕，OpenAI 发布两项研究进展，Hume 推出语音实体数据集；美国 AI 监管讨论与科技股行情也有新变化。",
+      "coverage": "2026-11-20 09:00 至 2026-11-21 09:00（Asia/Singapore）；按原始来源时间核对。",
+      "lead_ids": [
+        "signal-mobile-ai-screen-protection-2026-11-20",
+        "openai-medchembench-2026-11-20",
+        "hume-asr-entity-dataset-2026-11-20"
+      ],
+      "event_ids": [
+        "signal-mobile-ai-screen-protection-2026-11-20",
+        "hume-asr-entity-dataset-2026-11-20",
+        "openai-medchembench-2026-11-20",
+        "openai-adversarial-distillation-defenses-2026-11-20",
+        "us-senate-ai-select-committee-proposal-2026-11-20",
+        "ai-tech-market-selloff-anthropic-nvidia-2026-11-20"
+      ],
+      "number": "024",
+      "published_at": "2026-11-21T14:21:17.904508+00:00",
+      "updated_at": "2026-11-21T14:21:17.904508+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-21.json"
     }
   ],
-  "updated_at": "2026-11-20T01:07:43.570804+00:00"
+  "updated_at": "2026-11-21T14:21:17.904508+00:00"
 }
