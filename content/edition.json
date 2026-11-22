@@ -14915,6 +14915,250 @@
       ],
       "corrections": [],
       "publication_precision": "date"
+    },
+    {
+      "id": "riemann-hypothesis-lean-confirmation-2026-11-21",
+      "category": "研究",
+      "title": "Lean 与 Mathlib 社群确认黎曼猜想形式化证明",
+      "summary": "Lean 与 Mathlib 社群于 11 月 21 日联署确认，Anthropic 数学家 Levent Alpöge 发布的 Lean 证明准确表达并证明了黎曼猜想。",
+      "body": [
+        "Lean 与 Mathlib 社群 11 月 21 日发布联署声明，确认 Levent Alpöge 与 Claude 协作完成的 Lean 形式化文件，所证明的命题确为黎曼猜想，且证明通过了多种检查器验证。文件约有 1,700 万行代码；社群称多名成员已复现编译结果。",
+        "Alpöge 于前一日公布这项结果，形式化代码随后接受社群审查。声明称，比较工具确认代码定理与 Mathlib 中经过审查的黎曼猜想表述一致；Lean 内核及其他独立检查器也接受了证明。",
+        "简评：形式化检查让证明的复核路径更可重复，但数学界仍需理解其论证结构；机器验证、同行审读与学术机构认定是不同环节。"
+      ],
+      "facts": [
+        "Lean 与 Mathlib 社群 2026-11-21 联署声明，称对证明正确性有充分信心。",
+        "形式化项目约 1,700 万行；社群声明称多个检查器和独立内核完成验证。",
+        "Alpöge 的初次公开声明日期为 2026-11-20。"
+      ],
+      "context": "联署声明确认形式化文件对应的命题与证明链；这并不等同于学界已经完成对数学论证的传统阅读和讨论。",
+      "status": "Lean 与 Mathlib 社群联署确认形式化证明正确",
+      "published_at": "2026-11-21",
+      "sources": [
+        {
+          "publisher": "Lean 与 Mathlib 社群",
+          "title": "Lean verification of the Riemann Hypothesis",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "published_at": "2026-11-21T13:55:00Z",
+          "accessed_at": "2026-11-22T01:24:12.233434+00:00"
+        },
+        {
+          "publisher": "滑铁卢大学 Michael Rubinstein",
+          "title": "Alpöge/Claude proof of the Generalized Riemann Hypothesis",
+          "url": "https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/",
+          "published_at": "2026-11-21",
+          "accessed_at": "2026-11-22T01:24:12.233434+00:00"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Anthropic worker says AI helped him find proof of the Riemann Hypothesis",
+          "url": "https://apnews.com/article/anthropic-claude-math-solution-ai-4fe8b69a891f160f9e7f0c85af8c55c8",
+          "published_at": "2026-11-21T04:32:55Z",
+          "accessed_at": "2026-11-22T01:24:12.233434+00:00"
+        }
+      ],
+      "tags": [
+        "数学",
+        "形式化验证",
+        "Lean",
+        "Anthropic"
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "violet",
+        "eyebrow": "LEAN / MATHLIB COMMUNITY",
+        "title": "黎曼猜想证明的核验链",
+        "items": [
+          {
+            "label": "定理表述",
+            "value": "与 Mathlib 一致",
+            "detail": "比较工具核对命题内容"
+          },
+          {
+            "label": "形式化代码",
+            "value": "约 1,700 万行",
+            "detail": "社区成员复现编译"
+          },
+          {
+            "label": "检查器",
+            "value": "多种工具通过",
+            "detail": "Lean 内核及独立检查器"
+          }
+        ],
+        "caption": "依据 Lean 与 Mathlib 社群 11 月 21 日联署声明；论证的学术理解仍在继续。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-22",
+      "discovered_at": "2026-11-22T01:24:12.233434+00:00",
+      "verified_at": "2026-11-22T01:24:12.233434+00:00",
+      "visual": "grid",
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "openrouter-minimax-prompt-notice-2026-11-21",
+      "category": "治理",
+      "title": "OpenRouter 提醒用户：部分 MiniMax 请求可能被读取",
+      "summary": "OpenRouter 通过邮件提醒部分客户，研究人员埋入 MiniMax 请求的测试链接后来遭访问，部分用户提示可能被第三方读取，并移除相关端点的零数据留存标记。",
+      "body": [
+        "OpenRouter 于 11 月 21 日开始向部分客户发送邮件，称用户在 2026 年 7 月至 10 月间发给 MiniMax 模型的部分请求可能被第三方读取。邮件内容由客户公开转贴；OpenRouter 表示风险涉及 MiniMax 及将请求转发给该模型的服务商，并已移除相关端点的“零数据留存”标记。",
+        "该提醒源于 Dragos 团队的测试：研究人员称，他们在 2026 年 7 月至 11 月向 AI 服务提交约 200 万条含唯一网址或测试凭据的提示，并追踪之后是否有人访问。团队报告了提示被转售、服务商遭入侵和隐私设置未落实等不同情形；这些结果不代表所有 MiniMax 对话均被读取。",
+        "简评：多层路由让每个转发环节都可能接触提示内容；采购服务时，除了查看留存标签，也应确认请求会经过哪些提供商。"
+      ],
+      "facts": [
+        "OpenRouter 11 月 21 日起通知部分客户，MiniMax 相关请求可能被第三方读取。",
+        "Dragos 研究称其在 2026 年 7 月至 11 月提交约 200 万条含独特标记的提示。",
+        "Dragos 报告涉及服务商入侵、转售记录提示和隐私设置执行等不同发现。"
+      ],
+      "context": "客户邮件内容通过公开转贴和媒体更新可见；测试结果说明特定路径存在风险，不能外推到所有服务商或所有用户请求。",
+      "status": "供应商邮件提醒；受影响请求范围仍需按账户核对",
+      "published_at": "2026-11-21",
+      "sources": [
+        {
+          "publisher": "Hacker News 用户公开转贴的 OpenRouter 邮件",
+          "title": "Tell HN: OpenRouter prompts to MiniMax may have been read",
+          "url": "https://news.ycombinator.com/item?id=50585962",
+          "published_at": "2026-11-21T04:31:38Z",
+          "accessed_at": "2026-11-22T01:24:12.233434+00:00"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Researcher plants 2m canaries into the AI supply chain",
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+          "published_at": "2026-11-20",
+          "accessed_at": "2026-11-22T01:00:50Z"
+        },
+        {
+          "publisher": "Dragos",
+          "title": "Three breaches, endless leaks: Your AI supply chain needs canaries",
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "published_at": "2026-11-19",
+          "accessed_at": "2026-11-22T01:24:12.233434+00:00"
+        }
+      ],
+      "tags": [
+        "数据安全",
+        "隐私",
+        "MiniMax",
+        "OpenRouter"
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "amber",
+        "eyebrow": "OPENROUTER / MINIMAX",
+        "title": "从研究测试到客户提醒",
+        "items": [
+          {
+            "label": "2026 年 7—11 月",
+            "value": "约 200 万条测试提示",
+            "detail": "Dragos 植入唯一标记并追踪访问"
+          },
+          {
+            "label": "2026 年 11 月 21 日",
+            "value": "部分客户收到提醒",
+            "detail": "MiniMax 相关请求可能被读取"
+          },
+          {
+            "label": "后续处置",
+            "value": "移除相关留存标记",
+            "detail": "OpenRouter 称受影响端点已调整"
+          }
+        ],
+        "caption": "客户邮件经公开转贴；研究与邮件均指向特定请求路径，不代表全部对话泄露。",
+        "source_refs": [
+          0,
+          2
+        ]
+      },
+      "issue_date": "2026-11-22",
+      "discovered_at": "2026-11-22T01:24:12.233434+00:00",
+      "verified_at": "2026-11-22T01:24:12.233434+00:00",
+      "visual": "grid",
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "ccw-autonomous-weapons-talks-2026-11-21",
+      "category": "治理",
+      "title": "联合国自主武器规则谈判未启动，媒体称工作延至 2028 年",
+      "summary": "联合国 11 月 20 日结束的特定常规武器公约审议会议未启动具约束力规则谈判；AP 报道称，各国同意推动在 2028 年前拟订可能协议。",
+      "body": [
+        "联合国《特定常规武器公约》第七次审议会议于 11 月 20 日在日内瓦结束。Associated Press 于 11 月 21 日报道，各国同意推动在 2028 年前拟订关于致命自主武器系统的可能协议，但没有启动具约束力规则的谈判。",
+        "奥地利、比利时、巴西、爱尔兰、墨西哥、新西兰和巴拿马此前提出启动正式谈判。联合国公开的会议文件确认会期为 11 月 16 日至 20 日，但当前修订版本仍将自主武器相关条款留作占位；因此，2028 年时间表目前以 AP 对会议结果的报道为依据，完整正式文本尚待核对。",
+        "简评：现阶段可以确认的是，会议没有形成新的约束性规则；后续是否出现正式谈判授权，还要看联合国最终公布的完整文件。"
+      ],
+      "facts": [
+        "联合国会议文件记载，第七次审议会议于 2026-11-16 至 11-20 举行。",
+        "AP 于 2026-11-21 报道，各国同意在 2028 年前推动拟订可能协议，但未启动具约束力规则谈判。",
+        "联合国公开的修订会议报告仍在自主武器条款处保留占位。"
+      ],
+      "context": "AP 的 2028 年时间表报道尚未在已公开的联合国修订报告中找到对应完整条文；正式文本发布前不把媒体报道表述为已完成的法律约束。",
+      "status": "正式谈判未启动；2028 年安排据 AP 报道，联合国完整文本待核",
+      "published_at": "2026-11-21",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Nations agree to extend talks on AI killer robots but no firm commitment to rein them in",
+          "url": "https://apnews.com/article/un-drones-robots-un-lethal-ai-weapons-ebe057d2a47cde53100970c8f648e7fa",
+          "published_at": "2026-11-21T07:26:11Z",
+          "accessed_at": "2026-11-22T01:24:12.233434+00:00"
+        },
+        {
+          "publisher": "联合国裁军事务厅",
+          "title": "CCW Seventh Review Conference report, CCW/CONF.VII/CRP.1/Rev.2",
+          "url": "https://docs-library.unoda.org/Convention_on_Certain_Conventional_Weapons_-SeventhReview_Conference_%282026%29/CCW-CONF.VII-CRP.1-Rev.2.pdf",
+          "published_at": "2026-11-20",
+          "accessed_at": "2026-11-22T01:24:12.233434+00:00"
+        },
+        {
+          "publisher": "Asia-Pacific Institute for Law and Security",
+          "title": "CCW Seventh Review Conference: A New Mandate on Autonomous Weapons, But No Review",
+          "url": "https://apils.org/2026/11/21/ccw-seventh-review-conference-a-new-mandate-on-autonomous-weapons-but-no-review/",
+          "published_at": "2026-11-21",
+          "accessed_at": "2026-11-22T01:24:12.233434+00:00"
+        }
+      ],
+      "tags": [
+        "自主武器",
+        "国际治理",
+        "联合国"
+      ],
+      "graphic": {
+        "layout": "timeline",
+        "theme": "blue",
+        "eyebrow": "CCW REVIEW CONFERENCE",
+        "title": "自主武器规则谈判进展",
+        "items": [
+          {
+            "label": "会议时间",
+            "value": "11 月 16—20 日",
+            "detail": "联合国会议文件所载会期"
+          },
+          {
+            "label": "会议结果",
+            "value": "未启动正式谈判",
+            "detail": "尚未形成具约束力规则"
+          },
+          {
+            "label": "后续时限",
+            "value": "2028 年前拟订",
+            "detail": "据 AP 报道，正式文本待核"
+          }
+        ],
+        "caption": "联合国修订文件仍有条款占位；2028 年安排依 AP 报道，后续以完整正式文本为准。",
+        "source_refs": [
+          0,
+          1
+        ]
+      },
+      "issue_date": "2026-11-22",
+      "discovered_at": "2026-11-22T01:24:12.233434+00:00",
+      "verified_at": "2026-11-22T01:24:12.233434+00:00",
+      "visual": "grid",
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -15561,7 +15805,28 @@
       "updated_at": "2026-11-21T14:21:17.904508+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-21.json"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "自主武器规则、AI 数学验证与提示数据披露",
+      "dek": "Lean 社群确认一项 AI 协助的黎曼猜想形式化证明；OpenRouter 提醒部分用户检查 MiniMax 请求的隐私风险；联合国自主武器谈判结果仍待正式文本完整呈现。",
+      "coverage": "2026-11-21 09:00 至 2026-11-22 09:00（Asia/Singapore）；按来源原始发布时间换算核对",
+      "lead_ids": [
+        "riemann-hypothesis-lean-confirmation-2026-11-21",
+        "openrouter-minimax-prompt-notice-2026-11-21",
+        "ccw-autonomous-weapons-talks-2026-11-21"
+      ],
+      "event_ids": [
+        "riemann-hypothesis-lean-confirmation-2026-11-21",
+        "openrouter-minimax-prompt-notice-2026-11-21",
+        "ccw-autonomous-weapons-talks-2026-11-21"
+      ],
+      "number": "025",
+      "published_at": "2026-11-22T01:24:12.233434+00:00",
+      "updated_at": "2026-11-22T01:24:12.233434+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-22.json"
     }
   ],
-  "updated_at": "2026-11-21T14:21:17.904508+00:00"
+  "updated_at": "2026-11-22T01:24:12.233434+00:00"
 }
