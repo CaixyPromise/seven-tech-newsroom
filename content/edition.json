@@ -16159,6 +16159,312 @@
       "discovered_at": "2026-11-26T07:23:41.578425+00:00",
       "verified_at": "2026-11-26T07:23:41.578425+00:00",
       "visual": "grid"
+    },
+    {
+      "id": "bharatgen-patram-15-2026-11-26",
+      "category": "模型",
+      "title": "BharatGen 发布 7B 文档视觉语言模型 Patram 1.5",
+      "summary": "Patram 1.5 面向文档读取、解析、问答与抽取，已提供开放权重；BharatGen 称其在自家 49 项测试中取得 83 分。",
+      "body": [
+        "印度 AI 团队 BharatGen 于 11 月 26 日发布文档视觉语言模型 Patram 1.5，参数量为 70 亿，权重已通过 Hugging Face 开放下载。模型面向页面阅读、结构解析、问答和字段抽取，可输出 Markdown、HTML 或 JSON；公司还推出在线 Playground 供用户试用。",
+        "BharatGen 称 Patram 1.5 在其 49 项测试中综合得分为 83，并表示该模型以约为最大对照模型九十七分之一的参数规模达到相近成绩。该比较属于厂商自报结果，适用任务和评测条件需结合其逐项结果查看。此次版本还加入 OCR 3.0 与不确定时拒答能力；模型许可标注为 Apache 2.0，运行 7B 权重建议配备约 24 GB 显存。"
+      ],
+      "facts": [
+        "BharatGen 的发布页面将 Patram 1.5 定位为 7B 文档视觉语言模型，并列出阅读、解析、问答和抽取任务。",
+        "BharatGen 表示 49 项测试综合分为 83，并称相较最大模型小 97 倍；此为厂商公布的评测结果。",
+        "Hugging Face 模型页标注 Apache 2.0，BharatGen 指南列出 7B 模型约 24 GB GPU 显存需求。"
+      ],
+      "context": "综合分与模型规模对照来自厂商发布材料；实际表现取决于评测任务和运行配置。",
+      "status": "开放权重已发布；Playground 可试用",
+      "published_at": "2026-11-26",
+      "sources": [
+        {
+          "publisher": "BharatGen",
+          "title": "Introducing Patram 1.5",
+          "url": "https://bharatgen.com/blogs/introducing-patram-1-5/",
+          "published_at": "2026-11-26",
+          "accessed_at": "2026-11-27T01:06:49.895942+00:00"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "BharatGen Patram 1.5 model",
+          "url": "https://huggingface.co/bharatgenai/Patram-1.5",
+          "published_at": "2026-11-26",
+          "accessed_at": "2026-11-27T01:06:49.895942+00:00"
+        },
+        {
+          "publisher": "BharatGen",
+          "title": "Patram 1.5 model overview and requirements",
+          "url": "https://bharatgen.com/models/vision/",
+          "published_at": "2026-11-26",
+          "accessed_at": "2026-11-27T01:06:49.895942+00:00"
+        }
+      ],
+      "tags": [
+        "文档理解",
+        "视觉语言模型",
+        "开放权重"
+      ],
+      "graphic": {
+        "layout": "specs",
+        "theme": "blue",
+        "eyebrow": "BHARATGEN · PATRAM 1.5",
+        "title": "7B 文档模型的发布信息",
+        "items": [
+          {
+            "label": "参数量",
+            "value": "7B",
+            "detail": "定位为文档视觉语言模型"
+          },
+          {
+            "label": "任务",
+            "value": "读 · 解析 · 问答 · 抽取",
+            "detail": "可输出 Markdown、HTML 或 JSON"
+          },
+          {
+            "label": "厂商评测",
+            "value": "83 分 / 49 项",
+            "detail": "BharatGen 公布的综合结果"
+          },
+          {
+            "label": "获取方式",
+            "value": "开放权重",
+            "detail": "Hugging Face 标注 Apache 2.0"
+          }
+        ],
+        "caption": "评测分数及规模对照为 BharatGen 自报；模型许可与获取方式见模型页。",
+        "source_refs": [
+          0,
+          1
+        ]
+      },
+      "issue_date": "2026-11-27",
+      "discovered_at": "2026-11-27T01:06:49.895942+00:00",
+      "verified_at": "2026-11-27T03:09:50.161907+00:00",
+      "visual": "grid",
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "oran-plugfest-fall-2026-results",
+      "category": "基础设施",
+      "title": "O-RAN PlugFest 展示 AI 节能、故障检测与链路调节试验",
+      "summary": "秋季 PlugFest 汇集 47 家组织和 16 个实验室，报告了 AI 网络运维与多厂商互操作测试结果。",
+      "body": [
+        "O-RAN ALLIANCE 于 11 月 26 日公布 2026 年秋季 Global PlugFest 结果。该轮活动有 47 家组织参与，在 16 个实验室开展测试，并由 20 个主办方支持；展示方向包括网络节能、硬件故障检测、远程驾驶场景的上行链路调节、AI 感知与物理 AI 应用。",
+        "联盟还列出多厂商互操作测试：包括多运营商共享无线单元、15 公里 Open Fronthaul 链路，以及完整规模的 64×64 大规模 MIMO 系统。公告总结的是 PlugFest 测试和演示，不等同于相关能力已在运营商网络规模部署。"
+      ],
+      "facts": [
+        "O-RAN ALLIANCE 公告称秋季 PlugFest 有 47 家组织、16 个实验室和 20 个主办方参与。",
+        "展示包括网络节能、AI 辅助硬件故障检测、远程驾驶上行链路调节和 AI 感知。",
+        "互操作测试包含 15 km Open Fronthaul 链路及 64×64 mMIMO 系统。"
+      ],
+      "context": "公告反映测试活动及展示用例，不代表这些方案已全面商用部署。",
+      "status": "PlugFest 测试结果公告",
+      "published_at": "2026-11-26",
+      "sources": [
+        {
+          "publisher": "O-RAN ALLIANCE",
+          "title": "O-RAN Global PlugFest Fall 2026 results",
+          "url": "https://www.o-ran.org/press-releases/o-ran-global-plugfest-fall-2026-showcased-ai-driven-solutions-that-improve-network-operations-and-enable-new-use-cases",
+          "published_at": "2026-11-26",
+          "accessed_at": "2026-11-27T01:06:49.895942+00:00"
+        },
+        {
+          "publisher": "O-RAN ALLIANCE",
+          "title": "O-RAN Global PlugFest Fall 2026 press release (PDF)",
+          "url": "https://mediastorage.o-ran.org/o-ran-pr/pr-on-o-ran-global-plugfest-fall-2026-results/o-ran-ec-2026-11-26-pr-o-ran-global-plugfest-fall-2026-results-v02.pdf",
+          "published_at": "2026-11-26",
+          "accessed_at": "2026-11-27T01:06:49.895942+00:00"
+        }
+      ],
+      "tags": [
+        "O-RAN",
+        "移动网络",
+        "互操作测试"
+      ],
+      "graphic": {
+        "layout": "hub",
+        "theme": "teal",
+        "eyebrow": "O-RAN · FALL 2026",
+        "title": "PlugFest 测试覆盖面",
+        "focus": {
+          "label": "参与规模",
+          "value": "47 家组织"
+        },
+        "items": [
+          {
+            "label": "实验环境",
+            "value": "16 个实验室",
+            "detail": "由 20 个主办方支持"
+          },
+          {
+            "label": "网络运维",
+            "value": "节能与故障检测",
+            "detail": "包括 AI 辅助硬件故障发现"
+          },
+          {
+            "label": "链路测试",
+            "value": "15 km Open Fronthaul",
+            "detail": "多厂商互操作场景"
+          },
+          {
+            "label": "无线系统",
+            "value": "64×64 mMIMO",
+            "detail": "开展检测与性能测试"
+          }
+        ],
+        "caption": "规模与测试场景依据 O-RAN ALLIANCE 对 PlugFest 的公告；属于测试展示。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-27",
+      "discovered_at": "2026-11-27T01:06:49.895942+00:00",
+      "verified_at": "2026-11-27T03:09:50.161907+00:00",
+      "visual": "grid",
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "llama-cpp-v1-1-0-2026-11-26",
+      "category": "开源",
+      "title": "llama.cpp v1.1.0 扩展模型、音频能力与量化选项",
+      "summary": "新版本增加多款模型和音频支持，并调整 speculative decoding、服务端调度与量化接口。",
+      "body": [
+        "开源推理项目 llama.cpp 于 11 月 26 日发布 v1.1.0。版本加入 Inkling 2、Domyn Edge 4B、Zaya1 8B、RAON-1-mini 和 Hy4 flash 等模型支持，并扩展 Kokoro、Zonos3-Mini、MiniMax-Music3、Fish S2、VoxCPM2 等语音或音频处理能力。",
+        "开发者还拆分了 DFlash 推测解码的草稿方法，增加按目标 bpw 或模型大小选择逐张量量化的参数，并改进服务端 slot 调度与聊天界面。旧的 `llama_batch` API 被标记弃用，迁移方向为 `llama_batch_ext` 与 `llama_process`；项目更新说明列出的兼容调整值得集成方在升级前核对。"
+      ],
+      "facts": [
+        "v1.1.0 发布说明加入 Inkling 2、Domyn Edge 4B、Zaya1 8B、RAON-1-mini 和 Hy4 flash 支持。",
+        "音频新增支持涵盖 Kokoro、Zonos3-Mini、MiniMax-Music3、Fish S2、VoxCPM2 与 Kyutai Hibiki。",
+        "版本新增 target_bpw、target_size 量化选项，并弃用 llama_batch API。"
+      ],
+      "context": "具体模型可用性受格式、硬件及量化实现支持影响；发布说明指出了 API 弃用方向。",
+      "status": "开源项目 v1.1.0 已发布",
+      "published_at": "2026-11-26",
+      "sources": [
+        {
+          "publisher": "ggml-org / llama.cpp",
+          "title": "Release v1.1.0",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+          "published_at": "2026-11-26",
+          "accessed_at": "2026-11-27T01:06:49.895942+00:00"
+        }
+      ],
+      "tags": [
+        "llama.cpp",
+        "本地推理",
+        "开源工具"
+      ],
+      "graphic": {
+        "layout": "layers",
+        "theme": "teal",
+        "eyebrow": "LLAMA.CPP · V1.1.0",
+        "title": "版本更新的三个层面",
+        "items": [
+          {
+            "label": "模型支持",
+            "value": "Inkling 2 · Hy4 flash 等",
+            "detail": "新增多款模型加载支持"
+          },
+          {
+            "label": "多模态",
+            "value": "语音与音频扩展",
+            "detail": "加入多种 TTS 与实时语音模型"
+          },
+          {
+            "label": "推理与量化",
+            "value": "DFlash · target_bpw",
+            "detail": "新增草稿模式及目标量化参数"
+          },
+          {
+            "label": "API 迁移",
+            "value": "llama_batch 弃用",
+            "detail": "建议关注 llama_batch_ext 与 llama_process"
+          }
+        ],
+        "caption": "功能与 API 变更依据 llama.cpp v1.1.0 发布说明。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-27",
+      "discovered_at": "2026-11-27T01:06:49.895942+00:00",
+      "verified_at": "2026-11-27T03:09:50.161907+00:00",
+      "visual": "grid",
+      "corrections": [],
+      "publication_precision": "date"
+    },
+    {
+      "id": "qwen-code-v0-28-6-2026-11-26",
+      "category": "开源",
+      "title": "Qwen Code 更新托管会话暂停恢复与崩溃恢复",
+      "summary": "v0.28.6 为等待审批和后台任务的会话加入暂停与恢复，并默认启用事件总线内核。",
+      "body": [
+        "Qwen Code 于 11 月 26 日发布 v0.28.6，为托管会话增加等待工具审批、用户答复或后台工作时暂停，并在 Harness 崩溃或重启后恢复的能力。无头会话和 Ink 终端界面默认切换到事件总线内核；发布说明称取消的运行会在 10 秒内结束。",
+        "新版还增加 `general.displayLanguage`，可在关闭、简体中文和英语之间选择终端与 Web Shell 的回复显示语言，同时保留原始内容。用户发送新提示时，正在执行的 shell 命令会转入后台继续运行，并把任务编号、输出位置和状态交回模型。该版本同时移除了旧的 MessageRewriteMiddleware，使用 hook 路径处理回复改写。"
+      ],
+      "facts": [
+        "v0.28.6 支持等待工具审批、问题或后台工作的托管会话暂停，并支持 Harness 重启后冷恢复。",
+        "无头会话和 Ink TUI 默认使用事件总线内核；取消运行在发布说明中称会于 10 秒内结束。",
+        "displayLanguage 支持 off、zh-CN 和 en；新提示不会停止正在运行的 shell 命令。"
+      ],
+      "context": "功能以该开源项目发布说明为准；工具审批仍由用户决定，后台命令继续运行需留意任务状态。",
+      "status": "开源项目 v0.28.6 已发布",
+      "published_at": "2026-11-26",
+      "sources": [
+        {
+          "publisher": "QwenLM / qwen-code",
+          "title": "Release v0.28.6",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6",
+          "published_at": "2026-11-26",
+          "accessed_at": "2026-11-27T01:06:49.895942+00:00"
+        }
+      ],
+      "tags": [
+        "Qwen Code",
+        "AI 编程代理",
+        "开源工具"
+      ],
+      "graphic": {
+        "layout": "flow",
+        "theme": "violet",
+        "eyebrow": "QWEN CODE · V0.28.6",
+        "title": "托管会话的暂停与恢复",
+        "items": [
+          {
+            "label": "等待",
+            "value": "审批 · 问答 · 后台任务",
+            "detail": "托管会话可暂停等待"
+          },
+          {
+            "label": "发生崩溃",
+            "value": "Harness 重启",
+            "detail": "会话支持冷恢复"
+          },
+          {
+            "label": "恢复执行",
+            "value": "延续原会话",
+            "detail": "工具审批状态可继续处理"
+          },
+          {
+            "label": "语言显示",
+            "value": "简中 / 英语 / 关闭",
+            "detail": "原始回复与思考仍保留"
+          }
+        ],
+        "caption": "会话状态和语言设置依据 Qwen Code v0.28.6 发布说明。",
+        "source_refs": [
+          0
+        ]
+      },
+      "issue_date": "2026-11-27",
+      "discovered_at": "2026-11-27T01:06:49.895942+00:00",
+      "verified_at": "2026-11-27T03:09:50.161907+00:00",
+      "visual": "grid",
+      "corrections": [],
+      "publication_precision": "date"
     }
   ],
   "issues": [
@@ -16858,7 +17164,29 @@
       "updated_at": "2026-11-26T07:23:41.578425+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-26.json"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "模型文档能力与代理运行时更新",
+      "dek": "Patram 1.5 发布开放权重，O-RAN 汇报 AI 网络试验；llama.cpp 与 Qwen Code 更新推理和代理执行能力。",
+      "coverage": "2026-11-26 09:00 至 2026-11-27 09:00（Asia/Singapore）；收录有可核对原始发布时间的独立消息",
+      "lead_ids": [
+        "bharatgen-patram-15-2026-11-26",
+        "oran-plugfest-fall-2026-results",
+        "llama-cpp-v1-1-0-2026-11-26"
+      ],
+      "event_ids": [
+        "bharatgen-patram-15-2026-11-26",
+        "oran-plugfest-fall-2026-results",
+        "llama-cpp-v1-1-0-2026-11-26",
+        "qwen-code-v0-28-6-2026-11-26"
+      ],
+      "number": "027",
+      "published_at": "2026-11-27T01:06:49.895942+00:00",
+      "updated_at": "2026-11-27T03:09:50.161907+00:00",
+      "kind": "每日精选",
+      "metric_snapshot": "data/issues/2026-11-27.json"
     }
   ],
-  "updated_at": "2026-11-26T07:23:41.578425+00:00"
+  "updated_at": "2026-11-27T03:09:50.161907+00:00"
 }

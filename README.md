@@ -4,235 +4,91 @@
 
 [访问网站](https://caixypromise.github.io/seven-tech-newsroom/) · [RSS](https://caixypromise.github.io/seven-tech-newsroom/feed.xml) · [源码仓库](https://github.com/CaixyPromise/seven-tech-newsroom) · [作者主页](https://github.com/CaixyPromise) · [运行说明](OPERATIONS.md)
 
-最近一期：2026-11-26。共 26 期、229 条独立记录；按实际发布状态与来源标时。
+最近一期：2026-11-27。共 27 期、233 条独立记录；按实际发布状态与来源标时。
 
-**最新数据快照**：2026-11-26 15:17 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
+**最新数据快照**：2026-11-27 09:06 UTC+8；OpenRouter 日榜另截至 2026-10-31 UTC。
 
 | 观察项 | 最新观测 | 范围 |
 | --- | --- | --- |
 | 模型基本费估算 | $0.002 · Claude Haiku 5.5 | 7 个选定模型，10K 输入 + 2K 输出 Token |
 | 平台单日用量 | 约 7.09T Token · DeepSeek V4.1 Flash 1017 | OpenRouter 2026-10-31 UTC 公开日榜 |
-| 开源关注 | 188,167 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
+| 开源关注 | 188,242 Stars · ollama/ollama | 本站固定跟踪的 6 个项目 |
 | 文本模型下载 | 32,586,689 · openai-community/gpt2 | HF 文本生成类，近 30 日滚动量 |
 
 来源：[OpenRouter 模型目录](https://openrouter.ai/api/v1/models)、[OpenRouter 日榜](https://openrouter.ai/rankings)、[GitHub Repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Hugging Face Hub](https://huggingface.co/docs/hub/en/api)。OpenRouter 日榜数据按 CC BY 4.0 署名。
 
-## 最新一期 · 2026-11-26
+## 最新一期 · 2026-11-27
 
-**模型可靠性、企业代理与轨道算力的新进展**
+**模型文档能力与代理运行时更新**
 
-并购、代理安全工具与多模态研究集中发布；厂商测试成绩、产品开放范围和监管授权边界均按原始文件标注。
+Patram 1.5 发布开放权重，O-RAN 汇报 AI 网络试验；llama.cpp 与 Qwen Code 更新推理和代理执行能力。
 
-每日精选，第 026 期。收录范围：2026-11-22 09:00 至 2026-11-26 09:00（Asia/Singapore）；按原始来源发布时间核对。
-实际首次整理：2026-11-26 15:23 UTC+8。
+每日精选，第 027 期。收录范围：2026-11-26 09:00 至 2026-11-27 09:00（Asia/Singapore）；收录有可核对原始发布时间的独立消息。
+实际首次整理：2026-11-27 09:06 UTC+8。
 指标按实际保存的批次与采集时间查看。
 
-## 1. CrowdStrike 拟以约 439 亿美元全股票收购 Zscaler
+## 1. BharatGen 发布 7B 文档视觉语言模型 Patram 1.5
 
-![一项全股票并购协议。公告估值：约 439 亿美元，CrowdStrike 公布的交易估值；换股比例：1.135 股，每股 Zscaler 普通股对应对价；后续条件：股东与监管审批，尚未完成交割](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/crowdstrike-zscaler-acquisition-2026-11-23.svg)
+![7B 文档模型的发布信息。参数量：7B，定位为文档视觉语言模型；任务：读 · 解析 · 问答 · 抽取，可输出 Markdown、HTML 或 JSON；厂商评测：83 分 / 49 项，BharatGen 公布的综合结果；获取方式：开放权重，Hugging Face 标注 Apache 2.0](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/bharatgen-patram-15-2026-11-26.svg)
 
-数值及审批状态依据 CrowdStrike 的并购公告。
+评测分数及规模对照为 BharatGen 自报；模型许可与获取方式见模型页。
 
-CrowdStrike 与 Zscaler 于 11 月 23 日公布并购协议，CrowdStrike 将以全股票方式收购 Zscaler，公告估值约 439 亿美元；按协议，Zscaler 股东每股可获 1.135 股 CrowdStrike 普通股。两家公司称，合并后将把终端防护与零信任网络连接能力纳入 Falcon 平台。
+印度 AI 团队 BharatGen 于 11 月 26 日发布文档视觉语言模型 Patram 1.5，参数量为 70 亿，权重已通过 Hugging Face 开放下载。模型面向页面阅读、结构解析、问答和字段抽取，可输出 Markdown、HTML 或 JSON；公司还推出在线 Playground 供用户试用。
 
-交易仍须经过股东和监管审批。平台整合及 AI 安全方面的协同是公司提出的预期，公告并不代表相关服务已经合并上线。
+BharatGen 称 Patram 1.5 在其 49 项测试中综合得分为 83，并表示该模型以约为最大对照模型九十七分之一的参数规模达到相近成绩。该比较属于厂商自报结果，适用任务和评测条件需结合其逐项结果查看。此次版本还加入 OCR 3.0 与不确定时拒答能力；模型许可标注为 Apache 2.0，运行 7B 权重建议配备约 24 GB 显存。
 
-分类：产业；状态：并购协议已公布；待审批；原文日期：2026-11-23。
+分类：模型；状态：开放权重已发布；Playground 可试用；原文日期：2026-11-26。
 
-来源：[CrowdStrike 投资者关系](https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero)
+来源：[BharatGen](https://bharatgen.com/blogs/introducing-patram-1-5/)
+来源：[Hugging Face](https://huggingface.co/bharatgenai/Patram-1.5)
+来源：[BharatGen](https://bharatgen.com/models/vision/)
 
-## 2. OpenAI 与 Cisco 开源 Shirudo，为 Linux 服务提供临时防护
+## 2. O-RAN PlugFest 展示 AI 节能、故障检测与链路调节试验
 
-![临时防护如何进入运行系统。监测：eBPF，观察系统中的可疑行为；生成与测试：Shield，验证防护是否影响正常流量；人工控制：审批后部署，规则签名并由团队决定启用](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/shirudo-openai-cisco-2026-11-23.svg)
+![PlugFest 测试覆盖面。实验环境：16 个实验室，由 20 个主办方支持；网络运维：节能与故障检测，包括 AI 辅助硬件故障发现；链路测试：15 km Open Fronthaul，多厂商互操作场景；无线系统：64×64 mMIMO，开展检测与性能测试](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/oran-plugfest-fall-2026-results.svg)
 
-项目机制及受控测试范围来自 OpenAI 与 Cisco 的发布说明。
+规模与测试场景依据 O-RAN ALLIANCE 对 PlugFest 的公告；属于测试展示。
 
-OpenAI 与 Cisco 于 11 月 23 日公布开源项目 Shirudo。它使用 Linux eBPF 技术，在系统运行时观察并限制易受攻击的代码路径；团队可以先测试临时防护规则，再由操作人员决定是否部署，不必为启用防护重启服务。
+O-RAN ALLIANCE 于 11 月 26 日公布 2026 年秋季 Global PlugFest 结果。该轮活动有 47 家组织参与，在 16 个实验室开展测试，并由 20 个主办方支持；展示方向包括网络节能、硬件故障检测、远程驾驶场景的上行链路调节、AI 感知与物理 AI 应用。
 
-OpenAI 披露的一项受控测试中，Codex 生成的防护规则阻止了针对运行中 Elasticsearch 服务的 Java4Shell 攻击尝试。该结果属于单项测试，项目仍在邀请外部开发者和安全研究人员共同完善。
+联盟还列出多厂商互操作测试：包括多运营商共享无线单元、15 公里 Open Fronthaul 链路，以及完整规模的 64×64 大规模 MIMO 系统。公告总结的是 PlugFest 测试和演示，不等同于相关能力已在运营商网络规模部署。
 
-分类：开源；状态：开源项目已公布；邀请社区参与；原文日期：2026-11-23。
+分类：基础设施；状态：PlugFest 测试结果公告；原文日期：2026-11-26。
 
-来源：[OpenAI](https://openai.com/index/introducing-shirudo/)
-来源：[Cisco 新闻中心](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html?source=rss)
+来源：[O-RAN ALLIANCE](https://www.o-ran.org/press-releases/o-ran-global-plugfest-fall-2026-showcased-ai-driven-solutions-that-improve-network-operations-and-enable-new-use-cases)
+来源：[O-RAN ALLIANCE](https://mediastorage.o-ran.org/o-ran-pr/pr-on-o-ran-global-plugfest-fall-2026-results/o-ran-ec-2026-11-26-pr-o-ran-global-plugfest-fall-2026-results-v02.pdf)
 
-## 3. Anthropic 推出 Claude Ship：代码审查已开放，两项代理功能仍在测试
+## 3. llama.cpp v1.1.0 扩展模型、音频能力与量化选项
 
-![从 Pull Request 到策略审批。代码审查：Code Review，已正式开放，发布审查发现；修复反馈：PR Steward，Beta；不会批准或合并；应用策略：Claude Approvals，Beta；可要求人工签核](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/claude-ship-2026-11-23.svg)
+![版本更新的三个层面。模型支持：Inkling 2 · Hy4 flash 等，新增多款模型加载支持；多模态：语音与音频扩展，加入多种 TTS 与实时语音模型；推理与量化：DFlash · target_bpw，新增草稿模式及目标量化参数；API 迁移：llama_batch 弃用，建议关注 llama_batch_ext 与 llama_process](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/llama-cpp-v1-1-0-2026-11-26.svg)
 
-功能阶段、平台范围和代理职责依据 Anthropic 产品公告。
+功能与 API 变更依据 llama.cpp v1.1.0 发布说明。
 
-Anthropic 于 11 月 23 日推出 Claude Ship，供团队在 GitHub 仓库中自动审查 Pull Request、处理检查失败并按仓库策略作出审批建议。Code Review 已正式开放；新加入的 PR Steward 和 Claude Approvals 仍处于 beta 阶段。
+开源推理项目 llama.cpp 于 11 月 26 日发布 v1.1.0。版本加入 Inkling 2、Domyn Edge 4B、Zaya1 8B、RAON-1-mini 和 Hy4 flash 等模型支持，并扩展 Kokoro、Zonos3-Mini、MiniMax-Music3、Fish S2、VoxCPM2 等语音或音频处理能力。
 
-PR Steward 可以修复 CI 失败和审查反馈，但设计上不会批准或合并代码；Claude Approvals 则按团队维护的规则决定是否需要人工签核。该功能面向 Claude Team 与 Enterprise 方案，Anthropic 也提醒 AI 审查可能漏掉缺陷或安全问题。
+开发者还拆分了 DFlash 推测解码的草稿方法，增加按目标 bpw 或模型大小选择逐张量量化的参数，并改进服务端 slot 调度与聊天界面。旧的 `llama_batch` API 被标记弃用，迁移方向为 `llama_batch_ext` 与 `llama_process`；项目更新说明列出的兼容调整值得集成方在升级前核对。
 
-分类：产品；状态：Team、Enterprise 可用；两项代理功能 beta；原文日期：2026-11-23。
+分类：开源；状态：开源项目 v1.1.0 已发布；原文日期：2026-11-26。
 
-来源：[Anthropic](https://claude.com/resources/articles/introducing-claude-ship)
+来源：[ggml-org / llama.cpp](https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0)
 
-## 4. Google Workspace MCP 服务器与 CLI 正式开放
+## 4. Qwen Code 更新托管会话暂停恢复与崩溃恢复
 
-![企业代理接入的三层控制。接口：MCP + CLI，八项 Workspace 服务与终端工作流；权限：DLP 与 OAuth，按组织权限和授权范围检查请求；敏感动作：人工确认，确认、审计与管理员控制](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-workspace-mcp-cli-2026-11-24.svg)
+![托管会话的暂停与恢复。等待：审批 · 问答 · 后台任务，托管会话可暂停等待；发生崩溃：Harness 重启，会话支持冷恢复；恢复执行：延续原会话，工具审批状态可继续处理；语言显示：简中 / 英语 / 关闭，原始回复与思考仍保留](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/qwen-code-v0-28-6-2026-11-26.svg)
 
-接口范围及安全控制以 Google Cloud 公告为准。
+会话状态和语言设置依据 Qwen Code v0.28.6 发布说明。
 
-Google 于 11 月 24 日宣布 Workspace MCP 服务器和 Workspace CLI 正式开放。MCP 服务覆盖 Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat 与 Tasks；CLI 面向本地代理、终端工作流和自动化，提供结构化 JSON 输出与范围受限的 OAuth 登录。
+Qwen Code 于 11 月 26 日发布 v0.28.6，为托管会话增加等待工具审批、用户答复或后台工作时暂停，并在 Harness 崩溃或重启后恢复的能力。无头会话和 Ink 终端界面默认切换到事件总线内核；发布说明称取消的运行会在 10 秒内结束。
 
-Google 表示，接口内置组织权限、数据防泄漏检查及敏感操作的人机确认，并提供审计与管理员控制。Workspace 对代理调用的强制接入要求计划于 2027 年 2 月 1 日开始执行，现有 API 集成需要预留迁移时间。
+新版还增加 `general.displayLanguage`，可在关闭、简体中文和英语之间选择终端与 Web Shell 的回复显示语言，同时保留原始内容。用户发送新提示时，正在执行的 shell 命令会转入后台继续运行，并把任务编号、输出位置和状态交回模型。该版本同时移除了旧的 MessageRewriteMiddleware，使用 hook 路径处理回复改写。
 
-分类：产品；状态：正式开放；迁移要求设有过渡期；原文日期：2026-11-24。
+分类：开源；状态：开源项目 v0.28.6 已发布；原文日期：2026-11-26。
 
-来源：[Google Cloud Blog](https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise)
-
-## 5. OpenAI 在 Responses API 推出医疗场景配置
-
-![医疗场景配置的使用边界。接口：Responses API，API 组织可调用医疗配置；资料检索：医疗索引，启用 Web Search 后可用；敏感信息：需适用 BAA，模型配置本身不授权处理 PHI](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-healthcare-api-configs-2026-11-24.svg)
-
-产品功能和 PHI 限制依据 OpenAI 文档。
-
-OpenAI 于 11 月 24 日在 Responses API 推出医疗场景配置，将指定模型与临床问题处理规则结合。启用 Web Search 后，应用可以查询专门的医疗资料索引，以支持临床研究、证据汇总和带来源的医学资料比较。
-
-该配置面向 API 组织开放，不要求使用 ChatGPT for Healthcare。OpenAI 明确说明，配置本身不授权处理受保护健康信息；使用 PHI 前仍须签署适用的业务伙伴协议并满足账户及工具设置要求，生成内容也不能替代专业医疗判断。
-
-分类：产品；状态：Responses API 已发布；PHI 使用受 BAA 限制；原文日期：2026-11-24。
-
-来源：[OpenAI API Changelog](https://developers.openai.com/api/docs/changelog)
-来源：[OpenAI Help Center](https://help.openai.com/en/articles/20001656-healthcare-model-configurations-in-the-openai-api)
-
-## 6. OpenAI 报告 GPT-6 蛋白设计实验结果
-
-![从计算设计到实验验证。测试范围：14 项任务，设计、结构预测与分子交互等；实验目标：5 种蛋白，每个目标至少有候选显示结合证据；实验筛选：仍需专门模型，序列与候选筛选并非全由通用模型完成](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-gpt6-protein-design-2026-11-24.svg)
-
-实验数量与研究限制依据 OpenAI 研究文章及预印本。
-
-OpenAI 于 11 月 24 日发布蛋白质设计研究，称其 GPT-6 系列可通过通用推理与代码工具提出蛋白质结构和氨基酸序列，不必依赖专门的生物模型来生成初始设计。在与 Onava 合作的实验中，五种目标蛋白各至少有一个候选设计显示出结合证据。
-
-实验候选的序列生成和筛选仍借助了专门模型；OpenAI 也指出，完整蛋白结构预测仍是明显弱项。实验室结合信号不等同于安全性、疗效或可用药物，研究结果仍需更广泛的独立验证。
-
-分类：研究；状态：预印本与实验结果公布；研究阶段；原文日期：2026-11-24。
-
-来源：[OpenAI](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/)
-来源：[OpenAI](https://cdn.openai.com/pdf/gpt-6-a-universal-foundation-model-for-protein-biology.pdf)
-
-## 7. 小鹏公布 WorldGPT 与人形机器人 IRON 的物理 AI 路线
-
-![物理 AI 的系统与产品计划。System 0：身体控制，底层硬件与动作状态反馈；System 1：实时响应，环境理解并生成即时动作；System 2：任务规划，高层目标与复杂动作协调；IRON：76 DOF · 1,500+，自由度与触觉点；门店训练计划在 2027 年 Q1](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/xpeng-physical-ai-worldgpt-iron-2026-11-24.svg)
-
-系统结构和机器人规格来自小鹏公告；商业时间表为厂商目标。
-
-小鹏在 11 月 24 至 25 日的 AI Day 期间公布 WorldGPT 与 Turing Physical AI 架构，提出将感知、规划和物理执行连接到车辆及机器人。公司把系统分成身体控制、实时响应与高层任务规划三层，并称 WorldGPT 在多类机器之间共享学习。
-
-公司展示的人形机器人 IRON 配有 76 个自由度和超过 1,500 个触觉感知点；小鹏计划在 2027 年第一季度让其进入门店接受训练，并把第二季度列为面向公众发布的目标。以上时间与性能数字均为公司披露，尚不代表已规模商业部署。
-
-分类：产业；状态：架构与产品展示已公布；IRON 训练/发布仍为计划；原文日期：2026-11-24。
-
-来源：[小鹏汽车](https://www.xpeng.com/pressroom/news/01a20bcf44b3a1e838d68a02a2110153)
-来源：[小鹏汽车](https://www.xpeng.com/pressroom/news/01a212b0d830a1e838d68a02a2110174)
-
-## 8. Google DeepMind 推出 Humanity’s First Exam 可靠性基准
-
-![测量模型的基础题稳定性。题目：544 道，文本与多模态问题；能力类别：20 项，日常基础能力；社区活动：至 12 月 15 日，Kaggle 三周征集活动](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-humanitys-first-exam-2026-11-24.svg)
-
-题量、能力范围及竞赛截止日依据 Google DeepMind 公告。
-
-Google DeepMind 于 11 月 24 日在 Kaggle 发布 Humanity’s First Exam（HFE），测试语言模型面对日常基础问题时能否反复保持正确，而不只看单次答题成绩。公开数据包含 544 道文本和图像题，覆盖 20 项基础能力。
-
-DeepMind 同时开放为期三周的 Kaggle 竞赛，邀请参与者提交模型仍容易答错的日常问题，活动截止日期为 12 月 15 日。基准由发布方设计和维护，参测模型的表现仍应结合题目构成、重复测试方式与技术报告解读。
-
-分类：研究；状态：基准与 Kaggle 活动已上线；原文日期：2026-11-24。
-
-来源：[Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/)
-来源：[Google DeepMind](https://storage.googleapis.com/deepmind-media/papers/hfe_tech_paper.pdf)
-
-## 9. Google Research 开源社交推理评测框架
-
-![从社交模拟到可验证评测。构造情境：多智能体模拟，角色围绕社交主题互动；设置答案：隐藏动机，由模拟器保留可验证目标；用户转述：单侧叙述，助手只能听到用户角色的信息；评测：开放代码与数据，可复用框架供后续研究](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-verifiable-social-reasoning-2026-11-25.svg)
-
-评测设计与开源状态依据 Google Research 文章。
-
-Google Research 于 11 月 25 日公布并开源一套社交推理评测框架：模拟中的目标角色带有隐藏动机，与其他角色互动后，由代表用户的角色向待测助手转述情境，再评估助手能否推断动机。研究团队借此为较难验证的社交判断构造明确答案。
-
-团队表示，测试模型会受到用户叙述方式影响，往往需要比人类更多细节，也未能充分利用追问。模拟评测有助于比较模型行为，但不能直接代表现实人际关系的复杂性；它更适合揭示转述偏差与澄清能力的局限。
-
-分类：研究；状态：研究与开源框架发布；原文日期：2026-11-25。
-
-来源：[Google Research](https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/)
-
-## 10. Google DeepMind 展示 Antigravity 分析质谱的工具链
-
-![Mass Spec Skills 基准设置。公开数据：100 种质谱，每个谱图进行三次尝试；无工具：低于 4%，无法仅从峰列表稳定推断结构；网络 + 技能：约 97%，三种模型均达到近似水平](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/google-deepmind-massspec-skills-2026-11-25.svg)
-
-准确率仅对应 Google 公布的 100 种公开谱图基准。
-
-Google DeepMind 于 11 月 25 日介绍一套供 Antigravity 使用的 Mass Spec Skills，帮助代理检索公开谱库、核对碎片证据并验证候选分子结构。公司在 100 种公开质谱数据上的实验中发现，单靠模型且不开放网络或技能时，准确率低于 4%；加入网络和技能后，三种 Gemini 模型的精确识别率都接近 97%。
-
-每条质谱进行了三次尝试，超过一小时的任务按失败计分；短暂的基础设施和配额错误则未计入。结果来自 Google 设计的有限基准，说明工具与结构化流程能改善这项任务，但不应外推为所有化学分析场景的准确率。
-
-分类：研究；状态：研究演示；准确率为 Google 报告的基准结果；原文日期：2026-11-25。
-
-来源：[Google DeepMind](https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/)
-
-## 11. Cloudflare 推出 Search for Agents 网站搜索入口
-
-![网站搜索如何提供给代理。启用：域名控制台，自动创建 AI Search 实例；索引：网站内容，按站点配置抓取与搜索；发现：/.well-known/search，代理通过标准端点查询；返回：Markdown 结果，检索内容而非生成答案](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/cloudflare-search-for-agents-2026-11-25.svg)
-
-产品阶段、返回格式及使用范围依据 Cloudflare 公告与文档。
-
-Cloudflare 于 11 月 25 日发布 Search for Agents 测试版。用户在域名控制台启用后，平台会创建 AI Search 实例、索引网站内容，并公开 `/.well-known/search` 端点，供代理通过关键词或自然语言检索。
-
-端点返回带来源信息的 Markdown 检索结果，不生成最终答案，代理可再用自己的模型处理。功能面向所有方案提供 beta 使用，索引、存储和查询仍受 AI Search 价格与计划用量限制；启用前应确认网站内容确实适合公开检索。
-
-分类：产品；状态：Beta；所有方案可启用；原文日期：2026-11-25。
-
-来源：[Cloudflare 开发者文档](https://developers.cloudflare.com/changelog/post/2026-11-25-search-for-agents/)
-来源：[Cloudflare AI Search 文档](https://developers.cloudflare.com/ai-search/how-to/search-for-agents/)
-
-## 12. Coforge 扩展 Nuuron 漏洞修复服务，保留人工审批关口
-
-![企业漏洞修复的人工控制点。发现与排序：安全代理，跨云、应用、数据与 AI 系统；执行修复：策略治理，在既有变更与运维流程中运行；例外处置：现场工程师，处理升级和根因问题；高风险操作：人工审批，安全及运维团队保留决策权](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/coforge-nuuron-remediation-2026-11-25.svg)
-
-服务流程与人工治理节点依据 Coforge 公告。
-
-Coforge 于 11 月 25 日宣布扩展 Nuuron 的漏洞修复能力，服务面向基础设施、应用、云环境、数据平台和 AI 系统。公司介绍称，代理会持续识别、归类并处理漏洞，治理节点则供安全和运维团队审核建议、批准高风险操作并追踪自动化活动。
-
-修复流程由现场工程师处理代理升级的例外，并参与根因分析和策略决策。Coforge 没有在公告中给出独立性能评测或漏洞关闭速度数据，因此目前可确认的是服务方案与人工控制设计，而非已验证的修复成效。
-
-分类：产业；状态：企业服务扩展公告；无独立成效数据；原文日期：2026-11-25。
-
-来源：[Coforge 新闻中心](https://news.coforge.com/newsroom/press-release/coforge-nuuron-expands-agentic-capabilities-to-accelerate-vulnerability-remediation-and-mitigate-cyber-risks-at-enterprise-scale)
-
-## 13. OpenAI 开始小范围测试 Private Inference
-
-![Private Inference 当前状态。阶段：Alpha，OpenAI 页面标示的产品阶段；测试范围：小组客户，CEO 公布的试用对象；技术方向：机密计算，结合严格控制保护处理中的内容](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/openai-private-inference-alpha-2026-11-25.svg)
-
-阶段与试用范围依据公司页面及 CEO 公告。
-
-OpenAI CEO Sam Altman 于 11 月 25 日表示，公司正与一小组客户测试 Private Inference。OpenAI 的 Private Intelligence 页面将其标为 Alpha，称功能把机密计算与严格控制结合，用于在模型处理提示和回复期间保护内容。
-
-当前公告没有披露面向所有用户开放的时间、覆盖模型或量化性能。有限试用说明该功能仍处于早期阶段，企业在评估时还需查看具体工作流的隐私边界和适用资格。
-
-分类：产品；状态：小范围 Alpha 测试；原文日期：2026-11-25。
-
-来源：[Sam Altman（X）](https://x.com/sama/status/2125638790593274259)
-来源：[OpenAI](https://openai.com/business/private-intelligence/)
-
-## 14. FCC 附条件部分批准 SpaceX Starmind 卫星系统申请
-
-![Starmind 授权与部署里程碑。申请范围：最多 100 万颗，非地球同步轨道卫星系统；首颗卫星：2033-11-25，须入轨并按授权运行；部署比例：10% / 50%，期限分别为 2035 / 2038 年；后续申请：处置豁免推迟，替代再入方式须另行申请](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/spacex-starmind-fcc-authorization-2026-11-25.svg)
-
-数量、部署期限和推迟的处置申请依据 FCC DA 26-1273。
-
-美国联邦通信委员会（FCC）空间局于 11 月 25 日对 SpaceX 的 Starmind 轨道数据中心系统申请作出“部分批准、部分推迟”决定，并附加条件。授权范围包括最多 100 万颗非地球同步轨道卫星的备份及紧急遥测、跟踪和指令通信；这不是卫星已经发射或数据中心已经投入运行。
-
-FCC 要求首颗获批卫星最迟于 2033 年 11 月 25 日进入指定轨道并运行，之后按 2035、2038 和 2040 年节点完成 10%、50% 与剩余部署。替代大气再入的卫星处置豁免仍被推迟，SpaceX 若要采用其他处置方式须另行申请。
-
-分类：治理；状态：部分批准并附条件；部分申请推迟；原文日期：2026-11-25。
-
-来源：[美国联邦通信委员会（FCC）](https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf)
-来源：[Associated Press](https://apnews.com/article/b9897fe06f851ffaf92fd304ae69075c)
+来源：[QwenLM / qwen-code](https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6)
 
 **历史归档**
 
+- [2026-11-27 · 模型文档能力与代理运行时更新](archive/2026-11-27.md)
 - [2026-11-26 · 模型可靠性、企业代理与轨道算力的新进展](archive/2026-11-26.md)
 - [2026-11-22 · 自主武器规则、AI 数学验证与提示数据披露](archive/2026-11-22.md)
 - [2026-11-21 · AI 安全、研究评测与市场信号更新](archive/2026-11-21.md)
