@@ -21,7 +21,7 @@
 
 **模型文档能力与代理运行时更新**
 
-Patram 1.5 发布开放权重，O-RAN 汇报 AI 网络试验；llama.cpp 与 Qwen Code 更新推理和代理执行能力。
+Patram 1.5 发布 Apache 2.0 权重，下载需登录并接受访问条件；O-RAN 汇报 AI 网络试验，llama.cpp 与 Qwen Code 更新。
 
 每日精选，第 027 期。收录范围：2026-11-26 09:00 至 2026-11-27 09:00（Asia/Singapore）；收录有可核对原始发布时间的独立消息。
 实际首次整理：2026-11-27 09:06 UTC+8。
@@ -29,19 +29,21 @@ Patram 1.5 发布开放权重，O-RAN 汇报 AI 网络试验；llama.cpp 与 Qwe
 
 ## 1. BharatGen 发布 7B 文档视觉语言模型 Patram 1.5
 
-![7B 文档模型的发布信息。参数量：7B，定位为文档视觉语言模型；任务：读 · 解析 · 问答 · 抽取，可输出 Markdown、HTML 或 JSON；厂商评测：83 分 / 49 项，BharatGen 公布的综合结果；获取方式：开放权重，Hugging Face 标注 Apache 2.0](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/bharatgen-patram-15-2026-11-26.svg)
+![Patram 1.5 模型信息。参数量：7.8B，官方模型卡列出的具体参数量；任务：读 · 解析 · 问答 · 抽取，可输出 Markdown、HTML 或 JSON；厂商评测：83 分 / 49 项，BharatGen 公布的综合结果；许可与下载：Apache 2.0 + gated，下载须登录并接受访问条件](https://caixypromise.github.io/seven-tech-newsroom/assets/visuals/bharatgen-patram-15-2026-11-26.svg)
 
-评测分数及规模对照为 BharatGen 自报；模型许可与获取方式见模型页。
+模型卡列明 Apache 2.0 与下载访问条件；评测分数及对照为 BharatGen 自报。
 
-印度 AI 团队 BharatGen 于 11 月 26 日发布文档视觉语言模型 Patram 1.5，参数量为 70 亿，权重已通过 Hugging Face 开放下载。模型面向页面阅读、结构解析、问答和字段抽取，可输出 Markdown、HTML 或 JSON；公司还推出在线 Playground 供用户试用。
+印度 AI 团队 BharatGen 于 11 月 26 日发布 Patram 1.5 文档视觉语言模型。正确的 Hugging Face 官方模型卡将其列为 Patram1.5-7B，具体参数量为 7.8B，许可为 Apache 2.0；仓库设有访问门槛，下载前需登录 Hugging Face 并接受访问条件。模型支持页面解析、问答和字段抽取，可输出 Markdown、HTML 或 JSON，也可通过 BharatGen Playground 试用。
 
-BharatGen 称 Patram 1.5 在其 49 项测试中综合得分为 83，并表示该模型以约为最大对照模型九十七分之一的参数规模达到相近成绩。该比较属于厂商自报结果，适用任务和评测条件需结合其逐项结果查看。此次版本还加入 OCR 3.0 与不确定时拒答能力；模型许可标注为 Apache 2.0，运行 7B 权重建议配备约 24 GB 显存。
+BharatGen 称 Patram 1.5 在其 49 项测试中综合得分为 83，并表示模型参数规模约为最大对照模型的九十七分之一；这是厂商公布的评测结果，适用任务和条件应结合逐项结果查看。模型卡另列 OCR 3.0 与不确定时拒答能力；BharatGen 的使用说明建议运行 Patram 时准备约 24 GB GPU 显存。
 
-分类：模型；状态：开放权重已发布；Playground 可试用；原文日期：2026-11-26。
+分类：模型；状态：Apache 2.0 权重已发布；下载须登录并接受访问条件；原文日期：2026-11-26。
 
 来源：[BharatGen](https://bharatgen.com/blogs/introducing-patram-1-5/)
-来源：[Hugging Face](https://huggingface.co/bharatgenai/Patram-1.5)
+来源：[BharatGen / Hugging Face](https://huggingface.co/bharatgenai/Patram1.5-7B)
 来源：[BharatGen](https://bharatgen.com/models/vision/)
+
+更正：2026-11-27T17:12:50.000+08:00 · 更正 Hugging Face 链接为 BharatGen 官方 Patram1.5-7B 模型卡；按模型卡补充 7.8B 参数、Apache 2.0 许可及下载需登录并接受访问条件。
 
 ## 2. O-RAN PlugFest 展示 AI 节能、故障检测与链路调节试验
 
