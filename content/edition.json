@@ -15656,14 +15656,15 @@
       "id": "google-humanitys-first-exam-2026-11-24",
       "category": "研究",
       "title": "Google DeepMind 推出 Humanity’s First Exam 可靠性基准",
-      "summary": "新基准用日常文本与图像问题测试模型能否稳定答对，并向社区开放持续补充题目的 Kaggle 活动。",
+      "summary": "完整基准共 544 道题；Kaggle 公开 112 道（28 个题组），其余 432 道（108 组）作为私有留出集。",
       "facts": [
-        "公开题目共 544 道，包含文本与图像输入。",
-        "题目覆盖 20 项基础能力。",
-        "Kaggle 题目征集活动为期三周，截止 2026 年 12 月 15 日。"
+        "HFE 完整基准含 544 道题，分为 136 个四题组，覆盖 20 项基础能力。",
+        "Kaggle 公共子集为 112 道题、28 个完整题组，许可为 CC BY 4.0。",
+        "其余 432 道题、108 个题组构成私有留出集，用于降低基准污染。",
+        "Kaggle 社区征题活动截止日期为 2026 年 12 月 15 日；它与公开数据子集是不同安排。"
       ],
-      "context": "该基准强调重复变体下的稳定性，分数仍会受到题目样本和评测规则影响。",
-      "status": "基准与 Kaggle 活动已上线",
+      "context": "544 道是完整基准的题量；Kaggle 仅公开 112 道，另 432 道作为私有留出集用于评测。公开子集不能代表完整留出评测。",
+      "status": "完整基准544题；Kaggle公开112题；私有留出432题",
       "published_at": "2026-11-24",
       "publication_precision": "date",
       "sources": [
@@ -15679,7 +15680,7 @@
           "title": "Humanity’s First Exam: Measuring the Reliability Floor of LLMs",
           "url": "https://storage.googleapis.com/deepmind-media/papers/hfe_tech_paper.pdf",
           "published_at": "2026-11-24",
-          "accessed_at": "2026-11-26T07:21:38.676061+00:00"
+          "accessed_at": "2026-11-27T03:40:28.534177+00:00"
         }
       ],
       "tags": [
@@ -15687,42 +15688,47 @@
         "基准测试",
         "Kaggle"
       ],
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-11-27T03:40:28.534177+00:00",
+          "note": "更正 HFE 题量公开范围：544 道为完整基准；Kaggle 公开 112 道（28 组），432 道（108 组）为私有留出集。同步更正文稿、事实底稿与 graphic。"
+        }
+      ],
       "body": [
-        "Google DeepMind 于 11 月 24 日在 Kaggle 发布 Humanity’s First Exam（HFE），测试语言模型面对日常基础问题时能否反复保持正确，而不只看单次答题成绩。公开数据包含 544 道文本和图像题，覆盖 20 项基础能力。",
-        "DeepMind 同时开放为期三周的 Kaggle 竞赛，邀请参与者提交模型仍容易答错的日常问题，活动截止日期为 12 月 15 日。基准由发布方设计和维护，参测模型的表现仍应结合题目构成、重复测试方式与技术报告解读。"
+        "Google DeepMind 于 11 月 24 日发布 Humanity’s First Exam（HFE）。完整基准包含 544 道文本与图像题，分为 136 个四题组，覆盖 20 项基础能力。技术报告第 2.6 节说明，Kaggle 公开的是其中分层抽取的 112 道题（28 个完整题组），许可为 CC BY 4.0。",
+        "其余 432 道题（108 组）作为私有留出集，以降低题目污染并用于完整评测。另有为期三周的 Kaggle 社区征题活动，截止 12 月 15 日；征题活动不代表 544 道题均已公开。"
       ],
       "graphic": {
         "layout": "specs",
         "theme": "blue",
         "eyebrow": "GOOGLE DEEPMIND",
-        "title": "测量模型的基础题稳定性",
+        "title": "完整基准与公开题集",
         "items": [
           {
-            "label": "题目",
-            "value": "544 道",
-            "detail": "文本与多模态问题"
+            "label": "完整 HFE",
+            "value": "544 题 / 136 组",
+            "detail": "覆盖 20 项能力；每组四道题"
           },
           {
-            "label": "能力类别",
-            "value": "20 项",
-            "detail": "日常基础能力"
+            "label": "Kaggle 公开",
+            "value": "112 题 / 28 组",
+            "detail": "28 个完整题组；CC BY 4.0"
           },
           {
-            "label": "社区活动",
-            "value": "至 12 月 15 日",
-            "detail": "Kaggle 三周征集活动"
+            "label": "私有留出",
+            "value": "432 题 / 108 组",
+            "detail": "留作评测，降低题目污染"
           }
         ],
-        "caption": "题量、能力范围及竞赛截止日依据 Google DeepMind 公告。",
+        "caption": "技术报告第 2.6 节：完整基准为 544 题，其中 112 题公开、432 题留作私有评测。",
         "source_refs": [
-          0,
-          1
+          1,
+          0
         ]
       },
       "issue_date": "2026-11-26",
       "discovered_at": "2026-11-26T07:23:41.578425+00:00",
-      "verified_at": "2026-11-26T07:23:41.578425+00:00",
+      "verified_at": "2026-11-27T03:40:28.534177+00:00",
       "visual": "grid"
     },
     {
@@ -17161,7 +17167,7 @@
       ],
       "number": "026",
       "published_at": "2026-11-26T07:23:41.578425+00:00",
-      "updated_at": "2026-11-26T07:23:41.578425+00:00",
+      "updated_at": "2026-11-27T03:40:39.635399+00:00",
       "kind": "每日精选",
       "metric_snapshot": "data/issues/2026-11-26.json"
     },
@@ -17188,5 +17194,5 @@
       "metric_snapshot": "data/issues/2026-11-27.json"
     }
   ],
-  "updated_at": "2026-11-27T03:09:50.161907+00:00"
+  "updated_at": "2026-11-27T03:40:39.635399+00:00"
 }
